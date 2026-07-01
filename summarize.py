@@ -1,43 +1,39 @@
-"""用 Claude 把單篇文章摘要成結構化欄位。摘要規則的單一事實來源是 prompts/blog-digest.md。"""
+"""用 Gemini 把單篇文章摘要成結構化欄位。摘要規則的單一事實來源是 prompts/blog-digest.md。"""
 from __future__ import annotations
 
 import json
+import time
 from pathlib import Path
 
-import anthropic
+from google import genai
+from google.genai import errors as genai_errors
+from pydantic import BaseModel
 
 PROMPT_PATH = Path(__file__).resolve().parent / "prompts" / "blog-digest.md"
 
+
 # 結構化輸出 schema —— Slack 與 Email 各自從這些欄位 render。
-SCHEMA = {
-    "type": "object",
-    "properties": {
-        "title_zh": {"type": "string"},
-        "tldr": {"type": "string"},
-        "points": {"type": "array", "items": {"type": "string"}},
-        "quotes": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "quote": {"type": "string"},
-                    "note": {"type": "string"},
-                },
-                "required": ["quote", "note"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    "required": ["title_zh", "tldr", "points", "quotes"],
-    "additionalProperties": False,
-}
+class Quote(BaseModel):
+    quote: str
+    note: str
+
+
+class BlogSummary(BaseModel):
+    title_zh: str
+    tldr: str
+    points: list[str]
+    quotes: list[Quote]
 
 
 def _load_prompt() -> str:
     return PROMPT_PATH.read_text(encoding="utf-8")
 
 
-def summarize(client: anthropic.Anthropic, model: str, item, article_text: str) -> dict | None:
+def make_client(api_key: str) -> genai.Client:
+    return genai.Client(api_key=api_key)
+
+
+def summarize(client: genai.Client, model: str, item, article_text: str) -> dict | None:
     """回傳 {title_zh, tldr, points, quotes}；失敗回傳 None。"""
     system = _load_prompt()
     user = (
@@ -46,23 +42,32 @@ def summarize(client: anthropic.Anthropic, model: str, item, article_text: str) 
         f"網址：{item.url}\n\n"
         f"=== 文章原文 ===\n{article_text}"
     )
-    try:
-        resp = client.messages.create(
-            model=model,
-            max_tokens=4000,
-            system=system,
-            messages=[{"role": "user", "content": user}],
-            output_config={"format": {"type": "json_schema", "schema": SCHEMA}},
-        )
-    except anthropic.APIError as e:
-        print(f"    [warn] Claude API error for {item.url}: {e}")
-        return None
-    if resp.stop_reason == "refusal":
-        print(f"    [warn] Claude refused to summarize {item.url}")
-        return None
-    text = next((b.text for b in resp.content if b.type == "text"), "")
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        print(f"    [warn] non-JSON summary for {item.url}")
-        return None
+    config = {
+        "system_instruction": system,
+        "response_mime_type": "application/json",
+        "response_schema": BlogSummary,
+        "temperature": 0.3,
+    }
+
+    for attempt in range(4):
+        try:
+            resp = client.models.generate_content(model=model, contents=user, config=config)
+        except genai_errors.APIError as e:
+            code = getattr(e, "code", None)
+            if code in (429, 503) and attempt < 3:  # 免費 tier 限流 / 暫時過載 → 退避重試
+                wait = 8 * (attempt + 1)
+                print(f"    [rate] {code}，{wait}s 後重試 …")
+                time.sleep(wait)
+                continue
+            print(f"    [warn] Gemini API error for {item.url}: {e}")
+            return None
+
+        parsed = getattr(resp, "parsed", None)
+        if isinstance(parsed, BlogSummary):
+            return parsed.model_dump()
+        try:
+            return json.loads(resp.text)
+        except (json.JSONDecodeError, TypeError, AttributeError):
+            print(f"    [warn] non-JSON summary for {item.url}")
+            return None
+    return None
