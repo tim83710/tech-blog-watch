@@ -103,6 +103,7 @@ def main() -> int:
     cfg = yaml.safe_load(SOURCES_PATH.read_text(encoding="utf-8"))
     settings = cfg.get("settings", {})
     sources = cfg["sources"]
+    company_map = {s["name"]: s.get("company", s["name"]) for s in sources}
     # 模型優先序：GEMINI_MODEL 環境變數 > sources.yaml 的 model > 預設
     model = os.environ.get("GEMINI_MODEL") or settings.get("model", "gemini-2.5-flash")
     char_limit = settings.get("article_char_limit", 12000)
@@ -156,6 +157,7 @@ def main() -> int:
             continue
         posts.append({
             "source": it.source,
+            "company": company_map.get(it.source, it.source),
             "url": it.url,
             "title": it.title,
             "summary": result,
