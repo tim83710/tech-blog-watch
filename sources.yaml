@@ -13,8 +13,8 @@ settings:
   max_age_days: 7      # 只處理近 N 天發佈的文章（抓不到日期的仍會處理，靠 state 去重）
   max_per_source: 6    # 每個來源單次最多處理幾篇（防洪水）
   max_per_run: 20      # 單次整體上限（保險絲）
-  model: claude-opus-4-8
-  article_char_limit: 12000   # 丟給 Claude 的內文字元上限（控 token）
+  model: gemini-3.5-flash   # 免費 tier flash；想更省可換 gemini-2.5-flash / gemini-2.5-flash-lite
+  article_char_limit: 12000   # 丟給 Gemini 的內文字元上限（控 token）
 
 sources:
   - name: Databricks

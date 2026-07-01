@@ -30,7 +30,8 @@ jobs:
 
       - name: Run tech-blog-watch
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}   # 選填：不設就用 sources.yaml 的預設
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
           SLACK_USERNAME: ${{ secrets.SLACK_USERNAME }}

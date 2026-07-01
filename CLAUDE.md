@@ -6,7 +6,7 @@
 
 - **跑在 GitHub Actions**（雲端排程，不依賴 Tim 的 Mac）。這是**獨立 GitHub repo**，跟 `notes/` 各過各的。
 - **狀態存在 repo 裡**：`state.json` 記已看過的文章 URL，每天由 Actions commit 回去。這是雲端無狀態環境能「記得」的關鍵，別把它 gitignore 掉。
-- 摘要用 Claude API（`claude-opus-4-8`），不需要 Claude Code 在雲端跑。
+- 摘要用 Gemini API（`gemini-3.5-flash`，Google AI Studio 免費 tier；模型在 `sources.yaml` 可換）。用 `google-genai` SDK（`from google import genai`），不需要 Claude Code 在雲端跑。
 
 ## 單一事實來源
 

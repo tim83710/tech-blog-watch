@@ -14,7 +14,6 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-import anthropic
 import yaml
 
 import fetch
@@ -104,7 +103,8 @@ def main() -> int:
     cfg = yaml.safe_load(SOURCES_PATH.read_text(encoding="utf-8"))
     settings = cfg.get("settings", {})
     sources = cfg["sources"]
-    model = settings.get("model", "claude-opus-4-8")
+    # 模型優先序：GEMINI_MODEL 環境變數 > sources.yaml 的 model > 預設
+    model = os.environ.get("GEMINI_MODEL") or settings.get("model", "gemini-2.5-flash")
     char_limit = settings.get("article_char_limit", 12000)
 
     state = load_state()
@@ -137,7 +137,11 @@ def main() -> int:
         print("沒有新文章，結束。")
         return 0
 
-    client = anthropic.Anthropic()  # 讀 ANTHROPIC_API_KEY
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("[error] 缺 GEMINI_API_KEY（本機放 .env、雲端放 GitHub secret）")
+        return 1
+    client = summarize.make_client(api_key)
     posts: list[dict] = []
     for it in new_items:
         print(f"  摘要 {it.source}: {it.title[:60]} …")
