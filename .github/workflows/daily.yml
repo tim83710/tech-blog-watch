@@ -1,0 +1,53 @@
+name: daily-blog-watch
+
+on:
+  schedule:
+    # 01:45 UTC = 09:45 台北時間（Actions cron 只吃 UTC）
+    - cron: "45 1 * * *"
+  workflow_dispatch:        # 允許在 GitHub 網頁上手動觸發（測試用）
+
+# 讓 workflow 能把更新後的 state.json commit 回 repo
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-blog-watch
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run tech-blog-watch
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+          SLACK_USERNAME: ${{ secrets.SLACK_USERNAME }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+        run: python main.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- state.json; then
+            git add state.json
+            git commit -m "chore: update seen state [skip ci]"
+            git push
+          else
+            echo "state.json unchanged"
+          fi

@@ -1,0 +1,56 @@
+# tech-blog-watch 監看來源
+#
+# 每個來源欄位：
+#   name          顯示名稱
+#   mode          rss | scrape
+#   url           RSS feed 網址（rss）或列表頁網址（scrape）
+#   base          （scrape 專用）相對連結要補上的網域
+#   link_pattern  （scrape 專用）文章連結的 regex，用來從列表頁挑出文章 URL
+#
+# 加新來源：RSS 有就用 rss（穩），沒有就用 scrape + link_pattern。
+
+settings:
+  max_age_days: 7      # 只處理近 N 天發佈的文章（抓不到日期的仍會處理，靠 state 去重）
+  max_per_source: 6    # 每個來源單次最多處理幾篇（防洪水）
+  max_per_run: 20      # 單次整體上限（保險絲）
+  model: claude-opus-4-8
+  article_char_limit: 12000   # 丟給 Claude 的內文字元上限（控 token）
+
+sources:
+  - name: Databricks
+    mode: scrape
+    url: https://www.databricks.com/blog
+    base: https://www.databricks.com
+    link_pattern: '^/blog/[a-z0-9][a-z0-9-]{6,}$'
+
+  - name: Anthropic
+    mode: scrape
+    url: https://claude.com/blog
+    base: https://claude.com
+    link_pattern: '^/blog/[a-z0-9][a-z0-9-]{6,}$'
+
+  - name: OpenAI News
+    mode: rss
+    url: https://openai.com/news/rss.xml
+
+  - name: OpenAI Developers
+    mode: scrape
+    url: https://developers.openai.com/blog
+    base: https://developers.openai.com
+    link_pattern: '^/blog/[a-z0-9][a-z0-9-]{6,}$'
+
+  - name: NVIDIA Developer
+    mode: rss
+    url: https://developer.nvidia.com/blog/feed
+
+  - name: Google Research
+    mode: rss
+    url: https://research.google/blog/rss/
+
+  - name: Google DeepMind
+    mode: rss
+    url: https://deepmind.google/blog/rss.xml
+
+  - name: Hugging Face
+    mode: rss
+    url: https://huggingface.co/blog/feed.xml
