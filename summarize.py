@@ -13,16 +13,15 @@ PROMPT_PATH = Path(__file__).resolve().parent / "prompts" / "blog-digest.md"
 
 
 # 結構化輸出 schema —— Slack 與 Email 各自從這些欄位 render。
-class Quote(BaseModel):
-    quote: str
-    note: str
+class Point(BaseModel):
+    point: str
+    detail: str  # 重要補充，顯示在該點下一階；沒有就空字串 ""
 
 
 class BlogSummary(BaseModel):
     title_zh: str
-    tldr: str
-    points: list[str]
-    quotes: list[Quote]
+    tldr: str          # 全文摘要（第一段）
+    points: list[Point]  # 文章摘要列點
 
 
 def _load_prompt() -> str:

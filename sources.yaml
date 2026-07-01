@@ -16,41 +16,50 @@ settings:
   model: gemini-3.5-flash   # 免費 tier flash；想更省可換 gemini-2.5-flash / gemini-2.5-flash-lite
   article_char_limit: 12000   # 丟給 Gemini 的內文字元上限（控 token）
 
+# company：用於 email/Slack 標題的 [公司 News] 前綴；沒填就用 name。
 sources:
   - name: Databricks
+    company: Databricks
     mode: scrape
     url: https://www.databricks.com/blog
     base: https://www.databricks.com
     link_pattern: '^/blog/[a-z0-9][a-z0-9-]{6,}$'
 
   - name: Anthropic
+    company: Anthropic
     mode: scrape
     url: https://claude.com/blog
     base: https://claude.com
     link_pattern: '^/blog/[a-z0-9][a-z0-9-]{6,}$'
 
   - name: OpenAI News
+    company: OpenAI
     mode: rss
     url: https://openai.com/news/rss.xml
 
   - name: OpenAI Developers
+    company: OpenAI
     mode: scrape
     url: https://developers.openai.com/blog
     base: https://developers.openai.com
     link_pattern: '^/blog/[a-z0-9][a-z0-9-]{6,}$'
 
   - name: NVIDIA Developer
+    company: NVIDIA
     mode: rss
     url: https://developer.nvidia.com/blog/feed
 
   - name: Google Research
+    company: Google
     mode: rss
     url: https://research.google/blog/rss/
 
   - name: Google DeepMind
+    company: Google
     mode: rss
     url: https://deepmind.google/blog/rss.xml
 
   - name: Hugging Face
+    company: Hugging Face
     mode: rss
     url: https://huggingface.co/blog/feed.xml
