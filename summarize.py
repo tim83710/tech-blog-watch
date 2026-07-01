@@ -20,8 +20,9 @@ class Point(BaseModel):
 
 class BlogSummary(BaseModel):
     title_zh: str
-    tldr: str          # 全文摘要（第一段）
+    tldr: str            # 全文摘要（第一段）
     points: list[Point]  # 文章摘要列點
+    use_case: str        # 白話的實際應用範例
 
 
 def _load_prompt() -> str:
