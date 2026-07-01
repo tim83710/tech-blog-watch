@@ -30,6 +30,8 @@ def render_slack_post(post: dict) -> str:
         lines.append(f"• {p['point']}")
         if p.get("detail", "").strip():
             lines.append(f"    ↳ {p['detail']}")
+    if s.get("use_case", "").strip():
+        lines += ["", "*實際應用*", s["use_case"]]
     return "\n".join(lines)
 
 
@@ -88,7 +90,14 @@ def render_email_html(post: dict) -> str:
                 f"<ul style=\"margin-top:4px;color:#555\"><li>{esc(p['detail'])}</li></ul>"
             )
         parts.append("</li>")
-    parts.append("</ul></div>")
+    parts.append("</ul>")
+    if s.get("use_case", "").strip():
+        parts.append("<p style=\"font-weight:600;margin:18px 0 6px\">實際應用</p>")
+        parts.append(
+            f"<p style=\"background:#f5f7ff;border-left:3px solid #5a77ff;"
+            f"padding:10px 14px;margin:0\">{esc(s['use_case'])}</p>"
+        )
+    parts.append("</div>")
     return "\n".join(parts)
 
 
