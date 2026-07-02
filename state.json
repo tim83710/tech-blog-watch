@@ -2196,6 +2196,13 @@
     "https://huggingface.co/blog/pytorch_block_sparse": "2026-07-01T03:17:53.522415+00:00",
     "https://huggingface.co/blog/reformer": "2026-07-01T03:17:53.522415+00:00",
     "https://huggingface.co/blog/how-to-generate": "2026-07-01T03:17:53.522415+00:00",
-    "https://huggingface.co/blog/how-to-train": "2026-07-01T03:17:53.522415+00:00"
+    "https://huggingface.co/blog/how-to-train": "2026-07-01T03:17:53.522415+00:00",
+    "https://www.databricks.com/blog/how-we-keep-gpus-reliable-across-databricks-ai": "2026-07-02T05:44:54.433647+00:00",
+    "https://www.databricks.com/blog/celebrating-winners-2026-built-databricks-startup-challenge": "2026-07-02T05:44:54.433647+00:00",
+    "https://www.databricks.com/blog/granular-usage-attribution-dbt-pipelines-query-tags": "2026-07-02T05:44:54.433647+00:00",
+    "https://www.databricks.com/blog/beyond-dashboards-introducing-decision-execution-platforms": "2026-07-02T05:44:54.433647+00:00",
+    "https://www.databricks.com/blog/forecasting-speed-modern-retail": "2026-07-02T05:44:54.433647+00:00",
+    "https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-reinforcement-learning": "2026-07-02T05:44:54.433647+00:00",
+    "https://huggingface.co/blog/cerebras-gemma4-voice-ai": "2026-07-02T05:44:54.433647+00:00"
   }
 }
