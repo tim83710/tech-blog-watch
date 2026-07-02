@@ -33,7 +33,7 @@
 
 - **首次執行**：`state.json` 空時 `main.py` 自動走 seed 模式（只標記已看過、不摘要不發送），避免第一次把整個 backlog 灌成巨量 digest。要重置就把 `state.json` 清成 `{"seen": {}}`。
 - **無 RSS 的來源**（Databricks、Anthropic、OpenAI Developers）走 scrape，靠 `sources.yaml` 的 `link_pattern` 從列表頁挑文章連結；對方改版時 pattern 可能要調。
-- **cron 是 UTC**：`45 1 * * *` = 台北 09:45。
+- **cron 是 UTC**：`30 22 * * *` = 隔天台北 06:30。（GitHub 排程 best-effort，尖峰常延遲數小時，實際到信會晚於此。）
 - **改 workflow 或 secrets 後**，下一次排程或手動 `workflow_dispatch` 才生效。
 
 ## 跑法
