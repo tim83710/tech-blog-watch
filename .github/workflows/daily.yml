@@ -2,8 +2,9 @@ name: daily-blog-watch
 
 on:
   schedule:
-    # 01:45 UTC = 09:45 台北時間（Actions cron 只吃 UTC）
-    - cron: "45 1 * * *"
+    # 22:30 UTC = 06:30 隔天台北時間（Actions cron 只吃 UTC）
+    # 註：GitHub 排程為 best-effort，尖峰可能延遲數小時，實際到信時間會晚於此。
+    - cron: "30 22 * * *"
   workflow_dispatch:        # 允許在 GitHub 網頁上手動觸發（測試用）
 
 # 讓 workflow 能把更新後的 state.json commit 回 repo

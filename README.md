@@ -1,16 +1,23 @@
 # tech-blog-watch
 
-每日自動追蹤大廠技術部落格，有新文章就用**繁體中文**摘要（附原文重點引用），發到 **Slack** 與 **Email**。跑在 **GitHub Actions** 上，不依賴本機開機。
+每日自動追蹤各大科技廠商技術部落格，有新文章就用**繁體中文**摘要（附原文重點引用），發到 **Slack** 與 **Email**。跑在 **GitHub Actions** 上，不依賴本機開機。
 
-## 監看來源
+## 文章來源
 
-Databricks、Anthropic、OpenAI (News + Developers)、NVIDIA Developer、Google Research、Google DeepMind、Hugging Face。
+- [Databricks](https://www.databricks.com/blog)
+- [Anthropic](https://claude.com/blog)
+- [OpenAI News](https://openai.com/news) · [OpenAI Developers](https://developers.openai.com/blog)
+- [NVIDIA Developer](https://developer.nvidia.com/blog)
+- [Google Research](https://research.google/blog/)
+- [Google DeepMind](https://deepmind.google/blog/)
+- [Hugging Face](https://huggingface.co/blog)
+
 清單與抓取方式都在 [`sources.yaml`](sources.yaml)，加來源改這一個檔就好。
 
 ## 運作方式
 
 ```
-GitHub Actions (每天 09:45 台北)
+GitHub Actions (每天 06:30 台北排程；實際常因 GitHub 排程延遲而晚到)
   → fetch.py    抓 RSS / 爬列表頁，找出新文章（比對 state.json 去重）
   → summarize.py 用 Gemini 產繁中結構化摘要（規則在 prompts/blog-digest.md）
   → notify.py   發 Slack + Email
@@ -65,4 +72,3 @@ cp .env.example .env      # 填 key
 - **改頻率**：`.github/workflows/daily.yml` 的 cron（UTC）
 - **改摘要風格**：`prompts/blog-digest.md`
 - **加/減來源**：`sources.yaml`
-- **防洪水**：`sources.yaml` 的 `max_per_source` / `max_per_run` / `max_age_days`
