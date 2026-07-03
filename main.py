@@ -160,6 +160,9 @@ def main() -> int:
         return 0
 
     if args.seed:
+        if args.dry_run:
+            print(f"(dry-run) seed 會把 {len(candidates)} 篇標記為已看過，不寫 state。")
+            return 0
         mark_seen(state, candidates)
         save_state(state)
         print(f"完成 seed：{len(candidates)} 篇標記為已看過。")
