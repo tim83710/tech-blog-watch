@@ -33,8 +33,25 @@ def make_client(api_key: str) -> genai.Client:
     return genai.Client(api_key=api_key)
 
 
+def generate_with_retry(client: genai.Client, model: str, contents: str, config: dict, label: str):
+    """呼叫 generate_content；429/503 退避重試最多 4 次。回傳 response，失敗回傳 None。"""
+    for attempt in range(4):
+        try:
+            return client.models.generate_content(model=model, contents=contents, config=config)
+        except genai_errors.APIError as e:
+            code = getattr(e, "code", None)
+            if code in (429, 503) and attempt < 3:  # 免費 tier 限流 / 暫時過載 → 退避重試
+                wait = 8 * (attempt + 1)
+                print(f"    [rate] {code}，{wait}s 後重試 …")
+                time.sleep(wait)
+                continue
+            print(f"    [warn] Gemini API error for {label}: {e}")
+            return None
+    return None
+
+
 def summarize(client: genai.Client, model: str, item, article_text: str) -> dict | None:
-    """回傳 {title_zh, tldr, points, quotes}；失敗回傳 None。"""
+    """回傳 {title_zh, tldr, points, use_case}；失敗回傳 None。"""
     system = _load_prompt()
     user = (
         f"來源：{item.source}\n"
@@ -49,25 +66,14 @@ def summarize(client: genai.Client, model: str, item, article_text: str) -> dict
         "temperature": 0.3,
     }
 
-    for attempt in range(4):
-        try:
-            resp = client.models.generate_content(model=model, contents=user, config=config)
-        except genai_errors.APIError as e:
-            code = getattr(e, "code", None)
-            if code in (429, 503) and attempt < 3:  # 免費 tier 限流 / 暫時過載 → 退避重試
-                wait = 8 * (attempt + 1)
-                print(f"    [rate] {code}，{wait}s 後重試 …")
-                time.sleep(wait)
-                continue
-            print(f"    [warn] Gemini API error for {item.url}: {e}")
-            return None
-
-        parsed = getattr(resp, "parsed", None)
-        if isinstance(parsed, BlogSummary):
-            return parsed.model_dump()
-        try:
-            return json.loads(resp.text)
-        except (json.JSONDecodeError, TypeError, AttributeError):
-            print(f"    [warn] non-JSON summary for {item.url}")
-            return None
-    return None
+    resp = generate_with_retry(client, model, user, config, label=item.url)
+    if resp is None:
+        return None
+    parsed = getattr(resp, "parsed", None)
+    if isinstance(parsed, BlogSummary):
+        return parsed.model_dump()
+    try:
+        return json.loads(resp.text)
+    except (json.JSONDecodeError, TypeError, AttributeError):
+        print(f"    [warn] non-JSON summary for {item.url}")
+        return None

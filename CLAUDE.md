@@ -1,6 +1,6 @@
 # CLAUDE.md — tech-blog-watch
 
-每日追蹤大廠技術 blog、繁中摘要、發 Slack + Email 的 agent（`mind/` 容器底下的獨立專案，容器總覽見 [../CLAUDE.md](../CLAUDE.md)）。使用者說明在 [README.md](README.md)。這份只記「Claude 進來工作要知道的規矩」。
+每日追蹤大廠技術 blog、繁中摘要、發 Slack + Email 的 agent。使用者說明在 [README.md](README.md)。這份只記「Claude 進來工作要知道的規矩」；只適用於本機環境的個人備註在 `CLAUDE.local.md`（gitignored）。
 
 ## 架構定位
 
@@ -11,6 +11,7 @@
 ## 單一事實來源
 
 - **摘要風格/規則 → 只改 [`prompts/blog-digest.md`](prompts/blog-digest.md)**，不要寫死進 summarize.py。summarize.py 只負責讀 prompt、呼叫 API、解析結構化輸出。
+- **產業脈動風格/範圍 → 只改 [`prompts/industry-pulse.md`](prompts/industry-pulse.md)**，同理不要寫死進 pulse.py。pulse.py 只負責帶 `google_search` 工具呼叫 Gemini、抽 grounding 來源。
 - **來源清單 → 只改 [`sources.yaml`](sources.yaml)**。
 
 ## 撰寫紀律（沿用 notes/ 的摘要紀律）
@@ -24,8 +25,8 @@
 
 ## 操作守則
 
-- **獨立 `.venv`**（Python 3.12），別碰 `notes/.venv`、更別碰 `~/pyWork/myenv`（見 auto-memory `feedback_isolate-deps`）
-- **Slack 發送沿用 Tim 既有模式**：`slack_sdk.webhook.WebhookClient` + `send_dict`（參考 `~/pyWork/company_dashboard/common/utils.py` 的 `Slacker`）
+- **獨立 `.venv`**（Python 3.12），相依不與其他專案共用
+- **Slack 發送模式**：`slack_sdk.webhook.WebhookClient` + `send_dict`（Incoming Webhook，不用 bot token）
 - **Email 用私人 Gmail SMTP**：`SMTP_PASSWORD` 是「應用程式密碼」不是登入密碼
 - **Secrets 不進 repo**：本機用 `.env`（已 gitignore），雲端用 GitHub Actions Secrets
 
@@ -35,6 +36,7 @@
 - **無 RSS 的來源**（Databricks、Anthropic、OpenAI Developers）走 scrape，靠 `sources.yaml` 的 `link_pattern` 從列表頁挑文章連結；對方改版時 pattern 可能要調。
 - **cron 是 UTC**：`30 22 * * *` = 隔天台北 06:30。（GitHub 排程 best-effort，尖峰常延遲數小時，實際到信會晚於此。）
 - **改 workflow 或 secrets 後**，下一次排程或手動 `workflow_dispatch` 才生效。
+- **產業脈動（pulse）**：Gemini Grounding with Google Search，**不可**與 `response_schema` 併用（citations 會空），所以走純文字輸出。免費 tier 每月 5,000 次 grounded query（每日 1 次遠低於上限，但 dry-run 也會各花 1 次）。模型偶爾不搜尋就作答 → pulse.py 會加強提示重試一次，仍無佐證就標 `grounded: false`。pulse 失敗不會擋文章 digest。
 
 ## 跑法
 
