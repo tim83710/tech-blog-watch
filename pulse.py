@@ -64,6 +64,8 @@ def generate_pulse(client: genai.Client, model: str, date_str: str) -> dict | No
     base = f"今天日期：{date_str}。請搜尋並總結過去 24 小時 AI 產業動態。"
 
     resp = summarize.generate_with_retry(client, model, base, config, label="industry-pulse")
+    if resp is None:  # API 整包失敗（quota 耗盡、壞模型…）→ 直接放棄，別誤判成「沒搜尋」再燒一輪
+        return None
     text, sources = _text_and_sources(resp)
     if text and sources:
         return {"text": text, "sources": sources, "grounded": True}
@@ -102,8 +104,11 @@ if __name__ == "__main__":  # 單獨手測：.venv/bin/python pulse.py
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise SystemExit("缺 GEMINI_API_KEY（本機放 .env、雲端放 GitHub secret）")
-    settings = yaml.safe_load((root / "sources.yaml").read_text(encoding="utf-8")).get("settings", {})
-    model = os.environ.get("GEMINI_MODEL") or settings.get("pulse_model") or settings.get("model", "gemini-2.5-flash")
+    cfg = yaml.safe_load((root / "sources.yaml").read_text(encoding="utf-8"))
+    settings = cfg.get("settings", {})
+    # 與 main.py 相同的優先序：pulse_model > GEMINI_MODEL 環境變數 > model
+    model = (settings.get("pulse_model") or os.environ.get("GEMINI_MODEL")
+             or settings.get("model", "gemini-2.5-flash"))
     date_str = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d")
     result = generate_pulse(summarize.make_client(api_key), model, date_str)
     print(json.dumps(result, ensure_ascii=False, indent=2))

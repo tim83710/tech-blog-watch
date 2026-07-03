@@ -15,8 +15,8 @@ settings:
   max_per_run: 20      # 單次整體上限（保險絲）
   model: gemini-3.5-flash   # 免費 tier flash；想更省可換 gemini-2.5-flash / gemini-2.5-flash-lite
   article_char_limit: 12000   # 丟給 Gemini 的內文字元上限（控 token）
-  pulse_enabled: true   # 每日「AI 產業脈動」段落（Gemini Grounding with Google Search，免費 tier 5,000 次/月）
-  # pulse_model: gemini-3.5-flash   # 選填：脈動用的模型，不設就沿用上面的 model
+  pulse_enabled: true   # 每日「AI 產業脈動」段落（Gemini Grounding with Google Search）
+  pulse_model: gemini-2.5-flash   # 脈動用的模型；3.5-flash 的 grounded query 在免費 key 上會 429，2.5 系列另有每日免費額度
 
 # company：用於 email/Slack 標題的 [公司 News] 前綴；沒填就用 name。
 sources:
