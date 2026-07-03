@@ -44,7 +44,12 @@ def _slack_escape(s: str) -> str:
 
 
 def render_slack_pulse(pulse: dict) -> str:
-    lines = [":globe_with_meridians: *AI 產業脈動*", pulse["text"]]
+    lines = [":globe_with_meridians: *AI 產業脈動*"]
+    points = pulse.get("points") or [pulse["text"]]
+    if len(points) > 1:
+        lines += [f"• {p}" for p in points]
+    else:
+        lines.append(points[0])
     sources = pulse.get("sources") or []
     if sources:
         links = "｜".join(
@@ -142,8 +147,14 @@ def _render_pulse_html(pulse: dict) -> str:
         "<div style=\"background:#f5f7ff;border-left:3px solid #5a77ff;border-radius:8px;"
         "padding:14px 18px;margin:0 0 24px\">",
         "<p style=\"font-weight:600;margin:0 0 8px\">AI 產業脈動</p>",
-        f"<p style=\"margin:0\">{_esc(pulse['text'])}</p>",
     ]
+    points = pulse.get("points") or [pulse["text"]]
+    if len(points) > 1:
+        parts.append("<ul style=\"padding-left:20px;margin:0\">")
+        parts += [f"<li style=\"margin-bottom:6px\">{_esc(p)}</li>" for p in points]
+        parts.append("</ul>")
+    else:
+        parts.append(f"<p style=\"margin:0\">{_esc(points[0])}</p>")
     sources = pulse.get("sources") or []
     if sources:
         links = " ・ ".join(

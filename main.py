@@ -105,7 +105,8 @@ def _generate_pulse_safe(client, model: str, date_str: str) -> dict | None:
 
 def _print_pulse(pulse_data: dict) -> None:
     print("\n===== DRY RUN：AI 產業脈動 =====")
-    print(pulse_data["text"])
+    for p in pulse_data.get("points") or [pulse_data["text"]]:
+        print(f"• {p}")
     for s in pulse_data.get("sources", []):
         print(f"  來源: {s['title']} — {s['uri']}")
     if not pulse_data.get("grounded", True):

@@ -53,6 +53,12 @@ def _text_and_sources(resp) -> tuple[str, list[dict]]:
     return text, _extract_sources(resp)
 
 
+def _split_points(text: str) -> list[str]:
+    """prompt 要求每行一點（「- 」開頭）；防禦式去掉各種列點符號，空行略過。"""
+    points = [line.strip().lstrip("-•*").strip() for line in text.splitlines() if line.strip()]
+    return [p for p in points if p]
+
+
 def generate_pulse(client: genai.Client, model: str, date_str: str) -> dict | None:
     """回傳 {"text", "sources", "grounded"}；失敗回傳 None。"""
     config = {
@@ -68,7 +74,7 @@ def generate_pulse(client: genai.Client, model: str, date_str: str) -> dict | No
         return None
     text, sources = _text_and_sources(resp)
     if text and sources:
-        return {"text": text, "sources": sources, "grounded": True}
+        return {"text": text, "points": _split_points(text), "sources": sources, "grounded": True}
 
     # 模型偶爾不搜尋就作答（grounding_metadata 為空）→ 加強提示再試一次
     print("    [note] 脈動無搜尋佐證，加強提示重試一次 …")
@@ -78,11 +84,11 @@ def generate_pulse(client: genai.Client, model: str, date_str: str) -> dict | No
     )
     text2, sources2 = _text_and_sources(resp2)
     if text2 and sources2:
-        return {"text": text2, "sources": sources2, "grounded": True}
+        return {"text": text2, "points": _split_points(text2), "sources": sources2, "grounded": True}
 
     final = text2 or text
     if final:  # 仍無佐證 → 保留文字但標記，render 端會註明
-        return {"text": final, "sources": [], "grounded": False}
+        return {"text": final, "points": _split_points(final), "sources": [], "grounded": False}
     return None
 
 
