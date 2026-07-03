@@ -36,7 +36,7 @@
 - **無 RSS 的來源**（Databricks、Anthropic、OpenAI Developers）走 scrape，靠 `sources.yaml` 的 `link_pattern` 從列表頁挑文章連結；對方改版時 pattern 可能要調。
 - **cron 是 UTC**：`30 22 * * *` = 隔天台北 06:30。（GitHub 排程 best-effort，尖峰常延遲數小時，實際到信會晚於此。）
 - **改 workflow 或 secrets 後**，下一次排程或手動 `workflow_dispatch` 才生效。
-- **產業脈動（pulse）**：Gemini Grounding with Google Search，**不可**與 `response_schema` 併用（citations 會空），所以走純文字輸出。免費 tier 每月 5,000 次 grounded query（每日 1 次遠低於上限，但 dry-run 也會各花 1 次）。模型偶爾不搜尋就作答 → pulse.py 會加強提示重試一次，仍無佐證就標 `grounded: false`。pulse 失敗不會擋文章 digest。
+- **產業脈動（pulse）**：Gemini Grounding with Google Search，**不可**與 `response_schema` 併用（citations 會空），所以走純文字輸出、prompt 要求每行一點、程式再切列點。**grounded query 的免費額度依模型系列而異**：實測 `gemini-3.5-flash` 帶 `google_search` 在免費 key 上直接 429（要計費），所以 `pulse_model` 固定用 `gemini-2.5-flash`（每日免費額度）；一般摘要不受影響。dry-run 也會花 1 次 grounded query。模型偶爾不搜尋就作答 → pulse.py 會加強提示重試一次，仍無佐證就標 `grounded: false`。pulse 失敗不會擋文章 digest。
 
 ## 跑法
 
