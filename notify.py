@@ -2,6 +2,8 @@
 
 版面：標題 `[公司 News] 中文標題` → 全文摘要（tldr）→「文章摘要」列點（重要補充放該點下一階）。
 Slack 一篇一則；Email 一天彙整成一封（總覽 → 標題清單 → 每篇全文）。
+若啟用「AI 產業脈動」（pulse），Slack 在 header 後獨立一則、Email 插在總覽與目錄之間；
+沒有新文章的日子也可只發 pulse（posts 為空）。
 """
 from __future__ import annotations
 
@@ -36,6 +38,25 @@ def render_slack_post(post: dict) -> str:
     return "\n".join(lines)
 
 
+def _slack_escape(s: str) -> str:
+    """Slack mrkdwn 的 <url|label> 內要 escape & < >；label 裡的 | 會提早斷開連結。"""
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def render_slack_pulse(pulse: dict) -> str:
+    lines = [":globe_with_meridians: *AI 產業脈動*", pulse["text"]]
+    sources = pulse.get("sources") or []
+    if sources:
+        links = "｜".join(
+            f"<{_slack_escape(s['uri'])}|{_slack_escape(s['title']).replace('|', '/')}>"
+            for s in sources
+        )
+        lines += ["", "來源：" + links]
+    if not pulse.get("grounded", True):
+        lines += ["", "_（本段未附網路搜尋佐證）_"]
+    return "\n".join(lines)
+
+
 def _slack_send(client: WebhookClient, text: str) -> None:
     payload = {"text": text, "username": os.environ.get("SLACK_USERNAME", "tech-blog-watch"),
                "icon_emoji": ":satellite_antenna:"}
@@ -47,16 +68,21 @@ def _slack_send(client: WebhookClient, text: str) -> None:
         print(f"  [warn] Slack 回應 {resp.status_code}: {resp.body}")
 
 
-def send_slack(posts: list[dict], date_str: str) -> None:
+def send_slack(posts: list[dict], date_str: str, pulse: dict | None = None) -> None:
     url = os.environ.get("SLACK_WEBHOOK_URL")
     if not url:
         print("  [skip] SLACK_WEBHOOK_URL 未設定，略過 Slack")
         return
+    if not posts and not pulse:
+        return
     client = WebhookClient(url)
-    _slack_send(client, f"*tech-blog-watch — {date_str}*　今日 {len(posts)} 篇新文章")
+    count_text = f"今日 {len(posts)} 篇新文章" if posts else "今日無大廠新文章"
+    _slack_send(client, f"*tech-blog-watch — {date_str}*　{count_text}")
+    if pulse:
+        _slack_send(client, render_slack_pulse(pulse))
     for post in posts:
         _slack_send(client, render_slack_post(post))
-    print(f"  [ok] Slack 已送出 {len(posts)} 篇")
+    print(f"  [ok] Slack 已送出 {len(posts)} 篇" + ("（含產業脈動）" if pulse else ""))
 
 
 def send_slack_message(text: str) -> None:
@@ -111,33 +137,69 @@ def _render_article_html(post: dict, anchor: str) -> str:
     return "\n".join(parts)
 
 
-def render_email_digest_html(posts: list[dict], date_str: str) -> str:
-    counts = _counts_by_company(posts)
-    overview = "、".join(f"{c}（{n} 篇）" for c, n in counts.items())
+def _render_pulse_html(pulse: dict) -> str:
+    parts = [
+        "<div style=\"background:#f5f7ff;border-left:3px solid #5a77ff;border-radius:8px;"
+        "padding:14px 18px;margin:0 0 24px\">",
+        "<p style=\"font-weight:600;margin:0 0 8px\">AI 產業脈動</p>",
+        f"<p style=\"margin:0\">{_esc(pulse['text'])}</p>",
+    ]
+    sources = pulse.get("sources") or []
+    if sources:
+        links = " ・ ".join(
+            f"<a href=\"{_esc(s['uri'])}\" style=\"color:#5a77ff\">{_esc(s['title'])}</a>"
+            for s in sources
+        )
+        parts.append(f"<p style=\"font-size:12px;color:#888;margin:10px 0 0\">來源：{links}</p>")
+    if not pulse.get("grounded", True):
+        parts.append("<p style=\"font-size:12px;color:#888;margin:10px 0 0\">（本段未附網路搜尋佐證）</p>")
+    parts.append("</div>")
+    return "\n".join(parts)
 
+
+def render_email_digest_html(posts: list[dict], date_str: str, pulse: dict | None = None) -> str:
     parts = [
         "<div style=\"font-family:-apple-system,Segoe UI,Roboto,'Helvetica Neue',sans-serif;"
         "max-width:680px;margin:0 auto;color:#1a1a1a;line-height:1.7\">",
         f"<h1 style=\"font-size:22px;margin:0 0 4px\">{_esc(date_str)} Tech News Summary</h1>",
-        f"<p style=\"font-size:14px;color:#555;margin:0 0 18px\">今日 {len(counts)} 家公司、"
-        f"共 {len(posts)} 篇：{_esc(overview)}</p>",
-        "<div style=\"background:#f5f7ff;border-radius:8px;padding:14px 18px;margin:0 0 30px\">",
-        "<p style=\"font-weight:600;margin:0 0 8px\">今日文章</p>",
-        "<ol style=\"padding-left:20px;margin:0\">",
     ]
-    for i, post in enumerate(posts):
-        anchor = f"a{i}"
+    if posts:
+        counts = _counts_by_company(posts)
+        overview = "、".join(f"{c}（{n} 篇）" for c, n in counts.items())
         parts.append(
-            f"<li style=\"margin-bottom:5px\"><a href=\"#{anchor}\" "
-            f"style=\"color:#333;text-decoration:none\">{_esc(_title(post))}</a></li>"
+            f"<p style=\"font-size:14px;color:#555;margin:0 0 18px\">今日 {len(counts)} 家公司、"
+            f"共 {len(posts)} 篇：{_esc(overview)}</p>"
         )
-    parts += ["</ol>", "</div>"]
+    else:
+        parts.append("<p style=\"font-size:14px;color:#555;margin:0 0 18px\">今日無官方 blog 新文章</p>")
 
-    for i, post in enumerate(posts):
-        parts.append(_render_article_html(post, f"a{i}"))
+    if pulse:
+        parts.append(_render_pulse_html(pulse))
+
+    if posts:
+        parts += [
+            "<div style=\"background:#f5f7ff;border-radius:8px;padding:14px 18px;margin:0 0 30px\">",
+            "<p style=\"font-weight:600;margin:0 0 8px\">今日文章</p>",
+            "<ol style=\"padding-left:20px;margin:0\">",
+        ]
+        for i, post in enumerate(posts):
+            anchor = f"a{i}"
+            parts.append(
+                f"<li style=\"margin-bottom:5px\"><a href=\"#{anchor}\" "
+                f"style=\"color:#333;text-decoration:none\">{_esc(_title(post))}</a></li>"
+            )
+        parts += ["</ol>", "</div>"]
+
+        for i, post in enumerate(posts):
+            parts.append(_render_article_html(post, f"a{i}"))
 
     parts.append("</div>")
     return "\n".join(parts)
+
+
+def any_channel_configured() -> bool:
+    """Slack 或 Email 至少一個管道有設定（讓 main 決定要不要花 grounded 額度）。"""
+    return bool(os.environ.get("SLACK_WEBHOOK_URL")) or _smtp_config() is not None
 
 
 def _smtp_config() -> tuple[str, str, str, str, str, int] | None:
@@ -152,7 +214,9 @@ def _smtp_config() -> tuple[str, str, str, str, str, int] | None:
     return user, password, to_addr, from_addr, host, port
 
 
-def send_email(posts: list[dict], date_str: str) -> None:
+def send_email(posts: list[dict], date_str: str, pulse: dict | None = None) -> None:
+    if not posts and not pulse:
+        return
     cfg = _smtp_config()
     if not cfg:
         print("  [skip] SMTP_USER / SMTP_PASSWORD / EMAIL_TO 未齊，略過 Email")
@@ -164,9 +228,10 @@ def send_email(posts: list[dict], date_str: str) -> None:
     msg["From"] = from_addr
     msg["To"] = to_addr
     msg.set_content("這封信需要支援 HTML 的信箱檢視。")
-    msg.add_alternative(render_email_digest_html(posts, date_str), subtype="html")
+    msg.add_alternative(render_email_digest_html(posts, date_str, pulse=pulse), subtype="html")
 
     with smtplib.SMTP_SSL(host, port) as smtp:
         smtp.login(user, password)
         smtp.send_message(msg)
-    print(f"  [ok] Email 已寄出 1 封（{len(posts)} 篇）至 {to_addr}")
+    print(f"  [ok] Email 已寄出 1 封（{len(posts)} 篇）至 {to_addr}"
+          + ("（含產業脈動）" if pulse else ""))
