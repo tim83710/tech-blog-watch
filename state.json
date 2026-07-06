@@ -2215,6 +2215,31 @@
     "https://thinkingmachines.ai/news/tinker-general-availability": "2026-07-06T02:20:03.359526+00:00",
     "https://thinkingmachines.ai/news/call-for-community-projects": "2026-07-06T02:20:03.359526+00:00",
     "https://thinkingmachines.ai/news/tinker-research-and-teaching-grants": "2026-07-06T02:20:03.359526+00:00",
-    "https://thinkingmachines.ai/news/announcing-tinker": "2026-07-06T02:20:03.359526+00:00"
+    "https://thinkingmachines.ai/news/announcing-tinker": "2026-07-06T02:20:03.359526+00:00",
+    "https://www.databricks.com/blog/automatic-upgrades-best-practice-features-your-lakehouse-tables": "2026-07-06T23:44:36.289177+00:00",
+    "https://www.databricks.com/blog/reimagining-data-modeling-lakehouse-introducing-vibe-data-modeling": "2026-07-06T23:44:36.289177+00:00",
+    "https://www.databricks.com/blog/scaling-security-alert-triage-specialized-agents-databricks": "2026-07-06T23:44:36.289177+00:00",
+    "https://www.databricks.com/blog/contextual-policies-omnigent-using-session-state-better-govern-ai-agents": "2026-07-06T23:44:36.289177+00:00",
+    "https://www.databricks.com/blog/openai-and-databricks-dais-2026-making-enterprise-ai-real": "2026-07-06T23:44:36.289177+00:00",
+    "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns": "2026-07-06T23:44:36.289177+00:00",
+    "https://developer.nvidia.com/blog/enhancing-goodput-in-large-scale-llm-training-with-nonuniform-tensor-parallelism": "2026-07-06T23:44:36.289177+00:00",
+    "https://huggingface.co/blog/lerobot-release-v060": "2026-07-06T23:44:36.289177+00:00",
+    "https://huggingface.co/blog/Photoroom/prx-part4-data": "2026-07-06T23:44:36.289177+00:00",
+    "https://huggingface.co/blog/revamped-kernels": "2026-07-06T23:44:36.289177+00:00",
+    "https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks": "2026-07-06T23:44:36.289177+00:00"
+  },
+  "last_pulse": {
+    "date": "2026-07-06",
+    "points": [
+      "OpenAI 預計本週發布其最新的 GPT-5.6 系列模型（包含 Sol、Terra、Luna），此舉被視為策略性地在競爭對手 Anthropic 的 Claude Fable 5 模型補貼方案到期之際搶佔市場。",
+      "美國政府已解除對 Anthropic 旗下最強大 AI 模型 Claude Fable 5 和 Mythos 5 的出口管制，該公司將恢復全球用戶的存取權限，此前因安全疑慮曾被緊急封鎖。",
+      "輝達（NVIDIA）否認其新一代 AI 機架式伺服器系統 Kyber NVL144 可能因高階 PCB 製造瓶頸而大幅延後上市的市場傳聞，但相關亞洲供應鏈股價仍普遍承壓。",
+      "晶圓代工龍頭台積電（TSMC）與美國半導體封測大廠艾克爾（Amkor）簽署為期十年的合作協議，將在美國亞利桑那州共同發展先進半導體封裝與測試服務，以深化美國本土 AI 及高效能運算（HPC）晶片供應鏈。",
+      "美團（Meituan）已完全開源其 1.6 兆參數的混合專家（MoE）模型 LongCat-2.0，並開放模型權重與推理程式碼，此舉將推動開源 AI 社群的發展。",
+      "歐洲主要金融監管機構，包括歐洲央行 (ECB)、英格蘭銀行 (Bank of England) 和英國金融行為監理總署 (FCA)，發出協調警告，指出代理型人工智慧 (agentic AI) 對金融系統構成的風險，並建議考慮實施「緊急停止開關」(kill switch) 等安全機制，以應對 AI 故障可能引發的市場癱瘓。FCA 也發布「米爾斯審查報告」(The Mills Review)，預測 AI 將重塑零售金融服務，並提出監管建議，強調 AI 從建議轉向行動時，風險將從單一機構擴大至整個系統。",
+      "S&P Global 宣布重組其市場情報 (Market Intelligence) 營運模式，旨在與 AI 驅動市場中的客戶需求保持一致，並將其數據廣度與深度、領域專業知識，更深度地整合 AI 驅動的工具、工作流程和體驗。",
+      "中國的 AI 量化對沖基金吸引創紀錄的資金流入，其 AI 驅動策略表現優於傳統裁量型基金，加速了投資者偏好的轉變。領先的量化基金經理 Ubiquant 在不到兩小時內為一支新基金募集了人民幣 26 億元（約 3.84 億美元）。",
+      "Citadel 的策略交易基金，結合了裁量型股票投資與量化策略，截至 6 月底上漲 14.3%，成功避開了量化基金的拋售潮。"
+    ]
   }
 }
