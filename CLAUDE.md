@@ -5,13 +5,13 @@
 ## 架構定位
 
 - **跑在 GitHub Actions**（雲端排程，不依賴 Tim 的 Mac）。這是**獨立 GitHub repo**，跟 `notes/` 各過各的。
-- **狀態存在 repo 裡**：`state.json` 記已看過的文章 URL，每天由 Actions commit 回去。這是雲端無狀態環境能「記得」的關鍵，別把它 gitignore 掉。
+- **狀態存在 repo 裡**：`state.json` 記已看過的文章 URL 和昨日脈動列點（`last_pulse`，48 小時窗口去重用），每天由 Actions commit 回去。這是雲端無狀態環境能「記得」的關鍵，別把它 gitignore 掉。
 - 摘要用 Gemini API（`gemini-3.5-flash`，Google AI Studio 免費 tier；模型在 `sources.yaml` 可換）。用 `google-genai` SDK（`from google import genai`），不需要 Claude Code 在雲端跑。
 
 ## 單一事實來源
 
 - **摘要風格/規則 → 只改 [`prompts/blog-digest.md`](prompts/blog-digest.md)**，不要寫死進 summarize.py。summarize.py 只負責讀 prompt、呼叫 API、解析結構化輸出。
-- **產業脈動風格/範圍 → 只改 [`prompts/industry-pulse.md`](prompts/industry-pulse.md)**，同理不要寫死進 pulse.py。pulse.py 只負責帶 `google_search` 工具呼叫 Gemini、抽 grounding 來源。
+- **脈動段風格/範圍 → 只改 prompt 檔**：AI 產業段改 [`prompts/industry-pulse.md`](prompts/industry-pulse.md)、金融×AI 段改 [`prompts/finance-ai-pulse.md`](prompts/finance-ai-pulse.md)，同理不要寫死進 pulse.py。pulse.py 只負責帶 `google_search` 工具呼叫 Gemini、抽 grounding 來源；段落定義（開關名/標題/prompt 檔）在 `pulse.SECTIONS`。
 - **來源清單 → 只改 [`sources.yaml`](sources.yaml)**。
 
 ## 撰寫紀律（沿用 notes/ 的摘要紀律）
@@ -36,7 +36,7 @@
 - **無 RSS 的來源**（Databricks、Anthropic、OpenAI Developers）走 scrape，靠 `sources.yaml` 的 `link_pattern` 從列表頁挑文章連結；對方改版時 pattern 可能要調。
 - **cron 是 UTC**：`30 22 * * *` = 隔天台北 06:30。（GitHub 排程 best-effort，尖峰常延遲數小時，實際到信會晚於此。）
 - **改 workflow 或 secrets 後**，下一次排程或手動 `workflow_dispatch` 才生效。
-- **產業脈動（pulse）**：Gemini Grounding with Google Search，**不可**與 `response_schema` 併用（citations 會空），所以走純文字輸出、prompt 要求每行一點、程式再切列點。**grounded query 的免費額度依模型系列而異**：實測 `gemini-3.5-flash` 帶 `google_search` 在免費 key 上直接 429（要計費），所以 `pulse_model` 固定用 `gemini-2.5-flash`（每日免費額度）；一般摘要不受影響。dry-run 也會花 1 次 grounded query。模型偶爾不搜尋就作答 → pulse.py 會加強提示重試一次，仍無佐證就標 `grounded: false`。pulse 失敗不會擋文章 digest。
+- **脈動段（pulse）**：現有兩段——「AI 產業脈動」與「金融×AI 脈動」，各自獨立生成、每天各花 1 次 grounded query（dry-run 也一樣，目前 2 段=2 次）。Gemini Grounding with Google Search **不可**與 `response_schema` 併用（citations 會空），所以走純文字輸出、prompt 要求每行一點、程式再切列點。**grounded query 的免費額度依模型系列而異**：實測 `gemini-3.5-flash` 帶 `google_search` 在免費 key 上直接 429（要計費），所以 `pulse_model` 固定用 `gemini-2.5-flash`（每日免費額度）；一般摘要不受影響。模型偶爾不搜尋就作答 → pulse.py 會加強提示重試一次，仍無佐證就標 `grounded: false`。窗口是 48 小時（吃排程延遲的保險），靠 state.json 的 `last_pulse` 餵昨日列點給 prompt 去重。任一段失敗不會擋文章 digest、也不會擋另一段。
 
 ## 跑法
 

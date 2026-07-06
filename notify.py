@@ -2,8 +2,8 @@
 
 版面：標題 `[公司 News] 中文標題` → 全文摘要（tldr）→「文章摘要」列點（重要補充放該點下一階）。
 Slack 一篇一則；Email 一天彙整成一封（總覽 → 標題清單 → 每篇全文）。
-若啟用「AI 產業脈動」（pulse），Slack 在 header 後獨立一則、Email 插在總覽與目錄之間；
-沒有新文章的日子也可只發 pulse（posts 為空）。
+脈動段（AI 產業脈動、金融×AI 脈動）可有多段：Slack 在 header 後各獨立一則、
+Email 依序插在總覽與目錄之間；沒有新文章的日子也可只發脈動（posts 為空）。
 """
 from __future__ import annotations
 
@@ -44,7 +44,9 @@ def _slack_escape(s: str) -> str:
 
 
 def render_slack_pulse(pulse: dict) -> str:
-    lines = [":globe_with_meridians: *AI 產業脈動*"]
+    emoji = pulse.get("emoji") or ":globe_with_meridians:"
+    title = pulse.get("title") or "AI 產業脈動"
+    lines = [f"{emoji} *{title}*"]
     points = pulse.get("points") or [pulse["text"]]
     if len(points) > 1:
         lines += [f"• {p}" for p in points]
@@ -73,21 +75,22 @@ def _slack_send(client: WebhookClient, text: str) -> None:
         print(f"  [warn] Slack 回應 {resp.status_code}: {resp.body}")
 
 
-def send_slack(posts: list[dict], date_str: str, pulse: dict | None = None) -> None:
+def send_slack(posts: list[dict], date_str: str, pulses: list[dict] | None = None) -> None:
     url = os.environ.get("SLACK_WEBHOOK_URL")
     if not url:
         print("  [skip] SLACK_WEBHOOK_URL 未設定，略過 Slack")
         return
-    if not posts and not pulse:
+    if not posts and not pulses:
         return
     client = WebhookClient(url)
     count_text = f"今日 {len(posts)} 篇新文章" if posts else "今日無大廠新文章"
     _slack_send(client, f"*tech-blog-watch — {date_str}*　{count_text}")
-    if pulse:
-        _slack_send(client, render_slack_pulse(pulse))
+    for pu in pulses or []:
+        _slack_send(client, render_slack_pulse(pu))
     for post in posts:
         _slack_send(client, render_slack_post(post))
-    print(f"  [ok] Slack 已送出 {len(posts)} 篇" + ("（含產業脈動）" if pulse else ""))
+    print(f"  [ok] Slack 已送出 {len(posts)} 篇"
+          + (f"（含 {len(pulses)} 段脈動）" if pulses else ""))
 
 
 def send_slack_message(text: str) -> None:
@@ -143,10 +146,11 @@ def _render_article_html(post: dict, anchor: str) -> str:
 
 
 def _render_pulse_html(pulse: dict) -> str:
+    title = _esc(pulse.get("title") or "AI 產業脈動")
     parts = [
         "<div style=\"background:#f5f7ff;border-left:3px solid #5a77ff;border-radius:8px;"
         "padding:14px 18px;margin:0 0 24px\">",
-        "<p style=\"font-weight:600;margin:0 0 8px\">AI 產業脈動</p>",
+        f"<p style=\"font-weight:600;margin:0 0 8px\">{title}</p>",
     ]
     points = pulse.get("points") or [pulse["text"]]
     if len(points) > 1:
@@ -168,7 +172,8 @@ def _render_pulse_html(pulse: dict) -> str:
     return "\n".join(parts)
 
 
-def render_email_digest_html(posts: list[dict], date_str: str, pulse: dict | None = None) -> str:
+def render_email_digest_html(posts: list[dict], date_str: str,
+                             pulses: list[dict] | None = None) -> str:
     parts = [
         "<div style=\"font-family:-apple-system,Segoe UI,Roboto,'Helvetica Neue',sans-serif;"
         "max-width:680px;margin:0 auto;color:#1a1a1a;line-height:1.7\">",
@@ -184,8 +189,8 @@ def render_email_digest_html(posts: list[dict], date_str: str, pulse: dict | Non
     else:
         parts.append("<p style=\"font-size:14px;color:#555;margin:0 0 18px\">今日無官方 blog 新文章</p>")
 
-    if pulse:
-        parts.append(_render_pulse_html(pulse))
+    for pu in pulses or []:
+        parts.append(_render_pulse_html(pu))
 
     if posts:
         parts += [
@@ -225,8 +230,8 @@ def _smtp_config() -> tuple[str, str, str, str, str, int] | None:
     return user, password, to_addr, from_addr, host, port
 
 
-def send_email(posts: list[dict], date_str: str, pulse: dict | None = None) -> None:
-    if not posts and not pulse:
+def send_email(posts: list[dict], date_str: str, pulses: list[dict] | None = None) -> None:
+    if not posts and not pulses:
         return
     cfg = _smtp_config()
     if not cfg:
@@ -239,10 +244,10 @@ def send_email(posts: list[dict], date_str: str, pulse: dict | None = None) -> N
     msg["From"] = from_addr
     msg["To"] = to_addr
     msg.set_content("這封信需要支援 HTML 的信箱檢視。")
-    msg.add_alternative(render_email_digest_html(posts, date_str, pulse=pulse), subtype="html")
+    msg.add_alternative(render_email_digest_html(posts, date_str, pulses=pulses), subtype="html")
 
     with smtplib.SMTP_SSL(host, port) as smtp:
         smtp.login(user, password)
         smtp.send_message(msg)
     print(f"  [ok] Email 已寄出 1 封（{len(posts)} 篇）至 {to_addr}"
-          + ("（含產業脈動）" if pulse else ""))
+          + (f"（含 {len(pulses)} 段脈動）" if pulses else ""))

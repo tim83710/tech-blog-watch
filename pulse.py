@@ -1,7 +1,7 @@
-"""每日「AI 產業脈動」：用 Gemini Grounding with Google Search 產生一段繁中產業快訊。
+"""每日脈動段（AI 產業 / 金融×AI）：用 Gemini Grounding with Google Search 產生繁中快訊列點。
 
-脈動規則的單一事實來源是 prompts/industry-pulse.md。
-輸出形狀：{"text": str, "sources": [{"title", "uri"}], "grounded": bool}；失敗回傳 None。
+各段規則的單一事實來源在 prompts/（見 SECTIONS 的 prompt 欄位）。
+輸出形狀：{"text": str, "points": [str], "sources": [{"title", "uri"}], "grounded": bool}；失敗回傳 None。
 """
 from __future__ import annotations
 
@@ -12,13 +12,25 @@ from google.genai import types
 
 import summarize
 
-PROMPT_PATH = Path(__file__).resolve().parent / "prompts" / "industry-pulse.md"
+PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
 
-MAX_SOURCES = 4  # digest 最多附幾個來源連結
+MAX_SOURCES = 4  # digest 每段最多附幾個來源連結
+
+# 每個脈動段：setting = sources.yaml settings 的開關名；title/emoji 供 notify 渲染
+SECTIONS = [
+    {"setting": "pulse_enabled", "title": "AI 產業脈動", "emoji": ":globe_with_meridians:",
+     "prompt": "industry-pulse.md", "label": "industry-pulse"},
+    {"setting": "finance_pulse_enabled", "title": "金融×AI 脈動", "emoji": ":chart_with_upwards_trend:",
+     "prompt": "finance-ai-pulse.md", "label": "finance-ai-pulse"},
+]
 
 
-def _load_prompt() -> str:
-    return PROMPT_PATH.read_text(encoding="utf-8")
+def enabled_sections(settings: dict) -> list[dict]:
+    return [s for s in SECTIONS if settings.get(s["setting"])]
+
+
+def _load_prompt(section: dict) -> str:
+    return (PROMPTS_DIR / section["prompt"]).read_text(encoding="utf-8")
 
 
 def _extract_sources(resp) -> list[dict]:
@@ -59,17 +71,24 @@ def _split_points(text: str) -> list[str]:
     return [p for p in points if p]
 
 
-def generate_pulse(client: genai.Client, model: str, date_str: str) -> dict | None:
-    """回傳 {"text", "sources", "grounded"}；失敗回傳 None。"""
+def generate_pulse(client: genai.Client, model: str, date_str: str,
+                   section: dict = SECTIONS[0], avoid: list[str] | None = None) -> dict | None:
+    """產一個脈動段。回傳 {"text", "points", "sources", "grounded"}；失敗回傳 None。
+
+    avoid：昨日已報導的列點（48 小時窗口靠這份清單去重）。
+    """
+    label = section["label"]
     config = {
-        "system_instruction": _load_prompt(),
+        "system_instruction": _load_prompt(section),
         # grounding 不可與 response_schema 併用（已知 bug：citations 會空）→ 純文字輸出
         "tools": [types.Tool(google_search=types.GoogleSearch())],
         "temperature": 0.4,
     }
-    base = f"今天日期：{date_str}。請搜尋並總結過去 24 小時 AI 產業動態。"
+    base = f"今天日期：{date_str}。請依系統指示，用 Google Search 查證並總結最新動態。"
+    if avoid:
+        base += "\n\n昨日已報導（除非有重大新進展，不要重複）：\n" + "\n".join(f"- {p}" for p in avoid)
 
-    resp = summarize.generate_with_retry(client, model, base, config, label="industry-pulse")
+    resp = summarize.generate_with_retry(client, model, base, config, label=label)
     if resp is None:  # API 整包失敗（quota 耗盡、壞模型…）→ 直接放棄，別誤判成「沒搜尋」再燒一輪
         return None
     text, sources = _text_and_sources(resp)
@@ -77,10 +96,10 @@ def generate_pulse(client: genai.Client, model: str, date_str: str) -> dict | No
         return {"text": text, "points": _split_points(text), "sources": sources, "grounded": True}
 
     # 模型偶爾不搜尋就作答（grounding_metadata 為空）→ 加強提示再試一次
-    print("    [note] 脈動無搜尋佐證，加強提示重試一次 …")
+    print(f"    [note] {label} 無搜尋佐證，加強提示重試一次 …")
     resp2 = summarize.generate_with_retry(
-        client, model, base + "你必須先使用 Google Search 工具查證，再作答。",
-        config, label="industry-pulse",
+        client, model, base + "\n你必須先使用 Google Search 工具查證，再作答。",
+        config, label=label,
     )
     text2, sources2 = _text_and_sources(resp2)
     if text2 and sources2:
@@ -92,7 +111,7 @@ def generate_pulse(client: genai.Client, model: str, date_str: str) -> dict | No
     return None
 
 
-if __name__ == "__main__":  # 單獨手測：.venv/bin/python pulse.py
+if __name__ == "__main__":  # 單獨手測：.venv/bin/python pulse.py（每個啟用的段各花 1 次 grounded query）
     import json
     import os
     from datetime import datetime, timezone
@@ -116,5 +135,8 @@ if __name__ == "__main__":  # 單獨手測：.venv/bin/python pulse.py
     model = (settings.get("pulse_model") or os.environ.get("GEMINI_MODEL")
              or settings.get("model", "gemini-2.5-flash"))
     date_str = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d")
-    result = generate_pulse(summarize.make_client(api_key), model, date_str)
-    print(json.dumps(result, ensure_ascii=False, indent=2))
+    client = summarize.make_client(api_key)
+    for sec in enabled_sections(settings):
+        print(f"== {sec['title']} ==")
+        result = generate_pulse(client, model, date_str, section=sec)
+        print(json.dumps(result, ensure_ascii=False, indent=2))

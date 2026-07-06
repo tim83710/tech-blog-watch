@@ -1,4 +1,4 @@
-"""tech-blog-watch 主流程：抓新文章 → 產業脈動（可選）→ 繁中摘要 → 發 Slack + Email → 更新 state.json。
+"""tech-blog-watch 主流程：抓新文章 → 脈動段（AI 產業、金融×AI，可選）→ 繁中摘要 → 發 Slack + Email → 更新 state.json。
 
 跑法：
     python main.py            # 正常跑（發送 + 更新 state）
@@ -94,32 +94,55 @@ def mark_seen(state: dict, items: list[fetch.Item]) -> None:
         state["seen"][it.url] = now
 
 
-def _generate_pulse_safe(client, model: str, date_str: str) -> dict | None:
-    """產業脈動失敗絕不影響文章 digest：任何例外都吞掉、回 None。"""
+def _generate_pulse_safe(client, model: str, date_str: str, section: dict,
+                         avoid: list[str]) -> dict | None:
+    """脈動段失敗絕不影響文章 digest：任何例外都吞掉、回 None。"""
     try:
-        return pulse.generate_pulse(client, model, date_str)
+        return pulse.generate_pulse(client, model, date_str, section=section, avoid=avoid)
     except Exception as e:
-        print(f"  [warn] 產業脈動生成失敗（不影響文章 digest）: {e}")
+        print(f"  [warn] {section['title']} 生成失敗（不影響文章 digest）: {e}")
         return None
 
 
-def _print_pulse(pulse_data: dict) -> None:
-    print("\n===== DRY RUN：AI 產業脈動 =====")
-    for p in pulse_data.get("points") or [pulse_data["text"]]:
-        print(f"• {p}")
-    for s in pulse_data.get("sources", []):
-        print(f"  來源: {s['title']} — {s['uri']}")
-    if not pulse_data.get("grounded", True):
-        print("  [note] 本段無搜尋佐證（grounding_metadata 為空）")
+def _generate_pulses(client, model: str, date_str: str, state: dict, settings: dict) -> list[dict]:
+    """依 settings 開關逐段生成；回傳的每段附上 title/emoji 供渲染。"""
+    last = state.get("last_pulse") or {}
+    avoid = [p for p in (last.get("points") or []) if "無重大新動態" not in p]
+    pulses: list[dict] = []
+    for sec in pulse.enabled_sections(settings):
+        print(f"  {sec['title']} …")
+        data = _generate_pulse_safe(client, model, date_str, sec, avoid)
+        if data:
+            pulses.append({"title": sec["title"], "emoji": sec["emoji"], **data})
+    return pulses
 
 
-def _send_all(posts: list[dict], date_str: str, pulse_data: dict | None) -> None:
+def _remember_pulses(state: dict, pulses: list[dict], date_str: str) -> None:
+    """把本次脈動列點記進 state，明天的 48 小時窗口靠它去重；本次沒產出就保留昨日的。"""
+    if not pulses:
+        return
+    points = [p for pu in pulses for p in pu.get("points", []) if "無重大新動態" not in p]
+    state["last_pulse"] = {"date": date_str, "points": points}
+
+
+def _print_pulses(pulses: list[dict]) -> None:
+    for pu in pulses:
+        print(f"\n===== DRY RUN：{pu['title']} =====")
+        for p in pu.get("points") or [pu["text"]]:
+            print(f"• {p}")
+        for s in pu.get("sources", []):
+            print(f"  來源: {s['title']} — {s['uri']}")
+        if not pu.get("grounded", True):
+            print("  [note] 本段無搜尋佐證（grounding_metadata 為空）")
+
+
+def _send_all(posts: list[dict], date_str: str, pulses: list[dict]) -> None:
     try:
-        notify.send_slack(posts, date_str, pulse=pulse_data)
+        notify.send_slack(posts, date_str, pulses=pulses)
     except Exception as e:
         print(f"  [warn] Slack 發送失敗: {e}")
     try:
-        notify.send_email(posts, date_str, pulse=pulse_data)
+        notify.send_email(posts, date_str, pulses=pulses)
     except Exception as e:
         print(f"  [warn] Email 發送失敗: {e}")
 
@@ -127,7 +150,7 @@ def _send_all(posts: list[dict], date_str: str, pulse_data: dict | None) -> None
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true",
-                    help="只印不發、不寫 state（pulse 啟用時仍會實際打 1 次 grounded 查詢）")
+                    help="只印不發、不寫 state（每個啟用的脈動段仍會實際打 1 次 grounded 查詢）")
     ap.add_argument("--seed", action="store_true", help="只標記已看過、不摘要不發送")
     args = ap.parse_args()
 
@@ -139,7 +162,7 @@ def main() -> int:
     # 模型優先序：GEMINI_MODEL 環境變數 > sources.yaml 的 model > 預設
     model = os.environ.get("GEMINI_MODEL") or settings.get("model", "gemini-2.5-flash")
     char_limit = settings.get("article_char_limit", 12000)
-    pulse_enabled = bool(settings.get("pulse_enabled", False))  # 程式預設關，sources.yaml 明文開
+    # 脈動段開關在 sources.yaml settings（pulse_enabled / finance_pulse_enabled），程式預設全關
     pulse_model = settings.get("pulse_model") or model
 
     state = load_state()
@@ -179,26 +202,28 @@ def main() -> int:
     new_items = pick_new(candidates, state, settings)
     print(f"== 新文章：{len(new_items)} 篇 ==")
 
-    pulse_data = None
-    if pulse_enabled:
+    pulses: list[dict] = []
+    if pulse.enabled_sections(settings):
         if args.dry_run or notify.any_channel_configured():
-            print("== 產業脈動 ==")
-            pulse_data = _generate_pulse_safe(client, pulse_model, date_str)
+            print("== 脈動段 ==")
+            pulses = _generate_pulses(client, pulse_model, date_str, state, settings)
         else:
-            print("  [skip] 無任何發送管道設定，略過產業脈動（不花 grounded 額度）")
+            print("  [skip] 無任何發送管道設定，略過脈動段（不花 grounded 額度）")
 
     # 沒有新文章：有脈動就單獨發，沒有就跟過去一樣安靜結束
     if not new_items:
-        if not pulse_data:
-            print("沒有新文章、無產業脈動，結束。")
+        if not pulses:
+            print("沒有新文章、無脈動段，結束。")
             return 0
         if args.dry_run:
-            _print_pulse(pulse_data)
+            _print_pulses(pulses)
             print("\n(沒有新文章；dry-run 不發送、不寫 state)")
             return 0
-        print("== 發送（僅產業脈動）==")
-        _send_all([], date_str, pulse_data)
-        print("沒有新文章，已單獨發送產業脈動。")
+        print("== 發送（僅脈動段）==")
+        _send_all([], date_str, pulses)
+        _remember_pulses(state, pulses, date_str)
+        save_state(state)
+        print("沒有新文章，已單獨發送脈動段。")
         return 0
 
     posts: list[dict] = []
@@ -226,19 +251,20 @@ def main() -> int:
         print("沒有成功摘要的文章。")
         mark_seen(state, new_items)
         if not args.dry_run:
+            _remember_pulses(state, pulses, date_str)
             save_state(state)
-        if not pulse_data:
+        if not pulses:
             return 0
         if args.dry_run:
-            _print_pulse(pulse_data)
+            _print_pulses(pulses)
             return 0
-        print("== 發送（僅產業脈動）==")
-        _send_all([], date_str, pulse_data)
+        print("== 發送（僅脈動段）==")
+        _send_all([], date_str, pulses)
         return 0
 
     if args.dry_run:
-        if pulse_data:
-            _print_pulse(pulse_data)
+        if pulses:
+            _print_pulses(pulses)
         print("\n===== DRY RUN：以下為 Slack 內容 =====")
         for p in posts:
             print("\n" + notify.render_slack_post(p))
@@ -246,10 +272,11 @@ def main() -> int:
         return 0
 
     print("== 發送 ==")
-    _send_all(posts, date_str, pulse_data)
+    _send_all(posts, date_str, pulses)
 
     # 只要成功摘要就標記已看過（含發送）；發送失敗仍標記，避免下次重複灌爆
     mark_seen(state, new_items)
+    _remember_pulses(state, pulses, date_str)
     save_state(state)
     print(f"完成：{len(posts)} 篇已發送、{len(new_items)} 篇標記已看過。")
     return 0
