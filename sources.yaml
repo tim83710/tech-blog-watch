@@ -16,6 +16,7 @@ settings:
   model: gemini-3.5-flash   # 免費 tier flash；想更省可換 gemini-2.5-flash / gemini-2.5-flash-lite
   article_char_limit: 12000   # 丟給 Gemini 的內文字元上限（控 token）
   pulse_enabled: true   # 每日「AI 產業脈動」段落（Gemini Grounding with Google Search）
+  finance_pulse_enabled: true   # 每日「金融×AI 脈動」段落（同樣走 grounding；每個啟用的段每天各花 1 次 grounded query）
   pulse_model: gemini-2.5-flash   # 脈動用的模型；3.5-flash 的 grounded query 在免費 key 上會 429，2.5 系列另有每日免費額度
 
 # company：用於 email/Slack 標題的 [公司 News] 前綴；沒填就用 name。
@@ -65,3 +66,10 @@ sources:
     company: Hugging Face
     mode: rss
     url: https://huggingface.co/blog/feed.xml
+
+  - name: Thinking Machines
+    company: Thinking Machines
+    mode: scrape
+    url: https://thinkingmachines.ai/news/
+    base: https://thinkingmachines.ai
+    link_pattern: '^/news/[a-z0-9][a-z0-9-]{4,}/?$'
