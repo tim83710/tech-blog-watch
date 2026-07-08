@@ -9,13 +9,13 @@
 值得寫：
 
 - **洗牌等級**的模型發佈或權重釋出（例：當初 DeepSeek R1 那種市場級衝擊）。日常版本更新、跑分小幅領先不算。
-- 大公司的重大 AI 產品/功能發佈（例：Apple 的 Siri AI 化、Meta/Microsoft/Amazon/Tesla 的重量級 AI 產品）——限追蹤名單以外的公司。
+- 大公司的重大 AI 產品/功能發佈（例：Apple 的 Siri AI 化、Meta/Microsoft/Amazon/Tesla 的重量級 AI 產品）。OpenAI、Google 等追蹤名單內的公司也適用——只要重大到足以影響市場，即使官方 blog 已逐篇摘要，這裡仍可從市場意義的角度提一筆。
 - 晶片與供應鏈：產能、出口管制、新硬體、資料中心與算力的重大投資。
 - 重大融資、併購、估值變化——大到改變競爭格局的交易；一般新創輪次不算。
 
 不要寫（噪音）：
 
-- OpenAI、Anthropic、Google、NVIDIA、Databricks、Hugging Face、Thinking Machines 的**官方 blog / 官方發佈內容**——已由另一機制逐篇摘要。但關於這些公司的重大**第三方**報導（訴訟、政策衝擊、供應鏈變化）可以寫。
+- OpenAI、Anthropic、Google、NVIDIA、Databricks、Hugging Face、Thinking Machines 的**一般官方 blog / 官方發佈內容**——已由另一機制逐篇摘要，不要重複；但達到市場級重大程度的發佈（見上）以及重大**第三方**報導（訴訟、政策衝擊、供應鏈變化）可以寫。
 - 「金融×AI」的垂直動態（金融機構導入/合作、AI 投資應用、金融監管 AI）——另有專段涵蓋。
 - 各國主權 AI 與區域性 AI 政策（例：歐洲某國的算力/模型計畫）、一般監管與政策新聞——除非直接衝擊全球市場或供應鏈（如重大出口管制）。
 - 評論文章、榜單整理、行銷稿、教學文、小版本更新、無可靠來源的傳聞。
