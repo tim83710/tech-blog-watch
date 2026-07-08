@@ -40,6 +40,10 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          # 平台開關：repo Settings → Secrets and variables → Actions → Variables
+          # 設 SEND_SLACK / SEND_EMAIL 為 false 可關閉該平台；沒設＝都發
+          SEND_SLACK: ${{ vars.SEND_SLACK }}
+          SEND_EMAIL: ${{ vars.SEND_EMAIL }}
         run: python main.py
 
       - name: Commit updated state

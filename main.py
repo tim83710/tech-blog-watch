@@ -136,15 +136,26 @@ def _print_pulses(pulses: list[dict]) -> None:
             print("  [note] 本段無搜尋佐證（grounding_metadata 為空）")
 
 
+def _channel_enabled(name: str) -> bool:
+    """平台開關：SEND_SLACK / SEND_EMAIL（GitHub repo Variables 或本機 .env）。沒設或空值＝開。"""
+    return os.environ.get(name, "").strip().lower() not in ("false", "0", "no", "off")
+
+
 def _send_all(posts: list[dict], date_str: str, pulses: list[dict]) -> None:
-    try:
-        notify.send_slack(posts, date_str, pulses=pulses)
-    except Exception as e:
-        print(f"  [warn] Slack 發送失敗: {e}")
-    try:
-        notify.send_email(posts, date_str, pulses=pulses)
-    except Exception as e:
-        print(f"  [warn] Email 發送失敗: {e}")
+    if _channel_enabled("SEND_SLACK"):
+        try:
+            notify.send_slack(posts, date_str, pulses=pulses)
+        except Exception as e:
+            print(f"  [warn] Slack 發送失敗: {e}")
+    else:
+        print("  [skip] SEND_SLACK=false，略過 Slack")
+    if _channel_enabled("SEND_EMAIL"):
+        try:
+            notify.send_email(posts, date_str, pulses=pulses)
+        except Exception as e:
+            print(f"  [warn] Email 發送失敗: {e}")
+    else:
+        print("  [skip] SEND_EMAIL=false，略過 Email")
 
 
 def main() -> int:
@@ -176,10 +187,11 @@ def main() -> int:
         print("== 首次執行：seed 模式（標記已看過、不摘要）==")
         mark_seen(state, candidates)
         save_state(state)
-        notify.send_slack_message(
-            f":satellite_antenna: tech-blog-watch 已初始化，開始監看 {len(sources)} 個來源，"
-            f"目前列表 {len(candidates)} 篇標記為已看過。之後只推新文章。"
-        )
+        if _channel_enabled("SEND_SLACK"):
+            notify.send_slack_message(
+                f":satellite_antenna: tech-blog-watch 已初始化，開始監看 {len(sources)} 個來源，"
+                f"目前列表 {len(candidates)} 篇標記為已看過。之後只推新文章。"
+            )
         print(f"完成 seed：{len(candidates)} 篇標記為已看過。")
         return 0
 

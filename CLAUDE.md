@@ -27,6 +27,7 @@
 
 - **獨立 `.venv`**（Python 3.12），相依不與其他專案共用
 - **Slack 發送模式**：`slack_sdk.webhook.WebhookClient` + `send_dict`（Incoming Webhook，不用 bot token）
+- **平台開關**：`SEND_SLACK` / `SEND_EMAIL` 環境變數（雲端設在 GitHub repo **Variables**，非 Secrets；本機走 `.env`）。設 `false` 停發該平台、沒設＝都發；判斷在 `main._channel_enabled`，seed 模式的初始化通知也吃同一開關
 - **Email 用私人 Gmail SMTP**：`SMTP_PASSWORD` 是「應用程式密碼」不是登入密碼
 - **Secrets 不進 repo**：本機用 `.env`（已 gitignore），雲端用 GitHub Actions Secrets
 
