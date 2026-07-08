@@ -2241,20 +2241,30 @@
     "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion": "2026-07-07T23:34:34.558507+00:00",
     "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio": "2026-07-07T23:34:34.558507+00:00",
     "https://huggingface.co/blog/microsoft/foundry-managed-compute": "2026-07-07T23:34:34.558507+00:00",
-    "https://huggingface.co/blog/skypilot-hf-storage": "2026-07-07T23:34:34.558507+00:00"
+    "https://huggingface.co/blog/skypilot-hf-storage": "2026-07-07T23:34:34.558507+00:00",
+    "https://www.databricks.com/blog/navigating-synapse-migration-databricks": "2026-07-08T23:44:17.259788+00:00",
+    "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase": "2026-07-08T23:44:17.259788+00:00",
+    "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work": "2026-07-08T23:44:17.259788+00:00",
+    "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds": "2026-07-08T23:44:17.259788+00:00",
+    "https://openai.com/index/government-national-security-partnerships": "2026-07-08T23:44:17.259788+00:00",
+    "https://openai.com/index/separating-signal-from-noise-coding-evaluations": "2026-07-08T23:44:17.259788+00:00",
+    "https://openai.com/index/k-12-educators-practical-skills": "2026-07-08T23:44:17.259788+00:00",
+    "https://openai.com/index/introducing-gpt-live": "2026-07-08T23:44:17.259788+00:00",
+    "https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72": "2026-07-08T23:44:17.259788+00:00",
+    "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance": "2026-07-08T23:44:17.259788+00:00",
+    "https://huggingface.co/blog/nvidia/open-data-for-agents": "2026-07-08T23:44:17.259788+00:00",
+    "https://huggingface.co/blog/native-speed-vllm-transformers-backend": "2026-07-08T23:44:17.259788+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "points": [
-      "中國AI新創 DeepSeek 傳正開發自有 AI 推理晶片，旨在降低對輝達（Nvidia）和華為的依賴，此舉代表其重大戰略轉型，並將加劇晶片供應鏈的競爭格局。",
-      "繼美國解除出口管制後，Anthropic 據報導正與三星電子洽談，尋求以 2 奈米製程及先進封裝代工其自研 AI 晶片，顯示大型 AI 公司「去 Nvidia 化」的趨勢日益明顯。",
-      "Meta Platforms 發布全新 AI 圖像生成模型 MuseImage（內部代號 Mango），主打服務創作者與廣告客戶群體，為 AI 圖像生成市場帶來新競爭者。",
-      "輝達（Nvidia）推出「算力換分潤」新模式，向快速成長的 AI 新創提供 GPU 額度，以換取未來營收分成，此舉將深化輝達與 AI 產業生態系的綁定。",
-      "中國兩大生成式 AI 平台字節跳動旗下的「豆包」及阿里巴巴旗下的「通義千問」（Qwen）宣布，將於 7 月 15 日全面下架 AI 智能體（Agent）功能，以因應中國官方對賭博預測、一鍵脫衣等違規 AI 代理功能的嚴格監管。",
-      "英國金融行為監理總署 (FCA) 的一項監管審查報告建議，應考慮將 ChatGPT、Claude 和 Gemini 等大型語言模型 (LLMs) 納入其監管框架，因為它們對消費者金融決策的影響日益增加；報告同時警告，過度依賴少數 AI 及雲端供應商可能帶來系統性風險。",
-      "歐洲央行 (ECB) 與其他主要銀行監管機構正式警告，人工智慧對全球金融業構成系統性風險，特別是 AI 驅動的網路攻擊可能增加安全漏洞的頻率和複雜性；當局已給予銀行四個月時間加強防禦措施，以應對潛在的干擾。",
-      "美國聯準會 (Federal Reserve) 監管副主席 Michelle Bowman 於 2026 年 7 月 7 日表示，全球 AI 監管標準應根據銀行規模和風險程度進行調整，並發布金融穩定委員會 (Financial Stability Board, FSB) 的 AI 採用最佳實踐報告，鼓勵銀行就其 AI 使用案例提供反饋。",
-      "據 Eversheds Sutherland 合夥人兼前美國證券交易委員會 (SEC) 和金融業監管局 (FINRA) 執法官員 Brian Rubin 表示，金融服務業的 AI 執法行動已在形成，監管機構將運用現有法規（如監管、記錄保存、通訊要求）追究企業「AI 洗白」(AI washing) 和未經授權使用客戶數據等問題的責任。"
+      "OpenAI 宣布其先進的 GPT-5.6 系列模型（Sol、Terra、Luna）將於本週四全面向公眾發布，這些模型在通過政府安全評估後推出，其中 GPT-5.6 Sol 尤其擅長生物、化學和網路安全領域，預計將對 AI 能力與市場競爭格局產生重大影響。",
+      "據報導，亞馬遜網路服務 (AWS) 已通知供應鏈，將 2026 年第三季 Trainium 3 晶片伺服器的出貨目標上調 20% 至 30%，主要原因為預期來自 Anthropic 的訂單，此舉顯示大型雲端服務商對自研 AI 晶片的需求強勁，並可能牽動全球 AI 晶片供應鏈。",
+      "高盛報告指出，中國正加速全國算力網路建設，預計 2026 年相關基礎設施投資將達 7 兆人民幣，且國產 AI 加速晶片出貨量市佔率有望超過 50%，顯示中國在 AI 算力自主化方面投入巨大，將重塑全球 AI 晶片市場版圖。",
+      "英國金融行為監理總署 (FCA) 發布「米爾斯審查報告」(Mills Review)，建議將通用大型語言模型 (LLMs) 納入監管範圍，並強化對自主 AI 系統的監管，以應對 AI 在零售金融服務中日益增長的影響及潛在的系統性風險。",
+      "新加坡國營投資公司淡馬錫 (Temasek) 計劃在未來五年內將其 AI 投資佔比從目前的 6% 提高至 15%，加碼押注 OpenAI、Anthropic 和輝達 (Nvidia) 等 AI 領先企業。",
+      "據 Morgan Hedge 統計，高盈量化 (Gao Ying Quant) 旗下 Going Algo SP 2-Class M 基金截至 2026 年 5 月 31 日的近三年收益高達 222.94%，位居全球近萬家對沖基金第二名，凸顯 AI 驅動量化策略的顯著績效。",
+      "中國國家金融監督管理總局 (NFRA) 關於銀行保險業 AI 安全開發應用的指導意見，強調金融機構應將 AI 風險納入全面風險管理體系，並對信貸審批、資金交易等高風險 AI 應用場景實施準入管理及人工干預機制。"
     ]
   }
 }
