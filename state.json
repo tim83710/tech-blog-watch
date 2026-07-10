@@ -2260,19 +2260,30 @@
     "https://openai.com/index/gpt-5-6": "2026-07-10T00:06:35.290661+00:00",
     "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo": "2026-07-10T00:06:35.290661+00:00",
     "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale": "2026-07-10T00:06:35.290661+00:00",
-    "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data": "2026-07-10T00:06:35.290661+00:00"
+    "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data": "2026-07-10T00:06:35.290661+00:00",
+    "https://www.databricks.com/blog/agentic-marketing-stack-starts-data-layer": "2026-07-10T23:36:20.192174+00:00",
+    "https://www.databricks.com/blog/introducing-feature-views": "2026-07-10T23:36:20.192174+00:00",
+    "https://www.databricks.com/blog/ambulatory-intelligence-gap": "2026-07-10T23:36:20.192174+00:00",
+    "https://www.databricks.com/blog/ask-build-compose-what-our-5th-genie-hackathon-taught-us-about-databricks-genie": "2026-07-10T23:36:20.192174+00:00",
+    "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night": "2026-07-10T23:36:20.192174+00:00",
+    "https://openai.com/index/deutsche-telekom": "2026-07-10T23:36:20.192174+00:00",
+    "https://developer.nvidia.com/blog/reducing-high-bandwidth-memory-bottlenecks-in-jax-based-llm-training-with-host-offloading": "2026-07-10T23:36:20.192174+00:00",
+    "https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead": "2026-07-10T23:36:20.192174+00:00",
+    "https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design": "2026-07-10T23:36:20.192174+00:00",
+    "https://developer.nvidia.com/blog/accelerating-end-to-end-co-folding-performance-with-nvidia-bionemo-agent-toolkit": "2026-07-10T23:36:20.192174+00:00",
+    "https://huggingface.co/blog/torch-attention-profile": "2026-07-10T23:36:20.192174+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-09",
+    "date": "2026-07-10",
     "points": [
-      "SpaceXAI（前身為 xAI）於 7 月 8 日發布其首款聯名 AI 模型 Grok 4.5，並揭露以 600 億美元收購 AI 程式編輯工具開發商 Cursor，此模型定價策略顯著低於競爭對手，旨在以「效能接近、價格更低」搶攻企業開發者市場，預計將加劇大型語言模型 (LLM) 市場的競爭格局。",
-      "據路透報導，Meta 自研的 AI 晶片「Iris」預計將於 9 月由台積電代工生產，此舉顯示大型科技公司正積極透過客製化晶片提升 AI 運算能力並降低對外部供應商的依賴，預計將對 AI 晶片供應鏈及相關晶片設計服務商帶來影響。",
-      "美國銀行證券 (BofA Securities) 上調 Alphabet、亞馬遜 (Amazon) 及 Meta 等三大雲端服務供應商 (CSP) 今明兩年的資本支出預測，以支持其 AI 發展雄心，同時示警記憶體成本持續上漲及新一代 AI 模型對運算資源的龐大需求，將推升資料中心建置成本。",
-      "中國 AI 模型開發商 DeepSeek 據傳正研發自主 AI 推理晶片，並已與多家晶片設計、代工及儲存廠商接洽，此舉突顯 AI 企業為降低對外部供應商依賴並優化成本，正加速垂直整合至硬體層面，可能對現有 AI 晶片市場帶來新的競爭壓力。",
-      "歐洲央行 (ECB) 和歐洲系統性風險委員會 (ESRB) 警告，先進 AI 模型可能對金融系統構成系統性風險，要求 110 家銀行在 10 月底前提交網路安全應對計畫。英國金融行為監理總署 (FCA) 的「米爾斯審查報告」則建議加強對通用大型語言模型 (LLMs) 在金融諮詢中應用的監管，以應對詐欺、市場扭曲等風險。",
-      "德國保險巨頭安聯集團 (Allianz SE) 計劃在其子公司 Allianz Partners 裁減 1,500 至 1,800 個職位，主要集中在客服中心，以加速導入 AI 解決方案取代人工任務，顯示 AI 對金融業人力結構的實際影響。",
-      "據高盛 (Goldman Sachs) 報告，自 6 月 22 日以來，對沖基金因 AI 及動能交易逆轉而蒙受損失，其中基本面經理人正「積極減持」先前帶來全年 Alpha 的 AI 多頭部位，系統性基金也經歷了自 2025 年夏季以來最嚴重的跌幅，凸顯 AI 相關投資策略的市場波動與風險。",
-      "交易平台 eToro 發表全新 AI 優先行動應用程式，導入名為「Tori」的預測性 AI 代理，提供投資組合洞察與市場訊號。此外，還推出「代理驅動投資組合」，允許投資者建立或複製 AI 代理進行全天候交易，將 AI 代理應用推向零售投資市場。"
+      "蘋果 (Apple) 正式對 OpenAI 提起訴訟，指控其系統性竊取商業機密，同時傳出蘋果已轉向與 Google Gemini 合作，將其整合至 Siri 及 Apple Intelligence，此舉預計將大幅改變大型語言模型 (LLM) 市場的競爭格局與主要科技公司的策略聯盟。",
+      "OpenAI 於 7 月 9 日發布新一代 GPT-5.6 系列模型，包括旗艦款 Sol、以及主打性價比的 Terra 和 Luna，旨在鞏固其頂尖推理與程式設計地位，並透過價格策略回應市場競爭，同時更新 ChatGPT Work、Codex 整合桌面端及多 Agent 編排功能，顯示其正從純模型供應商轉型為「模型＋協作平台＋開發基礎設施」的全棧 AI 作業系統。",
+      "記憶體大廠 SK 海力士 (SK Hynix) 於 7 月 10 日透過美國存託憑證 (ADR) 在那斯達克募資約 265 億美元，創下海外企業在美國資本市場融資的歷史新高，資金將主要用於高頻寬記憶體 (HBM) 產能擴建、先進半導體封裝技術研發及美國晶片生產基地建設，此舉將有效緩解全球高端 AI 儲存晶片短缺問題，並強化其在 AI 半導體供應鏈的核心地位。",
+      "Meta 宣布投資 91 億美元在加拿大亞伯達省興建其美國境外規模最大的 AI 資料中心，預計消耗 1 GW 電力並將搭配一座專屬天然氣發電廠，這項大規模投資凸顯大型科技公司持續擴大 AI 基礎設施資本支出，並積極尋求獨立的能源解決方案以支持 AI 運算需求。",
+      "金融數據與分析服務商 FactSet 宣布與 Google Cloud 建立多面向策略夥伴關係，將 Google 的企業搜尋和 Gemini 模型功能嵌入 FactSet 的 Workstation，並透過 FactSet 的數據深化 Gemini Enterprise 的金融情報，旨在為金融業提供新一代 AI 驅動解決方案。",
+      "摩根大通 (JPMorgan Chase) 測試的 AI 代理在歷史模擬中表現優於傳統的 60/40 投資組合及該行既有的規則型市場機制模型，顯示 AI 在資產配置決策上具潛力，儘管結果基於歷史模擬而非實時交易。",
+      "歐洲央行 (ECB) 已要求其監管下的重要金融機構在 2026 年 10 月 31 日前提交應對前沿 AI 模型所帶來的網路安全威脅的全面行動計畫，此舉標誌著監管機構對資訊與通訊技術 (ICT) 韌性及網路風險管理期望的顯著提升。",
+      "據高盛 (Goldman Sachs) 報告，自 6 月 22 日以來，由於 AI 及動能交易逆轉，量化對沖基金經歷了自 2025 年夏季以來最嚴重的表現下滑，系統性基金損失約四分之一的年度回報，而基本面經理人也積極減持先前帶來全年 Alpha 的 AI 多頭部位。"
     ]
   }
 }
