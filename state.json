@@ -2253,18 +2253,26 @@
     "https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72": "2026-07-08T23:44:17.259788+00:00",
     "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance": "2026-07-08T23:44:17.259788+00:00",
     "https://huggingface.co/blog/nvidia/open-data-for-agents": "2026-07-08T23:44:17.259788+00:00",
-    "https://huggingface.co/blog/native-speed-vllm-transformers-backend": "2026-07-08T23:44:17.259788+00:00"
+    "https://huggingface.co/blog/native-speed-vllm-transformers-backend": "2026-07-08T23:44:17.259788+00:00",
+    "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot": "2026-07-10T00:06:35.290661+00:00",
+    "https://openai.com/index/chatgpt-for-your-most-ambitious-work": "2026-07-10T00:06:35.290661+00:00",
+    "https://openai.com/index/bio-bug-bounty": "2026-07-10T00:06:35.290661+00:00",
+    "https://openai.com/index/gpt-5-6": "2026-07-10T00:06:35.290661+00:00",
+    "https://developer.nvidia.com/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo": "2026-07-10T00:06:35.290661+00:00",
+    "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale": "2026-07-10T00:06:35.290661+00:00",
+    "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data": "2026-07-10T00:06:35.290661+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "points": [
-      "OpenAI 宣布其先進的 GPT-5.6 系列模型（Sol、Terra、Luna）將於本週四全面向公眾發布，這些模型在通過政府安全評估後推出，其中 GPT-5.6 Sol 尤其擅長生物、化學和網路安全領域，預計將對 AI 能力與市場競爭格局產生重大影響。",
-      "據報導，亞馬遜網路服務 (AWS) 已通知供應鏈，將 2026 年第三季 Trainium 3 晶片伺服器的出貨目標上調 20% 至 30%，主要原因為預期來自 Anthropic 的訂單，此舉顯示大型雲端服務商對自研 AI 晶片的需求強勁，並可能牽動全球 AI 晶片供應鏈。",
-      "高盛報告指出，中國正加速全國算力網路建設，預計 2026 年相關基礎設施投資將達 7 兆人民幣，且國產 AI 加速晶片出貨量市佔率有望超過 50%，顯示中國在 AI 算力自主化方面投入巨大，將重塑全球 AI 晶片市場版圖。",
-      "英國金融行為監理總署 (FCA) 發布「米爾斯審查報告」(Mills Review)，建議將通用大型語言模型 (LLMs) 納入監管範圍，並強化對自主 AI 系統的監管，以應對 AI 在零售金融服務中日益增長的影響及潛在的系統性風險。",
-      "新加坡國營投資公司淡馬錫 (Temasek) 計劃在未來五年內將其 AI 投資佔比從目前的 6% 提高至 15%，加碼押注 OpenAI、Anthropic 和輝達 (Nvidia) 等 AI 領先企業。",
-      "據 Morgan Hedge 統計，高盈量化 (Gao Ying Quant) 旗下 Going Algo SP 2-Class M 基金截至 2026 年 5 月 31 日的近三年收益高達 222.94%，位居全球近萬家對沖基金第二名，凸顯 AI 驅動量化策略的顯著績效。",
-      "中國國家金融監督管理總局 (NFRA) 關於銀行保險業 AI 安全開發應用的指導意見，強調金融機構應將 AI 風險納入全面風險管理體系，並對信貸審批、資金交易等高風險 AI 應用場景實施準入管理及人工干預機制。"
+      "SpaceXAI（前身為 xAI）於 7 月 8 日發布其首款聯名 AI 模型 Grok 4.5，並揭露以 600 億美元收購 AI 程式編輯工具開發商 Cursor，此模型定價策略顯著低於競爭對手，旨在以「效能接近、價格更低」搶攻企業開發者市場，預計將加劇大型語言模型 (LLM) 市場的競爭格局。",
+      "據路透報導，Meta 自研的 AI 晶片「Iris」預計將於 9 月由台積電代工生產，此舉顯示大型科技公司正積極透過客製化晶片提升 AI 運算能力並降低對外部供應商的依賴，預計將對 AI 晶片供應鏈及相關晶片設計服務商帶來影響。",
+      "美國銀行證券 (BofA Securities) 上調 Alphabet、亞馬遜 (Amazon) 及 Meta 等三大雲端服務供應商 (CSP) 今明兩年的資本支出預測，以支持其 AI 發展雄心，同時示警記憶體成本持續上漲及新一代 AI 模型對運算資源的龐大需求，將推升資料中心建置成本。",
+      "中國 AI 模型開發商 DeepSeek 據傳正研發自主 AI 推理晶片，並已與多家晶片設計、代工及儲存廠商接洽，此舉突顯 AI 企業為降低對外部供應商依賴並優化成本，正加速垂直整合至硬體層面，可能對現有 AI 晶片市場帶來新的競爭壓力。",
+      "歐洲央行 (ECB) 和歐洲系統性風險委員會 (ESRB) 警告，先進 AI 模型可能對金融系統構成系統性風險，要求 110 家銀行在 10 月底前提交網路安全應對計畫。英國金融行為監理總署 (FCA) 的「米爾斯審查報告」則建議加強對通用大型語言模型 (LLMs) 在金融諮詢中應用的監管，以應對詐欺、市場扭曲等風險。",
+      "德國保險巨頭安聯集團 (Allianz SE) 計劃在其子公司 Allianz Partners 裁減 1,500 至 1,800 個職位，主要集中在客服中心，以加速導入 AI 解決方案取代人工任務，顯示 AI 對金融業人力結構的實際影響。",
+      "據高盛 (Goldman Sachs) 報告，自 6 月 22 日以來，對沖基金因 AI 及動能交易逆轉而蒙受損失，其中基本面經理人正「積極減持」先前帶來全年 Alpha 的 AI 多頭部位，系統性基金也經歷了自 2025 年夏季以來最嚴重的跌幅，凸顯 AI 相關投資策略的市場波動與風險。",
+      "交易平台 eToro 發表全新 AI 優先行動應用程式，導入名為「Tori」的預測性 AI 代理，提供投資組合洞察與市場訊號。此外，還推出「代理驅動投資組合」，允許投資者建立或複製 AI 代理進行全天候交易，將 AI 代理應用推向零售投資市場。"
     ]
   }
 }
