@@ -2276,19 +2276,28 @@
     "https://www.databricks.com/blog/how-unity-catalog-managed-tables-bring-interoperability-performance-and-unified-governance": "2026-07-13T23:29:51.017409+00:00",
     "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail": "2026-07-13T23:29:51.017409+00:00",
     "https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x": "2026-07-13T23:29:51.017409+00:00",
-    "https://developer.nvidia.com/blog/extreme-event-likelihoods-with-guided-generative-models": "2026-07-13T23:29:51.017409+00:00"
+    "https://developer.nvidia.com/blog/extreme-event-likelihoods-with-guided-generative-models": "2026-07-13T23:29:51.017409+00:00",
+    "https://www.databricks.com/blog/take-insights-anywhere-genie-one-mobile": "2026-07-14T23:31:39.714208+00:00",
+    "https://www.databricks.com/blog/how-retail-finance-teams-are-using-agentic-ai-protect-omni-channel-margins": "2026-07-14T23:31:39.714208+00:00",
+    "https://www.databricks.com/blog/foundational-context-cross-industry-function-specific-accelerators-lakebase": "2026-07-14T23:31:39.714208+00:00",
+    "https://www.databricks.com/blog/blocking-slow-burn-attacks-contextual-policies-omnigent": "2026-07-14T23:31:39.714208+00:00",
+    "https://openai.com/index/managing-ai-investments-in-agentic-era": "2026-07-14T23:31:39.714208+00:00",
+    "https://developer.nvidia.com/blog/lessons-from-the-leaderboard-what-5000-kagglers-taught-us-about-improving-ai-reasoning": "2026-07-14T23:31:39.714208+00:00",
+    "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo": "2026-07-14T23:31:39.714208+00:00",
+    "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills": "2026-07-14T23:31:39.714208+00:00",
+    "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi": "2026-07-14T23:31:39.714208+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-13",
+    "date": "2026-07-14",
     "points": [
-      "蘋果 (Apple) 正式對 OpenAI 提起訴訟，指控其竊取未發表的技術與產品機密，並大量挖角前蘋果員工。此舉標誌著 AI 產業在人才與智慧財產權方面的競爭已白熱化，可能對兩家公司的戰略布局及業界人才流動產生深遠影響。",
-      "為滿足激增的 AI 晶片需求，三星電子 (Samsung Electronics) 計劃將其龍仁晶圓廠的營運時間提前兩年至 2029 年；英特爾 (Intel) 也宣布投資 57 億美元擴大愛爾蘭半導體產能，專注於 AI 系統處理器。此外，Meta 正與博通 (Broadcom) 合作開發自研 AI 晶片，顯示科技巨頭正透過垂直整合與戰略合作，強化 AI 算力自主性並確保供應鏈穩定。",
-      "主要 AI 模型廠商競爭白熱化，繼 OpenAI 推出 GPT-5.6 系列模型並展現其在多項測試中超越 Anthropic Claude Fable 5 的性能後，Google 預計本月中發布 Gemini 3.5 Pro，同樣宣稱性能優於 Claude Fable 5；SpaceXAI (xAI) 也已推出 1.5 兆參數的 Grok 4.5 模型，並預告 8 月將推出 2 兆參數版本。這顯示頂級 AI 模型市場的競爭持續升級，加速了對高效能算力的需求。",
-      "AI 基礎設施融資風險升溫，摩根大通 (JPMorgan Chase) 預估 2030 年 AI 基礎設施總花費將達 5.5 兆美元，其中 4.1 兆美元將來自債務融資。半導體研究機構 SemiAnalysis 更預測，到 2029 年全球 AI 相關未償債務可能突破 7 兆美元，並指出輝達 (Nvidia) 正透過為算力租賃商提供收入擔保，扮演「AI 領域中央銀行」的角色。這凸顯 AI 投資熱潮下的金融槓桿風險與輝達在產業融資結構中的關鍵地位。",
-      "美國主要銀行正積極部署自主 AI 代理 (agentic AI)，將其應用於財富管理、客戶審查、交易和財務等核心業務流程，例如摩根士丹利將測試數位助理以提供客戶建議，高盛與 Anthropic 合作開發交易代理，KPMG 調查顯示 51% 的銀行正在試點 AI 代理。",
-      "保險業正經歷 AI 帶來的雙重影響，一方面提高營運效率，另一方面也對保險代理人角色造成衝擊；同時，美國已有 25 個州採納全國保險專員協會 (NAIC) 的 AI 系統使用範本，並啟動 12 州試點計畫以評估 AI 系統，預計 2026 年底將推出第三方數據和 AI 模型監督指南。",
-      "英國保險科技公司 Optalitix 升級其 Optalitix Quote 平台，導入代理式 AI 功能，讓保險公司、再保險公司及 MGA 能透過自然語言與核保系統互動，旨在簡化工作流程、提高效率並減少培訓需求。",
-      "金融監管機構對 AI 發展表達擔憂，英國央行和歐洲央行等正密切關注若所有金融機構過度依賴相同的基礎模型、雲端供應商和 AI 代理，可能引發系統性風險及羊群效應；同時，美國金融犯罪專業人士中，有近四分之一希望監管先行，為 AI 創新設定明確規範。"
+      "Meta 公司宣布將其路易斯安那州的「Hyperion」資料中心投資額追加 400 億美元，使總投資達到 500 億美元，並將算力提升至 5 GW，此舉顯示科技巨頭正持續大規模投入 AI 基礎設施建設，以滿足其不斷增長的 AI 運算需求。",
+      "美國科技大廠 IBM 公布初步財報，預估第二季營收不如預期，主因客戶將資本支出轉向 AI 基礎設施（伺服器、儲存設備及記憶體），進而排擠對傳統軟體產品的支出，導致 IBM 股價盤前重挫 22%，凸顯 AI 基礎設施投資對科技業現有營收結構的排擠效應。",
+      "美光科技 (Micron Technology) 投資台灣矽晶圓大廠環球晶 (GlobalWafers)，以支持其在美國的矽晶圓製造，顯示 AI 算力供應鏈的瓶頸正從記憶體與邏輯晶片進一步向上游矽晶圓材料延伸，大型晶片製造商正積極確保關鍵原物料供應。",
+      "美國政府正研議一套針對開源 AI 模型發布的「能力分級」框架，可能以中國領先的開源 AI 模型能力作為參考基準，旨在平衡國家安全與 AI 產業競爭力，此政策方向可能影響未來先進 AI 模型的市場推出速度與競爭格局。",
+      "華爾街主要銀行正受惠於 AI 投資「超級週期」，推動交易與融資活動，帶來豐厚費用；例如美國銀行 (Bank of America) 自 2025 年以來已為 AI 相關公司籌集近 5,000 億美元，並向 OpenAI 提供了 5.2 億美元的信貸額度。",
+      "英國金融行為監理總署 (FCA) 發布 Mills Review，將 AI 視為 2030 年前金融服務的系統性變革驅動因素，並提出七項優先建議；國際金融穩定委員會 (FSB) 則發布了負責任 AI 採用的 12 項良好實踐諮詢報告，而國際證券委員會組織 (IOSCO) 也公布了資本市場 AI 使用的監管工具包最終報告，顯示全球金融監管機構對 AI 規範的行動正在加速。",
+      "美國聯邦貿易委員會 (FTC) 發布一份擬議政策聲明，警告 AI 開發商若為符合州法律而調整 AI 輸出，導致偏離準確性，可能構成消費者欺騙，這將直接影響金融服務公司在貸款、承保和客戶應用等領域使用 AI 工具的方式。",
+      "金融資料與指數商持續推出 AI 產品：彭博 (Bloomberg) 推出測試版對話式 AI 介面 ASKB，利用 AI 代理網路加速市場與公司研究；FactSet 則與 Google Cloud 合作，將其金融內容與 AI 基礎設施結合，提供代理式 AI 解決方案；倫敦證券交易所集團 (LSEG) 也持續推動 AI 產品，並與 Databricks 合作提供 AI 就緒數據。"
     ]
   }
 }
