@@ -2285,19 +2285,35 @@
     "https://developer.nvidia.com/blog/lessons-from-the-leaderboard-what-5000-kagglers-taught-us-about-improving-ai-reasoning": "2026-07-14T23:31:39.714208+00:00",
     "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo": "2026-07-14T23:31:39.714208+00:00",
     "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills": "2026-07-14T23:31:39.714208+00:00",
-    "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi": "2026-07-14T23:31:39.714208+00:00"
+    "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi": "2026-07-14T23:31:39.714208+00:00",
+    "https://www.databricks.com/blog/inkling-thinking-machines-lab-now-databricks": "2026-07-15T23:42:43.387367+00:00",
+    "https://www.databricks.com/blog/data-native-ai-agents-why-agents-must-move-your-data": "2026-07-15T23:42:43.387367+00:00",
+    "https://www.databricks.com/blog/ai-enabled-advisory-services-higher-education": "2026-07-15T23:42:43.387367+00:00",
+    "https://www.databricks.com/blog/ultra-fast-anomaly-detection-using-apache-spark-real-time-mode": "2026-07-15T23:42:43.387367+00:00",
+    "https://claude.com/blog/working-at-the-frontier-why-base44-trusts-claude-fable-5-with-their-most-challenging-engineering-work": "2026-07-15T23:42:43.387367+00:00",
+    "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action": "2026-07-15T23:42:43.387367+00:00",
+    "https://openai.com/index/unlocking-self-improvement-gpt-red": "2026-07-15T23:42:43.387367+00:00",
+    "https://developer.nvidia.com/blog/build-a-multi-camera-3d-tracking-application-with-nvidia-deepstream-9-1-skills": "2026-07-15T23:42:43.387367+00:00",
+    "https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents": "2026-07-15T23:42:43.387367+00:00",
+    "https://developer.nvidia.com/blog/building-faster-cryptography-with-carryless-multiplication-in-nvidia-cuda-13-3": "2026-07-15T23:42:43.387367+00:00",
+    "https://research.google/blog/towards-demystifying-the-creativity-of-diffusion-models": "2026-07-15T23:42:43.387367+00:00",
+    "https://huggingface.co/blog/allenai/shippy-tech-blog": "2026-07-15T23:42:43.387367+00:00",
+    "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt": "2026-07-15T23:42:43.387367+00:00",
+    "https://huggingface.co/blog/thinkingmachines-inkling": "2026-07-15T23:42:43.387367+00:00",
+    "https://huggingface.co/blog/real-world-voiceeq": "2026-07-15T23:42:43.387367+00:00",
+    "https://thinkingmachines.ai/news/introducing-inkling": "2026-07-15T23:42:43.387367+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-14",
+    "date": "2026-07-15",
     "points": [
-      "Meta 公司宣布將其路易斯安那州的「Hyperion」資料中心投資額追加 400 億美元，使總投資達到 500 億美元，並將算力提升至 5 GW，此舉顯示科技巨頭正持續大規模投入 AI 基礎設施建設，以滿足其不斷增長的 AI 運算需求。",
-      "美國科技大廠 IBM 公布初步財報，預估第二季營收不如預期，主因客戶將資本支出轉向 AI 基礎設施（伺服器、儲存設備及記憶體），進而排擠對傳統軟體產品的支出，導致 IBM 股價盤前重挫 22%，凸顯 AI 基礎設施投資對科技業現有營收結構的排擠效應。",
-      "美光科技 (Micron Technology) 投資台灣矽晶圓大廠環球晶 (GlobalWafers)，以支持其在美國的矽晶圓製造，顯示 AI 算力供應鏈的瓶頸正從記憶體與邏輯晶片進一步向上游矽晶圓材料延伸，大型晶片製造商正積極確保關鍵原物料供應。",
-      "美國政府正研議一套針對開源 AI 模型發布的「能力分級」框架，可能以中國領先的開源 AI 模型能力作為參考基準，旨在平衡國家安全與 AI 產業競爭力，此政策方向可能影響未來先進 AI 模型的市場推出速度與競爭格局。",
-      "華爾街主要銀行正受惠於 AI 投資「超級週期」，推動交易與融資活動，帶來豐厚費用；例如美國銀行 (Bank of America) 自 2025 年以來已為 AI 相關公司籌集近 5,000 億美元，並向 OpenAI 提供了 5.2 億美元的信貸額度。",
-      "英國金融行為監理總署 (FCA) 發布 Mills Review，將 AI 視為 2030 年前金融服務的系統性變革驅動因素，並提出七項優先建議；國際金融穩定委員會 (FSB) 則發布了負責任 AI 採用的 12 項良好實踐諮詢報告，而國際證券委員會組織 (IOSCO) 也公布了資本市場 AI 使用的監管工具包最終報告，顯示全球金融監管機構對 AI 規範的行動正在加速。",
-      "美國聯邦貿易委員會 (FTC) 發布一份擬議政策聲明，警告 AI 開發商若為符合州法律而調整 AI 輸出，導致偏離準確性，可能構成消費者欺騙，這將直接影響金融服務公司在貸款、承保和客戶應用等領域使用 AI 工具的方式。",
-      "金融資料與指數商持續推出 AI 產品：彭博 (Bloomberg) 推出測試版對話式 AI 介面 ASKB，利用 AI 代理網路加速市場與公司研究；FactSet 則與 Google Cloud 合作，將其金融內容與 AI 基礎設施結合，提供代理式 AI 解決方案；倫敦證券交易所集團 (LSEG) 也持續推動 AI 產品，並與 Databricks 合作提供 AI 就緒數據。"
+      "荷蘭半導體設備巨頭艾司摩爾 (ASML) 公布第二季財報優於預期，並大幅上調 2026 年營收指引，計劃提高 EUV 與浸沒式 DUV 產能約 30%，顯示 AI 算力基礎設施的投資需求正全面擴散。同時，台積電 (TSMC) 預計第二季營收將達 400 億美元創歷史新高，凸顯 AI 晶片需求強勁，而高頻寬記憶體 (HBM) 供應商 SK 海力士則面臨產能緊缺，預計 2027 年需求滿足率恐降至 60%，顯示 AI 晶片與記憶體供應鏈瓶頸持續。",
+      "美國紐約州州長簽署行政命令，對新建人工智慧 (AI) 資料中心實施為期最長一年的臨時禁令，以避免電費上漲及資源耗盡，此舉可能導致數十億美元的 AI 基礎設施投資轉向其他州，對 AI 算力佈局產生重大影響。",
+      "OpenAI 據報導正開發其首款硬體產品「AI 智慧音響」，定位為「AI 夥伴」，將以 GPT-Live 為核心驅動，並具備可自行動作的機械結構，標誌著其從軟體服務向實體 AI 產品的策略擴張。同時，蘋果 (Apple) 正與 AI 新創 PrismML 洽談，評估其能將大型 AI 模型大幅壓縮至可在 iPhone 上運行的技術，有望突破裝置端 AI 的記憶體與運算限制。",
+      "中國 AI 公司 DeepSeek 於 7 月 15 日正式上線 DeepSeek-V4 模型，首創峰谷分時計費模式以降低企業長期調用成本，並在數學、代碼能力上達到國產頂尖水準，同時深度適配華為昇騰晶片。此外，Anthropic 旗艦模型 Claude-Fable-5 因算力不足，將其按量付費版本的全面開放延期至 7 月 19 日，凸顯 AI 模型競爭與算力瓶頸的持續存在。",
+      "歐盟委員會發布關於高風險 AI 系統的最新指南，將《AI 法案》的合規挑戰轉化為品質工程問題，要求金融機構在 AI 系統部署前，更早地進行軟體測試、驗證和追溯。同時，印度儲備銀行 (RBI) 提出全面的模型風險管理規則草案，要求銀行建立涵蓋 AI/機器學習系統的董事會批准治理框架，並加強對第三方 AI 模型及面向客戶生成式 AI 應用的監督。國際證券委員會組織 (IOSCO) 也發布了資本市場 AI 使用的監管工具包，強調 AI 系統治理、監督、驗證及持續測試的重要性，顯示全球金融監管機構對 AI 規範的具體行動正在加速。",
+      "Visa 推出「AI 金融助理」(AI Financial Assistant) 新增值服務，旨在協助金融機構將 AI 驅動的對話式金融指導整合至其銀行應用程式中，為持卡人提供個人化建議，此舉顯示大型支付網路正積極將 AI 應用於銀行客戶服務，以提升用戶體驗並強化銀行與客戶的關係。",
+      "紐約梅隆銀行 (BNY Mellon) 公布其 AI 投資已產生「可衡量」的正面影響，過去一年員工人數減少 7%，並上調全年營收預期，顯示 AI 部署正為該行帶來顯著的營運效率提升與成本效益，對投資團隊判斷 AI 在金融業的實際落地成效具參考價值。",
+      "英國政府發布「金融服務 AI 採用計畫」(Financial Services AI Adoption Plan)，旨在加速 AI 在銀行和保險業的整合，並確保監管安全與經濟成長，該計畫將簡化監管框架、提升勞動力技能。同時，美國財政部也透過金融穩定監督委員會 (FSOC) 討論 AI 對金融穩定的影響，並啟動「金鷹」(Gold Eagle) 聯邦 AI 網路安全資訊交換中心，以協調 AI 開發商與關鍵服務提供者（包括金融機構）分享 AI 識別出的網路安全漏洞，共同應對潛在威脅。"
     ]
   }
 }
