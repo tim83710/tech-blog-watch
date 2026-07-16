@@ -2301,19 +2301,35 @@
     "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt": "2026-07-15T23:42:43.387367+00:00",
     "https://huggingface.co/blog/thinkingmachines-inkling": "2026-07-15T23:42:43.387367+00:00",
     "https://huggingface.co/blog/real-world-voiceeq": "2026-07-15T23:42:43.387367+00:00",
-    "https://thinkingmachines.ai/news/introducing-inkling": "2026-07-15T23:42:43.387367+00:00"
+    "https://thinkingmachines.ai/news/introducing-inkling": "2026-07-15T23:42:43.387367+00:00",
+    "https://www.databricks.com/blog/your-ai-ready-your-data-foundation-probably-isnt": "2026-07-16T23:47:03.134460+00:00",
+    "https://www.databricks.com/blog/skills-gap-behind-agentic-ai-and-how-databricks-closing-it-new-context-engineer-certification": "2026-07-16T23:47:03.134460+00:00",
+    "https://www.databricks.com/blog/what-happens-milliseconds-after-you-tap-pay": "2026-07-16T23:47:03.134460+00:00",
+    "https://www.databricks.com/blog/unified-context-missing-layer-enterprise-ai-coworkers": "2026-07-16T23:47:03.134460+00:00",
+    "https://www.databricks.com/blog/introducing-apache-spark-42": "2026-07-16T23:47:03.134460+00:00",
+    "https://claude.com/blog/ai-code-migration": "2026-07-16T23:47:03.134460+00:00",
+    "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork": "2026-07-16T23:47:03.134460+00:00",
+    "https://openai.com/index/why-teens-deserve-access-safe-ai": "2026-07-16T23:47:03.134460+00:00",
+    "https://openai.com/index/cars24": "2026-07-16T23:47:03.134460+00:00",
+    "https://developer.nvidia.com/blog/qa-how-capcom-brought-path-tracing-to-re-engine-across-pragmata-and-resident-evil-requiem": "2026-07-16T23:47:03.134460+00:00",
+    "https://developer.nvidia.com/blog/integrating-context-aware-video-ai-agents-into-enterprise-workflows": "2026-07-16T23:47:03.134460+00:00",
+    "https://developer.nvidia.com/blog/scaling-agentic-ai-factories-through-extreme-co-design-with-nvidia-bluefield": "2026-07-16T23:47:03.134460+00:00",
+    "https://deepmind.google/blog/our-approach-to-bioresilience": "2026-07-16T23:47:03.134460+00:00",
+    "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb": "2026-07-16T23:47:03.134460+00:00",
+    "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages": "2026-07-16T23:47:03.134460+00:00",
+    "https://huggingface.co/blog/security-incident-july-2026": "2026-07-16T23:47:03.134460+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-15",
+    "date": "2026-07-16",
     "points": [
-      "荷蘭半導體設備巨頭艾司摩爾 (ASML) 公布第二季財報優於預期，並大幅上調 2026 年營收指引，計劃提高 EUV 與浸沒式 DUV 產能約 30%，顯示 AI 算力基礎設施的投資需求正全面擴散。同時，台積電 (TSMC) 預計第二季營收將達 400 億美元創歷史新高，凸顯 AI 晶片需求強勁，而高頻寬記憶體 (HBM) 供應商 SK 海力士則面臨產能緊缺，預計 2027 年需求滿足率恐降至 60%，顯示 AI 晶片與記憶體供應鏈瓶頸持續。",
-      "美國紐約州州長簽署行政命令，對新建人工智慧 (AI) 資料中心實施為期最長一年的臨時禁令，以避免電費上漲及資源耗盡，此舉可能導致數十億美元的 AI 基礎設施投資轉向其他州，對 AI 算力佈局產生重大影響。",
-      "OpenAI 據報導正開發其首款硬體產品「AI 智慧音響」，定位為「AI 夥伴」，將以 GPT-Live 為核心驅動，並具備可自行動作的機械結構，標誌著其從軟體服務向實體 AI 產品的策略擴張。同時，蘋果 (Apple) 正與 AI 新創 PrismML 洽談，評估其能將大型 AI 模型大幅壓縮至可在 iPhone 上運行的技術，有望突破裝置端 AI 的記憶體與運算限制。",
-      "中國 AI 公司 DeepSeek 於 7 月 15 日正式上線 DeepSeek-V4 模型，首創峰谷分時計費模式以降低企業長期調用成本，並在數學、代碼能力上達到國產頂尖水準，同時深度適配華為昇騰晶片。此外，Anthropic 旗艦模型 Claude-Fable-5 因算力不足，將其按量付費版本的全面開放延期至 7 月 19 日，凸顯 AI 模型競爭與算力瓶頸的持續存在。",
-      "歐盟委員會發布關於高風險 AI 系統的最新指南，將《AI 法案》的合規挑戰轉化為品質工程問題，要求金融機構在 AI 系統部署前，更早地進行軟體測試、驗證和追溯。同時，印度儲備銀行 (RBI) 提出全面的模型風險管理規則草案，要求銀行建立涵蓋 AI/機器學習系統的董事會批准治理框架，並加強對第三方 AI 模型及面向客戶生成式 AI 應用的監督。國際證券委員會組織 (IOSCO) 也發布了資本市場 AI 使用的監管工具包，強調 AI 系統治理、監督、驗證及持續測試的重要性，顯示全球金融監管機構對 AI 規範的具體行動正在加速。",
-      "Visa 推出「AI 金融助理」(AI Financial Assistant) 新增值服務，旨在協助金融機構將 AI 驅動的對話式金融指導整合至其銀行應用程式中，為持卡人提供個人化建議，此舉顯示大型支付網路正積極將 AI 應用於銀行客戶服務，以提升用戶體驗並強化銀行與客戶的關係。",
-      "紐約梅隆銀行 (BNY Mellon) 公布其 AI 投資已產生「可衡量」的正面影響，過去一年員工人數減少 7%，並上調全年營收預期，顯示 AI 部署正為該行帶來顯著的營運效率提升與成本效益，對投資團隊判斷 AI 在金融業的實際落地成效具參考價值。",
-      "英國政府發布「金融服務 AI 採用計畫」(Financial Services AI Adoption Plan)，旨在加速 AI 在銀行和保險業的整合，並確保監管安全與經濟成長，該計畫將簡化監管框架、提升勞動力技能。同時，美國財政部也透過金融穩定監督委員會 (FSOC) 討論 AI 對金融穩定的影響，並啟動「金鷹」(Gold Eagle) 聯邦 AI 網路安全資訊交換中心，以協調 AI 開發商與關鍵服務提供者（包括金融機構）分享 AI 識別出的網路安全漏洞，共同應對潛在威脅。"
+      "台積電 (TSMC) 宣布將對其美國亞利桑那州的晶圓廠追加 1,000 億美元投資，使其在美國的總投資額達到 2,650 億美元，預計將新增約四座或更多涵蓋 2 奈米及以下先進製程與先進封裝的廠房，同時將本年度全球資本支出預算上調至 600 億至 640 億美元，顯示 AI 晶片需求持續強勁，並加速全球先進半導體供應鏈的在地化佈局。",
+      "Meta 大幅擴建其位於美國路易斯安那州的 Hyperion AI 資料中心，將總投資額提高至超過 500 億美元，運算能力將擴增至 5GW，並將由新建的天然氣發電廠供電，此舉凸顯大型科技公司對 AI 基礎設施的巨額投資承諾，以及 AI 算力對能源需求的龐大影響。",
+      "輝達 (NVIDIA) 與日本 Noetra 聯盟共同發表合作計畫，將在日本建立全球首個國家級 AI 基礎設施，一座 140MW 的「Rubin AI 工廠」，配備 27,500 顆 GPU，旨在訓練用於機器人、數位孿生和工業自動化的開放多模態基礎模型，並將預訓練權重廣泛分享給國內開發者，標誌著國家級 AI 算力主權與產業發展的重大進展。",
+      "AI 運算資產融資平台 USD.AI 與 BSQ Capital Partners 宣布成立合資企業，初步將在亞太地區投入 3 億美元提供以 GPU 為擔保的融資，目標客戶為 AI 運算基礎設施營運商，此舉旨在填補傳統銀行對高價值 GPU 設備融資的缺口，加速亞太地區 AI 算力基礎設施的建設。",
+      "避險基金近期因擁擠的 AI 相關交易遭遇挫折，導致量化 (quant) 及選股型 (stock-picking) 基金降低槓桿與風險敞口，但整體而言，避險基金仍持續看好 AI 相關投資，並更具選擇性地集中於半導體和 AI 基礎設施股票；部分中國避險基金在 AI 股獲利豐厚後，已開始減持部分 AI 贏家股票，顯示對估值風險的謹慎態度。",
+      "金融數據與分析提供商 FactSet 宣布與 Google Cloud 建立多面向策略夥伴關係，將 Gemini 模型整合至其 Workstation，以強化金融情報與工作流程，並在最新財報中指出 AI 採用是營收成長的驅動力。",
+      "指數與金融分析公司 MSCI 與 UBS 合作開發 AI 驅動的私募市場工具，旨在解決私募資產類別的數據碎片化和透明度不足問題，提升投資研究、盡職調查與投資組合管理效率。",
+      "美國財政部正式啟動「金鷹」(Gold Eagle) 聯邦 AI 網路安全資訊交換中心，旨在匯集政府與關鍵基礎設施產業（包括金融機構）的 AI 相關漏洞發現，並協調修復措施，以應對 AI 系統帶來的網路安全威脅。"
     ]
   }
 }
