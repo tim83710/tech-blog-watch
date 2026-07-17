@@ -18,6 +18,11 @@ settings:
   pulse_enabled: true   # 每日「AI 產業脈動」段落（Gemini Grounding with Google Search）
   finance_pulse_enabled: true   # 每日「金融×AI 脈動」段落（同樣走 grounding；每個啟用的段每天各花 1 次 grounded query）
   pulse_model: gemini-2.5-flash   # 脈動用的模型；3.5-flash 的 grounded query 在免費 key 上會 429，2.5 系列另有每日免費額度
+  github_weekly_enabled: true   # 每週「GitHub 專案」段（HN 高分 + GitHub Trending；非 grounded，用一般摘要模型）
+  github_weekly_weekday: 2      # 台北時間星期幾出（0=週一；2=週三）
+  github_weekly_top_n: 5        # 每次最多介紹幾個專案（上限不是目標）
+  github_hn_min_points: 100     # HN 候選的最低分數門檻
+  github_refeature_days: 14     # 介紹過的 repo 至少隔幾天、且有新 release 才會再出現
 
 # company：用於 email/Slack 標題的 [公司 News] 前綴；沒填就用 name。
 sources:
