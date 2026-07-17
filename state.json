@@ -2317,19 +2317,22 @@
     "https://deepmind.google/blog/our-approach-to-bioresilience": "2026-07-16T23:47:03.134460+00:00",
     "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb": "2026-07-16T23:47:03.134460+00:00",
     "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages": "2026-07-16T23:47:03.134460+00:00",
-    "https://huggingface.co/blog/security-incident-july-2026": "2026-07-16T23:47:03.134460+00:00"
+    "https://huggingface.co/blog/security-incident-july-2026": "2026-07-16T23:47:03.134460+00:00",
+    "https://www.databricks.com/blog/building-soccer-coaching-app-databricks": "2026-07-17T23:29:16.423079+00:00",
+    "https://www.databricks.com/blog/metas-spark-muse-11-now-available-databricks-fully-governed-unity-ai-gateway": "2026-07-17T23:29:16.423079+00:00",
+    "https://www.databricks.com/blog/experiment-insight-how-dotmatics-luma-and-databricks-make-ai-ready-science-reality": "2026-07-17T23:29:16.423079+00:00",
+    "https://claude.com/blog/working-at-the-frontier-cursor": "2026-07-17T23:29:16.423079+00:00",
+    "https://claude.com/blog/ciso-guide-to-agentic-ai": "2026-07-17T23:29:16.423079+00:00",
+    "https://openai.com/index/a-scorecard-for-the-ai-age": "2026-07-17T23:29:16.423079+00:00",
+    "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel": "2026-07-17T23:29:16.423079+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-16",
+    "date": "2026-07-18",
     "points": [
-      "台積電 (TSMC) 宣布將對其美國亞利桑那州的晶圓廠追加 1,000 億美元投資，使其在美國的總投資額達到 2,650 億美元，預計將新增約四座或更多涵蓋 2 奈米及以下先進製程與先進封裝的廠房，同時將本年度全球資本支出預算上調至 600 億至 640 億美元，顯示 AI 晶片需求持續強勁，並加速全球先進半導體供應鏈的在地化佈局。",
-      "Meta 大幅擴建其位於美國路易斯安那州的 Hyperion AI 資料中心，將總投資額提高至超過 500 億美元，運算能力將擴增至 5GW，並將由新建的天然氣發電廠供電，此舉凸顯大型科技公司對 AI 基礎設施的巨額投資承諾，以及 AI 算力對能源需求的龐大影響。",
-      "輝達 (NVIDIA) 與日本 Noetra 聯盟共同發表合作計畫，將在日本建立全球首個國家級 AI 基礎設施，一座 140MW 的「Rubin AI 工廠」，配備 27,500 顆 GPU，旨在訓練用於機器人、數位孿生和工業自動化的開放多模態基礎模型，並將預訓練權重廣泛分享給國內開發者，標誌著國家級 AI 算力主權與產業發展的重大進展。",
-      "AI 運算資產融資平台 USD.AI 與 BSQ Capital Partners 宣布成立合資企業，初步將在亞太地區投入 3 億美元提供以 GPU 為擔保的融資，目標客戶為 AI 運算基礎設施營運商，此舉旨在填補傳統銀行對高價值 GPU 設備融資的缺口，加速亞太地區 AI 算力基礎設施的建設。",
-      "避險基金近期因擁擠的 AI 相關交易遭遇挫折，導致量化 (quant) 及選股型 (stock-picking) 基金降低槓桿與風險敞口，但整體而言，避險基金仍持續看好 AI 相關投資，並更具選擇性地集中於半導體和 AI 基礎設施股票；部分中國避險基金在 AI 股獲利豐厚後，已開始減持部分 AI 贏家股票，顯示對估值風險的謹慎態度。",
-      "金融數據與分析提供商 FactSet 宣布與 Google Cloud 建立多面向策略夥伴關係，將 Gemini 模型整合至其 Workstation，以強化金融情報與工作流程，並在最新財報中指出 AI 採用是營收成長的驅動力。",
-      "指數與金融分析公司 MSCI 與 UBS 合作開發 AI 驅動的私募市場工具，旨在解決私募資產類別的數據碎片化和透明度不足問題，提升投資研究、盡職調查與投資組合管理效率。",
-      "美國財政部正式啟動「金鷹」(Gold Eagle) 聯邦 AI 網路安全資訊交換中心，旨在匯集政府與關鍵基礎設施產業（包括金融機構）的 AI 相關漏洞發現，並協調修復措施，以應對 AI 系統帶來的網路安全威脅。"
+      "中國人工智慧新創公司月之暗面 (Moonshot AI) 於世界人工智慧大會 (WAIC 2026) 期間發布新一代大模型 Kimi K3，參數規模達 2.8 兆，號稱是全球目前參數最大的開源模型，其性能在多項評測中已接近或超越美國 Anthropic 的 Fable 和 OpenAI 的 GPT-5.5 等前沿模型，原生支援視覺理解並具備 100 萬詞元上下文窗口，顯示中國在開源大模型領域的技術實力正快速提升，對全球 AI 競爭格局產生重大影響。",
+      "荷蘭半導體設備巨頭艾司摩爾 (ASML) 年內第二次上調 2026 年銷售預期，並宣布未來兩年將把極紫外光 (EUV) 設備產能提高 30%，以滿足客戶對先進 AI 晶片製造設備「極為強勁」的需求，此舉有助於緩解市場對 AI 晶片生產瓶頸的擔憂，並預示 AI 基礎設施投資熱潮將持續。",
+      "中國晶片業者 DFSX 發表 AI 加速器 DF1000，採用 14 奈米製程並導入 3D DRAM、混合鍵合 (Hybrid Bonding) 及近記憶體運算技術，旨在透過本土供應鏈與新型記憶體架構，降低中國 AI 產業對海外高頻寬記憶體 (HBM) 及先進製程的依賴，此為在地化 AI 晶片供應鏈發展的重大進展。",
+      "據報導，人工智慧新創公司 Anthropic 正與 Meta 洽談租用其運算資源，交易規模可能高達 100 億美元，以緩解 GPU 短缺危機，凸顯大型 AI 模型開發對算力的龐大需求，以及主要 AI 參與者為確保運算資源而建立戰略聯盟的趨勢。"
     ]
   }
 }
