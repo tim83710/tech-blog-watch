@@ -13,13 +13,17 @@ import os
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import yaml
 
 import fetch
+import github_watch
 import notify
 import pulse
 import summarize
+
+TAIPEI = ZoneInfo("Asia/Taipei")
 
 ROOT = Path(__file__).resolve().parent
 SOURCES_PATH = ROOT / "sources.yaml"
@@ -118,11 +122,34 @@ def _generate_pulses(client, model: str, date_str: str, state: dict, settings: d
 
 
 def _remember_pulses(state: dict, pulses: list[dict], date_str: str) -> None:
-    """把本次脈動列點記進 state，明天的 48 小時窗口靠它去重；本次沒產出就保留昨日的。"""
-    if not pulses:
-        return
-    points = [p for pu in pulses for p in pu.get("points", []) if "無重大新動態" not in p]
-    state["last_pulse"] = {"date": date_str, "points": points}
+    """把本次脈動列點記進 state，明天的 48 小時窗口靠它去重；本次沒產出就保留昨日的。
+
+    GitHub 週段（kind == "github"）不進 last_pulse（跟 grounded 脈動的去重無關），
+    改把 repo_updates 合併進 state["github_repos"]，供下次「介紹過就不重覆」判斷。
+    """
+    grounded = [pu for pu in pulses if pu.get("kind") != "github"]
+    if grounded:
+        points = [p for pu in grounded for p in pu.get("points", []) if "無重大新動態" not in p]
+        state["last_pulse"] = {"date": date_str, "points": points}
+    for pu in pulses:
+        if pu.get("kind") == "github" and pu.get("repo_updates"):
+            state.setdefault("github_repos", {}).update(pu["repo_updates"])
+
+
+def _maybe_github_weekly(client, model: str, settings: dict, state: dict,
+                         date_str: str, force: bool = False) -> dict | None:
+    """每週固定一天（台北時間，預設週三）產生 GitHub 專案段；失敗絕不影響 digest。"""
+    if not settings.get("github_weekly_enabled"):
+        return None
+    weekday = settings.get("github_weekly_weekday", 2)  # 0=週一
+    if datetime.now(TAIPEI).weekday() != weekday and not force:
+        return None
+    print("  本週 GitHub 專案 …")
+    try:
+        return github_watch.generate_weekly(client, model, settings, state, date_str)
+    except Exception as e:
+        print(f"  [warn] GitHub 週段生成失敗（不影響 digest）: {e}")
+        return None
 
 
 def _print_pulses(pulses: list[dict]) -> None:
@@ -163,6 +190,8 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true",
                     help="只印不發、不寫 state（每個啟用的脈動段仍會實際打 1 次 grounded 查詢）")
     ap.add_argument("--seed", action="store_true", help="只標記已看過、不摘要不發送")
+    ap.add_argument("--force-github", action="store_true",
+                    help="不管今天星期幾都跑 GitHub 週段（測試用）")
     args = ap.parse_args()
 
     _load_dotenv()
@@ -209,18 +238,25 @@ def main() -> int:
         print("[error] 缺 GEMINI_API_KEY（本機放 .env、雲端放 GitHub secret）")
         return 1
     client = summarize.make_client(api_key)
-    date_str = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d")
+    # 用台北時間標日期（Actions runner 是 UTC，22:30 UTC 跑的時候台北已是隔天早上）
+    date_str = datetime.now(TAIPEI).strftime("%Y-%m-%d")
 
     new_items = pick_new(candidates, state, settings)
     print(f"== 新文章：{len(new_items)} 篇 ==")
 
     pulses: list[dict] = []
+    can_send = args.dry_run or notify.any_channel_configured()
     if pulse.enabled_sections(settings):
-        if args.dry_run or notify.any_channel_configured():
+        if can_send:
             print("== 脈動段 ==")
             pulses = _generate_pulses(client, pulse_model, date_str, state, settings)
         else:
             print("  [skip] 無任何發送管道設定，略過脈動段（不花 grounded 額度）")
+    if can_send:
+        gh = _maybe_github_weekly(client, model, settings, state, date_str,
+                                  force=args.force_github)
+        if gh:
+            pulses.append(gh)
 
     # 沒有新文章：有脈動就單獨發，沒有就跟過去一樣安靜結束
     if not new_items:
