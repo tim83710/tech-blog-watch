@@ -2333,20 +2333,38 @@
     "https://openai.com/index/safety-alignment-long-horizon-models": "2026-07-20T23:38:15.327916+00:00",
     "https://developer.nvidia.com/blog/nvidia-nvlink-the-scale-up-network-for-ai-factories": "2026-07-20T23:38:15.327916+00:00",
     "https://developer.nvidia.com/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps": "2026-07-20T23:38:15.327916+00:00",
-    "https://huggingface.co/blog/nvidia/cosmos3edge": "2026-07-20T23:38:15.327916+00:00"
+    "https://huggingface.co/blog/nvidia/cosmos3edge": "2026-07-20T23:38:15.327916+00:00",
+    "https://www.databricks.com/blog/simplify-ai-agent-orchestration-lakebase-postgres": "2026-07-22T23:43:16.659860+00:00",
+    "https://www.databricks.com/blog/last-mile-first-party-data-great-marketing": "2026-07-22T23:43:16.659860+00:00",
+    "https://www.databricks.com/blog/how-dow-built-carbon-footprint-ledger-databricks-accelerate-sustainability-scale": "2026-07-22T23:43:16.659860+00:00",
+    "https://www.databricks.com/blog/why-rd-data-belongs-lakehouse-and-why-agents-need-it-there": "2026-07-22T23:43:16.659860+00:00",
+    "https://www.databricks.com/blog/announcing-public-preview-discover-and-domains-powered-unity-catalog": "2026-07-22T23:43:16.659860+00:00",
+    "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills": "2026-07-22T23:43:16.659860+00:00",
+    "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude": "2026-07-22T23:43:16.659860+00:00",
+    "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle": "2026-07-22T23:43:16.659860+00:00",
+    "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code": "2026-07-22T23:43:16.659860+00:00",
+    "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community": "2026-07-22T23:43:16.659860+00:00",
+    "https://openai.com/index/how-news-organizations-are-using-ai": "2026-07-22T23:43:16.659860+00:00",
+    "https://openai.com/index/advancing-the-next-era-of-national-science": "2026-07-22T23:43:16.659860+00:00",
+    "https://openai.com/index/introducing-openai-presence": "2026-07-22T23:43:16.659860+00:00",
+    "https://openai.com/index/introducing-chatgpt-small-business-program": "2026-07-22T23:43:16.659860+00:00",
+    "https://openai.com/index/hugging-face-model-evaluation-security-incident": "2026-07-22T23:43:16.659860+00:00",
+    "https://developers.openai.com/blog/custom-code-review-rules-for-codex": "2026-07-22T23:43:16.659860+00:00",
+    "https://developer.nvidia.com/blog/make-long-running-nvidia-tensorrt-engine-builds-observable-and-cancelable-in-python-or-c": "2026-07-22T23:43:16.659860+00:00",
+    "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai": "2026-07-22T23:43:16.659860+00:00",
+    "https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai": "2026-07-22T23:43:16.659860+00:00",
+    "https://developer.nvidia.com/blog/setting-a-world-record-for-moe-pre-training-on-nvidia-gb300-nvl72": "2026-07-22T23:43:16.659860+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-21",
+    "date": "2026-07-23",
     "points": [
-      "中國 AI 新創「月之暗面」(Moonshot AI) 的 Kimi K3 模型因需求量超乎預期，導致算力吃緊並暫停新用戶訂閱，同時傳出公司正籌備赴香港上市並尋求新一輪融資，估值可能超過 300 億美元，顯示其模型影響力與資金市場的強勁興趣。",
-      "台積電 (TSMC) 宣布將進一步投資 1,000 億美元擴建其亞利桑那州設施，使總投資額達到 2,650 億美元，以滿足 AI 晶片多年期的強勁需求，此舉將顯著提升全球 AI 晶片製造產能。",
-      "英國新創 CuspAI 完成 4.5 億美元 B 輪融資，估值達 26 億美元，投資者包括 Jeff Bezos 的基金；該公司同時啟動「AI 材料鑄造廠」(AI Materials Foundry) 聯盟，與 NVIDIA、Meta 等 48 家科技巨頭合作，旨在運用 AI 加速半導體製造新材料的發現，以解決晶片供應鏈瓶頸。",
-      "摩根士丹利 (Morgan Stanley) 報告警示，全球 AI 相關債務在數年內暴增 357%，預計 2026 年 AI 債券發行總額將突破 5,700 億美元，這可能導致科技巨頭將財務壓力轉嫁至台灣供應鏈，延長付款週期。",
-      "對沖基金因人工智慧 (AI) 和科技股擁擠交易反轉，經歷近一年來最艱難的交易時期，量化基金今年迄今收益回吐約四分之一，從 14.4% 降至 10.8%；同時，基本面股票對沖基金也蒙受損失，並積極減持 AI 相關部位，導致整體對沖基金槓桿率降至一年來最低點，顯示市場對 AI 相關資產的投資情緒出現顯著轉變。",
-      "中國 AI 量化基金遭受重創：DeepSeek 創辦人梁文鋒旗下的浙江高毅資產管理公司，其追蹤中證 1000 指數的量化基金在截至 7 月 17 日的一週內暴跌 15.7%；漢  न्ट投資管理公司類似策略的基金也估計損失 16.1%，主因中國 AI 和半導體股票的急劇拋售，導致中證 1000 指數下跌超過 12%。",
-      "美國主要銀行受惠於 AI 投資熱潮：美國五大銀行 (摩根大通、美國銀行、高盛、富國銀行、花旗集團) 第二季度合計實現創紀錄的 490 億美元利潤，部分歸因於 AI 繁榮及 AI 相關交易和基礎設施升級帶來的投資銀行費用增加。摩根士丹利超越高盛成為 AI 債務交易的領先銀行，預計 2026 年全球 AI 相關債務發行額將接近 5,700 億美元。",
-      "美國銀行 (Bank of America) 揭露 AI 落地成效：執行長 Brian Moynihan 表示，超過 20 萬名員工使用 AI 輔助功能，每天產生逾 40 萬個提示 (prompts)，該銀行已核准超過 300 個 AI 用例，其中 114 個為生成式 AI 用例，並有 34 個已全面部署於銀行營運中。",
-      "花旗集團 (Citigroup) 策略師宣告「七巨頭」AI 投資框架終結，建議轉向更廣泛的「成長集群」：花旗策略師 Scott Chronert 團隊認為，隨著 AI 投資邏輯從概念炒作轉向利潤驗證，七巨頭內部表現已嚴重分化，投資者應關注涵蓋標普 500 指數一半市值、貢獻近半數收益的「成長集群」，以把握 AI 軍備競賽下半場的真正成長動能。"
+      "超微 (AMD) 推出首款 AI 機架系統 Helios，並獲得微軟、Meta、OpenAI 等大廠宣布採用或部署計畫，直接挑戰輝達 (NVIDIA) 在 AI 資料中心的霸主地位；同時，超微將對 AI 新創 Anthropic 投資高達 50 億美元，並促使其採購超微最新 Instinct MI450 晶片及 Helios 解決方案，強化其在 AI 晶片市場的競爭力。",
+      "OpenAI 大幅上修其算力支出預估，計畫在 2030 年底前投入 7,500 億美元（較先前預估增加 1,500 億美元），並宣布將在美國喬治亞州投資超過 300 億美元建設大型 AI 資料中心，預計 2028 年起分階段啟用，以滿足其模型發展的龐大算力需求。",
+      "據報導，台積電 (TSMC) 計畫自 2027 年起調高晶圓代工價格，漲幅最高達 10%，涵蓋先進與成熟製程，此舉旨在抵銷原物料、設備及海外建廠成本上升，將影響全球 AI 晶片供應鏈的成本結構。",
+      "除了月之暗面 (Moonshot AI)，至少還有 DeepSeek 等共計六家中國 AI 模型新創公司正籌備於 2027 年底前在上海或香港上市，尋求數十億美元融資以支持模型開發、算力基礎設施及人才招募，顯示中國 AI 產業在資本市場的活躍度及擴張野心。",
+      "由貝萊德全球基礎設施合作夥伴 (BlackRock's Global Infrastructure Partners, GIP) 和人工智慧基礎設施合作夥伴 (Artificial Intelligence Infrastructure Partnership, AIP) 組成的財團，已完成對 Aligned Data Centers 的收購，交易企業價值約 400 億美元，此為數位基礎設施領域迄今最大規模的私人投資之一，顯示大型金融機構對支援 AI 發展的基礎設施投入巨額資金。AIP 目標動員 300 億美元股權資本，並有望將總投資額（含債務融資）提升至 1,000 億美元，以加速下一代 AI 基礎設施的發展。",
+      "加拿大宏利金融 (Manulife) 擴大與微軟的合作夥伴關係，將 Microsoft 365 Copilot 推廣至超過 30,000 名員工，並部署 Microsoft Agent 365。宏利開發人員透過 AI 輔助功能，生產力提升了 30%，顯示 AI 在大型金融服務機構中的實際落地成效與效率提升。",
+      "據報導，三星電子正洽談向法國人工智慧新創公司 Mistral 投資約 10 億美元，此為其更大一輪融資的一部分，可能使 Mistral 估值達到約 200 億歐元（約 230 億美元），凸顯主要科技巨頭對領先 AI 模型開發商的強勁資金流向。"
     ]
   }
 }
