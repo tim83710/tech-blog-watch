@@ -2353,18 +2353,60 @@
     "https://developer.nvidia.com/blog/make-long-running-nvidia-tensorrt-engine-builds-observable-and-cancelable-in-python-or-c": "2026-07-22T23:43:16.659860+00:00",
     "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai": "2026-07-22T23:43:16.659860+00:00",
     "https://developer.nvidia.com/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai": "2026-07-22T23:43:16.659860+00:00",
-    "https://developer.nvidia.com/blog/setting-a-world-record-for-moe-pre-training-on-nvidia-gb300-nvl72": "2026-07-22T23:43:16.659860+00:00"
+    "https://developer.nvidia.com/blog/setting-a-world-record-for-moe-pre-training-on-nvidia-gb300-nvl72": "2026-07-22T23:43:16.659860+00:00",
+    "https://www.databricks.com/blog/how-fda-built-ai-platform-85-its-staff-now-use-daily": "2026-07-23T23:41:15.623937+00:00",
+    "https://www.databricks.com/blog/permission-isnt-purpose-intent-based-authorization-omnigent": "2026-07-23T23:41:15.623937+00:00",
+    "https://www.databricks.com/blog/provisioning-agentic-era-how-databricks-built-self-serve-infrastructure-vending-machine": "2026-07-23T23:41:15.623937+00:00",
+    "https://www.databricks.com/blog/why-frontier-data-agent-outperforms-general-coding-agents-quality-and-cost": "2026-07-23T23:41:15.623937+00:00",
+    "https://www.databricks.com/blog/connect-amazon-s3-data-databricks-delegated-iam-permissions": "2026-07-23T23:41:15.623937+00:00",
+    "https://www.databricks.com/blog/introducing-ai-spend-controls-unity-ai-gateway": "2026-07-23T23:41:15.623937+00:00",
+    "https://claude.com/blog/think-through-hard-problems-in-voice-mode": "2026-07-23T23:41:15.623937+00:00",
+    "https://openai.com/index/health-in-chatgpt": "2026-07-23T23:41:15.623937+00:00",
+    "https://openai.com/index/ntt-data": "2026-07-23T23:41:15.623937+00:00",
+    "https://openai.com/index/david-velez-robin-vince-join-openai-boards": "2026-07-23T23:41:15.623937+00:00",
+    "https://developer.nvidia.com/blog/debugging-ray-tracing-applications-using-nvidia-optix-toolkit": "2026-07-23T23:41:15.623937+00:00",
+    "https://developer.nvidia.com/blog/start-customizing-nvidia-nemotron-3-nano-with-prime-intellect-lab-in-minutes": "2026-07-23T23:41:15.623937+00:00",
+    "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment": "2026-07-23T23:41:15.623937+00:00",
+    "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors": "2026-07-23T23:41:15.623937+00:00",
+    "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission": "2026-07-23T23:41:15.623937+00:00",
+    "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber": "2026-07-23T23:41:15.623937+00:00",
+    "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber": "2026-07-23T23:41:15.623937+00:00",
+    "https://huggingface.co/blog/nunchaku-diffusers": "2026-07-23T23:41:15.623937+00:00",
+    "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai": "2026-07-23T23:41:15.623937+00:00",
+    "https://huggingface.co/blog/grabette": "2026-07-23T23:41:15.623937+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-23",
+    "date": "2026-07-24",
     "points": [
-      "超微 (AMD) 推出首款 AI 機架系統 Helios，並獲得微軟、Meta、OpenAI 等大廠宣布採用或部署計畫，直接挑戰輝達 (NVIDIA) 在 AI 資料中心的霸主地位；同時，超微將對 AI 新創 Anthropic 投資高達 50 億美元，並促使其採購超微最新 Instinct MI450 晶片及 Helios 解決方案，強化其在 AI 晶片市場的競爭力。",
-      "OpenAI 大幅上修其算力支出預估，計畫在 2030 年底前投入 7,500 億美元（較先前預估增加 1,500 億美元），並宣布將在美國喬治亞州投資超過 300 億美元建設大型 AI 資料中心，預計 2028 年起分階段啟用，以滿足其模型發展的龐大算力需求。",
-      "據報導，台積電 (TSMC) 計畫自 2027 年起調高晶圓代工價格，漲幅最高達 10%，涵蓋先進與成熟製程，此舉旨在抵銷原物料、設備及海外建廠成本上升，將影響全球 AI 晶片供應鏈的成本結構。",
-      "除了月之暗面 (Moonshot AI)，至少還有 DeepSeek 等共計六家中國 AI 模型新創公司正籌備於 2027 年底前在上海或香港上市，尋求數十億美元融資以支持模型開發、算力基礎設施及人才招募，顯示中國 AI 產業在資本市場的活躍度及擴張野心。",
-      "由貝萊德全球基礎設施合作夥伴 (BlackRock's Global Infrastructure Partners, GIP) 和人工智慧基礎設施合作夥伴 (Artificial Intelligence Infrastructure Partnership, AIP) 組成的財團，已完成對 Aligned Data Centers 的收購，交易企業價值約 400 億美元，此為數位基礎設施領域迄今最大規模的私人投資之一，顯示大型金融機構對支援 AI 發展的基礎設施投入巨額資金。AIP 目標動員 300 億美元股權資本，並有望將總投資額（含債務融資）提升至 1,000 億美元，以加速下一代 AI 基礎設施的發展。",
-      "加拿大宏利金融 (Manulife) 擴大與微軟的合作夥伴關係，將 Microsoft 365 Copilot 推廣至超過 30,000 名員工，並部署 Microsoft Agent 365。宏利開發人員透過 AI 輔助功能，生產力提升了 30%，顯示 AI 在大型金融服務機構中的實際落地成效與效率提升。",
-      "據報導，三星電子正洽談向法國人工智慧新創公司 Mistral 投資約 10 億美元，此為其更大一輪融資的一部分，可能使 Mistral 估值達到約 200 億歐元（約 230 億美元），凸顯主要科技巨頭對領先 AI 模型開發商的強勁資金流向。"
+      "中國 AI 新創月之暗面 (Moonshot AI) 旗下大型語言模型 Kimi K3 成功在 48 小時內自主完成晶片設計流程，無需傳統電子設計自動化 (EDA) 工具，此舉導致益華電腦 (Cadence) 和新思科技 (Synopsys) 股價下跌，並引發市場對 AI 晶片設計未來格局的重新評估；Kimi K3 發布後需求遠超預期，導致伺服器算力滿載並暫停新用戶訂閱，同時月之暗面正尋求香港上市批准，估值可能超過 300 億美元。",
+      "中國 AI 開發商 Z.AI (前身為智譜) 成功建成並部分啟用一個完全採用中國國產晶片的 1 吉瓦 (gigawatt) 資料中心，用於訓練其 GLM 系列 AI 模型，此舉提振了市場對中國本土半導體供應鏈的信心，並帶動相關 AI 晶片股上漲。",
+      "特斯拉 (Tesla) 第二季財報顯示，受其在 AI 和機器人技術（如 Robotaxi 和 Optimus）方面加速投入的巨額資本支出影響，公司獲利不及預期並出現負自由現金流，凸顯了大型科技公司在 AI 基礎設施建設上的龐大開銷及其對短期財務表現的壓力。",
+      "據報導，2026 年第一季至少有 75 個價值約 1,300 億美元的 AI 資料中心項目因當地社區反對而被阻礙或延遲，顯示 AI 基礎設施擴建正遭遇日益增長的社會阻力，開發商需將社區支持成本納入考量。",
+      "美國主要銀行在 2026 年第二季財報電話會議中，揭示 AI 導入的顯著進展與成效；其中，美國銀行 (Bank of America) 執行長 Brian Moynihan 表示，超過 20 萬名員工使用 AI 相關功能，每日產生逾 40 萬個提示，並有 34 個 AI 應用案例已全面部署，有效提升財務顧問生產力。同時，美國五大銀行（摩根大通、美國銀行、高盛、富國銀行、花旗集團）第二季合計獲利達 490 億美元，部分歸因於 AI 熱潮帶動的投資銀行業務費用增長。",
+      "專注於抵押貸款領域的 AI 語音平台新創 Flair Labs 宣布完成 400 萬美元募資，將用於擴展其 AI 語音平台，並已在 West Capital Lending 部署，一個月內處理超過 4.4 萬筆抵押貸款潛在客戶，成功產生 1,788 個合格客戶轉介。",
+      "據市場數據顯示，AI 交易工具在加密貨幣市場的採用率年增超過 40%，股票市場自動化交易系統使用率上升約 28%，且 70% 的受訪加密貨幣交易者表示願意讓 AI 自主管理其投資組合，顯示 AI 在交易策略中的實際應用與資金流向顯著增加。"
     ]
+  },
+  "github_repos": {
+    "marcelroed/gigatoken": {
+      "repo": "marcelroed/gigatoken",
+      "last_featured": "2026-07-24",
+      "summary": "比 HuggingFace 官方快達 1000 倍的極速 Rust 語言模型 Tokenizer"
+    },
+    "tirth8205/code-review-graph": {
+      "repo": "tirth8205/code-review-graph",
+      "last_featured": "2026-07-24",
+      "summary": "基於 Tree-sitter 與 MCP 的本地優先代碼智能圖譜，大幅減少 AI 閱讀上下文的 Token 消耗"
+    },
+    "nutlope/hallmark": {
+      "repo": "Nutlope/hallmark",
+      "last_featured": "2026-07-24",
+      "summary": "專為 Claude Code 與 Cursor 設計的「反 AI 罐頭感」網頁 UI 設計技能工具"
+    },
+    "moonshotai/kimi-code": {
+      "repo": "MoonshotAI/kimi-code",
+      "last_featured": "2026-07-24",
+      "summary": "Moonshot AI 推出的高效能終端機 AI Coding Agent CLI"
+    }
   }
 }
