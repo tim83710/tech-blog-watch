@@ -18,6 +18,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 25       # 任一步驟卡住就 25 分鐘收工，不再佔滿 6h 上限被強制取消
     steps:
       - uses: actions/checkout@v4
 
@@ -31,6 +32,7 @@ jobs:
 
       - name: Run tech-blog-watch
         env:
+          PYTHONUNBUFFERED: "1"   # 不緩衝 stdout：萬一卡住，log 也能看到卡在哪一步
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}   # 選填：不設就用 sources.yaml 的預設
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

@@ -138,11 +138,14 @@ def _remember_pulses(state: dict, pulses: list[dict], date_str: str) -> None:
 
 def _maybe_github_weekly(client, model: str, settings: dict, state: dict,
                          date_str: str, force: bool = False) -> dict | None:
-    """每週固定一天（台北時間，預設週三）產生 GitHub 專案段；失敗絕不影響 digest。"""
+    """每週固定幾天（台北時間，預設週二、週五）產生 GitHub 專案段；失敗絕不影響 digest。"""
     if not settings.get("github_weekly_enabled"):
         return None
-    weekday = settings.get("github_weekly_weekday", 2)  # 0=週一
-    if datetime.now(TAIPEI).weekday() != weekday and not force:
+    # 允許多天：github_weekly_weekdays 為 list（0=週一）；沿用舊的單數 github_weekly_weekday 也可
+    weekdays = settings.get("github_weekly_weekdays")
+    if weekdays is None:
+        weekdays = [settings.get("github_weekly_weekday", 2)]
+    if datetime.now(TAIPEI).weekday() not in weekdays and not force:
         return None
     print("  本週 GitHub 專案 …")
     try:

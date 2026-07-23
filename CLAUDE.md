@@ -38,7 +38,7 @@
 - **無 RSS 的來源**（Databricks、Anthropic、OpenAI Developers）走 scrape，靠 `sources.yaml` 的 `link_pattern` 從列表頁挑文章連結；對方改版時 pattern 可能要調。
 - **cron 是 UTC**：`30 22 * * *` = 隔天台北 06:30。（GitHub 排程 best-effort，尖峰常延遲數小時，實際到信會晚於此。）
 - **改 workflow 或 secrets 後**，下一次排程或手動 `workflow_dispatch` 才生效。
-- **GitHub 週段**：只在**台北時間週三**跑（`github_weekly_weekday`，Tim 週三比較會完整看信；gating 用 `ZoneInfo("Asia/Taipei")`，別用 runner 的 UTC）。介紹過的 repo 記在 `state.json` 的 `github_repos`；重覆出現的條件是「隔 `github_refeature_days` 天以上**且**之後有新 GitHub Release」，沒發正式 Release 的 repo 不會重覆。GitHub API（README/release）走 `GITHUB_TOKEN`（Actions 自動提供，workflow 已帶入；本機沒 token 也能跑、只是限流 60 次/hr）。測試用 `--force-github`（模型呼叫非 grounded、不吃 grounded 額度）。
+- **GitHub 週段**：只在特定**台北時間**星期跑（`github_weekly_weekdays`，list，0=週一；目前 `[1, 4]`＝週二、週五；也相容舊的單數 `github_weekly_weekday`。gating 用 `ZoneInfo("Asia/Taipei")`，別用 runner 的 UTC）。介紹過的 repo 記在 `state.json` 的 `github_repos`；重覆出現的條件是「隔 `github_refeature_days` 天以上**且**之後有新 GitHub Release」，沒發正式 Release 的 repo 不會重覆。GitHub API（README/release）走 `GITHUB_TOKEN`（Actions 自動提供，workflow 已帶入；本機沒 token 也能跑、只是限流 60 次/hr）。測試用 `--force-github`（模型呼叫非 grounded、不吃 grounded 額度）。
 - **脈動段（pulse）**：現有兩段——「AI 產業脈動」與「金融×AI 脈動」，各自獨立生成、每天各花 1 次 grounded query（dry-run 也一樣，目前 2 段=2 次）。Gemini Grounding with Google Search **不可**與 `response_schema` 併用（citations 會空），所以走純文字輸出、prompt 要求每行一點、程式再切列點。**grounded query 的免費額度依模型系列而異**：實測 `gemini-3.5-flash` 帶 `google_search` 在免費 key 上直接 429（要計費），所以 `pulse_model` 固定用 `gemini-2.5-flash`（每日免費額度）；一般摘要不受影響。模型偶爾不搜尋就作答 → pulse.py 會加強提示重試一次，仍無佐證就標 `grounded: false`。窗口是 48 小時（吃排程延遲的保險），靠 state.json 的 `last_pulse` 餵昨日列點給 prompt 去重。任一段失敗不會擋文章 digest、也不會擋另一段。
 
 ## 跑法
