@@ -2373,18 +2373,24 @@
     "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber": "2026-07-23T23:41:15.623937+00:00",
     "https://huggingface.co/blog/nunchaku-diffusers": "2026-07-23T23:41:15.623937+00:00",
     "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai": "2026-07-23T23:41:15.623937+00:00",
-    "https://huggingface.co/blog/grabette": "2026-07-23T23:41:15.623937+00:00"
+    "https://huggingface.co/blog/grabette": "2026-07-23T23:41:15.623937+00:00",
+    "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them": "2026-07-24T23:37:19.511272+00:00",
+    "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models": "2026-07-24T23:37:19.511272+00:00",
+    "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case": "2026-07-24T23:37:19.511272+00:00",
+    "https://claude.com/blog/four-role-based-claude-certifications": "2026-07-24T23:37:19.511272+00:00",
+    "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light": "2026-07-24T23:37:19.511272+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-24",
+    "date": "2026-07-25",
     "points": [
-      "中國 AI 新創月之暗面 (Moonshot AI) 旗下大型語言模型 Kimi K3 成功在 48 小時內自主完成晶片設計流程，無需傳統電子設計自動化 (EDA) 工具，此舉導致益華電腦 (Cadence) 和新思科技 (Synopsys) 股價下跌，並引發市場對 AI 晶片設計未來格局的重新評估；Kimi K3 發布後需求遠超預期，導致伺服器算力滿載並暫停新用戶訂閱，同時月之暗面正尋求香港上市批准，估值可能超過 300 億美元。",
-      "中國 AI 開發商 Z.AI (前身為智譜) 成功建成並部分啟用一個完全採用中國國產晶片的 1 吉瓦 (gigawatt) 資料中心，用於訓練其 GLM 系列 AI 模型，此舉提振了市場對中國本土半導體供應鏈的信心，並帶動相關 AI 晶片股上漲。",
-      "特斯拉 (Tesla) 第二季財報顯示，受其在 AI 和機器人技術（如 Robotaxi 和 Optimus）方面加速投入的巨額資本支出影響，公司獲利不及預期並出現負自由現金流，凸顯了大型科技公司在 AI 基礎設施建設上的龐大開銷及其對短期財務表現的壓力。",
-      "據報導，2026 年第一季至少有 75 個價值約 1,300 億美元的 AI 資料中心項目因當地社區反對而被阻礙或延遲，顯示 AI 基礎設施擴建正遭遇日益增長的社會阻力，開發商需將社區支持成本納入考量。",
-      "美國主要銀行在 2026 年第二季財報電話會議中，揭示 AI 導入的顯著進展與成效；其中，美國銀行 (Bank of America) 執行長 Brian Moynihan 表示，超過 20 萬名員工使用 AI 相關功能，每日產生逾 40 萬個提示，並有 34 個 AI 應用案例已全面部署，有效提升財務顧問生產力。同時，美國五大銀行（摩根大通、美國銀行、高盛、富國銀行、花旗集團）第二季合計獲利達 490 億美元，部分歸因於 AI 熱潮帶動的投資銀行業務費用增長。",
-      "專注於抵押貸款領域的 AI 語音平台新創 Flair Labs 宣布完成 400 萬美元募資，將用於擴展其 AI 語音平台，並已在 West Capital Lending 部署，一個月內處理超過 4.4 萬筆抵押貸款潛在客戶，成功產生 1,788 個合格客戶轉介。",
-      "據市場數據顯示，AI 交易工具在加密貨幣市場的採用率年增超過 40%，股票市場自動化交易系統使用率上升約 28%，且 70% 的受訪加密貨幣交易者表示願意讓 AI 自主管理其投資組合，顯示 AI 在交易策略中的實際應用與資金流向顯著增加。"
+      "超微 (AMD) 發表新一代 AI 晶片與伺服器產品，推出 MI400 系列 AI 加速器及 Helios 伺服器機架設計，並宣稱多項產品性能將超越競爭對手輝達 (NVIDIA)，此舉直接挑戰輝達在 AI 算力市場的主導地位，預示 AI 硬體競爭將進一步加劇。",
+      "知名人工智慧新創 Anthropic 推出全新模型 Claude Opus 5，該模型在整體智力表現上已逼近其頂尖前沿模型 Claude Fable 5，但使用價格卻減半，成為 Claude Max 的新預設模型，此舉大幅提升大型語言模型的成本效益，可能加劇市場競爭壓力。",
+      "據報導，OpenAI 大幅上修其算力資本支出預期，將 2030 年前的總投入上調至 7,500 億美元，並宣布啟動「Project Camellia」計畫，將在美國喬治亞州投資逾 300 億美元自主設計並建設一座電力容量達 3.2 吉瓦 (gigawatt) 的超大型資料中心，凸顯 AI 基礎設施軍備競賽的規模空前。",
+      "Meta 位於德州艾爾帕索、用電容量接近 1 吉瓦的 AI 資料中心正籌措至少 120 億美元資金，債券殖利率初步討論已超過 7%，較去年同期 Meta 完成的資料中心融資案高出約 0.4 個百分點，反映債券市場對 AI 基礎設施巨額投資的風險補償要求正在提高。",
+      "華爾街銀行已開始為博通 (Broadcom Inc.) 和 Anthropic PBC 的 AI 基礎設施擴張，啟動 350 億美元的 AI 晶片融資方案銀團貸款，此為有史以來最大的私人信貸交易，由美國銀行 (Bank of America) 和摩根士丹利 (Morgan Stanley) 等銀行參與。",
+      "新加坡主權財富基金 GIC 計劃在未來三年內，額外投資 300 億美元於對沖基金，並擴大其在 AI 領域的投資機會，以應對市場波動並調整投資組合。",
+      "麥肯錫 (McKinsey) 報告指出，AI 驅動的轉型已使保險業的客戶 onboarding 成本降低 20% 至 40%，代理人生產力提高 10% 至 20%，有望打破該產業長達二十年的成長停滯。",
+      "根據 Tricentis 研究，64% 的金融服務公司因 AI 驅動的開發速度而發布未經測試的程式碼，導致軟體品質不佳，部分公司每年因此損失超過 74.4 萬英鎊，凸顯了快速採用 AI 所帶來的營運風險與成本。"
     ]
   },
   "github_repos": {
