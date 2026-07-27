@@ -2378,18 +2378,25 @@
     "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models": "2026-07-24T23:37:19.511272+00:00",
     "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case": "2026-07-24T23:37:19.511272+00:00",
     "https://claude.com/blog/four-role-based-claude-certifications": "2026-07-24T23:37:19.511272+00:00",
-    "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light": "2026-07-24T23:37:19.511272+00:00"
+    "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light": "2026-07-24T23:37:19.511272+00:00",
+    "https://www.databricks.com/blog/eu-digital-product-passport-traceability-deadline": "2026-07-27T23:40:32.093568+00:00",
+    "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work": "2026-07-27T23:40:32.093568+00:00",
+    "https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning": "2026-07-27T23:40:32.093568+00:00",
+    "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance": "2026-07-27T23:40:32.093568+00:00",
+    "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding": "2026-07-27T23:40:32.093568+00:00",
+    "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing": "2026-07-27T23:40:32.093568+00:00",
+    "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber": "2026-07-27T23:40:32.093568+00:00",
+    "https://huggingface.co/blog/nvidia/cosmos-h-dreams": "2026-07-27T23:40:32.093568+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-27",
+    "date": "2026-07-28",
     "points": [
-      "輝達 (NVIDIA) 執行長黃仁勳表示，AI 基礎建設熱潮仍處於初期階段，晶片產業短期內不會不景氣，預計未來十年將壯大五至十倍，此番樂觀言論旨在緩解市場對 AI 泡沫化的擔憂，並提振半導體及 AI 基礎設施相關投資信心。",
-      "由於預算超支及投資報酬率不如預期，美國企業正從大量投入 AI 轉向嚴格的成本控管，部分公司開始採用更具成本效益的中國平價 AI 模型，此趨勢可能重塑全球 AI 產業版圖，並對 Anthropic 和 OpenAI 等頂級模型開發商的估值構成挑戰。",
-      "市場傳出台達電 (Delta Electronics) 已與德國功率半導體巨頭英飛凌 (Infineon) 簽訂總金額達 650 億新台幣（約 20 億美元）的碳化矽 (SiC) 供貨長約，此舉被視為台達電在輝達 AI 電力架構（400VDC、800VDC）訂單上取得關鍵突破，顯示 AI 資料中心高壓供電解決方案的需求正加速成長。",
-      "超微 (AMD) 董事長暨執行長蘇姿丰預估，到 2030 年資料中心 AI 加速器市場規模將達到約 1.4 兆美元，較去年預估的 5,000 億美元大幅上修，反映代理式 AI (Agentic AI) 和推論 (inference) 工作負載的快速增長，將持續推動 AI 硬體市場的龐大成長潛力。",
-      "由於利用 AI 進行證券詐騙活動日益增多，包括仿冒應用程式、虛假量化交易及 AI 薦股詐騙，多家券商（如銀河證券、國盛證券等）已密集發布風險提示，凸顯金融業在 AI 應用下所面臨的新型風險格局，並促使業界加強投資者教育與防範措施。",
-      "OIP Insurtech 推出 Document Intelligence AI 平台，將保險業的合規審查時間縮短高達 80%，並將營運成本降低 30%，顯示 AI 在保險文件處理和合規流程中實現了具體的落地成效與顯著的效率提升。",
-      "穆迪 (Moody's) 報告指出，面對日益嚴峻的詐欺和金融犯罪挑戰（66% 的歐洲銀行將其列為挑戰），歐洲銀行正增加對 AI 驅動的篩選工具投資，以強化風險管理和合規能力，這反映了 AI 在金融業風險控制領域的資金流向與實際應用。"
+      "美國 AI 資料中心投資面臨新瓶頸：儘管 AI 資料中心投資推動相關耐用品訂單激增，但美國各地對資料中心開發的當地反對聲浪日益升高，一項蓋洛普調查顯示 71% 的民眾反對在其社區興建 AI 資料中心，這使得取得營運許可、政治核准及地方支持成為 AI 基礎設施擴建的新挑戰，可能導致成本增加並延緩部署進程。",
+      "韓國與美國的 AI 半導體合作細節澄清：韓國總統訪美期間宣布的 9,500 億美元 AI 半導體合作案，經分析後發現其可信度存在差異。其中，SK 集團的 7,500 億美元部分與供應商營收規模相符，但三星與博通 (Broadcom) 的 2,000 億美元交易，則被評估為合作規模估值而非實際採購金額，因其與買方成本規模不符，這對投資團隊理解大型合作案的實際影響至關重要。",
+      "Ameriprise Financial 宣布每年投入 10 億美元於科技，其中 AI 為核心，並指出採用 AI 洞察工具的顧問已實現「淨新增資產流量的顯著提升」，同時將 AI 應用於詐欺預防、語音認證及加速服務解決方案。",
+      "日本軟銀集團為投資 OpenAI 所發起的 400 億美元過渡貸款，已吸引 21 家金融機構參與，合計承接約 70 億美元額度，其中包括阿布達比第一銀行、新加坡政府投資公司及渣打銀行，並有部分歐洲、日本及台灣銀行加入。",
+      "太平洋投資管理公司 (Pimco) 正謹慎進入 AI 基礎設施融資領域，主導私募交易條款，以應對高盛預計超大規模雲端服務商到 2030 年將在 AI 和資料中心投入超過 5.3 兆美元的趨勢。",
+      "浦東新區金融科技創新推介會上，中國銀聯國家人工智能應用中試基地（金融領域）發布「1+6+N」系列成果，包含 11 個模型、14 個資料集及 59 個示範應用，涵蓋智能支付、普惠金融、消費拉動、風控合規及質效提升等領域，標誌著金融 AI 邁入「合規先行、有序落地」的新階段。"
     ]
   },
   "github_repos": {
@@ -2412,6 +2419,31 @@
       "repo": "MoonshotAI/kimi-code",
       "last_featured": "2026-07-24",
       "summary": "Moonshot AI 推出的高效能終端機 AI Coding Agent CLI"
+    },
+    "moonshotai/kimi-k3": {
+      "repo": "MoonshotAI/Kimi-K3",
+      "last_featured": "2026-07-28",
+      "summary": "月之暗面開源的 2.8T 參數原生多模態 MoE 模型，專為長程編碼與複雜推理設計。"
+    },
+    "vercel-labs/scriptc": {
+      "repo": "vercel-labs/scriptc",
+      "last_featured": "2026-07-28",
+      "summary": "Vercel 推出的 TypeScript 原生編譯器，無需 JavaScript 引擎即可編譯出輕量、極速的二進位檔。"
+    },
+    "slvdev/esp32-ai": {
+      "repo": "slvDev/esp32-ai",
+      "last_featured": "2026-07-28",
+      "summary": "在僅需 8 美元的 ESP32-S3 微控制器上，完全本地運行 28.9M 參數的 LLM。"
+    },
+    "janestreet/incremental": {
+      "repo": "janestreet/incremental",
+      "last_featured": "2026-07-28",
+      "summary": "Jane Street 開源的漸進式計算庫，用於構建能隨輸入變化而高效更新的複雜計算。"
+    },
+    "ayghri/i-have-adhd": {
+      "repo": "ayghri/i-have-adhd",
+      "last_featured": "2026-07-28",
+      "summary": "為 Claude Code 等 coding agent 設計的輸出優化外掛，強制其生成無廢話、行動導向的簡潔回覆。"
     }
   }
 }
