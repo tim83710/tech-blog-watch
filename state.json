@@ -2386,17 +2386,28 @@
     "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding": "2026-07-27T23:40:32.093568+00:00",
     "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing": "2026-07-27T23:40:32.093568+00:00",
     "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber": "2026-07-27T23:40:32.093568+00:00",
-    "https://huggingface.co/blog/nvidia/cosmos-h-dreams": "2026-07-27T23:40:32.093568+00:00"
+    "https://huggingface.co/blog/nvidia/cosmos-h-dreams": "2026-07-27T23:40:32.093568+00:00",
+    "https://www.databricks.com/blog/how-northstar-anesthesia-built-scheduling-app-workforce-3000-clinicians-weeks": "2026-07-28T23:43:35.103784+00:00",
+    "https://www.databricks.com/blog/prototype-production-high-qps-databricks-ai-search": "2026-07-28T23:43:35.103784+00:00",
+    "https://www.databricks.com/blog/how-databricks-manages-its-own-coding-agent-spend-unity-ai-gateway-budgets": "2026-07-28T23:43:35.103784+00:00",
+    "https://www.databricks.com/blog/get-started-genie-one-top-ai-cowork-use-cases-business-users": "2026-07-28T23:43:35.103784+00:00",
+    "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude": "2026-07-28T23:43:35.103784+00:00",
+    "https://openai.com/index/scientific-computing-agentic-ai": "2026-07-28T23:43:35.103784+00:00",
+    "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation": "2026-07-28T23:43:35.103784+00:00",
+    "https://huggingface.co/blog/allenai/olmoearth-infrastructure": "2026-07-28T23:43:35.103784+00:00",
+    "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders": "2026-07-28T23:43:35.103784+00:00",
+    "https://huggingface.co/blog/agent-intrusion-technical-timeline": "2026-07-28T23:43:35.103784+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "points": [
-      "美國 AI 資料中心投資面臨新瓶頸：儘管 AI 資料中心投資推動相關耐用品訂單激增，但美國各地對資料中心開發的當地反對聲浪日益升高，一項蓋洛普調查顯示 71% 的民眾反對在其社區興建 AI 資料中心，這使得取得營運許可、政治核准及地方支持成為 AI 基礎設施擴建的新挑戰，可能導致成本增加並延緩部署進程。",
-      "韓國與美國的 AI 半導體合作細節澄清：韓國總統訪美期間宣布的 9,500 億美元 AI 半導體合作案，經分析後發現其可信度存在差異。其中，SK 集團的 7,500 億美元部分與供應商營收規模相符，但三星與博通 (Broadcom) 的 2,000 億美元交易，則被評估為合作規模估值而非實際採購金額，因其與買方成本規模不符，這對投資團隊理解大型合作案的實際影響至關重要。",
-      "Ameriprise Financial 宣布每年投入 10 億美元於科技，其中 AI 為核心，並指出採用 AI 洞察工具的顧問已實現「淨新增資產流量的顯著提升」，同時將 AI 應用於詐欺預防、語音認證及加速服務解決方案。",
-      "日本軟銀集團為投資 OpenAI 所發起的 400 億美元過渡貸款，已吸引 21 家金融機構參與，合計承接約 70 億美元額度，其中包括阿布達比第一銀行、新加坡政府投資公司及渣打銀行，並有部分歐洲、日本及台灣銀行加入。",
-      "太平洋投資管理公司 (Pimco) 正謹慎進入 AI 基礎設施融資領域，主導私募交易條款，以應對高盛預計超大規模雲端服務商到 2030 年將在 AI 和資料中心投入超過 5.3 兆美元的趨勢。",
-      "浦東新區金融科技創新推介會上，中國銀聯國家人工智能應用中試基地（金融領域）發布「1+6+N」系列成果，包含 11 個模型、14 個資料集及 59 個示範應用，涵蓋智能支付、普惠金融、消費拉動、風控合規及質效提升等領域，標誌著金融 AI 邁入「合規先行、有序落地」的新階段。"
+      "中國月之暗面 (Moonshot AI) 的 Kimi K3 模型發布後，其開源權重於 7 月 27 日開放，並因用戶需求超載而暫停 C 端新用戶訂閱，同時該模型展現了在 48 小時內自主設計功能性半導體晶片的能力，對全球 AI 模型競爭格局及電子設計自動化 (EDA) 市場構成重大影響。",
+      "據報導，NVIDIA 正洽談為 OpenAI 的資料中心建設計畫提供高達 2,500 億美元的融資擔保，此舉引發市場對「循環融資」的擔憂，並導致 AI 硬體相關股票普遍下跌。",
+      "以色列資料安全獨角獸 Cyera 宣布以 10 億美元收購當地 AI 代理安全新創 Oasis Security，此交易旨在強化其資料安全平台，以應對企業快速整合 AI 代理所帶來的非人類身份管理與安全風險。",
+      "Microchip Technology 同意收購以色列邊緣 AI 晶片新創 Hailo，儘管交易條款未披露，但 Hailo 此前已募資 3.44 億美元，此戰略性收購將顯著擴展 Microchip 在快速成長的邊緣 AI 晶片市場的能力。",
+      "匯豐銀行 (HSBC) 與 Google Cloud 宣布建立為期多年的 AI 合作夥伴關係，預計在未來兩年內產生超過 200 個新的 AI 使用案例，每個專案預計可帶來超過 1 億美元的營收增長或效率提升。",
+      "德勤 (Deloitte) 與 Google Cloud 在倫敦成立 AI 工作室，專注於代理式 AI (agentic AI)，旨在協助英國企業將 AI 應用從試點階段推進到生產級自主系統的實際部署。",
+      "美國金融機構正進入軟體交付的新階段，積極利用 AI 輔助開發來現代化舊有系統並加速開發流程，同時強調確保軟體安全、可維護性及控制的重要性。"
     ]
   },
   "github_repos": {
