@@ -2396,18 +2396,26 @@
     "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation": "2026-07-28T23:43:35.103784+00:00",
     "https://huggingface.co/blog/allenai/olmoearth-infrastructure": "2026-07-28T23:43:35.103784+00:00",
     "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders": "2026-07-28T23:43:35.103784+00:00",
-    "https://huggingface.co/blog/agent-intrusion-technical-timeline": "2026-07-28T23:43:35.103784+00:00"
+    "https://huggingface.co/blog/agent-intrusion-technical-timeline": "2026-07-28T23:43:35.103784+00:00",
+    "https://www.databricks.com/blog/quality-care-mission-finance-protects-margin": "2026-07-29T23:36:45.500668+00:00",
+    "https://www.databricks.com/blog/energy-runs-volatile-markets-finance-protects-margin": "2026-07-29T23:36:45.500668+00:00",
+    "https://www.databricks.com/blog/manufacturing-runs-capital-finance-protects-margin": "2026-07-29T23:36:45.500668+00:00",
+    "https://www.databricks.com/blog/bringing-real-time-fraud-prevention-government-benefits": "2026-07-29T23:36:45.500668+00:00",
+    "https://www.databricks.com/blog/agents-production-lines-trusted-decisions-real-time": "2026-07-29T23:36:45.500668+00:00",
+    "https://www.databricks.com/blog/how-agentic-ai-can-help-telecom-finance-teams-protect-margin-when-every-moment-matters": "2026-07-29T23:36:45.500668+00:00",
+    "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores": "2026-07-29T23:36:45.500668+00:00",
+    "https://openai.com/index/chatgpt-for-academic-researchers": "2026-07-29T23:36:45.500668+00:00",
+    "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency": "2026-07-29T23:36:45.500668+00:00",
+    "https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails": "2026-07-29T23:36:45.500668+00:00",
+    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control": "2026-07-29T23:36:45.500668+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-29",
+    "date": "2026-07-30",
     "points": [
-      "中國月之暗面 (Moonshot AI) 的 Kimi K3 模型發布後，其開源權重於 7 月 27 日開放，並因用戶需求超載而暫停 C 端新用戶訂閱，同時該模型展現了在 48 小時內自主設計功能性半導體晶片的能力，對全球 AI 模型競爭格局及電子設計自動化 (EDA) 市場構成重大影響。",
-      "據報導，NVIDIA 正洽談為 OpenAI 的資料中心建設計畫提供高達 2,500 億美元的融資擔保，此舉引發市場對「循環融資」的擔憂，並導致 AI 硬體相關股票普遍下跌。",
-      "以色列資料安全獨角獸 Cyera 宣布以 10 億美元收購當地 AI 代理安全新創 Oasis Security，此交易旨在強化其資料安全平台，以應對企業快速整合 AI 代理所帶來的非人類身份管理與安全風險。",
-      "Microchip Technology 同意收購以色列邊緣 AI 晶片新創 Hailo，儘管交易條款未披露，但 Hailo 此前已募資 3.44 億美元，此戰略性收購將顯著擴展 Microchip 在快速成長的邊緣 AI 晶片市場的能力。",
-      "匯豐銀行 (HSBC) 與 Google Cloud 宣布建立為期多年的 AI 合作夥伴關係，預計在未來兩年內產生超過 200 個新的 AI 使用案例，每個專案預計可帶來超過 1 億美元的營收增長或效率提升。",
-      "德勤 (Deloitte) 與 Google Cloud 在倫敦成立 AI 工作室，專注於代理式 AI (agentic AI)，旨在協助英國企業將 AI 應用從試點階段推進到生產級自主系統的實際部署。",
-      "美國金融機構正進入軟體交付的新階段，積極利用 AI 輔助開發來現代化舊有系統並加速開發流程，同時強調確保軟體安全、可維護性及控制的重要性。"
+      "全球資本市場因對 AI 基礎設施投資成本和「循環融資」的擔憂加劇，導致 AI 晶片股普遍重挫，NVIDIA 股價下跌，蘋果市值一度超越輝達重回全球第一；此波市場修正也受到 Meta 傳出將開放剩餘 AI 算力服務的影響，促使投資人重新評估 AI 產業的真實需求與估值。",
+      "中國 AI 產業展現重大進展，月之暗面 (Moonshot AI) 的 Kimi K3 模型開源後，已完成逾 35 億美元的 F 輪融資，投前估值達 500 億美元，並獲中國多家算力廠商火速適配；同時，據報導中國已開始量產浸沒式深紫外線 (DUV) 曝光設備，突破西方技術限制，對全球半導體供應鏈及 AI 競爭格局構成衝擊。",
+      "OpenAI 宣布啟動「ChatGPT 學術研究人員計畫」，將於 2027 年前向全球 10 萬名學術研究人員免費開放其前沿 AI 模型（包括 GPT-5.6 Sol Pro）使用權限，旨在加速 AI 科學研究與生態發展。",
+      "資誠聯合會計師事務所 (PwC) 報告指出，2026 年全球併購交易總額預計將達 4 兆美元，主要由 AI 驅動的大型交易主導，交易金額逾 50 億美元的案件佔總額近半，顯示資本正加速流向具備規模優勢和 AI 基礎設施需求的標的，形成「K 型分化」的併購市場格局。"
     ]
   },
   "github_repos": {
