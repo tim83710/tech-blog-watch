@@ -2407,15 +2407,30 @@
     "https://openai.com/index/chatgpt-for-academic-researchers": "2026-07-29T23:36:45.500668+00:00",
     "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency": "2026-07-29T23:36:45.500668+00:00",
     "https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails": "2026-07-29T23:36:45.500668+00:00",
-    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control": "2026-07-29T23:36:45.500668+00:00"
+    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control": "2026-07-29T23:36:45.500668+00:00",
+    "https://www.databricks.com/blog/foundations-ai-forward-healthcare-organization": "2026-07-30T23:39:25.927940+00:00",
+    "https://www.databricks.com/blog/agentic-media-buying-cannot-scale-without-right-foundation-see-how-buyers-and-sellers-get": "2026-07-30T23:39:25.927940+00:00",
+    "https://www.databricks.com/blog/convert-proprietary-code-open-ansi-sql-genie-code": "2026-07-30T23:39:25.927940+00:00",
+    "https://www.databricks.com/blog/nbcuniversals-seamless-migration-unlocking-scalable-analytics-databricks": "2026-07-30T23:39:25.927940+00:00",
+    "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6": "2026-07-30T23:39:25.927940+00:00",
+    "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python": "2026-07-30T23:39:25.927940+00:00",
+    "https://developer.nvidia.com/blog/four-ways-to-deploy-more-secure-ai-agents": "2026-07-30T23:39:25.927940+00:00",
+    "https://developer.nvidia.com/blog/nvidia-exemplar-cloud-lessons-for-unlocking-full-performance-on-ai-infrastructure": "2026-07-30T23:39:25.927940+00:00",
+    "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence": "2026-07-30T23:39:25.927940+00:00",
+    "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration": "2026-07-30T23:39:25.927940+00:00",
+    "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots": "2026-07-30T23:39:25.927940+00:00",
+    "https://huggingface.co/blog/Dharma-AI/gpu-management": "2026-07-30T23:39:25.927940+00:00",
+    "https://thinkingmachines.ai/news/inkling-small": "2026-07-30T23:39:25.927940+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-30",
+    "date": "2026-07-31",
     "points": [
-      "全球資本市場因對 AI 基礎設施投資成本和「循環融資」的擔憂加劇，導致 AI 晶片股普遍重挫，NVIDIA 股價下跌，蘋果市值一度超越輝達重回全球第一；此波市場修正也受到 Meta 傳出將開放剩餘 AI 算力服務的影響，促使投資人重新評估 AI 產業的真實需求與估值。",
-      "中國 AI 產業展現重大進展，月之暗面 (Moonshot AI) 的 Kimi K3 模型開源後，已完成逾 35 億美元的 F 輪融資，投前估值達 500 億美元，並獲中國多家算力廠商火速適配；同時，據報導中國已開始量產浸沒式深紫外線 (DUV) 曝光設備，突破西方技術限制，對全球半導體供應鏈及 AI 競爭格局構成衝擊。",
-      "OpenAI 宣布啟動「ChatGPT 學術研究人員計畫」，將於 2027 年前向全球 10 萬名學術研究人員免費開放其前沿 AI 模型（包括 GPT-5.6 Sol Pro）使用權限，旨在加速 AI 科學研究與生態發展。",
-      "資誠聯合會計師事務所 (PwC) 報告指出，2026 年全球併購交易總額預計將達 4 兆美元，主要由 AI 驅動的大型交易主導，交易金額逾 50 億美元的案件佔總額近半，顯示資本正加速流向具備規模優勢和 AI 基礎設施需求的標的，形成「K 型分化」的併購市場格局。"
+      "Alphabet與特斯拉等AI巨頭在第二季財報中，儘管營收成長強勁，卻出現多年來首次季度自由現金流為負，反映其龐大AI資本支出（如Alphabet簽署逾8110億美元未來採購承諾）正大幅吞噬現金，促使市場將AI競賽視為「財務耐力賽」，並重新評估AI投資的真實回報與估值，對Meta等公司亦形成驗證其AI投資效益的壓力。",
+      "OpenAI為應對市場競爭及客戶對成本的敏感度提升，宣布大幅調降其GPT-5.6模型價格，其中GPT-5.6 Luna模型降幅高達80%，此舉是對中國月之暗面 (Moonshot AI) Kimi K3等高效能模型衝擊的直接回應，顯示AI模型市場正進入激烈的價格戰。同時，月之暗面Kimi K3因用戶請求量遠超預期，已暫停C端新用戶訂閱，凸顯其在快速擴張中面臨的算力瓶頸。",
+      "受AI需求激增影響，全球記憶體（DRAM）價格已連續三季度暴漲，預計至2028年AI資料中心將消耗近半DRAM供應，導致記憶體製造商轉向高利潤的高頻寬記憶體（HBM）生產，進而衝擊汽車等產業，促使通用汽車、福特及日本電裝等車企與美光科技簽訂長期供應合約以確保未來供給。",
+      "高盛報告指出，受惠於人工智慧 (AI) 相關投資，全球對沖基金在 2026 年上半年平均報酬率達 7%，遠超十年平均的 4.1%，且所有主要策略五年來首次實現淨資金流入，其中量化基金和多元策略基金吸引最多資金，顯示 AI 投資正持續推動對沖基金業績成長與資金流向。",
+      "曾因精準押注 AI 概念股而聞名的對沖基金 Situational Awareness，在 AI 相關科技股近期大幅回檔後，被迫出售其大部分公開股票投資組合給 Citadel，儘管該基金上半年曾創下 439% 的高報酬，此事件凸顯 AI 投資領域的波動性及資金流向的快速變化。",
+      "輝達 (Nvidia) 正在洽談總值逾 7,500 億美元的 AI 基礎設施交易，包括為 OpenAI 數據中心提供高達 2,500 億美元的租賃擔保及 3,500 億美元的晶片採購融資；此類「循環融資」模式引發市場擔憂，導致輝達的信用違約交換 (CDS) 利差飆升至創紀錄的 82 個基點，反映信貸市場對其財務風險的重新評估。"
     ]
   },
   "github_repos": {
