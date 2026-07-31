@@ -78,3 +78,9 @@ sources:
     url: https://thinkingmachines.ai/news/
     base: https://thinkingmachines.ai
     link_pattern: '^/news/[a-z0-9][a-z0-9-]{4,}/?$'
+
+  # 觀點文來源（顧問視角，非產品發佈）；量大，靠 max_per_source 控量
+  - name: ThoughtWorks Insights
+    company: ThoughtWorks
+    mode: rss
+    url: https://www.thoughtworks.com/rss/insights.xml
