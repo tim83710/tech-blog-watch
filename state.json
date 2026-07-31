@@ -2420,17 +2420,31 @@
     "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration": "2026-07-30T23:39:25.927940+00:00",
     "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots": "2026-07-30T23:39:25.927940+00:00",
     "https://huggingface.co/blog/Dharma-AI/gpu-management": "2026-07-30T23:39:25.927940+00:00",
-    "https://thinkingmachines.ai/news/inkling-small": "2026-07-30T23:39:25.927940+00:00"
+    "https://thinkingmachines.ai/news/inkling-small": "2026-07-30T23:39:25.927940+00:00",
+    "https://www.databricks.com/blog/backstage-lakebase-part-3": "2026-07-31T23:45:08.535574+00:00",
+    "https://openai.com/index/advancing-responsible-ai-across-europe": "2026-07-31T23:45:08.535574+00:00",
+    "https://openai.com/index/building-abundant-intelligence": "2026-07-31T23:45:08.535574+00:00",
+    "https://openai.com/index/unive": "2026-07-31T23:45:08.535574+00:00",
+    "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation": "2026-07-31T23:45:08.535574+00:00",
+    "https://openai.com/index/avatarin": "2026-07-31T23:45:08.535574+00:00",
+    "https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference": "2026-07-31T23:45:08.535574+00:00",
+    "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek": "2026-07-31T23:45:08.535574+00:00",
+    "https://www.thoughtworks.com/insights/articles/why-airlines-must-merge-loyalty-and-distribution": "2026-07-31T23:45:08.535574+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/kimi-k3-new-multi-model-era": "2026-07-31T23:45:08.535574+00:00",
+    "https://www.thoughtworks.com/insights/articles/ai-first-banking-from-strategic-intent-to-enterprise-execution": "2026-07-31T23:45:08.535574+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/importance-layered-context-enterprise-data-architecture": "2026-07-31T23:45:08.535574+00:00"
   },
   "last_pulse": {
-    "date": "2026-07-31",
+    "date": "2026-08-01",
     "points": [
-      "Alphabet與特斯拉等AI巨頭在第二季財報中，儘管營收成長強勁，卻出現多年來首次季度自由現金流為負，反映其龐大AI資本支出（如Alphabet簽署逾8110億美元未來採購承諾）正大幅吞噬現金，促使市場將AI競賽視為「財務耐力賽」，並重新評估AI投資的真實回報與估值，對Meta等公司亦形成驗證其AI投資效益的壓力。",
-      "OpenAI為應對市場競爭及客戶對成本的敏感度提升，宣布大幅調降其GPT-5.6模型價格，其中GPT-5.6 Luna模型降幅高達80%，此舉是對中國月之暗面 (Moonshot AI) Kimi K3等高效能模型衝擊的直接回應，顯示AI模型市場正進入激烈的價格戰。同時，月之暗面Kimi K3因用戶請求量遠超預期，已暫停C端新用戶訂閱，凸顯其在快速擴張中面臨的算力瓶頸。",
-      "受AI需求激增影響，全球記憶體（DRAM）價格已連續三季度暴漲，預計至2028年AI資料中心將消耗近半DRAM供應，導致記憶體製造商轉向高利潤的高頻寬記憶體（HBM）生產，進而衝擊汽車等產業，促使通用汽車、福特及日本電裝等車企與美光科技簽訂長期供應合約以確保未來供給。",
-      "高盛報告指出，受惠於人工智慧 (AI) 相關投資，全球對沖基金在 2026 年上半年平均報酬率達 7%，遠超十年平均的 4.1%，且所有主要策略五年來首次實現淨資金流入，其中量化基金和多元策略基金吸引最多資金，顯示 AI 投資正持續推動對沖基金業績成長與資金流向。",
-      "曾因精準押注 AI 概念股而聞名的對沖基金 Situational Awareness，在 AI 相關科技股近期大幅回檔後，被迫出售其大部分公開股票投資組合給 Citadel，儘管該基金上半年曾創下 439% 的高報酬，此事件凸顯 AI 投資領域的波動性及資金流向的快速變化。",
-      "輝達 (Nvidia) 正在洽談總值逾 7,500 億美元的 AI 基礎設施交易，包括為 OpenAI 數據中心提供高達 2,500 億美元的租賃擔保及 3,500 億美元的晶片採購融資；此類「循環融資」模式引發市場擔憂，導致輝達的信用違約交換 (CDS) 利差飆升至創紀錄的 82 個基點，反映信貸市場對其財務風險的重新評估。"
+      "美國商務部宣布將透過「晶片法」提供總計 8.74 億美元補助，資助七家半導體公司強化 AI 及先進運算晶片技術研發，其中包括格羅方德 (GlobalFoundries) 的共封裝光學模組 (CPO) 和 Kepler 的新一代 AI 記憶體技術，旨在提升美國國內半導體生產能力並降低對海外供應商的依賴。",
+      "亞馬遜上調其全年資本支出預測至 2,200 億美元，主要用於 AI 領域，儘管投入龐大，其執行長表示 AI 運算資源的供應緊張狀況預計將持續至 2027 年；同時，全球 AI 資本支出加速擴張，帶動銅、鋁、錫、鉭、銦等「算力金屬」價格顯著上漲，其中鉭價飆升 158%，錫價上漲 40%，顯示 AI 基礎建設對上游原材料的需求紅利。",
+      "微軟正考慮將部分自主研發的 AI 模型以開放權重形式提供，以應對中國 AI 模型日益增長的競爭力，並減少對 OpenAI 的依賴，此舉可能重塑 AI 模型市場的競爭格局。",
+      "AMD 在 Advancing AI 2026 大會上推出新一代 AI 基礎設施與實體 AI 產品組合，包括已進入量產的 AMD Helios 機櫃級 AI 解決方案，該方案整合了 EPYC CPU 和 Instinct MI400 系列 GPU，旨在提供高效能且開放標準的 AI 運算堆疊。",
+      "AI 對沖基金 Situational Awareness 在 7 月份因 AI 相關股票大幅回檔和高槓桿操作，導致其投資組合價值暴跌 67%，被迫將大部分公開股票持倉出售給 Citadel，儘管該基金今年以來仍有 80% 的報酬率，此事件凸顯 AI 投資領域的極端波動性。",
+      "高盛資產管理 (Goldman Sachs Asset Management) 推出名為 AlphaAI 的人工智慧投資平台，旨在從快速發展的 AI 技術領域中獲取投資回報，並由 Lou D'Ambrosio 擔任人工智慧主席，顯示大型資產管理公司正積極建立內部 AI 投資能力。",
+      "舊金山 AI 公司 Freehand 成功募資 7,500 萬美元，該公司專注於為企業支出和財務營運構建自主代理 (autonomous agents)，以自動化採購、供應商管理和支付工作流程，顯示企業級金融 AI 解決方案持續吸引大量投資。",
+      "數位銀行 Axos Financial 透過 AI 整合多宗存款併購，並收購了為中小企業提供現金管理與債務市集科技平台的 Arc Technologies (內建 AI 產品機制)，藉此提升營運效率和槓桿，預期未來效率比有望持平甚至改善。"
     ]
   },
   "github_repos": {
