@@ -2432,19 +2432,19 @@
     "https://www.thoughtworks.com/insights/articles/why-airlines-must-merge-loyalty-and-distribution": "2026-07-31T23:45:08.535574+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/kimi-k3-new-multi-model-era": "2026-07-31T23:45:08.535574+00:00",
     "https://www.thoughtworks.com/insights/articles/ai-first-banking-from-strategic-intent-to-enterprise-execution": "2026-07-31T23:45:08.535574+00:00",
-    "https://www.thoughtworks.com/insights/blog/generative-ai/importance-layered-context-enterprise-data-architecture": "2026-07-31T23:45:08.535574+00:00"
+    "https://www.thoughtworks.com/insights/blog/generative-ai/importance-layered-context-enterprise-data-architecture": "2026-07-31T23:45:08.535574+00:00",
+    "https://openai.com/index/ten-advances-in-mathematics": "2026-08-01T23:33:43.558492+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-01",
+    "date": "2026-08-02",
     "points": [
-      "美國商務部宣布將透過「晶片法」提供總計 8.74 億美元補助，資助七家半導體公司強化 AI 及先進運算晶片技術研發，其中包括格羅方德 (GlobalFoundries) 的共封裝光學模組 (CPO) 和 Kepler 的新一代 AI 記憶體技術，旨在提升美國國內半導體生產能力並降低對海外供應商的依賴。",
-      "亞馬遜上調其全年資本支出預測至 2,200 億美元，主要用於 AI 領域，儘管投入龐大，其執行長表示 AI 運算資源的供應緊張狀況預計將持續至 2027 年；同時，全球 AI 資本支出加速擴張，帶動銅、鋁、錫、鉭、銦等「算力金屬」價格顯著上漲，其中鉭價飆升 158%，錫價上漲 40%，顯示 AI 基礎建設對上游原材料的需求紅利。",
-      "微軟正考慮將部分自主研發的 AI 模型以開放權重形式提供，以應對中國 AI 模型日益增長的競爭力，並減少對 OpenAI 的依賴，此舉可能重塑 AI 模型市場的競爭格局。",
-      "AMD 在 Advancing AI 2026 大會上推出新一代 AI 基礎設施與實體 AI 產品組合，包括已進入量產的 AMD Helios 機櫃級 AI 解決方案，該方案整合了 EPYC CPU 和 Instinct MI400 系列 GPU，旨在提供高效能且開放標準的 AI 運算堆疊。",
-      "AI 對沖基金 Situational Awareness 在 7 月份因 AI 相關股票大幅回檔和高槓桿操作，導致其投資組合價值暴跌 67%，被迫將大部分公開股票持倉出售給 Citadel，儘管該基金今年以來仍有 80% 的報酬率，此事件凸顯 AI 投資領域的極端波動性。",
-      "高盛資產管理 (Goldman Sachs Asset Management) 推出名為 AlphaAI 的人工智慧投資平台，旨在從快速發展的 AI 技術領域中獲取投資回報，並由 Lou D'Ambrosio 擔任人工智慧主席，顯示大型資產管理公司正積極建立內部 AI 投資能力。",
-      "舊金山 AI 公司 Freehand 成功募資 7,500 萬美元，該公司專注於為企業支出和財務營運構建自主代理 (autonomous agents)，以自動化採購、供應商管理和支付工作流程，顯示企業級金融 AI 解決方案持續吸引大量投資。",
-      "數位銀行 Axos Financial 透過 AI 整合多宗存款併購，並收購了為中小企業提供現金管理與債務市集科技平台的 Arc Technologies (內建 AI 產品機制)，藉此提升營運效率和槓桿，預期未來效率比有望持平甚至改善。"
+      "全球 AI 晶片供應鏈正進入「預付款時代」，NVIDIA、美光 (Micron) 等主要業者透過數百億美元的預付款、長期合約甚至股權投資，大規模鎖定未來三到五年的晶圓代工、高頻寬記憶體 (HBM) 和先進封裝等核心產能，此舉預示半導體產業權力格局的根本性重構，以確保 AI 算力基礎設施的穩定供應。",
+      "聯發科 (MediaTek) 宣布其首顆 AI 加速器特殊應用積體電路 (ASIC) 將於 2026 年第四季量產，第二顆採用先進封裝的 ASIC 則預計在 2028 年進入大量量產，同時將其 2027 年資料中心市場佔有率目標上調至 15% 至 20%，顯示台灣廠商在「去輝達化」的客製化 AI 加速器市場取得具體進展。",
+      "歐盟《人工智慧法》(EU AI Act) 將於 2026 年 8 月 2 日起正式啟動執法，其中第 50 條的透明度義務將強制要求 AI 聊天機器人揭露其非人類身份，並要求 AI 生成的內容（包括深度偽造 Deepfake）須附帶機器可讀的標記，違規者最高可處以 1,500 萬歐元或全球年營收 3% 的罰款，此法規具域外效力，將對全球 AI 產品與服務的開發及部署產生重大影響。",
+      "中國 AI 公司月之暗面 (Moonshot AI) 近期推出的開源模型 Kimi K3，其算力來源被揭露主要依賴阿里巴巴集團提供的約 2 萬顆 NVIDIA 晶片進行訓練，這凸顯儘管美國持續收緊出口管制，中國 AI 發展仍高度依賴西方半導體技術。",
+      "英國萊斯銀行集團 (Lloyds Banking Group) 宣布，計劃透過導入人工智慧 (AI) 在2030年前削減20億英鎊成本，目標將其成本收入比從目前的50%降至45%以下，顯示大型銀行對AI驅動的營運效率提升有具體財務目標。",
+      "代理式客戶互動平台 Encore AI 完成3,000萬美元A輪融資，值得注意的是，多家已是客戶的主要商業銀行和保險公司在見證其平台對營收的實際成效後，選擇參與投資。",
+      "美國新成立的保險公司 American Growth Insurance (AGI) 獲得近7,000萬美元股權承諾，旨在建立AI驅動的保險經紀平台，透過收購獨立經紀公司並將AI原生營運嵌入其基礎設施，以提升生產力與獲利能力。"
     ]
   },
   "github_repos": {
