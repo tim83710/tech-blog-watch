@@ -2439,19 +2439,28 @@
     "https://www.databricks.com/blog/databricks-completes-acquisition-panther-accelerating-security-lakehouse-era": "2026-08-03T23:45:37.427195+00:00",
     "https://openai.com/index/continuous-voice-interaction-with-gpt-live": "2026-08-03T23:45:37.427195+00:00",
     "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure": "2026-08-03T23:45:37.427195+00:00",
-    "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage": "2026-08-03T23:45:37.427195+00:00"
+    "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage": "2026-08-03T23:45:37.427195+00:00",
+    "https://www.databricks.com/blog/unity-ai-gateway-generally-available": "2026-08-04T23:40:27.815690+00:00",
+    "https://www.databricks.com/blog/databricks-joins-open-secure-ai-alliance-advance-ai-safety-and-security": "2026-08-04T23:40:27.815690+00:00",
+    "https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude": "2026-08-04T23:40:27.815690+00:00",
+    "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models": "2026-08-04T23:40:27.815690+00:00",
+    "https://openai.com/index/learn-teach-chatgpt-work-codex": "2026-08-04T23:40:27.815690+00:00",
+    "https://openai.com/index/apple-is-getting-this-wrong": "2026-08-04T23:40:27.815690+00:00",
+    "https://openai.com/index/circles": "2026-08-04T23:40:27.815690+00:00",
+    "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation": "2026-08-04T23:40:27.815690+00:00",
+    "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super": "2026-08-04T23:40:27.815690+00:00",
+    "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b": "2026-08-04T23:40:27.815690+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-04",
+    "date": "2026-08-05",
     "points": [
-      "OpenAI 大幅下調其 GPT-5.6 系列兩款模型價格，最高降幅達 80%，此舉被視為點燃全球 AI 產業新一輪價格戰的導火索，主要受中國開源模型（如 DeepSeek V4 Flash、Kimi K3）的性價比衝擊及企業客戶預算收緊所致，預計將加速 AI 應用落地並重塑市場估值。",
-      "AI 晶片供應鏈已進入「預付款時代」，大型科技公司正透過預付款、長期合約甚至股權投資，大規模鎖定未來數年的核心產能，其中 NVIDIA 豪擲 40 億美元預付貨款以確保光晶片（特別是磷化銦 InP 雷射磊晶片）供應，凸顯關鍵材料短缺對 AI 基礎設施建設的潛在風險。",
-      "全球九大雲端服務供應商 (CSP) 預計 2026 年 AI 基礎設施總資本支出將年增約 90% 至 8,867 億美元，並預期 2027 年將進一步擴大至 1.3 兆美元，顯示大型業者對 AI 算力建設的投資熱潮持續不墜。",
-      "微軟推出「Copilot Cowork」，將 AI 應用推向具備自主執行能力的「AI 代理人 (AI Agent)」時代，該產品能整合多方數據並自動執行複雜任務，旨在提升企業生產力，但同時也引發資安風險的考量。",
-      "蘋果正式推出 AI 重構版 Siri，使其能理解上下文並跨應用執行複雜指令，但因 AI 產業已普遍進入智能體 (Agent) 階段，市場對此更新的反應相對平靜，凸顯其在 AI 助手領域的追趕態勢。",
-      "AI 對沖基金「情境意識」(Situational Awareness) 在因高槓桿和半導體股回調遭遇嚴重虧損後，正積極尋求新資金注入並進行資產清算，包括出售其在 Anthropic 等私人公司的股權，部分公開市場股票部位已出售給 Citadel。",
-      "富邦產險與慕尼黑再保（Munich Re）攜手，在台灣推出國內首張針對 AI 模型表現風險、財務損失及第三人責任的專屬保險方案，預計將提升簽單保費收入，顯示 AI 在保險產品落地與營收增長的潛力。",
-      "專注於企業支出和財務營運的 AI 代理公司 Freehand 獲得 7500 萬美元募資，並已在 Meta、Unilever 等財富 500 強企業部署其 AI 代理，顯示 AI 在大型企業財務流程自動化方面的實際落地與資金流向。"
+      "中國科技巨頭阿里巴巴發布其迄今最大、功能最強的 AI 模型 Qwen3.8-Max，擁有 2.4 兆參數並支援 100 萬 token 上下文視窗；同時，DeepSeek 的 V4-Flash 模型以極具競爭力的超低價格進入市場，進一步加劇全球 AI 模型價格戰，預計將加速 AI 應用普及並重塑市場格局。",
+      "微軟宣布收購 AI 驅動的數據工程平台 Osmos，此舉預示著 AI 部署的瓶頸正從算力與模型架構轉向數據品質、速度與治理，顯示科技巨頭正積極整合數據工程層以支援企業級 AI 工作負載。",
+      "Google 透過一項價值超過 1,500 億美元的融資計畫，確保 Anthropic 的 AI 晶片供應，該計畫涉及 Broadcom、Apollo、Blackstone 等多家機構，凸顯大型科技公司為保障關鍵 AI 基礎設施供應，正採取供應商支持的複雜金融交易模式。",
+      "美國能源部與 Brookfield Asset Management 合作，計劃將肯塔基州等地的冷戰時期鈾濃縮廠改建為價值 1,000 億美元的 AI 資料中心園區，並將配備新的天然氣與電池儲能發電廠；此舉反映 AI 基礎設施建設對電力需求的急劇增長，電力供應已成為比晶片更關鍵的限制因素。",
+      "德意志銀行報告指出，AI 對沖基金 Situational Awareness 因高槓桿交易失敗，被迫清算 160 億美元股票部位，其公開市場資產已由 Citadel 收購，凸顯 AI 投資策略在市場波動下的風險與資金流向。",
+      "高盛資產管理公司 (Goldman Sachs Asset Management) 推出 AlphaAI 人工智慧投資平台，旨在從快速發展的 AI 技術領域中獲取投資回報，顯示大型金融機構正積極投入 AI 驅動的投資策略。",
+      "TD 銀行 2026 年 AI 洞察報告顯示，78% 的美國人每天使用 AI 工具，其中 55% 用於個人理財，較一年前的 10% 大幅增長，表明 AI 在消費者個人金融應用方面已實現顯著落地與普及。"
     ]
   },
   "github_repos": {
