@@ -2449,18 +2449,17 @@
     "https://openai.com/index/circles": "2026-08-04T23:40:27.815690+00:00",
     "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation": "2026-08-04T23:40:27.815690+00:00",
     "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super": "2026-08-04T23:40:27.815690+00:00",
-    "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b": "2026-08-04T23:40:27.815690+00:00"
+    "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b": "2026-08-04T23:40:27.815690+00:00",
+    "https://claude.com/blog/claude-enterprise-inference-hooks": "2026-08-05T23:31:49.283707+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-05",
+    "date": "2026-08-06",
     "points": [
-      "中國科技巨頭阿里巴巴發布其迄今最大、功能最強的 AI 模型 Qwen3.8-Max，擁有 2.4 兆參數並支援 100 萬 token 上下文視窗；同時，DeepSeek 的 V4-Flash 模型以極具競爭力的超低價格進入市場，進一步加劇全球 AI 模型價格戰，預計將加速 AI 應用普及並重塑市場格局。",
-      "微軟宣布收購 AI 驅動的數據工程平台 Osmos，此舉預示著 AI 部署的瓶頸正從算力與模型架構轉向數據品質、速度與治理，顯示科技巨頭正積極整合數據工程層以支援企業級 AI 工作負載。",
-      "Google 透過一項價值超過 1,500 億美元的融資計畫，確保 Anthropic 的 AI 晶片供應，該計畫涉及 Broadcom、Apollo、Blackstone 等多家機構，凸顯大型科技公司為保障關鍵 AI 基礎設施供應，正採取供應商支持的複雜金融交易模式。",
-      "美國能源部與 Brookfield Asset Management 合作，計劃將肯塔基州等地的冷戰時期鈾濃縮廠改建為價值 1,000 億美元的 AI 資料中心園區，並將配備新的天然氣與電池儲能發電廠；此舉反映 AI 基礎設施建設對電力需求的急劇增長，電力供應已成為比晶片更關鍵的限制因素。",
-      "德意志銀行報告指出，AI 對沖基金 Situational Awareness 因高槓桿交易失敗，被迫清算 160 億美元股票部位，其公開市場資產已由 Citadel 收購，凸顯 AI 投資策略在市場波動下的風險與資金流向。",
-      "高盛資產管理公司 (Goldman Sachs Asset Management) 推出 AlphaAI 人工智慧投資平台，旨在從快速發展的 AI 技術領域中獲取投資回報，顯示大型金融機構正積極投入 AI 驅動的投資策略。",
-      "TD 銀行 2026 年 AI 洞察報告顯示，78% 的美國人每天使用 AI 工具，其中 55% 用於個人理財，較一年前的 10% 大幅增長，表明 AI 在消費者個人金融應用方面已實現顯著落地與普及。"
+      "SpaceX 宣布其 AI 基礎設施將全面採用 NVIDIA Vera Rubin 架構，並與 NVIDIA 合作開發 Starmind AI1 衛星運算平台，預計在 2027 年底前建置近 10GW 的 AI 運算能力，此舉標誌著 AI 算力部署正從傳統地面資料中心邁向太空軌道運算，開啟 AI 基礎設施的新競爭格局。",
+      "Sandisk 與 SK 海力士共同發布開放式高頻寬快閃記憶體 (HBF) 技術規格，並吸引 Google 和 Tenstorrent 加入生態系，此新記憶體層級旨在填補高頻寬記憶體 (HBM) 與企業級固態硬碟 (eSSD) 之間的空白，將 AI 投資主軸從單純的「GPU＋HBM」擴展至涵蓋 HBF，重塑 AI 儲存與記憶體產業鏈。",
+      "歐盟《人工智能法案》(EU AI Act) 已於 8 月 2 日正式生效，要求 AI 生成內容須具備機器可讀性並明確標示，同時模型開發者需遵守版權法並公開訓練內容摘要，違反者最高可面臨 3,500 萬歐元或全球年營業額 7% 的罰款，對全球 AI 產業的合規與營運模式產生深遠影響。",
+      "Hugging Face 執行長 Clément Delangue 示警，中國在開源 AI 模型領域已佔據主導地位，並可能最快在今年底或明年初追上美國在尖端模型 (frontier models) 方面的發展，凸顯全球 AI 競爭格局的潛在轉變。",
+      "匯豐銀行 (HSBC) 與 Google Cloud 宣布建立一項為期多年的 AI 合作夥伴關係，預計在未來兩年內產生超過 200 個新的 AI 使用案例，每個案例預計可帶來超過 1 億美元的營收增長或效率節省，顯示大型金融機構正積極透過 AI 實現具體業務落地與財務效益。"
     ]
   },
   "github_repos": {
