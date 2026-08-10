@@ -2466,18 +2466,33 @@
     "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute": "2026-08-07T23:11:11.109648+00:00",
     "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities": "2026-08-07T23:11:11.109648+00:00",
     "https://openai.com/index/hsp-gruppe": "2026-08-07T23:11:11.109648+00:00",
-    "https://huggingface.co/blog/allenai/tutormoments": "2026-08-07T23:11:11.109648+00:00"
+    "https://huggingface.co/blog/allenai/tutormoments": "2026-08-07T23:11:11.109648+00:00",
+    "https://www.databricks.com/blog/innocent-until-combined-blocking-lethal-trifecta-omnigent-contextual-policies": "2026-08-10T23:13:27.408923+00:00",
+    "https://www.databricks.com/blog/introducing-file-type-native-column-type-multimodal-data": "2026-08-10T23:13:27.408923+00:00",
+    "https://openai.com/index/responsible-ai-infrastructure-texas": "2026-08-10T23:13:27.408923+00:00",
+    "https://openai.com/index/model-ml": "2026-08-10T23:13:27.408923+00:00",
+    "https://openai.com/index/building-an-ai-native-finance-function": "2026-08-10T23:13:27.408923+00:00",
+    "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows": "2026-08-10T23:13:27.408923+00:00",
+    "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands": "2026-08-10T23:13:27.408923+00:00",
+    "https://openai.com/index/premium-seats-chatgpt-business": "2026-08-10T23:13:27.408923+00:00",
+    "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia": "2026-08-10T23:13:27.408923+00:00",
+    "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents": "2026-08-10T23:13:27.408923+00:00",
+    "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation": "2026-08-10T23:13:27.408923+00:00",
+    "https://huggingface.co/blog/muse-glimmer": "2026-08-10T23:13:27.408923+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-10",
+    "date": "2026-08-11",
     "points": [
-      "美國川普政府據報已決定豁免中國開源人工智慧 (AI) 模型接受政府安全審查，此政策轉向正值中國AI模型（如阿里巴巴的通義千問3.8-Max、月之暗面的Kimi K3及DeepSeek V4 Flash）以低成本、高效能迅速提升全球採用率，預計到2027年底將達50%，對美國AI產業構成競爭壓力並引發市場對美企巨額資料中心投資效益的質疑。",
-      "Citadel證券預測，為建設AI園區及晶片，科技業至2028年底前將在公開及私募市場進行逾5,000億美元的債務融資，加上全球市場已吸收的約5,700億美元AI相關債務，顯示AI基礎設施投資需求龐大且持續增長，同時也引發市場對「循環融資」泡沫化的擔憂。",
-      "香港大學電機與計算機工程系教授汪涵研發出「三維集成供電技術」，應用於先進AI算力晶片模組，可將供電系統體積縮減五倍以上，效率從75%提升至95%，此技術有望大幅降低資料中心的高耗電瓶頸，並應用於人形機器人及無人機，對AI硬體能效提升具重要意義。",
-      "OpenAI的下一代AI模型Astra，儘管在智能體編程和網路安全領域取得重大突破，但因網路安全風險考量，其發布時程已被延後，凸顯了AI代理產品在安全性部署上仍面臨挑戰。",
-      "據報導，Palantir Technologies 在第二季度展現強勁的 AI 落地成效，其美國商業營收年增 149%，佔總營收近 40%，美國商業客戶群擴大 35% 至 653 家，每客戶平均營收攀升 76% 達 350 萬美元，並上調全年美國商業營收增長預期至少 134%。",
-      "本週金融科技領域有多項 AI 相關融資，其中巴西 AI 財富諮詢公司 Decade 獲得 8500 萬美元種子輪融資，為拉丁美洲新創公司創下紀錄；此外，AI 驅動的旅遊保護平台 Faye 完成 5000 萬美元 C 輪融資，預計到今年底將有超過一半的理賠由 AI 自主處理，顯示 AI 在財富管理和保險理賠自動化方面的資金流向與具體應用。",
-      "KPMG 報告指出，金融業對 AI 的採用已達關鍵轉折點，76% 的機構已在財務規劃中運用 AI，且 57% 的領先企業表示 AI 投資報酬率 (ROI) 超出預期，凸顯 AI 在提升決策品質而非僅降低交易成本方面的顯著價值。"
+      "據SemiAnalysis報告，伊隆·馬斯克 (Elon Musk) 旗下的SpaceX計劃在2027年新增6-8GW的AI算力，資本開支預計高達3000-5000億美元；微軟已簽署總值超過3000億美元的10GW算力合同，有望成為SpaceX最大的AI算力客戶，顯示AI基礎設施投資正進入吉瓦級 (GW-level) 時代。",
+      "由於AI資料中心對DRAM記憶體的需求激增，導致供應吃緊和價格上漲，蘋果 (Apple)、惠普 (HP) 和宏碁 (Acer) 等品牌已開始測試中國記憶體大廠長鑫存儲 (CXMT) 的產品，這使得原本受美國出口管制影響的CXMT有機會進入全球品牌供應鏈，重塑DRAM市場格局。",
+      "最新數據顯示，中國AI大模型在週調用量上已連續十五週超越美國，穩居全球榜首；其中DeepSeek-V4-Flash正式版單週調用量飆升570%，一舉登頂，凸顯中國AI模型在實際應用和市場採用上的強勁勢頭。",
+      "AI晶片需求持續放量，預計到2027年AI晶片應用將佔整體ABF載板需求面積比重達52%，導致2026年至2028年ABF載板供需缺口將由原先預估的3%擴大至36%，英特爾 (Intel) 也指出載板是當前AI供應鏈的主要瓶頸之一。",
+      "AI對沖基金Situational Awareness在7月因對AI基礎設施股票的高度槓桿押注及保證金追繳，資產從峰值450億美元驟降至約100億美元，其中約160億美元的公開股票部位以10%的折扣出售給Citadel，儘管如此，矽谷內部人士仍表示願意提供更多資金。",
+      "另一家專注於AI的對沖基金Value Aligned Research Advisors (VARA) 在7月下跌44%，使其年初至今的回報率從6月底的近200%降至65%，主要受AI股票普遍承壓及Situational Awareness基金動盪的波動影響。",
+      "印度Axis Max Life Insurance透過AI顯著提升營運效率，99.8%的保單現已數位化處理，零售保單的直通式處理率從六年前的46-47%提升至近87%，複雜的定期保單也有32%無需人工干預即可處理，且87%的服務周轉時間縮短至48小時內。",
+      "據報導，Nvidia正與OpenAI洽談提供高達2500億美元的融資，以支持OpenAI在俄亥俄州建設一個總成本可能超過5000億美元的資料中心，Nvidia可能作為貸款機構的財政後盾，並討論為OpenAI的晶片採購提供高達3500億美元的融資。",
+      "金融科技領域近期有多項AI相關融資：AI安全與治理平台Zenity完成1.25億美元C輪融資；專為獨立企業設計的AI原生財務管理平台Ambrook獲得3000萬美元B輪融資；反AI攻擊公司OLIGO Security募資6000萬美元。",
+      "PYMNTS Intelligence報告指出，金融服務公司在75項任務中，有27項的AI採用率達到高水平，其中收入確認（revenue recognition）達到65%，信用風險評估（credit risk assessment）和銷售預測（sales forecasting）均達到60%，且85%的金融服務公司預計未來12個月內將增加AI預算。"
     ]
   },
   "github_repos": {
@@ -2575,6 +2590,26 @@
       "repo": "janestreet/bonsai",
       "last_featured": "2026-08-07",
       "summary": "Jane Street 開源、基於 OCaml 的高效能響應式 Web UI 框架"
+    },
+    "denoland/celld": {
+      "repo": "denoland/celld",
+      "last_featured": "2026-08-11",
+      "summary": "Deno 推出開源且可自託管的分散式 Durable Objects 執行期環境。"
+    },
+    "huangruiteng/loopx": {
+      "repo": "huangruiteng/loopx",
+      "last_featured": "2026-08-11",
+      "summary": "專為長週期 AI Agent 團隊設計的輕量級狀態控制面核心。"
+    },
+    "firecrawl/pdf-inspector": {
+      "repo": "firecrawl/pdf-inspector",
+      "last_featured": "2026-08-11",
+      "summary": "由 Firecrawl 開源的高效 Rust PDF 分類與文字提取庫。"
+    },
+    "esengine/deepseek-reasonix": {
+      "repo": "esengine/DeepSeek-Reasonix",
+      "last_featured": "2026-08-11",
+      "summary": "針對 DeepSeek 首碼快取（Prefix-Cache）最佳化的終端機 AI 編碼 Agent。"
     }
   }
 }
