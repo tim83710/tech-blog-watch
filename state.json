@@ -2478,21 +2478,34 @@
     "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia": "2026-08-10T23:13:27.408923+00:00",
     "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents": "2026-08-10T23:13:27.408923+00:00",
     "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation": "2026-08-10T23:13:27.408923+00:00",
-    "https://huggingface.co/blog/muse-glimmer": "2026-08-10T23:13:27.408923+00:00"
+    "https://huggingface.co/blog/muse-glimmer": "2026-08-10T23:13:27.408923+00:00",
+    "https://www.databricks.com/blog/taking-auto-cdc-next-level-solving-hardest-real-world-use-cases": "2026-08-11T23:23:18.335591+00:00",
+    "https://www.databricks.com/blog/open-sourcing-metals-v2-databricks-java-and-scala-language-server-multi-million-line-codebases": "2026-08-11T23:23:18.335591+00:00",
+    "https://www.databricks.com/blog/modern-risk-demands-real-time-foundation-cros-mandate": "2026-08-11T23:23:18.335591+00:00",
+    "https://www.databricks.com/blog/electric-joins-databricks-bring-wasm-postgres-ai-agent-sandboxes": "2026-08-11T23:23:18.335591+00:00",
+    "https://www.databricks.com/blog/how-ground-genie-agents-both-structured-data-and-documents-without-losing-governance": "2026-08-11T23:23:18.335591+00:00",
+    "https://claude.com/blog/compliance-api-cowork-and-claude-code": "2026-08-11T23:23:18.335591+00:00",
+    "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale": "2026-08-11T23:23:18.335591+00:00",
+    "https://openai.com/index/daybreak-models-are-now-available-on-aws": "2026-08-11T23:23:18.335591+00:00",
+    "https://openai.com/index/zapier": "2026-08-11T23:23:18.335591+00:00",
+    "https://openai.com/index/virgin-atlantic/chatgpt-work": "2026-08-11T23:23:18.335591+00:00",
+    "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation": "2026-08-11T23:23:18.335591+00:00",
+    "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents": "2026-08-11T23:23:18.335591+00:00",
+    "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard": "2026-08-11T23:23:18.335591+00:00",
+    "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations": "2026-08-11T23:23:18.335591+00:00",
+    "https://huggingface.co/blog/ibm-research/altk-evolve-sldd": "2026-08-11T23:23:18.335591+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-11",
+    "date": "2026-08-12",
     "points": [
-      "據SemiAnalysis報告，伊隆·馬斯克 (Elon Musk) 旗下的SpaceX計劃在2027年新增6-8GW的AI算力，資本開支預計高達3000-5000億美元；微軟已簽署總值超過3000億美元的10GW算力合同，有望成為SpaceX最大的AI算力客戶，顯示AI基礎設施投資正進入吉瓦級 (GW-level) 時代。",
-      "由於AI資料中心對DRAM記憶體的需求激增，導致供應吃緊和價格上漲，蘋果 (Apple)、惠普 (HP) 和宏碁 (Acer) 等品牌已開始測試中國記憶體大廠長鑫存儲 (CXMT) 的產品，這使得原本受美國出口管制影響的CXMT有機會進入全球品牌供應鏈，重塑DRAM市場格局。",
-      "最新數據顯示，中國AI大模型在週調用量上已連續十五週超越美國，穩居全球榜首；其中DeepSeek-V4-Flash正式版單週調用量飆升570%，一舉登頂，凸顯中國AI模型在實際應用和市場採用上的強勁勢頭。",
-      "AI晶片需求持續放量，預計到2027年AI晶片應用將佔整體ABF載板需求面積比重達52%，導致2026年至2028年ABF載板供需缺口將由原先預估的3%擴大至36%，英特爾 (Intel) 也指出載板是當前AI供應鏈的主要瓶頸之一。",
-      "AI對沖基金Situational Awareness在7月因對AI基礎設施股票的高度槓桿押注及保證金追繳，資產從峰值450億美元驟降至約100億美元，其中約160億美元的公開股票部位以10%的折扣出售給Citadel，儘管如此，矽谷內部人士仍表示願意提供更多資金。",
-      "另一家專注於AI的對沖基金Value Aligned Research Advisors (VARA) 在7月下跌44%，使其年初至今的回報率從6月底的近200%降至65%，主要受AI股票普遍承壓及Situational Awareness基金動盪的波動影響。",
-      "印度Axis Max Life Insurance透過AI顯著提升營運效率，99.8%的保單現已數位化處理，零售保單的直通式處理率從六年前的46-47%提升至近87%，複雜的定期保單也有32%無需人工干預即可處理，且87%的服務周轉時間縮短至48小時內。",
-      "據報導，Nvidia正與OpenAI洽談提供高達2500億美元的融資，以支持OpenAI在俄亥俄州建設一個總成本可能超過5000億美元的資料中心，Nvidia可能作為貸款機構的財政後盾，並討論為OpenAI的晶片採購提供高達3500億美元的融資。",
-      "金融科技領域近期有多項AI相關融資：AI安全與治理平台Zenity完成1.25億美元C輪融資；專為獨立企業設計的AI原生財務管理平台Ambrook獲得3000萬美元B輪融資；反AI攻擊公司OLIGO Security募資6000萬美元。",
-      "PYMNTS Intelligence報告指出，金融服務公司在75項任務中，有27項的AI採用率達到高水平，其中收入確認（revenue recognition）達到65%，信用風險評估（credit risk assessment）和銷售預測（sales forecasting）均達到60%，且85%的金融服務公司預計未來12個月內將增加AI預算。"
+      "輝達 (NVIDIA) 攜手六家大型金融機構，包括阿波羅全球管理 (Apollo)、貝萊德 (BlackRock) 等，規劃動員逾 5,000 億美元第三方資金，投入 AI 資料中心與運算基礎設施建設，輝達並可能為其中最高 1,250 億美元提供資金後盾，此舉旨在加速 AI 基礎設施的部署，將華爾街資本直接導入 AI 工廠。",
+      "台積電 (TSMC) 受惠於 AI 晶片強勁需求，7 月營收年增 44.7%，並將 2026 年營收成長指引上調至約 40%；其新事業「COUPE」切入 AI 資料中心高速光學互連領域，已獲博通 (Broadcom) 和輝達等客戶早期採用，顯示台積電在 AI 硬體供應鏈中的關鍵地位持續強化，並拓展至系統層級解決方案。",
+      "微軟 (Microsoft) 計劃最快於 2026 年 9 月發布第三代自研 AI 晶片 Maia 300，並正與台積電洽談 2027 年超過 30 萬顆的製造產能，長期目標逾百萬顆，此舉旨在降低對輝達處理器的依賴，並強化對 Azure 服務的掌握。",
+      "Meta 重新擁抱開源 AI 策略，發布新開放模型 Muse Glimmer 的底層參數，並預計開放更強大的 Muse Spark 1.2 模型權重，執行長祖克柏強調將免費且強大的 AI 提供給數十億人，以賦予個人更多能力。同時，輝達也傳出正開發具兆級參數的 AI 模型家族 Nemotron 4，目標與頂尖開源模型競爭，並已發布 Nemotron 3.5 Lightning 及開源模型路由庫 NeMo Switchyard，顯示 AI 巨頭在開源模型領域的競爭加劇。",
+      "瑞銀投資銀行 (UBS Investment Bank) 投資 Finster AI Inc.，該人工智慧平台旨在支援投資銀行與資產管理領域的研究、分析及內容工作流程，顯示大型金融機構對AI工具在核心業務應用的投入。",
+      "Amplify Technology LLC 與獨立投資研究公司 Ned Davis Research Inc. 建立合作夥伴關係，將後者的機構研究與投資模型透過 Amplify 的 AI 數據平台以託管投資組合形式提供，使財務顧問能將 AI 驅動的模型應用於客戶帳戶。",
+      "達拉斯的保險與財富管理解決方案提供商 Integrity LLC 與 Determined To Serve Financial 及 Leaders in Training Financial 兩家行銷組織合作，讓這些合作夥伴能使用 Integrity 的 AI 工具與技術平台，以支援業務營運與客戶溝通。",
+      "一項高達 5,000 億美元的 AI 基礎設施融資協議已達成，由貝萊德 (BlackRock)、高盛 (Goldman Sachs)、阿波羅全球管理 (Apollo Global)、黑石集團 (Blackstone) 和 Brookfield 等主要全球投資者提供資金，凸顯金融巨頭對 AI 基礎設施建設的龐大資本投入。"
     ]
   },
   "github_repos": {
