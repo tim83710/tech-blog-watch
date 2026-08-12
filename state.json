@@ -2493,19 +2493,31 @@
     "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents": "2026-08-11T23:23:18.335591+00:00",
     "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard": "2026-08-11T23:23:18.335591+00:00",
     "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations": "2026-08-11T23:23:18.335591+00:00",
-    "https://huggingface.co/blog/ibm-research/altk-evolve-sldd": "2026-08-11T23:23:18.335591+00:00"
+    "https://huggingface.co/blog/ibm-research/altk-evolve-sldd": "2026-08-11T23:23:18.335591+00:00",
+    "https://www.databricks.com/blog/databricks-network-configuration-delivery-tens-millions-serverless-vms": "2026-08-12T23:17:32.022332+00:00",
+    "https://www.databricks.com/blog/how-amtrak-building-data-backbone-its-largest-transformation-over-50-years": "2026-08-12T23:17:32.022332+00:00",
+    "https://www.databricks.com/blog/how-major-freight-railroad-scaled-pipeline-creation-genie-code": "2026-08-12T23:17:32.022332+00:00",
+    "https://www.databricks.com/blog/future-data-analytics-why-ai-rewriting-analysts-job-description": "2026-08-12T23:17:32.022332+00:00",
+    "https://claude.com/blog/cowork-chrome-side-panel": "2026-08-12T23:17:32.022332+00:00",
+    "https://openai.com/index/how-enterprises-put-ai-to-work": "2026-08-12T23:17:32.022332+00:00",
+    "https://openai.com/index/ringcentral": "2026-08-12T23:17:32.022332+00:00",
+    "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72": "2026-08-12T23:17:32.022332+00:00",
+    "https://developer.nvidia.com/blog/how-to-choose-full-stack-observability-for-nvidia-ai-factories": "2026-08-12T23:17:32.022332+00:00",
+    "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality": "2026-08-12T23:17:32.022332+00:00",
+    "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands": "2026-08-12T23:17:32.022332+00:00",
+    "https://huggingface.co/blog/allenai/olmoearth-embeddings": "2026-08-12T23:17:32.022332+00:00",
+    "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b": "2026-08-12T23:17:32.022332+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-12",
+    "date": "2026-08-13",
     "points": [
-      "輝達 (NVIDIA) 攜手六家大型金融機構，包括阿波羅全球管理 (Apollo)、貝萊德 (BlackRock) 等，規劃動員逾 5,000 億美元第三方資金，投入 AI 資料中心與運算基礎設施建設，輝達並可能為其中最高 1,250 億美元提供資金後盾，此舉旨在加速 AI 基礎設施的部署，將華爾街資本直接導入 AI 工廠。",
-      "台積電 (TSMC) 受惠於 AI 晶片強勁需求，7 月營收年增 44.7%，並將 2026 年營收成長指引上調至約 40%；其新事業「COUPE」切入 AI 資料中心高速光學互連領域，已獲博通 (Broadcom) 和輝達等客戶早期採用，顯示台積電在 AI 硬體供應鏈中的關鍵地位持續強化，並拓展至系統層級解決方案。",
-      "微軟 (Microsoft) 計劃最快於 2026 年 9 月發布第三代自研 AI 晶片 Maia 300，並正與台積電洽談 2027 年超過 30 萬顆的製造產能，長期目標逾百萬顆，此舉旨在降低對輝達處理器的依賴，並強化對 Azure 服務的掌握。",
-      "Meta 重新擁抱開源 AI 策略，發布新開放模型 Muse Glimmer 的底層參數，並預計開放更強大的 Muse Spark 1.2 模型權重，執行長祖克柏強調將免費且強大的 AI 提供給數十億人，以賦予個人更多能力。同時，輝達也傳出正開發具兆級參數的 AI 模型家族 Nemotron 4，目標與頂尖開源模型競爭，並已發布 Nemotron 3.5 Lightning 及開源模型路由庫 NeMo Switchyard，顯示 AI 巨頭在開源模型領域的競爭加劇。",
-      "瑞銀投資銀行 (UBS Investment Bank) 投資 Finster AI Inc.，該人工智慧平台旨在支援投資銀行與資產管理領域的研究、分析及內容工作流程，顯示大型金融機構對AI工具在核心業務應用的投入。",
-      "Amplify Technology LLC 與獨立投資研究公司 Ned Davis Research Inc. 建立合作夥伴關係，將後者的機構研究與投資模型透過 Amplify 的 AI 數據平台以託管投資組合形式提供，使財務顧問能將 AI 驅動的模型應用於客戶帳戶。",
-      "達拉斯的保險與財富管理解決方案提供商 Integrity LLC 與 Determined To Serve Financial 及 Leaders in Training Financial 兩家行銷組織合作，讓這些合作夥伴能使用 Integrity 的 AI 工具與技術平台，以支援業務營運與客戶溝通。",
-      "一項高達 5,000 億美元的 AI 基礎設施融資協議已達成，由貝萊德 (BlackRock)、高盛 (Goldman Sachs)、阿波羅全球管理 (Apollo Global)、黑石集團 (Blackstone) 和 Brookfield 等主要全球投資者提供資金，凸顯金融巨頭對 AI 基礎設施建設的龐大資本投入。"
+      "芝加哥商業交易所 (CME) 計劃於 10 月 5 日推出首批 AI 算力期貨，將與輝達 (NVIDIA) H100 及 Blackwell B200 繪圖處理器 (GPU) 的租賃成本掛鉤，此舉將 AI 算力轉化為可交易的金融資產類別，允許企業和投資人進行避險操作，預期將深化 AI 基礎設施的金融生態系。",
+      "全球封測大廠矽品精密 (SPIL) 斥資約新台幣 1,000 億元 (約 31 億美元) 在台灣雲林動土興建新廠，預計 2028 年營運，將導入 AI 晶片關鍵的 CoWoS 先進封裝製程，此重大投資旨在擴大 AI 晶片供應鏈中的先進封裝產能，以滿足強勁的市場需求。",
+      "伊隆·馬斯克 (Elon Musk) 旗下人工智慧公司 xAI 正式發布其最新模型 Grok 4.6，該模型在多項編碼與知識基準測試中展現領先水準，據稱綜合評分已追平 GPT-5.6 Sol，顯示前沿 AI 模型領域的競爭持續白熱化，特別是在 AI 代理 (Agent) 和複雜視覺化任務方面。",
+      "中國 AI 模型在非洲市場的影響力顯著提升，據報導已佔 OpenRouter 等 AI 模型平台使用量的一半，主要受惠於其較低的成本、開放原始碼特性以及對當地語言和需求的適應性，這反映了全球 AI 競爭格局的轉變，特別是在新興市場。",
+      "摩根大通 (JPMorgan Chase) 亞太區企業銀行業務受惠於人工智慧 (AI) 及數據中心投資增加，今年以來收入成長逾 20%，並計劃在 2027 年持續以相近速度擴大招聘，顯示 AI 基礎設施投資正轉化為銀行貸款、資本募集及顧問服務的實質需求。",
+      "AI 網路安全新創公司 Corma 完成 6,000 萬美元種子輪融資，其防禦型 AI 模型已部署於多家《財富》100 強及 500 強企業，包括金融服務業，並報告將威脅回應時間縮短 94%，展現 AI 在金融資安領域的具體落地成效。",
+      "中國「2026金融市場AI投研峰會」展示了弘則研究的ETAgent與ETAi及朝陽永續的SuperAgents等 AI 投研產品，強調 AI 在投資研究中實現人機協同，並從效率工具演進為能協同完成複雜任務的「數位同事」。"
     ]
   },
   "github_repos": {
