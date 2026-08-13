@@ -2506,18 +2506,29 @@
     "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality": "2026-08-12T23:17:32.022332+00:00",
     "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands": "2026-08-12T23:17:32.022332+00:00",
     "https://huggingface.co/blog/allenai/olmoearth-embeddings": "2026-08-12T23:17:32.022332+00:00",
-    "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b": "2026-08-12T23:17:32.022332+00:00"
+    "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b": "2026-08-12T23:17:32.022332+00:00",
+    "https://www.databricks.com/blog/how-scottish-water-made-its-capital-investment-data-conversational-databricks-genie": "2026-08-13T23:28:44.186925+00:00",
+    "https://www.databricks.com/blog/smart-routing-unity-ai-gateway-match-frontier-quality-30-lower-cost-task": "2026-08-13T23:28:44.186925+00:00",
+    "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions": "2026-08-13T23:28:44.186925+00:00",
+    "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room": "2026-08-13T23:28:44.186925+00:00",
+    "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5": "2026-08-13T23:28:44.186925+00:00",
+    "https://openai.com/index/builders-guide-to-gpt-5-6": "2026-08-13T23:28:44.186925+00:00",
+    "https://openai.com/index/previewing-ultrafast": "2026-08-13T23:28:44.186925+00:00",
+    "https://openai.com/index/dali-rajic-chief-revenue-officer": "2026-08-13T23:28:44.186925+00:00",
+    "https://deepmind.google/blog/introducing-gemini-3-7-flash": "2026-08-13T23:28:44.186925+00:00",
+    "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop": "2026-08-13T23:28:44.186925+00:00",
+    "https://huggingface.co/blog/icml-2026-open-reproductions": "2026-08-13T23:28:44.186925+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-13",
+    "date": "2026-08-14",
     "points": [
-      "芝加哥商業交易所 (CME) 計劃於 10 月 5 日推出首批 AI 算力期貨，將與輝達 (NVIDIA) H100 及 Blackwell B200 繪圖處理器 (GPU) 的租賃成本掛鉤，此舉將 AI 算力轉化為可交易的金融資產類別，允許企業和投資人進行避險操作，預期將深化 AI 基礎設施的金融生態系。",
-      "全球封測大廠矽品精密 (SPIL) 斥資約新台幣 1,000 億元 (約 31 億美元) 在台灣雲林動土興建新廠，預計 2028 年營運，將導入 AI 晶片關鍵的 CoWoS 先進封裝製程，此重大投資旨在擴大 AI 晶片供應鏈中的先進封裝產能，以滿足強勁的市場需求。",
-      "伊隆·馬斯克 (Elon Musk) 旗下人工智慧公司 xAI 正式發布其最新模型 Grok 4.6，該模型在多項編碼與知識基準測試中展現領先水準，據稱綜合評分已追平 GPT-5.6 Sol，顯示前沿 AI 模型領域的競爭持續白熱化，特別是在 AI 代理 (Agent) 和複雜視覺化任務方面。",
-      "中國 AI 模型在非洲市場的影響力顯著提升，據報導已佔 OpenRouter 等 AI 模型平台使用量的一半，主要受惠於其較低的成本、開放原始碼特性以及對當地語言和需求的適應性，這反映了全球 AI 競爭格局的轉變，特別是在新興市場。",
-      "摩根大通 (JPMorgan Chase) 亞太區企業銀行業務受惠於人工智慧 (AI) 及數據中心投資增加，今年以來收入成長逾 20%，並計劃在 2027 年持續以相近速度擴大招聘，顯示 AI 基礎設施投資正轉化為銀行貸款、資本募集及顧問服務的實質需求。",
-      "AI 網路安全新創公司 Corma 完成 6,000 萬美元種子輪融資，其防禦型 AI 模型已部署於多家《財富》100 強及 500 強企業，包括金融服務業，並報告將威脅回應時間縮短 94%，展現 AI 在金融資安領域的具體落地成效。",
-      "中國「2026金融市場AI投研峰會」展示了弘則研究的ETAgent與ETAi及朝陽永續的SuperAgents等 AI 投研產品，強調 AI 在投資研究中實現人機協同，並從效率工具演進為能協同完成複雜任務的「數位同事」。"
+      "輝達 (NVIDIA) 聯手華爾街六大金融機構，包括 Apollo、貝萊德 (BlackRock) 等，目標動員逾 5,000 億美元第三方資金，將 AI 算力轉化為可投資的資產類別，透過算力擔保發債，預計數月內啟動首批交易，此舉將深化 AI 基礎設施的金融生態系。",
+      "全球九大雲端服務供應商 (CSP) 大幅上修 2026 年 AI 伺服器資本支出，預計年增約 90% 突破 8,867 億美元，並將於 2027 年增至 1.32 兆美元，顯示對 AI 基礎設施的投資持續激增，主要受輝達 (NVIDIA) 新一代方案、自研 ASIC 晶片及中國本地 AI 解決方案需求驅動。",
+      "前沿 AI 模型競爭白熱化，OpenAI 傳聞將推出專注於長時間任務執行與多代理 (Agent) 協作的「Astra」新模型系列；同時 Google DeepMind 經歷高層人事變動，首席科學家 Jeff Dean 與共同創辦人 Demis Hassabis 離職；而 Anthropic 在最新一季募資高達 650 億美元，顯示頂級 AI 玩家在技術、領導層與資本層面競爭加劇。",
+      "美國加州議會預計於 8 月 13 日集中表決約 30 項 AI 法案，涵蓋數位複製品欺詐、深度偽造勒索及 AI 聊天機器人玩具禁令等，凸顯 AI 監管趨嚴；同時中國 AI 市場出現轉向，DeepSeek 等公司上調 API 價格，字節跳動旗下 AI 助手「豆包」也開始收取服務費，預示市場從價格戰走向盈利模式探索。",
+      "輝達 (NVIDIA) 與 Apollo、貝萊德 (BlackRock)、黑石集團 (Blackstone)、布魯克菲爾德投資管理公司 (Brookfield)、高盛 (Goldman Sachs) 及 KKR 等六家大型金融機構簽署合作備忘錄，目標為 AI 基礎設施籌集逾 5,000 億美元的第三方資金，旨在為 AI 開發商、企業、政府及雲端服務供應商提供更廣泛的算力取得途徑，並為資產管理公司創造長期、與使用量掛鉤的投資機會。",
+      "美國銀行 (Bank of America) 宣布啟動「關鍵基礎設施融資計畫」(Critical Infrastructure Financing Program)，目標在明年七月前籌集並部署 2,500 億美元資金，重點投資於數位基礎設施（如資料中心、算力、半導體、電信）、能源基礎設施及其他關鍵基礎設施（如電網、戰略礦產），此舉延續華爾街對 AI 基礎設施的巨額投資熱潮。",
+      "市場分析指出，AI 已進入「實質變現」階段，能為企業帶來實際營收或成本節省。例如，AI 信用卡客服經實測已能有效應對複雜需求，顯示其取代人力、節省金融業數百億元薪資的潛力；同時，「託管推論 (Managed Inference)」模式的興起，降低了企業導入 AI 的門檻，加速 AI 在各行業的落地應用。"
     ]
   },
   "github_repos": {
@@ -2635,6 +2646,31 @@
       "repo": "esengine/DeepSeek-Reasonix",
       "last_featured": "2026-08-11",
       "summary": "針對 DeepSeek 首碼快取（Prefix-Cache）最佳化的終端機 AI 編碼 Agent。"
+    },
+    "antirez/h3.c": {
+      "repo": "antirez/h3.c",
+      "last_featured": "2026-08-14",
+      "summary": "專為 Apple Silicon 晶片設計的 MiniMax-H3 模型原生推理引擎。"
+    },
+    "cloudflare/computer": {
+      "repo": "cloudflare/computer",
+      "last_featured": "2026-08-14",
+      "summary": "基於 Cloudflare Durable Objects 的虛擬檔案系統，為 AI Agent 提供安全的沙盒執行環境。"
+    },
+    "primeintellect-ai/prime-agent": {
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "last_featured": "2026-08-14",
+      "summary": "基於遞迴語言模型（RLM）架構的自我改進型 AI 編碼與研究 Agent。"
+    },
+    "trycua/cua": {
+      "repo": "trycua/cua",
+      "last_featured": "2026-08-14",
+      "summary": "專為 AI Agent 設計的跨平台 Computer-Use 驅動程式、沙盒環境與評測基準。"
+    },
+    "semantica-agi/semantica": {
+      "repo": "semantica-agi/semantica",
+      "last_featured": "2026-08-14",
+      "summary": "專為 AI Agent 設計的圖形原生（Graph-Native）上下文與決策追溯基礎設施。"
     }
   }
 }
