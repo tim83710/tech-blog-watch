@@ -2517,18 +2517,21 @@
     "https://openai.com/index/dali-rajic-chief-revenue-officer": "2026-08-13T23:28:44.186925+00:00",
     "https://deepmind.google/blog/introducing-gemini-3-7-flash": "2026-08-13T23:28:44.186925+00:00",
     "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop": "2026-08-13T23:28:44.186925+00:00",
-    "https://huggingface.co/blog/icml-2026-open-reproductions": "2026-08-13T23:28:44.186925+00:00"
+    "https://huggingface.co/blog/icml-2026-open-reproductions": "2026-08-13T23:28:44.186925+00:00",
+    "https://www.databricks.com/blog/using-aifunctions-your-data-warehouse-top-use-cases": "2026-08-14T22:54:03.926537+00:00",
+    "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions": "2026-08-14T22:54:03.926537+00:00",
+    "https://huggingface.co/blog/state-of-open-models-summer-2026": "2026-08-14T22:54:03.926537+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-14",
+    "date": "2026-08-15",
     "points": [
-      "輝達 (NVIDIA) 聯手華爾街六大金融機構，包括 Apollo、貝萊德 (BlackRock) 等，目標動員逾 5,000 億美元第三方資金，將 AI 算力轉化為可投資的資產類別，透過算力擔保發債，預計數月內啟動首批交易，此舉將深化 AI 基礎設施的金融生態系。",
-      "全球九大雲端服務供應商 (CSP) 大幅上修 2026 年 AI 伺服器資本支出，預計年增約 90% 突破 8,867 億美元，並將於 2027 年增至 1.32 兆美元，顯示對 AI 基礎設施的投資持續激增，主要受輝達 (NVIDIA) 新一代方案、自研 ASIC 晶片及中國本地 AI 解決方案需求驅動。",
-      "前沿 AI 模型競爭白熱化，OpenAI 傳聞將推出專注於長時間任務執行與多代理 (Agent) 協作的「Astra」新模型系列；同時 Google DeepMind 經歷高層人事變動，首席科學家 Jeff Dean 與共同創辦人 Demis Hassabis 離職；而 Anthropic 在最新一季募資高達 650 億美元，顯示頂級 AI 玩家在技術、領導層與資本層面競爭加劇。",
-      "美國加州議會預計於 8 月 13 日集中表決約 30 項 AI 法案，涵蓋數位複製品欺詐、深度偽造勒索及 AI 聊天機器人玩具禁令等，凸顯 AI 監管趨嚴；同時中國 AI 市場出現轉向，DeepSeek 等公司上調 API 價格，字節跳動旗下 AI 助手「豆包」也開始收取服務費，預示市場從價格戰走向盈利模式探索。",
-      "輝達 (NVIDIA) 與 Apollo、貝萊德 (BlackRock)、黑石集團 (Blackstone)、布魯克菲爾德投資管理公司 (Brookfield)、高盛 (Goldman Sachs) 及 KKR 等六家大型金融機構簽署合作備忘錄，目標為 AI 基礎設施籌集逾 5,000 億美元的第三方資金，旨在為 AI 開發商、企業、政府及雲端服務供應商提供更廣泛的算力取得途徑，並為資產管理公司創造長期、與使用量掛鉤的投資機會。",
-      "美國銀行 (Bank of America) 宣布啟動「關鍵基礎設施融資計畫」(Critical Infrastructure Financing Program)，目標在明年七月前籌集並部署 2,500 億美元資金，重點投資於數位基礎設施（如資料中心、算力、半導體、電信）、能源基礎設施及其他關鍵基礎設施（如電網、戰略礦產），此舉延續華爾街對 AI 基礎設施的巨額投資熱潮。",
-      "市場分析指出，AI 已進入「實質變現」階段，能為企業帶來實際營收或成本節省。例如，AI 信用卡客服經實測已能有效應對複雜需求，顯示其取代人力、節省金融業數百億元薪資的潛力；同時，「託管推論 (Managed Inference)」模式的興起，降低了企業導入 AI 的門檻，加速 AI 在各行業的落地應用。"
+      "AI 雲端服務商 Nebius 首次舉辦的 AI 算力拍賣中，NVIDIA Blackwell 世代晶片的價格較先前最高價上漲 15%，顯示市場對稀缺 AI 運算力的需求強勁且客戶願意支付更高價格。同時，華爾街投資者認為輝達 (NVIDIA) 5,000 億美元的 AI 算力融資協議仍不足以滿足未來需求，芝加哥商品交易所 (CME) 和洲際交易所 (ICE) 正積極推動「算力期貨」交易，OpenAI 也正招募金融人才處理 GPU 證券化，預示 AI 算力正迅速轉變為可交易的金融商品資產類別。",
+      "SpaceX 宣布其 AI 算力基礎設施已達 1.4 GW，並計劃在明年底前擴增至 10 GW，第二季資本支出高達 158 億美元，顯示其對 AI 資料中心的巨額投資與快速擴張野心，微軟 (Microsoft) 被視為潛在合作夥伴。",
+      "南韓政府與三星電子 (Samsung Electronics)、SK 海力士 (SK Hynix) 等企業共同承諾投入超過 1.8 兆美元，旨在擴大半導體製造能力，特別是 AI 晶片領域，以鞏固其在全球 AI 供應鏈中的領導地位。",
+      "輝達 (NVIDIA) 推出輕量化開源模型「Nemotron 3.5 Lightning」，支援單一 GPU 運行 AI 代理，並正開發參數量預計達 1 兆的「Nemotron 4」，旨在挑戰中國模型在開源市場的影響力，深化其在 AI 生態系中的技術主導權。",
+      "根據 PitchBook 2026 年第二季美國創投估值報告，當季美國創投資金有高達 87.5% 流向人工智慧相關公司，顯示資本高度集中於 AI 領域，非 AI 新創僅能競逐剩餘 12.5% 的資金，反映市場資金流向的結構性轉變。",
+      "高盛 (Goldman Sachs) 於 8 月 10 日發布的研究報告指出，美國人工智慧投資預計將在 2026 年達到 6,000 億美元，佔國內生產總值近 2%，並佔企業固定投資的逾 10%，預期 AI 支出將持續引爆巨大的融資需求。",
+      "Feathery Inc. 於 8 月 13 日推出一款由 AI 驅動的提案生成工具，旨在協助財富管理公司大規模製作個人化客戶提案，此舉為 AI 在財富管理領域的實際落地提供具體應用。"
     ]
   },
   "github_repos": {
