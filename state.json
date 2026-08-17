@@ -2520,18 +2520,27 @@
     "https://huggingface.co/blog/icml-2026-open-reproductions": "2026-08-13T23:28:44.186925+00:00",
     "https://www.databricks.com/blog/using-aifunctions-your-data-warehouse-top-use-cases": "2026-08-14T22:54:03.926537+00:00",
     "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions": "2026-08-14T22:54:03.926537+00:00",
-    "https://huggingface.co/blog/state-of-open-models-summer-2026": "2026-08-14T22:54:03.926537+00:00"
+    "https://huggingface.co/blog/state-of-open-models-summer-2026": "2026-08-14T22:54:03.926537+00:00",
+    "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents": "2026-08-17T22:57:05.271422+00:00",
+    "https://openai.com/index/the-defenders-window": "2026-08-17T22:57:05.271422+00:00",
+    "https://openai.com/index/openai-joins-ports-pike-project": "2026-08-17T22:57:05.271422+00:00",
+    "https://openai.com/index/new-policy-ideas-for-the-intelligence-age": "2026-08-17T22:57:05.271422+00:00",
+    "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer": "2026-08-17T22:57:05.271422+00:00",
+    "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery": "2026-08-17T22:57:05.271422+00:00",
+    "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2": "2026-08-17T22:57:05.271422+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-17",
+    "date": "2026-08-18",
     "points": [
-      "輝達 (NVIDIA) 攜手阿波羅 (Apollo)、黑石 (Blackstone) 等六家華爾街大型金融機構，共同推動逾 5,000 億美元的 AI 基礎建設融資平台，此舉旨在將 GPU 算力重新定義為可抵押、可融資的長期資產，為 AI 算力部署開闢新的資本市場模式。",
-      "AI 大廠 Anthropic 據傳正洽談以約 60 億美元收購以色列新創公司 Decart，以獲取其頂尖的算力最佳化技術，此交易凸顯 AI 巨頭在 IPO 前夕對降低模型推理成本及透過收購「買時間」以加速技術迭代的戰略重視。",
-      "OpenAI 為了應對中國平價 AI 模型的競爭，將其 GPT-5.6 Luna 模型價格大幅下調 80%，從每百萬輸入代幣 1 美元降至 0.20 美元，此舉顯示 AI 模型市場正進入激烈的價格戰，以爭奪市場份額及開發者採用率。",
-      "中國科技巨頭阿里巴巴旗下開放權重模型「千問」(Qwen) 在過去六個月內全球累計下載量突破 30 億次，超越 Meta 和 Google，顯示中國開源 AI 模型在全球開發者生態系統中的影響力正快速提升。",
-      "NVIDIA 與 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 和 KKR 等六家主要金融機構合作，建立獨立的運算融資平台，目標是為人工智慧 (AI) 基礎設施開發籌集超過 5,000 億美元的第三方資本。",
-      "據 Bloomberg 引用 Goldman Sachs 的研究報導，全球對沖基金在 2026 年上半年因 AI 投資熱潮，平均回報率達到 7%，表現優於長期平均水平，且投資者對對沖基金的需求達到創紀錄高點。",
-      "2026 年 8 月，AI 新創公司募資活動持續強勁，其中 Fireworks AI 完成 15.05 億美元的 D 輪融資，Together AI 則完成 8 億美元的 C 輪融資，顯示投資重心正從基礎模型訓練轉向推論基礎設施、企業工具和垂直領域 AI 應用。"
+      "輝達 (NVIDIA) 針對其與 OpenAI 合作的超大型資料中心計畫，傳出將其金融擔保從原先的 2,500 億美元大幅縮減至 1,200 億美元以下。此外，市場也關注 AI 晶片領域快速膨脹的表外融資模式，即透過「剩餘價值擔保」(Residual Value Guarantee, RVG) 形成的約 700 億美元「幽靈負債」，凸顯 AI 基礎建設融資的潛在信用風險與槓桿挑戰。",
+      "支付巨頭 Stripe 據報導已敲定以超過 70 億美元收購 AI 模型路由平台 OpenRouter。此舉顯示 Stripe 正積極將其業務擴展至 AI 經濟的「交易路由層」，旨在整合模型選擇、用量計費和資金結算，預期將對 AI 應用生態系統產生深遠影響。",
+      "隨著高階 AI 晶片功耗普遍突破 1kW，液冷散熱正迅速成為高階 AI 基礎設施的標準配置。TrendForce 預估，液冷技術在 AI 晶片的滲透率將從 2025 年的約 33% 提升至 2026 年的 53%，並在 2027 年逼近 60%，這將帶動相關供應鏈的重大投資與技術升級。",
+      "美國國務院據傳正要求 35 個經濟體在美國主導的「AI 機會聲明」(AI Opportunity Statement) 與中國主導的 AI 競爭框架之間「二選一」。此舉標誌著美中科技對抗已從晶片禁令擴大至涵蓋礦產、能源、雲端及資料中心的「AI 經濟安全體系」，將重塑全球 AI 供應鏈與各國的 AI 戰略布局。",
+      "Broadcom 與 Apollo Global Management 及 Blackstone 合作的 AI XPV 平台，旨在為 AI 資料中心提供融資，初始融資方案達 350 億美元，主要客戶為 Anthropic 和 OpenAI；據報導，美國銀行 (Bank of America) 因此下調 Broadcom 的債務評級，原因是該平台相關的擔保可能使 Broadcom 的潛在損失達到 3,700 億美元，此舉凸顯 AI 基礎建設融資的潛在風險與規模。",
+      "Leopold Aschenbrenner 旗下的 AI 對沖基金 Situational Awareness 在上季度直接投資了包括 Nebius 在內的一系列 AI 股票，並平倉了大部分看跌期權；NVIDIA 也對 Nebius Group 投資了 7 億美元，顯示儘管該基金先前遭受損失，仍持續看好並積極佈局 AI 領域。",
+      "過去 48 小時內，多家 AI 原生金融服務新創公司獲得顯著融資：Yuno 完成 4,500 萬美元 B 輪融資以擴展其全球支付作業系統，Maximum 獲得 3,000 萬美元用於建構銀行 AI 作業系統，Cobi 則募得 100 萬美元用於客戶情報的 AI 決策堆疊，顯示資本持續流向金融 AI 解決方案。",
+      "金融服務業 AI 應用持續落地：SEI、Mili 和 Zeplyn 等公司分別與 Zocks Communications、Holistiplan 以及 Schwab Advisor Center 建立合作或整合，推出 AI 助理、AI 稅務規劃軟體及 AI 自動化開戶系統；台灣虛擬資產交易所 HOYA BIT 也正式上線其「AI金寶」，允許使用者透過自然語言進行加密貨幣交易，提升了金融服務的效率與使用者體驗。",
+      "KPMG 全球 AI 脈動調查指出，27% 的金融服務機構正在企業範圍內擴展 AI 應用，59% 的機構報告 AI 已帶來顯著業務價值；然而，Workiva 的調查顯示 89% 的投資者擔憂 AI 生成資訊的準確性，並積極追蹤營收成長率 (51%)、銷售轉換率 (42%) 等指標，凸顯市場對 AI 投資實際回報的嚴格審視。"
     ]
   },
   "github_repos": {
@@ -2674,6 +2683,26 @@
       "repo": "semantica-agi/semantica",
       "last_featured": "2026-08-14",
       "summary": "專為 AI Agent 設計的圖形原生（Graph-Native）上下文與決策追溯基礎設施。"
+    },
+    "xoreaxeaxeax/skitter-creek-bath-salts": {
+      "repo": "xoreaxeaxeax/skitter-creek-bath-salts",
+      "last_featured": "2026-08-18",
+      "summary": "透過修改 DRAM 控制器的物理位址轉換，解鎖並暴露 CPU 受保護記憶體區域的硬體安全研究工具。"
+    },
+    "therealyt/git-knife": {
+      "repo": "TheRealYT/git-knife",
+      "last_featured": "2026-08-18",
+      "summary": "像編輯試算表般直觀修改 Git 提交歷史元數據（訊息、作者、提交日期）的桌面 GUI 工具。"
+    },
+    "cathrynlavery/diagram-design": {
+      "repo": "cathrynlavery/diagram-design",
+      "last_featured": "2026-08-18",
+      "summary": "專為 Claude Code 等 AI 代理設計的編輯級圖表生成工具，提供 27 種無依賴的 HTML 與 SVG 視覺類型。"
+    },
+    "cactus-compute/needle": {
+      "repo": "cactus-compute/needle",
+      "last_featured": "2026-08-18",
+      "summary": "專為邊緣與微型設備設計的 14MB 超輕量基礎模型，專注於工具調用與結構化數據提取。"
     }
   }
 }
