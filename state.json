@@ -2545,18 +2545,28 @@
     "https://huggingface.co/blog/ibm-research/altk-evolve-hmm": "2026-08-18T23:06:02.823749+00:00",
     "https://huggingface.co/blog/multi-vector-encoder": "2026-08-18T23:06:02.823749+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/operating-model-enterprise-ai-agent-reliability": "2026-08-18T23:06:02.823749+00:00",
-    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/understanding-agents-their-five-controllers-and-one-graph": "2026-08-18T23:06:02.823749+00:00"
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/understanding-agents-their-five-controllers-and-one-graph": "2026-08-18T23:06:02.823749+00:00",
+    "https://www.databricks.com/blog/designing-effective-genie-agents-single-prompt": "2026-08-19T23:03:45.296663+00:00",
+    "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams": "2026-08-19T23:03:45.296663+00:00",
+    "https://openai.com/index/offering-zero-data-retention-for-frontier-models": "2026-08-19T23:03:45.296663+00:00",
+    "https://openai.com/index/replit": "2026-08-19T23:03:45.296663+00:00",
+    "https://openai.com/index/chatgpt-ads-expands-across-europe": "2026-08-19T23:03:45.296663+00:00",
+    "https://openai.com/index/nvidia/chatgpt-work": "2026-08-19T23:03:45.296663+00:00",
+    "https://developers.openai.com/blog/codex-as-a-platform": "2026-08-19T23:03:45.296663+00:00",
+    "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents": "2026-08-19T23:03:45.296663+00:00",
+    "https://developer.nvidia.com/blog/building-federated-multimodal-ai-workflows-with-nvidia-flare": "2026-08-19T23:03:45.296663+00:00",
+    "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control": "2026-08-19T23:03:45.296663+00:00",
+    "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator": "2026-08-19T23:03:45.296663+00:00",
+    "https://huggingface.co/blog/LiquidAI/qad": "2026-08-19T23:03:45.296663+00:00",
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/The-alpha-playbook-AI-for-investment-professionals": "2026-08-19T23:03:45.296663+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-19",
+    "date": "2026-08-20",
     "points": [
-      "據《華爾街日報》分析，九家主要科技公司（包括 Alphabet、Meta、亞馬遜、微軟、甲骨文、輝達、博通、SpaceX 及超微）的表外 AI 相關承諾已達約 3 兆美元，遠高於其帳面資本支出，凸顯 AI 基礎設施融資的實際資本密集度與潛在金融風險。",
-      "輝達 (NVIDIA) 確認將為 OpenAI 位於俄亥俄州的資料中心提供 1,050 億美元的融資擔保，並成為該案唯一算力供應商，同時投資 15 億美元入股電力供應商 SB Energy；此外，雲端算力服務商 HIVE Digital 亦簽署一份五年、3.5 億美元的合約，將部署 2,016 張輝達 Blackwell Ultra GPU，顯示 AI 基礎建設的資金流向與下一代算力需求持續擴大。",
-      "AI 投資正顯著轉向「實體 AI」(Physical AI) 領域，其中 93% 的資金流向機器人本體及能讓 AI 理解並作用於真實世界的模型；德國 NEURA Robotics 完成高達 14 億美元的 C 輪融資，用於擴大認知型與人形機器人的量產，而 General Intuition 則專注開發機器人的世界模型與動作模型。",
-      "蘋果 (Apple) 為因應中國市場的嚴格監管與本土競爭，已與阿里巴巴合作，專為中國市場開發及訓練獨家的大語言模型 (LLM)，以整合至 Apple Intelligence 服務，此舉標誌著蘋果在華 AI 佈局的重大戰略轉向與本地化努力。",
-      "輝達 (NVIDIA) 與 Apollo、BlackRock、Blackstone、Brookfield、高盛 (Goldman Sachs) 及 KKR 等六家主要私人資本公司合作，建立獨立融資平台，旨在動員超過 5,000 億美元的第三方資本，以支持 AI 基礎設施的開發。此舉標誌著 AI 基礎建設融資模式的重大轉變，將風險從輝達自身擔保轉移至更廣泛的金融生態系統，確保 AI 運算資源的長期資金供應。",
-      "保險科技領域出現具體落地成效：FlyGuys 與 TerraFort 合作，利用無人機部署和 AI 損害評估，將自然災害後的保險損害評估時間從數週或數月大幅縮短至最快 48 小時，顯著提升理賠效率。",
-      "新雲端 (neocloud) 營運商 CoreWeave、Nebius Group 和 TeraWulf 的股價在過去 48 小時內大幅下跌 5% 至 7%，反映出市場對 AI 支出持久性的質疑以及利率上升的影響，儘管這些公司近期營運表現強勁，但資本市場正重新評估 AI 基礎設施相關資產的融資環境與風險。"
+      "OpenAI 罕見地宣布，由於一個即將推出的模型（代號 Astra）可能已具備「關鍵級」網路安全能力，為升級安全、監控與對齊系統，已暫停最新一代模型的強化學習訓練兩週，此舉凸顯領先 AI 開發者在模型能力快速增長下，對安全風險的重視與治理挑戰。",
+      "支付巨頭 Stripe 以超過 70 億美元收購 AI 模型閘道服務商 OpenRouter，該公司提供單一 API 存取數百種 AI 模型並自動路由，其估值在三個月內從 13 億美元飆升，顯示 AI 推理層的戰略價值與市場整合趨勢。",
+      "據報導，微軟 (Microsoft) 自 2022 年以來已投入約 2,800 億美元部署 220 萬個 AI 晶片，但其資料中心營運正因電力供應限制而受阻，凸顯 AI 基礎設施擴張面臨晶片以外的關鍵瓶頸，即電力基礎建設的挑戰。",
+      "據彭博社報導，SpaceX 曾就潛在收購 AI 編程新創公司 Cognition AI Inc. 進行接觸，儘管談判已不再活躍，但雙方仍在討論合作，包括 Cognition 使用 SpaceX 運算基礎設施的安排，顯示 AI Agent 領域的戰略價值與大型科技公司對其自動化能力的興趣。"
     ]
   },
   "github_repos": {
