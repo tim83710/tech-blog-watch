@@ -2558,15 +2558,28 @@
     "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control": "2026-08-19T23:03:45.296663+00:00",
     "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator": "2026-08-19T23:03:45.296663+00:00",
     "https://huggingface.co/blog/LiquidAI/qad": "2026-08-19T23:03:45.296663+00:00",
-    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/The-alpha-playbook-AI-for-investment-professionals": "2026-08-19T23:03:45.296663+00:00"
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/The-alpha-playbook-AI-for-investment-professionals": "2026-08-19T23:03:45.296663+00:00",
+    "https://www.databricks.com/blog/inbound-private-link-now-supports-account-level-genie-one-account-console-and-custom-urls": "2026-08-20T23:02:05.093290+00:00",
+    "https://www.databricks.com/blog/busting-sql-migration-myths-how-new-sql-features-make-lift-and-shift-lakehouse-easier": "2026-08-20T23:02:05.093290+00:00",
+    "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai": "2026-08-20T23:02:05.093290+00:00",
+    "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate": "2026-08-20T23:02:05.093290+00:00",
+    "https://claude.com/blog/claude-code-guide-for-startups": "2026-08-20T23:02:05.093290+00:00",
+    "https://claude.com/blog/computer-use-skills-api-files-api": "2026-08-20T23:02:05.093290+00:00",
+    "https://openai.com/index/introducing-ai-futures": "2026-08-20T23:02:05.093290+00:00",
+    "https://openai.com/index/stampli": "2026-08-20T23:02:05.093290+00:00",
+    "https://developer.nvidia.com/blog/how-generative-recommenders-are-redefining-recsys-at-scale": "2026-08-20T23:02:05.093290+00:00",
+    "https://huggingface.co/blog/LiquidAI/lfm25-dspark": "2026-08-20T23:02:05.093290+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-20",
+    "date": "2026-08-21",
     "points": [
-      "OpenAI 罕見地宣布，由於一個即將推出的模型（代號 Astra）可能已具備「關鍵級」網路安全能力，為升級安全、監控與對齊系統，已暫停最新一代模型的強化學習訓練兩週，此舉凸顯領先 AI 開發者在模型能力快速增長下，對安全風險的重視與治理挑戰。",
-      "支付巨頭 Stripe 以超過 70 億美元收購 AI 模型閘道服務商 OpenRouter，該公司提供單一 API 存取數百種 AI 模型並自動路由，其估值在三個月內從 13 億美元飆升，顯示 AI 推理層的戰略價值與市場整合趨勢。",
-      "據報導，微軟 (Microsoft) 自 2022 年以來已投入約 2,800 億美元部署 220 萬個 AI 晶片，但其資料中心營運正因電力供應限制而受阻，凸顯 AI 基礎設施擴張面臨晶片以外的關鍵瓶頸，即電力基礎建設的挑戰。",
-      "據彭博社報導，SpaceX 曾就潛在收購 AI 編程新創公司 Cognition AI Inc. 進行接觸，儘管談判已不再活躍，但雙方仍在討論合作，包括 Cognition 使用 SpaceX 運算基礎設施的安排，顯示 AI Agent 領域的戰略價值與大型科技公司對其自動化能力的興趣。"
+      "博通 (Broadcom) 據報導正與黑石 (Blackstone) 和阿波羅全球管理 (Apollo Global Management) 洽談，擬籌集逾 600 億美元債務融資，以支持其 AI 基礎設施建設，此舉將有助於 Anthropic 等 AI 公司確保算力基礎設施的取得，顯示 AI 基礎設施投資的龐大需求與金融市場的積極參與。",
+      "據報導，Nvidia 計劃在年底前開始向中國客戶出貨少量專為中國市場設計的 AI 晶片，且中國已放寬對 Nvidia H200 晶片的限制，部分中國科技巨頭如字節跳動 (ByteDance) 和騰訊 (Tencent) 已收到約 1 萬片 H200 處理器，此舉反映了在出口管制下，Nvidia 調整市場策略以維持在中國市場的份額。",
+      "AI 資料中心與共封裝光學 (CPO) 的快速發展，導致高速光通訊模組的關鍵材料磷化銦 (Indium Phosphide, InP) 面臨嚴重短缺，而中國在磷化銦供應鏈中掌握關鍵環節並實施出口管制，加劇了這一供應瓶頸，恐影響 AI 基礎設施的擴張速度。",
+      "專注於 AI 推論晶片的新創公司 Etched 完成 7 億美元融資，估值在不到一個月內翻倍至 210 億美元，並已獲得超過 10 億美元的客戶合約，顯示市場對專用 AI 推論硬體的需求強勁，並可能對 Nvidia 等通用 GPU 供應商構成競爭威脅。",
+      "螞蟻國際 (Ant International) 推出升級版 Falcon Time-Series Transformer (TST) 2.0 AI 模型，專為跨境支付中的外匯風險管理提供更精確預測，並已被巴克萊 (Barclays)、花旗 (Citi)、德意志銀行 (Deutsche Bank) 及渣打銀行 (Standard Chartered) 等主要全球銀行採用，顯示 AI 在金融核心業務的實際落地與大型機構的合作趨勢。",
+      "印度 AI 原生借貸科技平台 Rezolv 完成 1,250 萬美元 A 輪融資，由 Norwest 領投，將用於深化其在銷售、風險評估、承銷和催收等借貸套件中的 AI 能力；同時，為 AI 代理提供支付基礎設施的新創公司 Natural 獲得 Upper90 Capital Management 高達 1 億美元的信貸額度，以支持其支付和信貸服務的資本需求擴張，凸顯 AI 在金融科技基礎設施和借貸領域的資金流向。",
+      "美國大型保險經紀商 Alliant Insurance Services 將收購 AI 原生員工福利平台 Nava Benefits，Nava 的 AI 工具能解決 81% 的會員支援查詢，並獲得 4.5/5 的滿意度，顯示 AI 在保險業的實際落地成效與市場整合趨勢。"
     ]
   },
   "github_repos": {
