@@ -2584,18 +2584,14 @@
     "https://www.thoughtworks.com/insights/blog/technology-strategy/agents-on-databricks-the-platform-is-ready-your-business-context-is-not": "2026-08-21T22:58:18.131681+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-23",
+    "date": "2026-08-24",
     "points": [
-      "由於記憶體晶片價格飆漲，輝達 (Nvidia) 已通知部分主要客戶，其 AI 伺服器售價將自明年初起調漲逾 15%，同時，產業預期電力短缺將成為 AI 發展的下一個關鍵瓶頸，美國資料中心至 2028 年恐面臨 40% 的電力缺口，凸顯 AI 基礎設施成本與供應鏈的雙重壓力。",
-      "AI 新創公司 Anthropic 正在加速其自研晶片計畫，延攬前 Google 張量處理器 (TPU) 團隊創始者 Amir Salek 加入，此舉旨在降低對外部晶片供應商的依賴並客製化晶片設計，以應對供應短缺並優化自身需求。",
-      "巴西政府宣布將投資 4.4 億美元建設兩處 AI 超級運算中心，作為其 2024-2028 年「巴西 AI 計畫」的一部分，旨在擴大國內 AI 運算能力並降低對海外科技基礎設施的依賴，其中一處預計採用輝達 (Nvidia) 技術，另一處則將與中國公司合作。",
-      "輝達 (Nvidia) 據報導已預訂台積電 (TSMC) 的 1.6 奈米 (N16) 製程，用於製造其 Rubin 世代之後的下一代 AI 圖形處理器 (GPU)「Feynman」，該晶片將與高頻寬記憶體 (HBM4) 搭配，顯示輝達在先進製程技術上的積極布局。",
-      "對沖基金 Citadel 在 2026 年 7 月透過收購倒閉的 AI 基金 Situational Awareness 的不良資產，並在 8 月 21 日前出售價值超過 40 億美元的部位，成功將其旗艦 Wellington 基金的風險降低 80% 以上，並實現 5.9% 的增長。",
-      "支付平台 Adyen 公布 2026 年上半年財報，處理量達 8038 億歐元（約 9407 億美元），年增 24%，淨收入增長 19% 至 13.029 億歐元（約 15.248 億美元），顯示其從傳統支付處理轉向 AI 商務的策略取得顯著成效。",
-      "據報導，Broadcom 正與 Apollo Global Management 和 Blackstone 等金融巨頭洽談，尋求超過 600 億美元的債務融資，以支持其 AI 晶片交易，服務包括 Anthropic 在內的客戶，突顯金融市場對 AI 基礎設施投資的龐大需求。",
-      "金融科技巨頭 Stripe 已確認收購 AI 模型交換和路由平台 OpenRouter，據報導交易金額在 75 億至 80 億美元以上，旨在強化其在代理式商務 (agentic commerce) 方面的 AI 能力。",
-      "英國數位銀行 Starling Bank 推出一系列 AI 工具，旨在幫助客戶更好地管理財務，其 AI 助理 Starling Assistant 已能執行轉帳、開設儲蓄帳戶和分析消費趨勢等實際銀行操作，並計劃在 2026 年底前每週推出新工具。",
-      "英國私募股權公司 August Equity 同意投資 InsurTech MGA Starpeak，這筆交易將用於進一步開發 Starpeak 的內部技術平台 iTraps，以支持快速產品發布、自動化承保和簡化直接面向消費者的銷售。"
+      "仁寶 (Compal) 據傳已成功拿下 Google 兩款張量處理器 (TPU) AI 伺服器 L10/L11 的新案大單，並有望取得其他北美雲端服務供應商 (CSP) 的 ASIC 伺服器新訂單，預計將迎來出貨爆發期，顯示 Google 持續擴大其自有 AI 硬體基礎設施的投資，並強化與台灣供應鏈的合作。",
+      "AI 模型聚合平台 OpenRouter 上線代號為「Ox Alpha」的匿名新模型，該模型擁有約 104.8 萬 token 的超大上下文窗口，並支援文本、圖像和影音等多模態輸入，部分測試表現據稱超越 Fable 和 GPT-5.6，可能對現有大型語言模型市場帶來潛在衝擊。",
+      "輝達 (Nvidia) 已同意支付 60 億美元，取得 AI 模型公司 Poolside 的模型授權，並將延攬 Poolside 逾百位員工，此舉顯示輝達正積極透過外部合作與人才吸納，強化其在 AI 模型開發領域的佈局。",
+      "AI 會計新創公司 Rillet 在 48 小時內完成 1 億美元的 C 輪融資，估值達到 10 億美元，旨在挑戰 Oracle、NetSuite 和 Intuit 等老牌企業軟體公司，並已與 EY 建立聯盟以導入 AI 工具。",
+      "對沖基金 Citadel 於三週內成功出脫從倒閉的 AI 基金 Situational Awareness 收購的超過 80% 風險部位，涉及逾 40 億美元的市場價值，其旗艦 Wellington 基金也在七月份實現 5.94% 的增長，為 2022 年以來最佳單月表現。",
+      "支付平台 Stripe 確認收購 AI 模型路由平台 OpenRouter，據報導交易金額超過 70 億美元，OpenRouter 每日處理逾 10 兆 AI tokens，Stripe 旨在透過此收購將自身定位為 AI 代理經濟 (agent economy) 中資金流與智慧流的雙重核心。"
     ]
   },
   "github_repos": {
