@@ -2581,17 +2581,28 @@
     "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place": "2026-08-21T22:58:18.131681+00:00",
     "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games": "2026-08-21T22:58:18.131681+00:00",
     "https://huggingface.co/blog/asr-benchmark-optimization": "2026-08-21T22:58:18.131681+00:00",
-    "https://www.thoughtworks.com/insights/blog/technology-strategy/agents-on-databricks-the-platform-is-ready-your-business-context-is-not": "2026-08-21T22:58:18.131681+00:00"
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/agents-on-databricks-the-platform-is-ready-your-business-context-is-not": "2026-08-21T22:58:18.131681+00:00",
+    "https://www.databricks.com/blog/run-debug-and-scale-databricks-workloads-your-local-ide": "2026-08-24T23:01:02.506715+00:00",
+    "https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation": "2026-08-24T23:01:02.506715+00:00",
+    "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep": "2026-08-24T23:01:02.506715+00:00",
+    "https://openai.com/index/gpt-5-6-in-kiro": "2026-08-24T23:01:02.506715+00:00",
+    "https://developer.nvidia.com/blog/giga-scale-ai-ethernet-evolution-spectrum-x-ethernet-rewrites-rules": "2026-08-24T23:01:02.506715+00:00",
+    "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt": "2026-08-24T23:01:02.506715+00:00",
+    "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories": "2026-08-24T23:01:02.506715+00:00",
+    "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu": "2026-08-24T23:01:02.506715+00:00",
+    "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin": "2026-08-24T23:01:02.506715+00:00",
+    "https://thinkingmachines.ai/news/safety-research-grants": "2026-08-24T23:01:02.506715+00:00",
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/harnessing-agent-semantic-reliability-at-scale": "2026-08-24T23:01:02.506715+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-24",
+    "date": "2026-08-25",
     "points": [
-      "仁寶 (Compal) 據傳已成功拿下 Google 兩款張量處理器 (TPU) AI 伺服器 L10/L11 的新案大單，並有望取得其他北美雲端服務供應商 (CSP) 的 ASIC 伺服器新訂單，預計將迎來出貨爆發期，顯示 Google 持續擴大其自有 AI 硬體基礎設施的投資，並強化與台灣供應鏈的合作。",
-      "AI 模型聚合平台 OpenRouter 上線代號為「Ox Alpha」的匿名新模型，該模型擁有約 104.8 萬 token 的超大上下文窗口，並支援文本、圖像和影音等多模態輸入，部分測試表現據稱超越 Fable 和 GPT-5.6，可能對現有大型語言模型市場帶來潛在衝擊。",
-      "輝達 (Nvidia) 已同意支付 60 億美元，取得 AI 模型公司 Poolside 的模型授權，並將延攬 Poolside 逾百位員工，此舉顯示輝達正積極透過外部合作與人才吸納，強化其在 AI 模型開發領域的佈局。",
-      "AI 會計新創公司 Rillet 在 48 小時內完成 1 億美元的 C 輪融資，估值達到 10 億美元，旨在挑戰 Oracle、NetSuite 和 Intuit 等老牌企業軟體公司，並已與 EY 建立聯盟以導入 AI 工具。",
-      "對沖基金 Citadel 於三週內成功出脫從倒閉的 AI 基金 Situational Awareness 收購的超過 80% 風險部位，涉及逾 40 億美元的市場價值，其旗艦 Wellington 基金也在七月份實現 5.94% 的增長，為 2022 年以來最佳單月表現。",
-      "支付平台 Stripe 確認收購 AI 模型路由平台 OpenRouter，據報導交易金額超過 70 億美元，OpenRouter 每日處理逾 10 兆 AI tokens，Stripe 旨在透過此收購將自身定位為 AI 代理經濟 (agent economy) 中資金流與智慧流的雙重核心。"
+      "阿里巴巴 (Alibaba) 宣布透過香港市場配售新股，募集約 800 億港元（約 102 億美元），全數用於投資「全棧 AI 能力」，涵蓋 AI 晶片、基礎設施及模型開發部署，成為香港上市公司史上最大規模的一級市場後續股票發行，並已獲主權財富基金等國際投資者超額認購。",
+      "據報導，生成式 AI 公司 Anthropic 正考慮進行首次公開募股 (IPO)，估值可能超過 860 億美元，有望成為 AI 企業史上最大規模的 IPO，顯示市場對頂級 AI 模型公司的強勁信心與資金需求。",
+      "輝達 (Nvidia) 傳出已通知主要客戶，由於記憶體晶片成本飆升，其 AI 伺服器售價將從明年初起調漲逾 15%，漲幅涵蓋 Vera Rubin 和 Grace Blackwell 等新一代平台，預計將影響整個 AI 供應鏈及伺服器製造商的成本結構和營收。",
+      "輝達 (Nvidia) 正與 AI 新創公司 Perplexity AI 洽談追加投資，該輪融資對 Perplexity AI 的估值可能超過 300 億美元，顯示輝達持續加碼 AI 應用層的戰略佈局，Perplexity AI 被視為 Google 搜尋引擎的潛在勁敵。",
+      "劍橋另類金融中心 (Cambridge Centre for Alternative Finance) 發布《2026 全球金融服務業AI報告》，指出金融科技公司 (FinTechs) 在技術、數據和產品功能方面因導入 AI 實現 86% 的生產力提升，較傳統金融機構的 68% 高出 18 個百分點，顯示 AI 對金融業的影響顯著且不均，金融科技公司在營收相關功能上表現更佳。",
+      "埃森哲 (Accenture) 的季度高階主管調查顯示，82% 的企業領導者正增加 AI 投資，其中 55% 預計代理式 AI (agentic AI) 專案將在未來一年內帶來可向董事會報告的業務成果；然而，僅有 23% 的企業表示 AI 導入已帶來「廣泛且持續的組織級業務價值」，較今年稍早的 32% 有所下降，反映出 AI 投資與實際規模化業務價值實現之間存在落差。"
     ]
   },
   "github_repos": {
@@ -2754,6 +2765,31 @@
       "repo": "cactus-compute/needle",
       "last_featured": "2026-08-18",
       "summary": "專為邊緣與微型設備設計的 14MB 超輕量基礎模型，專注於工具調用與結構化數據提取。"
+    },
+    "anthropics/claude-code": {
+      "repo": "anthropics/claude-code",
+      "last_featured": "2026-08-25",
+      "summary": "Anthropic 官方推出的終端機 Agent 程式碼助手，能直接理解專案庫並執行開發任務。"
+    },
+    "volcengine/openviking": {
+      "repo": "volcengine/OpenViking",
+      "last_featured": "2026-08-25",
+      "summary": "火山引擎開源的 AI Agent 上下文資料庫，將記憶、知識與技能統一為虛擬檔案系統。"
+    },
+    "ryancodrai/turbovec": {
+      "repo": "RyanCodrai/turbovec",
+      "last_featured": "2026-08-25",
+      "summary": "基於 Google TurboQuant 演算法的 Rust 高效向量索引庫，專為低記憶體 RAG 設計。"
+    },
+    "pg83/solo": {
+      "repo": "pg83/solo",
+      "last_featured": "2026-08-25",
+      "summary": "專為靜態 Linux 二進位檔設計的 .so 載入器，解決 musl 靜態編譯程式無法載入主機 GPU 驅動的痛點。"
+    },
+    "modular/modular": {
+      "repo": "modular/modular",
+      "last_featured": "2026-08-25",
+      "summary": "Modular 平台開源核心倉庫，包含 Mojo 語言編譯器與 MAX AI 部署框架。"
     }
   }
 }
