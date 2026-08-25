@@ -2592,17 +2592,36 @@
     "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu": "2026-08-24T23:01:02.506715+00:00",
     "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin": "2026-08-24T23:01:02.506715+00:00",
     "https://thinkingmachines.ai/news/safety-research-grants": "2026-08-24T23:01:02.506715+00:00",
-    "https://www.thoughtworks.com/insights/blog/technology-strategy/harnessing-agent-semantic-reliability-at-scale": "2026-08-24T23:01:02.506715+00:00"
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/harnessing-agent-semantic-reliability-at-scale": "2026-08-24T23:01:02.506715+00:00",
+    "https://www.databricks.com/blog/how-capital-markets-finance-protects-balance-sheet-returns": "2026-08-25T23:04:52.182073+00:00",
+    "https://www.databricks.com/blog/modernizing-sql-etl-lakehouse-declarative-patterns": "2026-08-25T23:04:52.182073+00:00",
+    "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner": "2026-08-25T23:04:52.182073+00:00",
+    "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it": "2026-08-25T23:04:52.182073+00:00",
+    "https://openai.com/index/the-full-stack-behind-abundant-intelligence": "2026-08-25T23:04:52.182073+00:00",
+    "https://openai.com/index/jalapeno-first-results": "2026-08-25T23:04:52.182073+00:00",
+    "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia": "2026-08-25T23:04:52.182073+00:00",
+    "https://openai.com/index/introducing-admin-plugin": "2026-08-25T23:04:52.182073+00:00",
+    "https://developers.openai.com/blog/automating-repetitive-work-at-openai-with-codex": "2026-08-25T23:04:52.182073+00:00",
+    "https://developers.openai.com/blog/build-week-winners": "2026-08-25T23:04:52.182073+00:00",
+    "https://developer.nvidia.com/blog/restore-llm-inference-capacity-in-seconds-with-shadow-engine-recovery-in-nvidia-dynamo": "2026-08-25T23:04:52.182073+00:00",
+    "https://developer.nvidia.com/blog/cuda-python-1-0-stable-apis-one-foundation-full-platform-access": "2026-08-25T23:04:52.182073+00:00",
+    "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr": "2026-08-25T23:04:52.182073+00:00",
+    "https://huggingface.co/blog/ibm-granite/granite-4-2": "2026-08-25T23:04:52.182073+00:00",
+    "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing": "2026-08-25T23:04:52.182073+00:00",
+    "https://huggingface.co/blog/gradio-workflow-guide": "2026-08-25T23:04:52.182073+00:00",
+    "https://huggingface.co/blog/pwc-search": "2026-08-25T23:04:52.182073+00:00",
+    "https://www.thoughtworks.com/insights/blog/careers-at-thoughtworks/getting-to-know-the-stages-of-the-interview-process": "2026-08-25T23:04:52.182073+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-25",
+    "date": "2026-08-26",
     "points": [
-      "阿里巴巴 (Alibaba) 宣布透過香港市場配售新股，募集約 800 億港元（約 102 億美元），全數用於投資「全棧 AI 能力」，涵蓋 AI 晶片、基礎設施及模型開發部署，成為香港上市公司史上最大規模的一級市場後續股票發行，並已獲主權財富基金等國際投資者超額認購。",
-      "據報導，生成式 AI 公司 Anthropic 正考慮進行首次公開募股 (IPO)，估值可能超過 860 億美元，有望成為 AI 企業史上最大規模的 IPO，顯示市場對頂級 AI 模型公司的強勁信心與資金需求。",
-      "輝達 (Nvidia) 傳出已通知主要客戶，由於記憶體晶片成本飆升，其 AI 伺服器售價將從明年初起調漲逾 15%，漲幅涵蓋 Vera Rubin 和 Grace Blackwell 等新一代平台，預計將影響整個 AI 供應鏈及伺服器製造商的成本結構和營收。",
-      "輝達 (Nvidia) 正與 AI 新創公司 Perplexity AI 洽談追加投資，該輪融資對 Perplexity AI 的估值可能超過 300 億美元，顯示輝達持續加碼 AI 應用層的戰略佈局，Perplexity AI 被視為 Google 搜尋引擎的潛在勁敵。",
-      "劍橋另類金融中心 (Cambridge Centre for Alternative Finance) 發布《2026 全球金融服務業AI報告》，指出金融科技公司 (FinTechs) 在技術、數據和產品功能方面因導入 AI 實現 86% 的生產力提升，較傳統金融機構的 68% 高出 18 個百分點，顯示 AI 對金融業的影響顯著且不均，金融科技公司在營收相關功能上表現更佳。",
-      "埃森哲 (Accenture) 的季度高階主管調查顯示，82% 的企業領導者正增加 AI 投資，其中 55% 預計代理式 AI (agentic AI) 專案將在未來一年內帶來可向董事會報告的業務成果；然而，僅有 23% 的企業表示 AI 導入已帶來「廣泛且持續的組織級業務價值」，較今年稍早的 32% 有所下降，反映出 AI 投資與實際規模化業務價值實現之間存在落差。"
+      "輝達 (NVIDIA) 宣布其專為代理式 AI (agentic AI) 和低延遲推論設計的 Groq 3 LPX 機櫃已全面量產，搭載 256 顆 Groq 3 LPU 晶片，將部署於雲端業者 Nebius，進一步鞏固輝達在 AI 基礎設施領域的領導地位，並利好鴻海等組裝合作夥伴。",
+      "湯森路透 (Thomson Reuters) 推出首款自行開發的 AI 模型「Thomson」，該模型基於開源基礎並結合法律與稅務專業知識訓練，旨在降低對 Anthropic 等昂貴模型的依賴，並利用阿里巴巴 (Alibaba) 的通義千問 (Qwen) 等開源技術，顯示企業級 AI 解決方案正朝向成本效益與多模型策略發展。",
+      "一款名為「Ox Alpha」（又稱「牛來」）的匿名 AI 模型在 OpenRouter 平台異軍突起，在程式碼生成測試中超越 GPT-5.6 等頂尖模型，並提供近乎無限的免費使用額度，市場推測可能來自中國 AI 實驗室，其高性能與低成本策略可能對現有模型市場帶來衝擊。",
+      "蘋果 (Apple) 推出搭載 M6 或 M5 Pro 晶片的更快速 Mac mini 和 Mac Studio，旨在滿足消費者在本地運行 AI 代理的需求，顯示蘋果正積極佈局終端 AI 應用，可能帶動邊緣 AI 運算硬體的需求。",
+      "支付巨頭 Stripe 據報導以超過 70 億美元收購大型語言模型聚合商 OpenRouter，此舉顯示金融科技公司對 AI 基礎設施的重大投資與整合趨勢。",
+      "荷蘭合作銀行 (Rabobank) 宣布在未來三年內投入高達 20 億歐元，用於建構和擴展其 AI 能力，展現大型金融機構在 AI 領域的具體大規模投資策略。",
+      "美國銀行 (Bank of America) 發布報告指出，AI 正在信貸市場造成「K 型分化」，AI 受益企業在第二季度實現了顯著的營收和 EBITDA 增長（高收益借款人營收增長 16.2%，EBITDA 增長 15.2%；槓桿貸款債務人營收增長 26.8%，EBITDA 增長 23.4%），遠超受 AI 衝擊的企業，突顯 AI 對企業財務表現的具體影響。"
     ]
   },
   "github_repos": {
