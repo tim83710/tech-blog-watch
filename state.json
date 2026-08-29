@@ -2640,23 +2640,29 @@
     "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations": "2026-08-28T06:20:46.936704+00:00",
     "https://thinkingmachines.ai/news/putting-task-expertise-into-rl": "2026-08-28T06:20:46.936704+00:00",
     "https://www.thoughtworks.com/insights/blog/legacy-modernization/the-agentic-frontier-modernizing-commodities-trading-through-ai-ecosystems": "2026-08-28T06:20:46.936704+00:00",
-    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/the-agentic-wealth-advantage": "2026-08-28T06:20:46.936704+00:00"
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/the-agentic-wealth-advantage": "2026-08-28T06:20:46.936704+00:00",
+    "https://www.databricks.com/blog/beyond-answers-new-genie-one-features-turn-insights-action": "2026-08-29T03:56:38.899057+00:00",
+    "https://www.databricks.com/blog/how-indra-unified-ev-charging-data-databricks": "2026-08-29T03:56:38.899057+00:00",
+    "https://www.databricks.com/blog/how-trackunit-turns-construction-data-decisions-ai": "2026-08-29T03:56:38.899057+00:00",
+    "https://claude.com/blog/how-anthropic-employees-use-claude-tag": "2026-08-29T03:56:38.899057+00:00",
+    "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts": "2026-08-29T03:56:38.899057+00:00",
+    "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex": "2026-08-29T03:56:38.899057+00:00",
+    "https://openai.com/index/supporting-next-generation-ai-startups-thailand": "2026-08-29T03:56:38.899057+00:00",
+    "https://developers.openai.com/blog/rosalind-workbench": "2026-08-29T03:56:38.899057+00:00",
+    "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect": "2026-08-29T03:56:38.899057+00:00",
+    "https://huggingface.co/blog/open-asr-leaderboard-global-south": "2026-08-29T03:56:38.899057+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-28",
+    "date": "2026-08-29",
     "points": [
-      "輝達 (NVIDIA) 傳正積極洽談以約 129 億美元收購開源 AI 模型平台 Hugging Face，此為輝達歷來最大手筆併購案，旨在大幅提升其在開放權重 AI 生態系中的影響力，並強化其雲端 AI 業務，以應對主要 AI 實驗室自研晶片的趨勢。",
-      "輝達 (NVIDIA) 據報導已暫停其部分針對 AI 雲端公司的融資協議，這些協議原先允許輝達從客戶營收中分潤，此舉可能與監管機構對「循環交易」推高 AI 需求的疑慮以及合作夥伴的不滿有關，恐影響小型 AI 雲端服務商的資金取得。",
-      "中國的開放權重 AI 模型正加速融入全球 AI 產業鏈，例如美國法律 AI 公司 Harvey 的 Tenet 模型以中國月之暗面 (Moonshot AI) 的 Kimi K3 為基礎開發，而思維機器實驗室 (Thinking Machines Lab) 的 Inkling 模型則沿用 DeepSeek V3 的混合專家 (MoE) 架構，顯示中國模型在全球 AI 研發中的影響力日益提升。",
-      "台灣封測廠如力成 (Powertech)、日月光投控 (ASE Technology Holding) 及京元電 (King Yuan Electronics) 正大幅擴大先進封裝產能，合計投入逾 4300 億新台幣，其中力成投入 500 億新台幣打造的 AI 先進面板級封裝產線已獲 AMD 等大客戶預訂一空，凸顯 AI 晶片需求持續強勁，並鞏固台灣在 AI 供應鏈關鍵環節的地位。",
-      "輝達 (NVIDIA) 與亞馬遜 (Amazon) 旗下 AWS 擴大策略合作，除了 AWS 將額外採購 200 萬顆輝達 AI 晶片外，雙方更將共同開發客製化高頻寬記憶體 (NVHBM) 產品，並強化 NVLink Fusion 高速傳輸技術，此舉顯示輝達正深化對 AI 晶片關鍵零組件的控制與優化，以應對 HBM 供應短缺並提升整體 AI 運算平台效能。",
-      "根據 KPMG 的最新報告，2026 年上半年全球金融科技 (fintech) 投資額達 1,031 億美元，其中 AI 相關交易價值為 214 億美元，幾乎追平 2025 年全年總額；美洲地區由美國主導，資金主要流向詐欺預防、支付自動化及代理式商務 (agentic commerce) 等 AI 應用領域。",
-      "荷蘭合作銀行 (Rabobank) 宣布，未來三年將投入高達 20 億歐元，用於建構及擴展其 AI 能力，顯示大型銀行對 AI 基礎設施的重大投資承諾。",
-      "支付巨頭 Stripe 據報導已同意以超過 70 億美元收購大型語言模型聚合商 OpenRouter，這是一項金融服務公司與 AI 技術供應商之間的大型併購案。",
-      "美國證券交易委員會 (SEC) 正擴大對 AI 對沖基金 Situational Awareness 險些崩潰事件的調查，並已向美國銀行、花旗集團、高盛和摩根大通等四家華爾街主要銀行發出傳票，要求提供該基金的交易及槓桿使用記錄。",
-      "美國銀行 (BofA) 報告指出，AI 正造成企業間的「信用 K 型分化」，受益於 AI 的公司營收增長 26.8%、EBITDA 增長 23.4%，而受 AI 衝擊的公司營收僅增長 3.6%、EBITDA 增長 3%，顯示 AI 對企業財務表現和信用風險產生顯著影響。",
-      "據高盛 (Goldman Sachs) 報告，儘管 7 月市場波動，對沖基金對 AI 相關大型科技股仍保持高度信心，截至 8 月 19 日，今年以來平均回報率達 10%，其中亞馬遜仍是對沖基金最受歡迎的持股。",
-      "LearnInvest 的 2026 年第二季 13F 報告顯示，機構投資者在 AI 相關半導體股票上進行了積極調整，經股價影響調整後，將美光 (Micron) 持股減少 60%，但將英特爾 (Intel) 持股增加 9%。"
+      "OpenAI 公布其首款自研 AI 推理晶片 Jalapeno 的基準測試結果，聲稱在特定大型語言模型推理任務上，其單位功耗處理能力和回應延遲優於輝達 (NVIDIA) GB200/GB300 系統，預計 2026 年底有限度部署，此舉標誌著主要 AI 實驗室在晶片自研方面取得重大進展，可能改變 AI 推理晶片市場的競爭格局。",
+      "SK 海力士 (SK Hynix) 宣布將在美國印第安納州投資逾 40 億美元，建立其首座高頻寬記憶體 (HBM) 先進封裝廠，預計 2029 年下半年開始量產下一代 HBM 4E 晶片，以應對 AI 晶片對 HBM 的強勁需求，並強化美國半導體供應鏈。",
+      "創投公司 Andreessen Horowitz 成功募資 11 億美元，成立專注於 AI 硬體領域的基金，將投資晶片、記憶體、網路、儲存等 AI 基礎設施相關公司，顯示投資界對 AI 基礎層建設的長期看好。",
+      "Anthropic 推出 Model Hardware Standard (MHS) 的研究預覽，該系統允許其 AI 助手 Claude 控制科學與工程設備並進行實驗，是 AI 首次能實際操作物理世界的工具，預示著具身智能 (embodied AI) 在科學研究和製造領域的應用將大幅擴展。",
+      "S&P Global Ratings 報告指出，主要超大規模業者（如 Alphabet、Amazon、Microsoft 等）為快速擴張 AI 基礎設施，預計到 2027 年總資本支出將超過 1.3 兆美元，並預期這六大業者在 2026 和 2027 年將出現負自由營運現金流，顯示 AI 基礎設施建設對其財務的巨大影響及資金流向。",
+      "Gallagher Re 報告顯示，2026 年第二季度全球保險科技 (InsurTech) 融資達到 24.4 億美元，創四年新高，其中高達 99.1% 的資金（24.2 億美元）流向了專注於 AI 的公司，顯示資本正高度集中於 AI 驅動的保險科技領域，而早期階段融資則下降了 51.8%。",
+      "nCino 和 Protiviti 的最新報告指出，儘管高達 91% 的銀行已制定 AI 策略，且 77% 的金融機構正在使用 AI 進行預測，但僅有 21% 的銀行能衡量 AI 對營收的具體貢獻，且只有 35% 的金融機構表示能有效衡量 AI 投資報酬率 (ROI)，凸顯金融業在 AI 落地成效評估上的挑戰。",
+      "高盛數據顯示，對沖基金在 2026 年 7 月經歷了逾二十年來相對於標普 500 指數最差的單月表現，主要原因是市場上過度擁擠的 AI 交易 (AI trade) 出現「去槓桿化」(de-grossing) 導致的「AI 交易反轉」(AI unwind)，凸顯 AI 相關投資的波動性風險。"
     ]
   },
   "github_repos": {
