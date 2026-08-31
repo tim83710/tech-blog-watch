@@ -22,6 +22,7 @@ import github_watch
 import notify
 import pulse
 import summarize
+import youtube_watch
 
 TAIPEI = ZoneInfo("Asia/Taipei")
 
@@ -124,16 +125,20 @@ def _generate_pulses(client, model: str, date_str: str, state: dict, settings: d
 def _remember_pulses(state: dict, pulses: list[dict], date_str: str) -> None:
     """把本次脈動列點記進 state，明天的 48 小時窗口靠它去重；本次沒產出就保留昨日的。
 
-    GitHub 週段（kind == "github"）不進 last_pulse（跟 grounded 脈動的去重無關），
-    改把 repo_updates 合併進 state["github_repos"]，供下次「介紹過就不重覆」判斷。
+    GitHub 週段（kind == "github"）與 YouTube 週段（kind == "youtube"）不進 last_pulse
+    （跟 grounded 脈動的去重無關）：github 把 repo_updates 合併進 state["github_repos"]、
+    youtube 把 video_updates 合併進 state["youtube_seen"]，供下次「介紹過就不重覆」判斷。
     """
-    grounded = [pu for pu in pulses if pu.get("kind") != "github"]
+    grounded = [pu for pu in pulses if pu.get("kind") not in ("github", "youtube")]
     if grounded:
         points = [p for pu in grounded for p in pu.get("points", []) if "無重大新動態" not in p]
         state["last_pulse"] = {"date": date_str, "points": points}
     for pu in pulses:
         if pu.get("kind") == "github" and pu.get("repo_updates"):
             state.setdefault("github_repos", {}).update(pu["repo_updates"])
+        elif pu.get("kind") == "youtube" and pu.get("video_updates"):
+            state.setdefault("youtube_seen", {}).update(pu["video_updates"])
+            youtube_watch.prune_seen(state, date_str)
 
 
 def _maybe_github_weekly(client, model: str, settings: dict, state: dict,
@@ -152,6 +157,22 @@ def _maybe_github_weekly(client, model: str, settings: dict, state: dict,
         return github_watch.generate_weekly(client, model, settings, state, date_str)
     except Exception as e:
         print(f"  [warn] GitHub 週段生成失敗（不影響 digest）: {e}")
+        return None
+
+
+def _maybe_youtube_weekly(client, model: str, settings: dict, channels: list[dict],
+                          state: dict, date_str: str, force: bool = False) -> dict | None:
+    """每週固定幾天（台北時間，預設週四）產生 YouTube 精選段；失敗絕不影響 digest。"""
+    if not settings.get("youtube_weekly_enabled"):
+        return None
+    weekdays = settings.get("youtube_weekly_weekdays") or []
+    if datetime.now(TAIPEI).weekday() not in weekdays and not force:
+        return None
+    print("  本週 YouTube 精選 …")
+    try:
+        return youtube_watch.generate_weekly(client, model, settings, channels, state, date_str)
+    except Exception as e:
+        print(f"  [warn] YouTube 週段生成失敗（不影響 digest）: {e}")
         return None
 
 
@@ -195,6 +216,10 @@ def main() -> int:
     ap.add_argument("--seed", action="store_true", help="只標記已看過、不摘要不發送")
     ap.add_argument("--force-github", action="store_true",
                     help="不管今天星期幾都跑 GitHub 週段（測試用）")
+    ap.add_argument("--force-youtube", action="store_true",
+                    help="不管今天星期幾都跑 YouTube 週段（測試用）")
+    ap.add_argument("--once-per-day", action="store_true",
+                    help="同一台北日期已成功跑過就直接退出（給 workflow 用：dispatch 與 fallback cron 防重複發送）")
     args = ap.parse_args()
 
     _load_dotenv()
@@ -210,6 +235,19 @@ def main() -> int:
 
     state = load_state()
     first_run = not state["seen"]
+    now_tpe = datetime.now(TAIPEI)
+    # 用台北時間標日期（Actions runner 是 UTC，深夜 UTC 跑的時候台北已是隔天早上）
+    date_str = now_tpe.strftime("%Y-%m-%d")
+
+    # 生產跑的前置閘（dry-run / seed / 首次執行不受影響）：要在抓取與任何 API 呼叫之前退出
+    if not args.dry_run and not args.seed and not first_run:
+        if now_tpe.weekday() in (settings.get("skip_weekdays") or []):
+            print(f"今天（{date_str}，台北週{'一二三四五六日'[now_tpe.weekday()]}）在 skip_weekdays 內，"
+                  "不抓不發；文章會自然滾入下一個發送日。")
+            return 0
+        if args.once_per_day and state.get("last_run_date") == date_str:
+            print(f"今天（{date_str}）已成功跑過（last_run_date），本次觸發直接退出。")
+            return 0
 
     print("== 抓取候選文章 ==")
     candidates = discover_all(sources)
@@ -241,8 +279,6 @@ def main() -> int:
         print("[error] 缺 GEMINI_API_KEY（本機放 .env、雲端放 GitHub secret）")
         return 1
     client = summarize.make_client(api_key)
-    # 用台北時間標日期（Actions runner 是 UTC，22:30 UTC 跑的時候台北已是隔天早上）
-    date_str = datetime.now(TAIPEI).strftime("%Y-%m-%d")
 
     new_items = pick_new(candidates, state, settings)
     print(f"== 新文章：{len(new_items)} 篇 ==")
@@ -260,10 +296,17 @@ def main() -> int:
                                   force=args.force_github)
         if gh:
             pulses.append(gh)
+        yt = _maybe_youtube_weekly(client, model, settings, cfg.get("youtube_channels", []),
+                                   state, date_str, force=args.force_youtube)
+        if yt:
+            pulses.append(yt)
 
-    # 沒有新文章：有脈動就單獨發，沒有就跟過去一樣安靜結束
+    # 沒有新文章：有脈動就單獨發，沒有就安靜結束（仍記 last_run_date，讓 --once-per-day 擋住同日重跑）
     if not new_items:
         if not pulses:
+            if not args.dry_run:
+                state["last_run_date"] = date_str
+                save_state(state)
             print("沒有新文章、無脈動段，結束。")
             return 0
         if args.dry_run:
@@ -273,6 +316,7 @@ def main() -> int:
         print("== 發送（僅脈動段）==")
         _send_all([], date_str, pulses)
         _remember_pulses(state, pulses, date_str)
+        state["last_run_date"] = date_str
         save_state(state)
         print("沒有新文章，已單獨發送脈動段。")
         return 0
@@ -303,6 +347,7 @@ def main() -> int:
         mark_seen(state, new_items)
         if not args.dry_run:
             _remember_pulses(state, pulses, date_str)
+            state["last_run_date"] = date_str
             save_state(state)
         if not pulses:
             return 0
@@ -328,6 +373,7 @@ def main() -> int:
     # 只要成功摘要就標記已看過（含發送）；發送失敗仍標記，避免下次重複灌爆
     mark_seen(state, new_items)
     _remember_pulses(state, pulses, date_str)
+    state["last_run_date"] = date_str
     save_state(state)
     print(f"完成：{len(posts)} 篇已發送、{len(new_items)} 篇標記已看過。")
     return 0

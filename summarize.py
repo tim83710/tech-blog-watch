@@ -38,13 +38,15 @@ def make_client(api_key: str) -> genai.Client:
 
 
 def generate_with_retry(client: genai.Client, model: str, contents: str, config: dict, label: str):
-    """呼叫 generate_content；429/503/timeout 退避重試最多 4 次。回傳 response，失敗回傳 None。"""
+    """呼叫 generate_content；429/503/504/timeout 退避重試最多 4 次。回傳 response，失敗回傳 None。"""
     for attempt in range(4):
         try:
             return client.models.generate_content(model=model, contents=contents, config=config)
         except genai_errors.APIError as e:
             code = getattr(e, "code", None)
-            if code in (429, 503) and attempt < 3:  # 免費 tier 限流 / 暫時過載 → 退避重試
+            # 429/503＝免費 tier 限流/過載、504＝server 端 DEADLINE_EXCEEDED（大 payload 偶發，
+            # 曾連續砍掉兩期 GitHub 週段）→ 都視為暫時性，退避重試
+            if code in (429, 503, 504) and attempt < 3:
                 wait = 8 * (attempt + 1)
                 print(f"    [rate] {code}，{wait}s 後重試 …")
                 time.sleep(wait)

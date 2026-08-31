@@ -2,10 +2,18 @@ name: daily-blog-watch
 
 on:
   schedule:
-    # 22:30 UTC = 06:30 隔天台北時間（Actions cron 只吃 UTC）
-    # 註：GitHub 排程為 best-effort，尖峰可能延遲數小時，實際到信時間會晚於此。
-    - cron: "30 22 * * *"
-  workflow_dispatch:        # 允許在 GitHub 網頁上手動觸發（測試用）
+    # 這條只是 fallback：主要觸發是 cron-job.org 每天台北 06:15 打 workflow_dispatch API
+    # （GitHub schedule 是 best-effort，2026 年實測平台級積壓可延遲數小時且換分鐘無解；
+    #   dispatch 不走 schedule 佇列、近乎即時。設定步驟見 README「排程與觸發」）。
+    # 22:17 UTC = 台北 06:17（避開整點/半點的壅塞分鐘）。同日重複觸發由 main.py 的
+    # --once-per-day guard 擋掉，先跑成功的那個贏。
+    - cron: "17 22 * * *"
+  workflow_dispatch:        # cron-job.org 主觸發 + GitHub 網頁手動觸發（測試用）
+    inputs:
+      force:
+        description: "跳過 --once-per-day guard（同一天重跑測試用）"
+        type: boolean
+        default: false
 
 # 讓 workflow 能把更新後的 state.json commit 回 repo
 permissions:
@@ -21,6 +29,11 @@ jobs:
     timeout-minutes: 25       # 任一步驟卡住就 25 分鐘收工，不再佔滿 6h 上限被強制取消
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 必加：schedule 觸發的 run 其 GITHUB_SHA 釘在 run「建立當下」的 commit，
+          # 若這個 run 在佇列裡等到前一個 run push 完 state.json 才開跑，預設 checkout
+          # 會拿到舊 state → --once-per-day guard 讀不到 last_run_date 而重複發送。
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -48,7 +61,10 @@ jobs:
           SEND_EMAIL: ${{ vars.SEND_EMAIL }}
           # GitHub API 配額（每週 GitHub 專案段抓 README / release 用；自動提供、不用另設）
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python main.py
+          FORCE_RERUN: ${{ inputs.force }}
+        # 平常都帶 --once-per-day（dispatch 與 fallback cron 同日只發一次）；
+        # 手動 dispatch 勾 force 才拿掉，讓同一天能重跑測試
+        run: python main.py $([ "$FORCE_RERUN" = "true" ] || echo --once-per-day)
 
       - name: Commit updated state
         run: |

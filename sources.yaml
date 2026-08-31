@@ -15,14 +15,50 @@ settings:
   max_per_run: 20      # 單次整體上限（保險絲）
   model: gemini-3.5-flash   # 免費 tier flash；想更省可換 gemini-2.5-flash / gemini-2.5-flash-lite
   article_char_limit: 12000   # 丟給 Gemini 的內文字元上限（控 token）
-  pulse_enabled: true   # 每日「AI 產業脈動」段落（Gemini Grounding with Google Search）
-  finance_pulse_enabled: true   # 每日「金融×AI 脈動」段落（同樣走 grounding；每個啟用的段每天各花 1 次 grounded query）
+  skip_weekdays: [6]    # 台北時間星期幾整天不發（0=週一 → 6=週日）；當天不抓不標記，內容自然滾入下一天
+  pulse_enabled: true   # 每日「AI 產業脈動」段落（Gemini Grounding with Google Search；每個啟用的段每天各花 1 次 grounded query）
+  finance_pulse_enabled: false   # 2026-08-31 併入產業脈動段（industry-pulse.md 開了金融窄門）；獨立段 44 天實測噪音多、真料週均僅 2〜3 則
   pulse_model: gemini-2.5-flash   # 脈動用的模型；3.5-flash 的 grounded query 在免費 key 上會 429，2.5 系列另有每日免費額度
   github_weekly_enabled: true   # 每週「GitHub 專案」段（HN 高分 + GitHub Trending；非 grounded，用一般摘要模型）
-  github_weekly_weekdays: [1, 4]  # 台北時間星期幾出（可多天）；0=週一 → 1=週二、4=週五。想改回每週三就設 [2]
-  github_weekly_top_n: 5        # 每次最多介紹幾個專案（上限不是目標）
+  github_weekly_weekdays: [0, 2, 4]  # 台北時間星期幾出（可多天）；0=週一 → 一/三/五（週三接住週一二最旺的 HN 供給）
+  github_weekly_top_n: 4        # 每次最多介紹幾個專案（上限不是目標；三天排程下 5 會稀釋品質，見 2026-08-31 供給實測）
   github_hn_min_points: 100     # HN 候選的最低分數門檻
   github_refeature_days: 14     # 介紹過的 repo 至少隔幾天、且有新 release 才會再出現
+  github_shown_cooldown_days: 6 # 送給模型看過但沒被選上的候選，隔幾天內不再送（三天排程候選窗重疊 62%，防同批弱候選回鍋）
+  youtube_weekly_enabled: true  # 每週「YouTube 精選」段（頻道白名單 RSS → Gemini 選題導讀；非 grounded，用一般摘要模型）
+  youtube_weekly_weekdays: [3]  # 台北時間星期幾出；3=週四（錯開 GitHub 段的一/三/五）
+  youtube_weekly_top_n: 3       # 每次最多介紹幾支（上限不是目標）
+  youtube_max_age_days: 7       # 只考慮近 N 天發佈的影片
+
+# YouTube 頻道白名單（每週 YouTube 精選段的候選來源）。
+# channel_id 一定要用 UC 開頭的 canonical id（@handle 頁面解析不到，別存 handle）；
+# 程式會轉成 UULF playlist feed 抓「一般影片」（排除 Shorts）。
+# category：insight＝大咖訪談/觀點、applied＝應用面/工程實務（給選題 prompt 參考）。
+youtube_channels:
+  - name: Dwarkesh Patel
+    channel_id: UCXl4i9dYBrFOabk0xGmbkRA
+    category: insight     # 月 2〜3 支長訪談，題材與投資視角高度對口
+  - name: No Priors
+    channel_id: UCSI7h9hydQ40K5MJHnCrQvw
+    category: insight     # Sarah Guo + Elad Gil，投資人視角，約週更 30〜40 分
+  - name: Sequoia Capital (Training Data)
+    channel_id: UCWrF0oN6unbXrWsTN7RctTw
+    category: insight
+  - name: Machine Learning Street Talk
+    channel_id: UCMLtBahI5DMrt0NPvDSoIRQ
+    category: insight
+  - name: Andrej Karpathy
+    channel_id: UCXUPKJO5MZQN11PqgIvyuvQ
+    category: insight     # 極少更新，但每支都是事件級
+  - name: Latent Space
+    channel_id: UCxBcwypKK-W3GHd_RZ9FZrQ
+    category: applied     # swyx 的 AI engineering 訪談
+  - name: LangChain
+    channel_id: UCC-lyoTfSrcJzA1ab3APAgw
+    category: applied     # 短片為主，agent 實戰 case study
+  - name: AI Engineer
+    channel_id: UCLKPca3kwwd-B59HNr-_lvA
+    category: applied     # conference talks，量大靠選題過濾
 
 # company：用於 email/Slack 標題的 [公司 News] 前綴；沒填就用 name。
 sources:
