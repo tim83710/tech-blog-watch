@@ -4,9 +4,9 @@
 
 ## 架構定位
 
-- **跑在 GitHub Actions**（雲端，不依賴 Tim 的 Mac）。這是**獨立 GitHub repo**，跟 `notes/` 各過各的。**主觸發是 cron-job.org 每天台北 06:15 打 workflow_dispatch**（GitHub schedule 2026 年平台級積壓、延遲數小時是常態且換分鐘無解）；repo 裡的 cron 只是 fallback。設定步驟在 README「排程與觸發」。
+- **跑在 GitHub Actions**（雲端，不依賴 Tim 的 Mac）。這是**獨立 GitHub repo**，跟 `notes/` 各過各的。觸發是 GitHub schedule（`17 22 * * *` UTC＝台北 06:17），best-effort：2026-08 實測 59 天中 50 天在 06:49–08:06 到、最壞 14:20，且平台級積壓換分鐘無解。**Tim 已決定暫不用外部排程器**；將來要砍延遲尾端，升級路徑（cron-job.org 打 workflow_dispatch）的步驟在 README「排程與觸發」，`--once-per-day` guard 已就緒、屆時直接加即可。
 - **狀態存在 repo 裡**：`state.json` 記已看過的文章 URL、昨日脈動列點（`last_pulse`，48 小時窗口去重）、介紹過的 GitHub repo（`github_repos`）與看過沒選上的候選（`github_shown`）、介紹過的影片（`youtube_seen`）、當日已跑標記（`last_run_date`，`--once-per-day` guard 用），每天由 Actions commit 回去。這是雲端無狀態環境能「記得」的關鍵，別把它 gitignore 掉。
-- 摘要用 Gemini API（`gemini-3.5-flash`，Google AI Studio 免費 tier；模型在 `sources.yaml` 可換）。用 `google-genai` SDK（`from google import genai`），不需要 Claude Code 在雲端跑。
+- 摘要用 Gemini API（`gemini-3.6-flash`，Google AI Studio 免費 tier；模型在 `sources.yaml` 可換。2026-08-31 從已標 legacy 的 3.5-flash 升級，換模型前務必本機實測一次結構化輸出——摘要失敗會把文章標 seen 造成靜默丟失）。用 `google-genai` SDK（`from google import genai`），不需要 Claude Code 在雲端跑。
 
 ## 單一事實來源
 
@@ -37,7 +37,7 @@
 
 - **首次執行**：`state.json` 空時 `main.py` 自動走 seed 模式（只標記已看過、不摘要不發送），避免第一次把整個 backlog 灌成巨量 digest。要重置就把 `state.json` 清成 `{"seen": {}}`。
 - **無 RSS 的來源**（Databricks、Anthropic、OpenAI Developers）走 scrape，靠 `sources.yaml` 的 `link_pattern` 從列表頁挑文章連結；對方改版時 pattern 可能要調。
-- **排程與 guard**：fallback cron 是 UTC（`17 22 * * *` = 台北 06:17；避開整點/半點）。主觸發 cron-job.org 打 dispatch，兩者同日重複靠 main.py 的 `--once-per-day`（比對 `state.json` 的 `last_run_date`，台北日期）擋。**workflow 的 checkout 必須留 `ref: main`**：schedule run 的 GITHUB_SHA 釘在 run 建立當下的 commit，排隊排到前一個 run push 完 state 之後才跑的話，不加 ref 會讀到舊 state、guard 失效重複發信。`skip_weekdays: [6]`＝台北週日整天不發（gate 在 main.py，不動 cron——延遲跨日會讓 cron 層的星期判斷不可靠），當天不抓不標記、內容滾入週一。
+- **排程與 guard**：cron 是 UTC（`17 22 * * *` = 台北 06:17；避開整點/半點）。main.py 的 `--once-per-day`（比對 `state.json` 的 `last_run_date`，台北日期）擋同日重複觸發——手動 dispatch 測試或將來的外部排程器都靠它。**workflow 的 checkout 必須留 `ref: main`**：schedule run 的 GITHUB_SHA 釘在 run 建立當下的 commit，排隊排到前一個 run push 完 state 之後才跑的話，不加 ref 會讀到舊 state、guard 失效重複發信。`skip_weekdays: [6]`＝台北週日整天不發（gate 在 main.py，不動 cron——延遲跨日會讓 cron 層的星期判斷不可靠），當天不抓不標記、內容滾入週一。
 - **改 workflow 或 secrets 後**，下一次排程或手動 `workflow_dispatch` 才生效。手動 dispatch 勾 `force` 可跳過 `--once-per-day`（同日重跑測試用）。
 - **GitHub 週段**：只在特定**台北時間**星期跑（`github_weekly_weekdays`，list，0=週一；目前 `[0, 2, 4]`＝一/三/五；也相容舊的單數 `github_weekly_weekday`。gating 用 `ZoneInfo("Asia/Taipei")`，別用 runner 的 UTC）。`top_n` 目前 4：2026-08 供給實測（HN 合格 ~15.7 個/週）顯示三天排程維持 5 會稀釋品質。介紹過的 repo 記在 `github_repos`；重覆出現的條件是「隔 `github_refeature_days` 天以上**且**之後有新 GitHub Release」。**送模型看過但沒選上的候選記在 `github_shown`**（`github_shown_cooldown_days` 內不重送；只在模型有回應時記錄，API 失敗不記）。GitHub API（README/release）走 `GITHUB_TOKEN`（Actions 自動提供；本機沒 token 也能跑、只是限流 60 次/hr）。測試用 `--force-github`（非 grounded、不吃 grounded 額度）。
 - **YouTube 週段**：只在 `youtube_weekly_weekdays`（目前 `[3]`＝週四，台北）跑。頻道 feed 用 **UULF playlist feed**（`channel_id` 的 `UC` 前綴換 `UULF`）排除 Shorts、失敗退回 channel feed；feed 免 API key 但**沒有時長欄位**，宣傳短片靠選題 prompt 從說明厚薄判斷。`youtube_channels` 的 `channel_id` 一定要 `UC` 開頭的 canonical id（`@handle` 解析不到）。介紹過的影片記在 `youtube_seen`。目前是 metadata-only 導讀（不看影片）；若升級影片理解：免費 tier 每天上限 8 小時 YouTube 影片、60 分鐘片要 `mediaResolution: LOW`（≈360k input tokens，先確認該模型免費 TPM 撐不撐得住）。**不要**用 youtube-transcript-api / yt-dlp 抓字幕——YouTube 按 ASN 封鎖雲端 IP，Actions 上必死（2026-08 查證）。測試用 `--force-youtube`。
