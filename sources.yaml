@@ -13,7 +13,7 @@ settings:
   max_age_days: 7      # 只處理近 N 天發佈的文章（抓不到日期的仍會處理，靠 state 去重）
   max_per_source: 6    # 每個來源單次最多處理幾篇（防洪水）
   max_per_run: 20      # 單次整體上限（保險絲）
-  model: gemini-3.5-flash   # 免費 tier flash；想更省可換 gemini-2.5-flash / gemini-2.5-flash-lite
+  model: gemini-3.6-flash   # 免費 tier flash（2026-08-31 由 3.5-flash 升級：3.5 已標 legacy；結構化輸出已本機實測 OK）
   article_char_limit: 12000   # 丟給 Gemini 的內文字元上限（控 token）
   skip_weekdays: [6]    # 台北時間星期幾整天不發（0=週一 → 6=週日）；當天不抓不標記，內容自然滾入下一天
   pulse_enabled: true   # 每日「AI 產業脈動」段落（Gemini Grounding with Google Search；每個啟用的段每天各花 1 次 grounded query）

@@ -27,8 +27,8 @@
 ## 運作方式
 
 ```
-cron-job.org 每天台北 06:15 打 workflow_dispatch（主觸發，見下方「排程與觸發」）
-GitHub Actions schedule 22:17 UTC = 台北 06:17（fallback；同日重複由 --once-per-day 擋）
+GitHub Actions schedule 22:17 UTC = 台北 06:17（best-effort，常延遲 1〜4 小時；
+  想砍延遲尾端可升級外部排程器打 workflow_dispatch，見下方「排程與觸發」）
   → main.py     前置閘：skip_weekdays（週日不發）、--once-per-day（今天發過就退出）
   → fetch.py    抓 RSS / 爬列表頁，找出新文章（比對 state.json 去重）
   → pulse.py    脈動段：Gemini + Google Search grounding 產「AI 產業脈動」
@@ -44,9 +44,9 @@ GitHub Actions schedule 22:17 UTC = 台北 06:17（fallback；同日重複由 --
 
 ## 排程與觸發
 
-GitHub 的 `schedule` 是 best-effort：2026 年實測平台級積壓常延遲 1〜4 小時、偶爾 8 小時以上，且換 cron 分鐘無解；`workflow_dispatch`（API 觸發）不走 schedule 佇列、近乎即時。所以主觸發走外部排程器，schedule 只當 fallback，兩者同日重複由 `--once-per-day` guard 擋掉（先成功的贏）。
+目前只用 GitHub `schedule`（cron `17 22 * * *`＝台北 06:17）。它是 best-effort：2026-08 實測 59 天中 50 天在台北 06:49–08:06 送達，但平台積壓時可延遲到中午後，且換 cron 分鐘無解；`workflow_dispatch`（API 觸發）不走 schedule 佇列、近乎即時。**想砍掉延遲尾端時**，照下面步驟升級成「外部排程器為主、schedule 當 fallback」——`--once-per-day` guard 已就緒，兩者同日重複會自動擋掉（先成功的贏）。
 
-一次性設定（約 30 分鐘）：
+一次性設定（約 30 分鐘，目前未啟用）：
 
 1. **建 fine-grained PAT**：GitHub → Settings → Developer settings → Fine-grained tokens → 只選這個 repo、Repository permissions 只給 **Actions: Read and write**、期限可設 No expiration。
 2. **建 cron-job.org job**（免費帳號即可）：
