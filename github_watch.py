@@ -5,6 +5,11 @@
 再次入選的條件是「距上次介紹 ≥ refeature_days 且之後有新的 GitHub Release」，並把 release
 內容餵給模型，讓列點寫「這次更新了什麼」而不是重覆介紹；沒有正式 Release 的 repo 不會重覆出現。
 
+弱候選冷卻：送給模型看過但**沒被選上**的候選記在 state.json 的 github_shown（{repo 小寫: 日期}），
+shown_cooldown_days 內不再送——一週三天排程下相鄰兩期候選窗重疊 62%，不記會讓模型反覆看同批弱候選。
+只在模型有回應（含「判定都不值得寫」）時記錄；API 失敗不記，讓下一期自然重試。
+注意：本函式會直接改 state（dry-run 安全性來自 main 在 dry-run 時不 save_state）。
+
 輸出形狀與脈動段相容（notify 直接沿用 pulse 渲染）：
 {"kind": "github", "title", "emoji", "text", "points", "sources", "grounded": True,
  "repo_updates": {...}}   # repo_updates 由 main 在正式跑時合併進 state，dry-run 不寫
@@ -194,6 +199,38 @@ def _gather_candidates(min_points: int) -> list[dict]:
     return picked[:MAX_CANDIDATES]
 
 
+def _filter_recently_shown(cands: list[dict], state: dict, date_str: str,
+                           cooldown_days: int) -> tuple[list[dict], int]:
+    """跳過 cooldown_days 內已送給模型看過的候選；回傳 (保留的候選, 跳過數)。"""
+    shown = state.get("github_shown") or {}
+    today = datetime.strptime(date_str, "%Y-%m-%d")
+    kept, skipped = [], 0
+    for c in cands:
+        last = shown.get(c["repo"].lower(), "")
+        try:
+            if last and (today - datetime.strptime(last, "%Y-%m-%d")).days < cooldown_days:
+                skipped += 1
+                continue
+        except ValueError:
+            pass
+        kept.append(c)
+    return kept, skipped
+
+
+def _record_shown(state: dict, meta: dict[str, dict], date_str: str) -> None:
+    """把本期送給模型的候選記為已看過，並清掉 30 天以上的舊紀錄。"""
+    shown = state.setdefault("github_shown", {})
+    for key in meta:
+        shown[key] = date_str
+    today = datetime.strptime(date_str, "%Y-%m-%d")
+    for key in list(shown):
+        try:
+            if (today - datetime.strptime(shown[key], "%Y-%m-%d")).days > 30:
+                del shown[key]
+        except ValueError:
+            del shown[key]
+
+
 def _prepare_payload(cands: list[dict], featured: dict, date_str: str,
                      refeature_days: int) -> tuple[str, dict[str, dict]]:
     """把候選整理成給 Gemini 的文字；介紹過的 repo 套用 refeature 規則。
@@ -246,10 +283,17 @@ def generate_weekly(client, model: str, settings: dict, state: dict,
     min_points = settings.get("github_hn_min_points", 100)
     top_n = settings.get("github_weekly_top_n", 5)
     refeature_days = settings.get("github_refeature_days", 14)
+    shown_cooldown = settings.get("github_shown_cooldown_days", 6)
 
     cands = _gather_candidates(min_points)
     if not cands:
         print("    [note] 本週無 GitHub 候選")
+        return None
+    cands, skipped = _filter_recently_shown(cands, state, date_str, shown_cooldown)
+    if skipped:
+        print(f"    [note] {skipped} 個候選在 shown 冷卻期（{shown_cooldown} 天）內，本期不重送")
+    if not cands:
+        print("    [note] 候選全在 shown 冷卻期內，本期不出 GitHub 段")
         return None
     payload, meta = _prepare_payload(cands, state.get("github_repos") or {},
                                      date_str, refeature_days)
@@ -277,6 +321,9 @@ def generate_weekly(client, model: str, settings: dict, state: dict,
         except Exception:
             print("    [warn] github-weekly 回傳非預期格式")
             return None
+
+    # 模型有給出判斷（含「都不值得寫」）→ 本期看過的候選進冷卻；API 失敗不會走到這裡
+    _record_shown(state, meta, date_str)
 
     # 只留真的在候選清單裡的 repo（防幻覺），並套 top_n 上限
     valid = [p for p in picks if p.repo.lower() in meta][:top_n]
