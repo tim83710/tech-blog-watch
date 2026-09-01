@@ -2650,18 +2650,20 @@
     "https://openai.com/index/supporting-next-generation-ai-startups-thailand": "2026-08-29T03:56:38.899057+00:00",
     "https://developers.openai.com/blog/rosalind-workbench": "2026-08-29T03:56:38.899057+00:00",
     "https://developer.nvidia.com/blog/deploy-an-open-model-from-checkpoint-to-inference-in-two-commands-with-nvidia-tensorrt-model-connect": "2026-08-29T03:56:38.899057+00:00",
-    "https://huggingface.co/blog/open-asr-leaderboard-global-south": "2026-08-29T03:56:38.899057+00:00"
+    "https://huggingface.co/blog/open-asr-leaderboard-global-south": "2026-08-29T03:56:38.899057+00:00",
+    "https://www.databricks.com/blog/autoscaling-lakebase-postgres": "2026-09-01T01:24:47.165196+00:00",
+    "https://openai.com/index/polimill": "2026-09-01T01:24:47.165196+00:00",
+    "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads": "2026-09-01T01:24:47.165196+00:00",
+    "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science": "2026-09-01T01:24:47.165196+00:00",
+    "https://developer.nvidia.com/blog/scale-av-perception-across-vehicle-platforms-with-nvidia-omniverse-nurec": "2026-09-01T01:24:47.165196+00:00",
+    "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting": "2026-09-01T01:24:47.165196+00:00"
   },
   "last_pulse": {
-    "date": "2026-08-31",
+    "date": "2026-09-01",
     "points": [
-      "京元電 (King Yuan Electronics) 和矽格 (Ardentec) 受惠於 AI 晶片加速放量，後段測試需求強勁爆發，訂單能見度已達 2027 年，顯示 AI 晶片供應鏈後端需求持續高漲。",
-      "韓國 SK 海力士 (SK Hynix) 預期全球記憶體晶片短缺將持續至 2030 年底，主要受 AI 客戶強勁需求驅動，凸顯 AI 對專業記憶體需求的長期結構性變化。",
-      "SEMICON Taiwan 2026 展會揭示，生成式 AI 正重塑半導體供應鏈分工，焦點從晶圓製造轉向由雲端服務供應商 (CSP)、晶片設計、先進封裝及系統整合共同定義規格，其中先進封裝、矽光子 (SiPh) 和共同封裝光學 (CPO) 成為解決算力、傳輸與能耗瓶頸的關鍵技術。",
-      "蘋果發表搭載 M5 Ultra 晶片的全新 Mac Studio，大幅提升裝置端 AI 效能，能處理更大規模的語言模型，降低對雲端運算的依賴，顯示邊緣 AI 運算能力持續增強。",
-      "金融科技公司Ramp報告指出，美國金融及保險業的AI採用率已達73.1%，為所有主要產業中成長最快，顯示AI應用正從試驗階段推向大規模部署。然而，nCino的銀行AI基準報告顯示，儘管91%的銀行有AI策略，但僅21%能衡量AI對營收的直接貢獻；《2026年全球金融服務AI報告》進一步指出，僅40%金融機構實現獲利增長，成功關鍵在於年AI預算超過10萬美元，並採用自研或深度微調的專屬模型。",
-      "中國平安在內部營運中大規模落地AI，2026年上半年62%的新代碼由AI生成，AI輔助需求佔比達63%，AI測試佔比超50%，且集團日均Token消耗量已達1200億，顯示AI在企業生產層面的實際應用與效率提升。",
-      "科技巨頭（如Alphabet、Amazon、Nvidia、Microsoft）透過對OpenAI、Anthropic及SpaceX等其他AI公司的股權投資，在上季度獲得超過1600億美元的帳面收益，凸顯AI生態系統中的資金流向與估值動態。"
+      "Anthropic 宣布其 AI 模型在 48 小時內實現自我校準 (self-alignment)，將安全性能從 26% 提升至 96%，並在多項任務中超越 28 位人類專家 15,000 倍，顯示 AI 安全與開發效率取得重大突破，可能影響基礎模型發展與競爭格局。",
+      "全球多家主要金融機構公布 AI 應用具體成效。中國工商銀行、建設銀行、招商銀行、平安銀行、興業銀行、交通銀行及郵儲銀行在半年報中揭露 AI 已大規模落地於智能營銷、客服、管理、風控等核心業務，詞元 (Token) 消耗量、智能體部署數量及業務效率（如跨境業務放款效率提升 30%、航貿審查效率提升 70%）均顯著增長。美國銀行 (Bank of America) 亦報告超過 18,000 名開發人員使用 AI 編碼工具，生產力提升約 20%，其虛擬助理 Erica 累計互動次數已突破 32 億，顯示 AI 在金融業的部署已從試點走向具體效益轉化。",
+      "中國在 AI 基礎設施與應用政策上展現積極動態：全球首個對外提供在軌試驗服務的太空算力雲正式常態化運作，實現複雜操作端到端自動化，開拓 AI 算力新邊界。同時，中國工業和信息化部 (MIIT) 發布通知，探索透過首購首用、風險補償等模式，加大對大模型、智能體 (AI Agent) 及詞元服務的採購力度，旨在提升行業 AI 應用質效，預計將刺激中國 AI 服務市場需求。"
     ]
   },
   "github_repos": {
@@ -2850,5 +2852,6 @@
       "last_featured": "2026-08-25",
       "summary": "Modular 平台開源核心倉庫，包含 Mojo 語言編譯器與 MAX AI 部署框架。"
     }
-  }
+  },
+  "last_run_date": "2026-09-01"
 }
