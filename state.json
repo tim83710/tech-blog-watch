@@ -2656,14 +2656,31 @@
     "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads": "2026-09-01T01:24:47.165196+00:00",
     "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science": "2026-09-01T01:24:47.165196+00:00",
     "https://developer.nvidia.com/blog/scale-av-perception-across-vehicle-platforms-with-nvidia-omniverse-nurec": "2026-09-01T01:24:47.165196+00:00",
-    "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting": "2026-09-01T01:24:47.165196+00:00"
+    "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting": "2026-09-01T01:24:47.165196+00:00",
+    "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government": "2026-09-02T00:23:56.169482+00:00",
+    "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour": "2026-09-02T00:23:56.169482+00:00",
+    "https://www.databricks.com/blog/collaboration-makes-us-all-stronger": "2026-09-02T00:23:56.169482+00:00",
+    "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack": "2026-09-02T00:23:56.169482+00:00",
+    "https://www.databricks.com/blog/new-brickbuilder-partner-network-tiers-isvs-and-data-providers-are-here": "2026-09-02T00:23:56.169482+00:00",
+    "https://www.databricks.com/blog/how-discovery-bank-delivers-hyper-personalized-banking-scale-behavioral-ai-governed-data-and": "2026-09-02T00:23:56.169482+00:00",
+    "https://openai.com/index/ai-native-company-workflows": "2026-09-02T00:23:56.169482+00:00",
+    "https://openai.com/index/path-to-astra": "2026-09-02T00:23:56.169482+00:00",
+    "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources": "2026-09-02T00:23:56.169482+00:00",
+    "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety": "2026-09-02T00:23:56.169482+00:00",
+    "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron": "2026-09-02T00:23:56.169482+00:00",
+    "https://developer.nvidia.com/blog/how-to-size-gpus-for-ai-inference-and-tco-without-overspending": "2026-09-02T00:23:56.169482+00:00",
+    "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning": "2026-09-02T00:23:56.169482+00:00",
+    "https://deepmind.google/blog/introducing-agentic-video-in-gemini": "2026-09-02T00:23:56.169482+00:00",
+    "https://huggingface.co/blog/allenai/benchmirt": "2026-09-02T00:23:56.169482+00:00",
+    "https://huggingface.co/blog/webgpu-kernels": "2026-09-02T00:23:56.169482+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "points": [
-      "Anthropic 宣布其 AI 模型在 48 小時內實現自我校準 (self-alignment)，將安全性能從 26% 提升至 96%，並在多項任務中超越 28 位人類專家 15,000 倍，顯示 AI 安全與開發效率取得重大突破，可能影響基礎模型發展與競爭格局。",
-      "全球多家主要金融機構公布 AI 應用具體成效。中國工商銀行、建設銀行、招商銀行、平安銀行、興業銀行、交通銀行及郵儲銀行在半年報中揭露 AI 已大規模落地於智能營銷、客服、管理、風控等核心業務，詞元 (Token) 消耗量、智能體部署數量及業務效率（如跨境業務放款效率提升 30%、航貿審查效率提升 70%）均顯著增長。美國銀行 (Bank of America) 亦報告超過 18,000 名開發人員使用 AI 編碼工具，生產力提升約 20%，其虛擬助理 Erica 累計互動次數已突破 32 億，顯示 AI 在金融業的部署已從試點走向具體效益轉化。",
-      "中國在 AI 基礎設施與應用政策上展現積極動態：全球首個對外提供在軌試驗服務的太空算力雲正式常態化運作，實現複雜操作端到端自動化，開拓 AI 算力新邊界。同時，中國工業和信息化部 (MIIT) 發布通知，探索透過首購首用、風險補償等模式，加大對大模型、智能體 (AI Agent) 及詞元服務的採購力度，旨在提升行業 AI 應用質效，預計將刺激中國 AI 服務市場需求。"
+      "Anthropic 與 Nvidia 簽署一項價值 350 億美元的 AI 算力協議，顯示 AI 模型開發商對運算基礎設施的龐大需求，並強化 Nvidia 在供應鏈中的關鍵地位。",
+      "台積電預期 AI 相關算力需求將每年暴增逾五倍，並將透過先進邏輯製程、3DFabric 等技術搶佔市場，凸顯半導體供應鏈在 AI 基礎建設熱潮中的核心價值。",
+      "據報導，包括 Anthropic 和 OpenAI 在內的矽谷 AI 從業人員正變現股票薪酬並分散投資，反映市場對潛在 AI 泡沫破裂的擔憂。",
+      "Truth Social 相關 ETF 管理公司 Yorkville America 計劃收購一家資產管理公司，並推出 MANGOS Plus Index ETF，該 ETF 將透過永續期貨合約取得未上市 AI 公司如 Anthropic 和 OpenAI 的曝險，顯示市場對 AI 投資產品的需求與創新。"
     ]
   },
   "github_repos": {
@@ -2851,7 +2868,41 @@
       "repo": "modular/modular",
       "last_featured": "2026-08-25",
       "summary": "Modular 平台開源核心倉庫，包含 Mojo 語言編譯器與 MAX AI 部署框架。"
+    },
+    "sentelabsai/openexecutive": {
+      "repo": "SenteLabsAI/OpenExecutive",
+      "last_featured": "2026-09-02",
+      "summary": "由多位專屬 Agent 組成的虛擬企業高管決策系統"
+    },
+    "tt-a1i/archify": {
+      "repo": "tt-a1i/archify",
+      "last_featured": "2026-09-02",
+      "summary": "為 AI Coding Agent 設計的可驗證系統架構圖渲染與比對工具"
+    },
+    "tailscale/tailcat": {
+      "repo": "tailscale/tailcat",
+      "last_featured": "2026-09-02",
+      "summary": "基於 Tailscale 數據平面的點對點加密 Netcat 網路工具"
+    },
+    "lakr233/vphone-cli": {
+      "repo": "Lakr233/vphone-cli",
+      "last_featured": "2026-09-02",
+      "summary": "在 Apple Silicon macOS 上虛擬化啟動 iPhone 的命令行工具"
     }
   },
-  "last_run_date": "2026-09-01"
+  "last_run_date": "2026-09-02",
+  "github_shown": {
+    "sentelabsai/openexecutive": "2026-09-02",
+    "ankidroid/anki-android": "2026-09-02",
+    "tailscale/tailcat": "2026-09-02",
+    "lakr233/vphone-cli": "2026-09-02",
+    "stemdeckapp/stemdeck": "2026-09-02",
+    "astral-sh/uv": "2026-09-02",
+    "tt-a1i/archify": "2026-09-02",
+    "anthropics/claude-plugins-community": "2026-09-02",
+    "cursor/plugins": "2026-09-02",
+    "thu-maic/openmaic": "2026-09-02",
+    "freestylefly/awesome-gpt-image-2": "2026-09-02",
+    "omacom/omarchy": "2026-09-02"
+  }
 }
