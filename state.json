@@ -2672,15 +2672,28 @@
     "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning": "2026-09-02T00:23:56.169482+00:00",
     "https://deepmind.google/blog/introducing-agentic-video-in-gemini": "2026-09-02T00:23:56.169482+00:00",
     "https://huggingface.co/blog/allenai/benchmirt": "2026-09-02T00:23:56.169482+00:00",
-    "https://huggingface.co/blog/webgpu-kernels": "2026-09-02T00:23:56.169482+00:00"
+    "https://huggingface.co/blog/webgpu-kernels": "2026-09-02T00:23:56.169482+00:00",
+    "https://www.databricks.com/blog/southern-companys-scout-completing-storm-intelligence-story": "2026-09-03T00:33:29.106774+00:00",
+    "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more": "2026-09-03T00:33:29.106774+00:00",
+    "https://www.databricks.com/blog/announcing-databricks-big-book-agentops": "2026-09-03T00:33:29.106774+00:00",
+    "https://claude.com/blog/the-anatomy-of-effective-commerce-agents": "2026-09-03T00:33:29.106774+00:00",
+    "https://claude.com/blog/claude-for-commerce-agents": "2026-09-03T00:33:29.106774+00:00",
+    "https://openai.com/index/atv-big-air-tour": "2026-09-03T00:33:29.106774+00:00",
+    "https://openai.com/index/gilbert-tobin": "2026-09-03T00:33:29.106774+00:00",
+    "https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough": "2026-09-03T00:33:29.106774+00:00",
+    "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference": "2026-09-03T00:33:29.106774+00:00",
+    "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises": "2026-09-03T00:33:29.106774+00:00",
+    "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber": "2026-09-03T00:33:29.106774+00:00",
+    "https://huggingface.co/blog/ibm-research/real-time-intelligence": "2026-09-03T00:33:29.106774+00:00",
+    "https://www.thoughtworks.com/insights/articles/stepping_into_autumn": "2026-09-03T00:33:29.106774+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-02",
+    "date": "2026-09-03",
     "points": [
-      "Anthropic 與 Nvidia 簽署一項價值 350 億美元的 AI 算力協議，顯示 AI 模型開發商對運算基礎設施的龐大需求，並強化 Nvidia 在供應鏈中的關鍵地位。",
-      "台積電預期 AI 相關算力需求將每年暴增逾五倍，並將透過先進邏輯製程、3DFabric 等技術搶佔市場，凸顯半導體供應鏈在 AI 基礎建設熱潮中的核心價值。",
-      "據報導，包括 Anthropic 和 OpenAI 在內的矽谷 AI 從業人員正變現股票薪酬並分散投資，反映市場對潛在 AI 泡沫破裂的擔憂。",
-      "Truth Social 相關 ETF 管理公司 Yorkville America 計劃收購一家資產管理公司，並推出 MANGOS Plus Index ETF，該 ETF 將透過永續期貨合約取得未上市 AI 公司如 Anthropic 和 OpenAI 的曝險，顯示市場對 AI 投資產品的需求與創新。"
+      "Google 首席技術長密訪台灣供應鏈，洽談下一代張量處理器 (TPU) 伺服器訂單，顯示其母公司 Alphabet 將資本支出上修至 1,950 億至 2,050 億美元以擴大 AI 算力基礎設施，預計鴻海、仁寶、廣達等台廠將受惠。",
+      "戴爾 (Dell) 大幅上調其 AI 伺服器全年營收預估至 740 億美元，並指出過去 12 個月已取得逾 1,300 億美元訂單，客戶群擴大至各國政府與企業，同時帶動傳統伺服器、儲存與網路設備需求翻倍增長，顯示 AI 投資正全面推動基礎設施升級。",
+      "OpenAI 即將推出的新模型 Astra 在測試中發現兩個零日漏洞，達到關鍵級資安能力門檻，並因此延後部分開發與發布工作，凸顯先進 AI 模型在資安領域的潛力與部署前的重大安全挑戰。",
+      "根據《2026 年全球金融服務 AI 報告》指出，儘管金融業 AI 採用率高達 81%，但僅 40% 機構實現獲利增長，報告揭示年 AI 預算超過 10 萬美元及採取「微調自研專屬模型」是實現實質獲利轉化的關鍵。"
     ]
   },
   "github_repos": {
@@ -2890,7 +2903,7 @@
       "summary": "在 Apple Silicon macOS 上虛擬化啟動 iPhone 的命令行工具"
     }
   },
-  "last_run_date": "2026-09-02",
+  "last_run_date": "2026-09-03",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -2904,5 +2917,28 @@
     "thu-maic/openmaic": "2026-09-02",
     "freestylefly/awesome-gpt-image-2": "2026-09-02",
     "omacom/omarchy": "2026-09-02"
+  },
+  "youtube_seen": {
+    "3uSI8q_RN-o": {
+      "video_id": "3uSI8q_RN-o",
+      "channel": "Latent Space",
+      "title": "The Inference Frontier: from 100 to 10,000 tokens per second — Sean Lie, Cerebras CTO",
+      "featured": "2026-09-03",
+      "headline": "Cerebras 共同創辦人兼 CTO Sean Lie 探討推論速度突破每秒萬級 token 對硬體架構與 AI 應用的重塑。"
+    },
+    "X50zezLFWWI": {
+      "video_id": "X50zezLFWWI",
+      "channel": "Dwarkesh Patel",
+      "title": "Ajeya Cotra – How a swarm of AIs conspired to hack Hugging Face",
+      "featured": "2026-09-03",
+      "headline": "METR 研究員 Ajeya Cotra 拆解 AI Agent 群體協同入侵 Hugging Face 事件與自主對齊風險。"
+    },
+    "_egu7OFem-k": {
+      "video_id": "_egu7OFem-k",
+      "channel": "Machine Learning Street Talk",
+      "title": "AI Internals Are Weird — Tom McGrath",
+      "featured": "2026-09-03",
+      "headline": "Goodfire 首席科學家 Tom McGrath 探討神經網路內部可解釋性、概念流形與控制訓練迴圈。"
+    }
   }
 }
