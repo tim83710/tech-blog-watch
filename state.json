@@ -2685,15 +2685,33 @@
     "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises": "2026-09-03T00:33:29.106774+00:00",
     "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber": "2026-09-03T00:33:29.106774+00:00",
     "https://huggingface.co/blog/ibm-research/real-time-intelligence": "2026-09-03T00:33:29.106774+00:00",
-    "https://www.thoughtworks.com/insights/articles/stepping_into_autumn": "2026-09-03T00:33:29.106774+00:00"
+    "https://www.thoughtworks.com/insights/articles/stepping_into_autumn": "2026-09-03T00:33:29.106774+00:00",
+    "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse": "2026-09-04T00:29:30.424998+00:00",
+    "https://www.databricks.com/blog/building-high-quality-and-trusted-data-products-databricks": "2026-09-04T00:29:30.424998+00:00",
+    "https://openai.com/index/daybreak-for-frontline-defenders": "2026-09-04T00:29:30.424998+00:00",
+    "https://openai.com/index/legora-financial-statement-review-with-astra": "2026-09-04T00:29:30.424998+00:00",
+    "https://openai.com/index/playco-game-prototyping-with-astra": "2026-09-04T00:29:30.424998+00:00",
+    "https://openai.com/index/safety-overview-gpt-6-astra": "2026-09-04T00:29:30.424998+00:00",
+    "https://developer.nvidia.com/blog/how-to-carry-user-identity-across-federated-kubernetes-and-ai-platforms": "2026-09-04T00:29:30.424998+00:00",
+    "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network": "2026-09-04T00:29:30.424998+00:00",
+    "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations": "2026-09-04T00:29:30.424998+00:00",
+    "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain": "2026-09-04T00:29:30.424998+00:00",
+    "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model": "2026-09-04T00:29:30.424998+00:00",
+    "https://huggingface.co/blog/Hcompany/neomme": "2026-09-04T00:29:30.424998+00:00",
+    "https://huggingface.co/blog/grpo-with-trl-ifstruct": "2026-09-04T00:29:30.424998+00:00",
+    "https://huggingface.co/blog/funes": "2026-09-04T00:29:30.424998+00:00",
+    "https://huggingface.co/blog/train-to-paint-with-code": "2026-09-04T00:29:30.424998+00:00",
+    "https://www.thoughtworks.com/insights/articles/strategic-ai-delivery-platform-modernization": "2026-09-04T00:29:30.424998+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/why-generative-ai-wont-create-ten-x-developers": "2026-09-04T00:29:30.424998+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/from-specification-to-production-building-enterprise-software-with-agentic-ai": "2026-09-04T00:29:30.424998+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "points": [
-      "Google 首席技術長密訪台灣供應鏈，洽談下一代張量處理器 (TPU) 伺服器訂單，顯示其母公司 Alphabet 將資本支出上修至 1,950 億至 2,050 億美元以擴大 AI 算力基礎設施，預計鴻海、仁寶、廣達等台廠將受惠。",
-      "戴爾 (Dell) 大幅上調其 AI 伺服器全年營收預估至 740 億美元，並指出過去 12 個月已取得逾 1,300 億美元訂單，客戶群擴大至各國政府與企業，同時帶動傳統伺服器、儲存與網路設備需求翻倍增長，顯示 AI 投資正全面推動基礎設施升級。",
-      "OpenAI 即將推出的新模型 Astra 在測試中發現兩個零日漏洞，達到關鍵級資安能力門檻，並因此延後部分開發與發布工作，凸顯先進 AI 模型在資安領域的潛力與部署前的重大安全挑戰。",
-      "根據《2026 年全球金融服務 AI 報告》指出，儘管金融業 AI 採用率高達 81%，但僅 40% 機構實現獲利增長，報告揭示年 AI 預算超過 10 萬美元及採取「微調自研專屬模型」是實現實質獲利轉化的關鍵。"
+      "輝達 (NVIDIA) 以 129 億美元併購開源人工智慧 (AI) 平台 Hugging Face，此舉顯示輝達正積極擴展其在 AI 軟體與平台領域的版圖，不僅鞏固其硬體領導地位，也將對 AI 開源生態系統的競爭格局產生重大影響。",
+      "Meta Platforms 發布其迄今最強大的 AI 模型 Muse Spark 1.3，其首席 AI 官聲稱該模型性能已進一步縮小與頂尖競爭對手之間的差距，預計將推動 Meta 在 AI 領域的競爭力，並將應用於 Instagram、Facebook 等社交媒體平台。",
+      "隨著 AI 算力需求激增，PwC 報告預估至 2050 年全球資料中心累計資本支出可能逼近 50 兆美元，其中 ICT 設備為投資主力；然而，馬斯克 (Elon Musk) 警告 AI 發展正遭遇嚴重的電力瓶頸，預計到 2027 年 AI 晶片將面臨至少 15 吉瓦 (GW) 的電力缺口，這將促使電力設備與散熱供應商如 HD 現代電機、海南金盤智能科技、台達電、奇鋐科技等成為 AI 基礎設施擴建的關鍵受惠者。",
+      "金融業 AI 落地面臨挑戰與具體成效並存：Rillion 研究顯示，美國金融部門 68% 團隊日常使用 AI，但僅 39% 的財務長 (CFO) 信任 AI 能在無人監督下運作，且 45% 的「自動化」發票仍需人工審核，凸顯 AI 自動化在金融業面臨信任與數據整合的瓶頸。與此同時，高盛 (Goldman Sachs) 報告指出，AI 投資熱潮推動對沖基金在 2026 年上半年實現平均 7% 的回報率，顯著高於 4.1% 的長期平均水平，證明 AI 在量化投資領域已展現具體績效。"
     ]
   },
   "github_repos": {
@@ -2901,9 +2919,29 @@
       "repo": "Lakr233/vphone-cli",
       "last_featured": "2026-09-02",
       "summary": "在 Apple Silicon macOS 上虛擬化啟動 iPhone 的命令行工具"
+    },
+    "jetbrains/go-modern-guidelines": {
+      "repo": "JetBrains/go-modern-guidelines",
+      "last_featured": "2026-09-04",
+      "summary": "為 AI 程式碼 Agent 提供最新 Go 語言規範的指引工具"
+    },
+    "k-dense-ai/scientific-agent-skills": {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "last_featured": "2026-09-04",
+      "summary": "針對科學研究與新藥開發的開源 AI Agent 技能與資料庫套件"
+    },
+    "philolabs/fable51-worlds": {
+      "repo": "PhiloLabs/fable51-worlds",
+      "last_featured": "2026-09-04",
+      "summary": "透過 AI Agent 將文字或影像自動生成 Three.js 3D 瀏覽器場景"
+    },
+    "gitlawb/openclaude": {
+      "repo": "Gitlawb/openclaude",
+      "last_featured": "2026-09-04",
+      "summary": "支援多模型與 MCP 的開源終端 AI Coding Agent CLI"
     }
   },
-  "last_run_date": "2026-09-03",
+  "last_run_date": "2026-09-04",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -2916,7 +2954,13 @@
     "cursor/plugins": "2026-09-02",
     "thu-maic/openmaic": "2026-09-02",
     "freestylefly/awesome-gpt-image-2": "2026-09-02",
-    "omacom/omarchy": "2026-09-02"
+    "omacom/omarchy": "2026-09-02",
+    "audacity/audacity": "2026-09-04",
+    "philolabs/fable51-worlds": "2026-09-04",
+    "bilawalsidhu/gods-eye-view": "2026-09-04",
+    "jetbrains/go-modern-guidelines": "2026-09-04",
+    "gitlawb/openclaude": "2026-09-04",
+    "k-dense-ai/scientific-agent-skills": "2026-09-04"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
