@@ -2703,15 +2703,21 @@
     "https://huggingface.co/blog/train-to-paint-with-code": "2026-09-04T00:29:30.424998+00:00",
     "https://www.thoughtworks.com/insights/articles/strategic-ai-delivery-platform-modernization": "2026-09-04T00:29:30.424998+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/why-generative-ai-wont-create-ten-x-developers": "2026-09-04T00:29:30.424998+00:00",
-    "https://www.thoughtworks.com/insights/blog/generative-ai/from-specification-to-production-building-enterprise-software-with-agentic-ai": "2026-09-04T00:29:30.424998+00:00"
+    "https://www.thoughtworks.com/insights/blog/generative-ai/from-specification-to-production-building-enterprise-software-with-agentic-ai": "2026-09-04T00:29:30.424998+00:00",
+    "https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation": "2026-09-05T00:12:26.370687+00:00",
+    "https://www.databricks.com/blog/five-ways-marketers-can-use-genie-one": "2026-09-05T00:12:26.370687+00:00",
+    "https://developers.openai.com/blog/architectural-visualization-with-astra": "2026-09-05T00:12:26.370687+00:00",
+    "https://developers.openai.com/blog/how-to-build-games-with-astra": "2026-09-05T00:12:26.370687+00:00",
+    "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw": "2026-09-05T00:12:26.370687+00:00",
+    "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson": "2026-09-05T00:12:26.370687+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-04",
+    "date": "2026-09-05",
     "points": [
-      "輝達 (NVIDIA) 以 129 億美元併購開源人工智慧 (AI) 平台 Hugging Face，此舉顯示輝達正積極擴展其在 AI 軟體與平台領域的版圖，不僅鞏固其硬體領導地位，也將對 AI 開源生態系統的競爭格局產生重大影響。",
-      "Meta Platforms 發布其迄今最強大的 AI 模型 Muse Spark 1.3，其首席 AI 官聲稱該模型性能已進一步縮小與頂尖競爭對手之間的差距，預計將推動 Meta 在 AI 領域的競爭力，並將應用於 Instagram、Facebook 等社交媒體平台。",
-      "隨著 AI 算力需求激增，PwC 報告預估至 2050 年全球資料中心累計資本支出可能逼近 50 兆美元，其中 ICT 設備為投資主力；然而，馬斯克 (Elon Musk) 警告 AI 發展正遭遇嚴重的電力瓶頸，預計到 2027 年 AI 晶片將面臨至少 15 吉瓦 (GW) 的電力缺口，這將促使電力設備與散熱供應商如 HD 現代電機、海南金盤智能科技、台達電、奇鋐科技等成為 AI 基礎設施擴建的關鍵受惠者。",
-      "金融業 AI 落地面臨挑戰與具體成效並存：Rillion 研究顯示，美國金融部門 68% 團隊日常使用 AI，但僅 39% 的財務長 (CFO) 信任 AI 能在無人監督下運作，且 45% 的「自動化」發票仍需人工審核，凸顯 AI 自動化在金融業面臨信任與數據整合的瓶頸。與此同時，高盛 (Goldman Sachs) 報告指出，AI 投資熱潮推動對沖基金在 2026 年上半年實現平均 7% 的回報率，顯著高於 4.1% 的長期平均水平，證明 AI 在量化投資領域已展現具體績效。"
+      "OpenAI 發表新一代旗艦模型 GPT-6 Astra，聲稱其在科學發現、數學和健康領域取得重大進展，並達到「通用人工智慧 (AGI)」的關鍵里程碑，同時具備跨越「關鍵網路安全閾值」的能力，預計將對 AI 模型的應用範疇及產業競爭格局產生深遠影響。",
+      "據路透社報導，微軟 (Microsoft) 計劃於今年秋季（可能在 9 月）發布其下一代自研 AI 加速晶片 Maia 300，目標在 2027 年交付超過 30 萬片，此舉旨在為 Azure 的 AI 基礎設施提供 Nvidia GPU 以外的替代方案，預計將加劇 AI 晶片市場的競爭。",
+      "財富管理領域的 AI 應用展現具體成效：根據 Astraeus 的研究報告，採用 AI 的美國獨立註冊投資顧問 (RIA) 公司在 2025 年 4 月至 2026 年 4 月間，員工總數增長 15%（未採用 AI 的公司為 8%），每位顧問管理的資產 (AUM) 中位數增長 22%（未採用 AI 的公司為 12%），顯示 AI 有助於提升生產力並創造就業機會。",
+      "避險基金 Coatue Management 正與 AI 晶片新創 MatX 洽談成立一項數十億美元的合資企業，旨在為 MatX 採購大量晶片提供資金，以期將其 MatX One 晶片規模化生產，挑戰 Nvidia 在 AI 晶片市場的主導地位。"
     ]
   },
   "github_repos": {
@@ -2941,7 +2947,7 @@
       "summary": "支援多模型與 MCP 的開源終端 AI Coding Agent CLI"
     }
   },
-  "last_run_date": "2026-09-04",
+  "last_run_date": "2026-09-05",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
