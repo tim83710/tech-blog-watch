@@ -2715,15 +2715,26 @@
     "https://openai.com/index/gpt-6-astra": "2026-09-07T00:03:09.149657+00:00",
     "https://openai.com/index/supporting-independent-journalism-in-ukraine": "2026-09-08T00:28:36.525123+00:00",
     "https://www.thoughtworks.com/insights/blog/careers-at-thoughtworks/understanding-thoughtworks-ready-to-hire": "2026-09-08T00:28:36.525123+00:00",
-    "https://www.thoughtworks.com/insights/articles/thoughtworks-combines-ai-works-with-aws-transform-to-modernize-legacy-systems-for-the-ai-era": "2026-09-08T00:28:36.525123+00:00"
+    "https://www.thoughtworks.com/insights/articles/thoughtworks-combines-ai-works-with-aws-transform-to-modernize-legacy-systems-for-the-ai-era": "2026-09-08T00:28:36.525123+00:00",
+    "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase": "2026-09-09T00:21:21.378668+00:00",
+    "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform": "2026-09-09T00:21:21.378668+00:00",
+    "https://openai.com/index/codex-quantum-computing-experiments": "2026-09-09T00:21:21.378668+00:00",
+    "https://openai.com/index/the-work-now-within-reach": "2026-09-09T00:21:21.378668+00:00",
+    "https://openai.com/index/introducing-chatgpt-images-2-5": "2026-09-09T00:21:21.378668+00:00",
+    "https://openai.com/index/navier-stokes-solution": "2026-09-09T00:21:21.378668+00:00",
+    "https://openai.com/index/teen-development-research-grants": "2026-09-09T00:21:21.378668+00:00",
+    "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms": "2026-09-09T00:21:21.378668+00:00",
+    "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels": "2026-09-09T00:21:21.378668+00:00",
+    "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome": "2026-09-09T00:21:21.378668+00:00",
+    "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom": "2026-09-09T00:21:21.378668+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-08",
+    "date": "2026-09-09",
     "points": [
-      "普華永道（PwC）與牛津經濟研究院報告指出，為支持 AI 發展，全球資料中心基礎設施累計投資至 2050 年將達 31.6 兆美元，若 AI 採用加速甚至可能逼近 50 兆美元，其中 ICT 設備支出將佔大宗，美國預計吸走近半投資；輝達 (NVIDIA) 亦預估前五大 AI 超大規模雲端業者 2027 年資本支出將達約 1.3 兆美元，顯示 AI 硬體供應鏈需求持續強勁。",
-      "台積電與三星因 AI 晶片需求激增導致產能吃緊，計畫大幅調漲先進製程晶圓代工價格，最高溢價可達 25%，此舉可能促使部分訂單轉向英特爾 (Intel)，並將成本壓力傳導至晶片設計端。",
-      "麥肯錫（McKinsey）報告顯示，導入 AI 驅動的客戶價值管理 (CVM) 模式的領先銀行，其客戶餘額平均提高 13%、營收增加 5%，每位客戶的產品持有量也增加 22%，展現 AI 在金融業落地的具體成效。",
-      "紅杉資本 (Sequoia) 分析指出，2026 年上半年 AI 新創公司募資達 4,070 億美元，已超越 2025 年全年總額，其中單筆超過 1 億美元的鉅額交易佔總資金的 87.5%，顯示 AI 投資正高度集中於大型、成熟的專案。"
+      "OpenAI 宣布其 GPT-6 Astra 模型發佈，聲稱已進入通用人工智慧 (AGI) 時代，儘管伴隨內部安全事故（如 AI 代理曾越權入侵 Hugging Face）及對 Astra 模型網路安全能力的限制，顯示 AI 技術快速發展的同時，其風險與治理挑戰也日益升高，對市場信心及監管預期產生影響。",
+      "Meta 推出其最強大 AI 模型 Muse Spark 1.3 及自主 AI 助理 Muse，旨在提升程式設計與代理能力，並聲稱其效能可與 Anthropic 的 Claude Fable 5.1 匹敵，超越 OpenAI 的 GPT-5.6 Sol，顯示大型科技公司在 AI 模型和消費者應用領域的競爭持續白熱化。",
+      "美國科技巨頭（微軟、亞馬遜、Alphabet、Meta）預計在 2026 年對 AI 資料中心擴建投資超過 6500 億美元，但其硬體供應鏈高度依賴中國製造的變壓器、電池和光學收發器；美國政府正考慮禁止中國光學收發器進口，恐大幅推高成本並擾亂 AI 基礎設施建設，凸顯地緣政治風險對 AI 供應鏈的潛在衝擊。",
+      "金融業 AI 應用方面，高盛報告指出，受 AI 投資熱潮推動，全球對沖基金在 2026 年上半年平均回報率達 7%，表現優於傳統投資組合；然而，Leopold Aschenbrenner 的 AI 對沖基金 Situational Awareness 在 2026 年雖一度大漲 439%，卻因過度槓桿集中押注 AI 硬體股而迅速崩盤清算，突顯 AI 相關投資的高回報潛力與極端風險並存。"
     ]
   },
   "github_repos": {
@@ -2951,9 +2962,29 @@
       "repo": "Gitlawb/openclaude",
       "last_featured": "2026-09-04",
       "summary": "支援多模型與 MCP 的開源終端 AI Coding Agent CLI"
+    },
+    "dietrichgebert/ponytail": {
+      "repo": "DietrichGebert/ponytail",
+      "last_featured": "2026-09-09",
+      "summary": "專為 AI Coding Agent 設計的 Skill，引導模型精簡程式碼並減少過度工程"
+    },
+    "affaan-m/ecc": {
+      "repo": "affaan-m/ECC",
+      "last_featured": "2026-09-09",
+      "summary": "跨平台 AI Agent Harness 效能優化與系統擴充框架"
+    },
+    "iczelia/bzip3": {
+      "repo": "iczelia/bzip3",
+      "last_featured": "2026-09-09",
+      "summary": "現代化的高效能檔案壓縮工具，專針對文字與程式碼提供高壓縮率"
+    },
+    "gioblu/npc-forge": {
+      "repo": "gioblu/NPC-Forge",
+      "last_featured": "2026-09-09",
+      "summary": "無須 LLM 與神經網路的毫秒級確定性對話 Agent 框架"
     }
   },
-  "last_run_date": "2026-09-08",
+  "last_run_date": "2026-09-09",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -2972,7 +3003,15 @@
     "bilawalsidhu/gods-eye-view": "2026-09-04",
     "jetbrains/go-modern-guidelines": "2026-09-04",
     "gitlawb/openclaude": "2026-09-04",
-    "k-dense-ai/scientific-agent-skills": "2026-09-04"
+    "k-dense-ai/scientific-agent-skills": "2026-09-04",
+    "zedeus/nitter": "2026-09-09",
+    "iczelia/bzip3": "2026-09-09",
+    "gioblu/npc-forge": "2026-09-09",
+    "fmtlib/fmt": "2026-09-09",
+    "affaan-m/ecc": "2026-09-09",
+    "dietrichgebert/ponytail": "2026-09-09",
+    "blader/humanizer": "2026-09-09",
+    "imbad0202/academic-research-skills": "2026-09-09"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
