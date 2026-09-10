@@ -2726,7 +2726,21 @@
     "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms": "2026-09-09T00:21:21.378668+00:00",
     "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels": "2026-09-09T00:21:21.378668+00:00",
     "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome": "2026-09-09T00:21:21.378668+00:00",
-    "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom": "2026-09-09T00:21:21.378668+00:00"
+    "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom": "2026-09-09T00:21:21.378668+00:00",
+    "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders": "2026-09-10T00:37:38.497108+00:00",
+    "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks": "2026-09-10T00:37:38.497108+00:00",
+    "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer": "2026-09-10T00:37:38.497108+00:00",
+    "https://www.databricks.com/blog/introducing-consort-test-driven-development-branching-database": "2026-09-10T00:37:38.497108+00:00",
+    "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency": "2026-09-10T00:37:38.497108+00:00",
+    "https://www.databricks.com/blog/evaluation-first-ai-agents-how-zepto-scales-customer-support-databricks-and-mlflow": "2026-09-10T00:37:38.497108+00:00",
+    "https://openai.com/index/ai-policy-window": "2026-09-10T00:37:38.497108+00:00",
+    "https://openai.com/index/gpt-6-astra-next-generation-work": "2026-09-10T00:37:38.497108+00:00",
+    "https://openai.com/index/paul-christiano-joins-openai-foundation-board": "2026-09-10T00:37:38.497108+00:00",
+    "https://openai.com/index/1password": "2026-09-10T00:37:38.497108+00:00",
+    "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving": "2026-09-10T00:37:38.497108+00:00",
+    "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus": "2026-09-10T00:37:38.497108+00:00",
+    "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series": "2026-09-10T00:37:38.497108+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/how-to-talk-with-ai": "2026-09-10T00:37:38.497108+00:00"
   },
   "last_pulse": {
     "date": "2026-09-09",
@@ -2984,7 +2998,7 @@
       "summary": "無須 LLM 與神經網路的毫秒級確定性對話 Agent 框架"
     }
   },
-  "last_run_date": "2026-09-09",
+  "last_run_date": "2026-09-10",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -3034,6 +3048,27 @@
       "title": "AI Internals Are Weird — Tom McGrath",
       "featured": "2026-09-03",
       "headline": "Goodfire 首席科學家 Tom McGrath 探討神經網路內部可解釋性、概念流形與控制訓練迴圈。"
+    },
+    "85Y6h_jbRfs": {
+      "video_id": "85Y6h_jbRfs",
+      "channel": "No Priors",
+      "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
+      "featured": "2026-09-10",
+      "headline": "Arm 執行長 Rene Haas 探討晶片架構轉型以及 CPU 在 AI 算力基礎設施中的核心角色。"
+    },
+    "9wZpvF3QleU": {
+      "video_id": "9wZpvF3QleU",
+      "channel": "AI Engineer",
+      "title": "500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn",
+      "featured": "2026-09-10",
+      "headline": "LinkedIn 資深工程師 Ajay Prakash 分享如何在不進行 fine-tuning 的情況下管理 500 個以上的 Agent Skills。"
+    },
+    "KS_IpnX7n9I": {
+      "video_id": "KS_IpnX7n9I",
+      "channel": "Latent Space",
+      "title": "Trillion Token Context. No, Really — Anima Anandkumar & Benedikt Jenik, Accelerated Understanding",
+      "featured": "2026-09-10",
+      "headline": "Accelerated Understanding 創辦人 Anima Anandkumar 與 Benedikt Jenik 解構實體世界物理領域的 Foundation Model。"
     }
   }
 }
