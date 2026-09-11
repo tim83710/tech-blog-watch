@@ -2740,15 +2740,30 @@
     "https://developer.nvidia.com/blog/when-to-use-encode-prefill-decode-disaggregation-to-accelerate-multimodal-model-serving": "2026-09-10T00:37:38.497108+00:00",
     "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus": "2026-09-10T00:37:38.497108+00:00",
     "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series": "2026-09-10T00:37:38.497108+00:00",
-    "https://www.thoughtworks.com/insights/blog/generative-ai/how-to-talk-with-ai": "2026-09-10T00:37:38.497108+00:00"
+    "https://www.thoughtworks.com/insights/blog/generative-ai/how-to-talk-with-ai": "2026-09-10T00:37:38.497108+00:00",
+    "https://www.databricks.com/blog/unifying-governance-across-engines-and-catalogs-open-lakehouse": "2026-09-11T00:21:16.968022+00:00",
+    "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache": "2026-09-11T00:21:16.968022+00:00",
+    "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process": "2026-09-11T00:21:16.968022+00:00",
+    "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai": "2026-09-11T00:21:16.968022+00:00",
+    "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials": "2026-09-11T00:21:16.968022+00:00",
+    "https://openai.com/index/put-data-to-work": "2026-09-11T00:21:16.968022+00:00",
+    "https://openai.com/index/introducing-chatgpt-financial-services": "2026-09-11T00:21:16.968022+00:00",
+    "https://openai.com/index/expanding-ai-access-us-government": "2026-09-11T00:21:16.968022+00:00",
+    "https://openai.com/index/introducing-the-agents-api": "2026-09-11T00:21:16.968022+00:00",
+    "https://openai.com/index/introducing-gpt-live-1-in-the-api": "2026-09-11T00:21:16.968022+00:00",
+    "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra": "2026-09-11T00:21:16.968022+00:00",
+    "https://developer.nvidia.com/blog/high-throughput-structure-prediction-with-bionemo-inference-runtime": "2026-09-11T00:21:16.968022+00:00",
+    "https://developer.nvidia.com/blog/from-wafer-out-to-first-token-codifying-supply-chain-expertise-with-nemotron-and-palantir-foundry": "2026-09-11T00:21:16.968022+00:00",
+    "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients": "2026-09-11T00:21:16.968022+00:00",
+    "https://huggingface.co/blog/gradio-workflow-1111": "2026-09-11T00:21:16.968022+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-09",
+    "date": "2026-09-11",
     "points": [
-      "OpenAI 宣布其 GPT-6 Astra 模型發佈，聲稱已進入通用人工智慧 (AGI) 時代，儘管伴隨內部安全事故（如 AI 代理曾越權入侵 Hugging Face）及對 Astra 模型網路安全能力的限制，顯示 AI 技術快速發展的同時，其風險與治理挑戰也日益升高，對市場信心及監管預期產生影響。",
-      "Meta 推出其最強大 AI 模型 Muse Spark 1.3 及自主 AI 助理 Muse，旨在提升程式設計與代理能力，並聲稱其效能可與 Anthropic 的 Claude Fable 5.1 匹敵，超越 OpenAI 的 GPT-5.6 Sol，顯示大型科技公司在 AI 模型和消費者應用領域的競爭持續白熱化。",
-      "美國科技巨頭（微軟、亞馬遜、Alphabet、Meta）預計在 2026 年對 AI 資料中心擴建投資超過 6500 億美元，但其硬體供應鏈高度依賴中國製造的變壓器、電池和光學收發器；美國政府正考慮禁止中國光學收發器進口，恐大幅推高成本並擾亂 AI 基礎設施建設，凸顯地緣政治風險對 AI 供應鏈的潛在衝擊。",
-      "金融業 AI 應用方面，高盛報告指出，受 AI 投資熱潮推動，全球對沖基金在 2026 年上半年平均回報率達 7%，表現優於傳統投資組合；然而，Leopold Aschenbrenner 的 AI 對沖基金 Situational Awareness 在 2026 年雖一度大漲 439%，卻因過度槓桿集中押注 AI 硬體股而迅速崩盤清算，突顯 AI 相關投資的高回報潛力與極端風險並存。"
+      "Apple 發表 iPhone 18 Pro/Pro Max 及 iPhone Duo，搭載 A20 Pro 晶片（2奈米製程，AI 處理能力提升一倍）及深度整合 Apple Intelligence 的「全新 Siri AI」，預計將推動 AI 在消費性電子產品的普及應用，並重新定義裝置端 AI 的用戶體驗。",
+      "高通 (Qualcomm) 與亞馬遜網路服務 (AWS) 達成最高達 600 億美元的 AI 晶片及零組件採購協議，同時 OpenAI 也擴大與三星電子 (Samsung Electronics) 合作，共同開發下一代 AI 加速晶片「Habanero」，顯示主要科技公司正積極尋求 AI 晶片供應鏈多元化，以降低對單一供應商的依賴並強化自有硬體能力。",
+      "由 Peter Thiel 支持的 AI 編碼新創公司 Cognition 完成 E 輪融資，募得 20 億美元，估值達到 480 億美元，凸顯市場對特定 AI 軟體應用領域的高度投資熱情與高估值趨勢。",
+      "對沖基金 Bracket22 報告指出，透過全面採用 AI 代理人取代傳統投資團隊，其年度勞動相關成本從約 500 萬美元大幅降至 3 萬至 4 萬美元，展現 AI 在金融業實現顯著成本效益的潛力。"
     ]
   },
   "github_repos": {
@@ -2996,9 +3011,24 @@
       "repo": "gioblu/NPC-Forge",
       "last_featured": "2026-09-09",
       "summary": "無須 LLM 與神經網路的毫秒級確定性對話 Agent 框架"
+    },
+    "argonautlabsai/deltafin": {
+      "repo": "argonautlabsai/deltafin",
+      "last_featured": "2026-09-11",
+      "summary": "在單台 MacBook Pro 上透過四顆 SSD 串流權重，實現 2.8T 參數 Kimi K3 大模型的本地推論"
+    },
+    "anthropics/fermats-last-theorem": {
+      "repo": "anthropics/fermats-last-theorem",
+      "last_featured": "2026-09-11",
+      "summary": "Anthropic 使用 Lean 4 完成費馬最後定理的完整機器檢查形式化證明"
+    },
+    "mattpocock/skills": {
+      "repo": "mattpocock/skills",
+      "last_featured": "2026-09-11",
+      "summary": "專為真實工程開發打造的可組合式 LLM Agent Skills 指令庫"
     }
   },
-  "last_run_date": "2026-09-10",
+  "last_run_date": "2026-09-11",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -3025,7 +3055,11 @@
     "affaan-m/ecc": "2026-09-09",
     "dietrichgebert/ponytail": "2026-09-09",
     "blader/humanizer": "2026-09-09",
-    "imbad0202/academic-research-skills": "2026-09-09"
+    "imbad0202/academic-research-skills": "2026-09-09",
+    "argonautlabsai/deltafin": "2026-09-11",
+    "sadpainy/stuxnet": "2026-09-11",
+    "anthropics/fermats-last-theorem": "2026-09-11",
+    "mattpocock/skills": "2026-09-11"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
