@@ -2764,11 +2764,13 @@
     "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra": "2026-09-12T00:29:24.358287+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-12",
+    "date": "2026-09-14",
     "points": [
-      "輝達 (NVIDIA) 與 Palantir 合作推出新的 AI 堆疊，旨在優化供應鏈管理，其中輝達的 Vera Rubin 平台預計將顯著提升資料中心營收，顯示 AI 在提升產業營運效率及晶片供應鏈優化方面的應用日益深化。",
-      "曾遭受重大虧損的 AI 對沖基金 Situational Awareness 於市場上大舉買入超數億美元的 AI 及記憶體相關資產（如 AMD、SanDisk 等）買權，展現其在經歷波動後，持續透過 AI 驅動的積極投資策略。",
-      "金融服務公司 SEI 宣布與專為金融顧問打造的 AI 助理 Zocks 建立策略合作夥伴關係，此舉預示著財富管理領域將加速導入 AI 技術，以提升顧問服務效率。"
+      "Anthropic 據報導正尋求高達 1,000 億美元的融資，估值目標為 2 兆美元，NVIDIA 考慮作為主要投資者，此舉將大幅重塑前沿 AI 公司的估值格局與競爭態勢。",
+      "DeepSeek 發布 V4.1 Flash 模型，該 5,520 億參數的開源模型在多項測試中超越其旗艦 V4 Pro，且成本大幅降低，導致 V4 Pro 將退役；同時，Sakana 亦迅速將其 Fugu 模型分為 2 美元和 6 美元兩級，宣稱比競品便宜 40% 至 60%，這兩項發展使前沿 AI 編碼與代理能力成本在 48 小時內驟降約一個數量級，對市場產生洗牌級衝擊。",
+      "AMD 執行長蘇姿豐發布新一代 AI 伺服器「Helios」，搭載 72 顆 MI400 晶片，規模與 NVIDIA 的 NVL72 相匹敵，預計 2026 年上市；OpenAI 隨後宣布 ChatGPT 將採用 AMD 最新 AI 晶片，這顯示 AI 晶片市場競爭加劇，AMD 在高效能運算領域取得重大進展。",
+      "Apple 推出 iOS 27 並全面升級 Siri AI，這是自 2011 年 Siri 首次亮相以來最重大的改版，將於 9 月 14 日向支援裝置推出，強化了 iPhone 作為「智慧個人中心 (intelligent personal hub)」的定位，預計將對消費性 AI 應用產生深遠影響。",
+      "據高盛報告指出，受惠於 AI 投資熱潮，全球對沖基金在 2026 年上半年平均回報率達 7%，遠高於歷史平均水平，且對沖基金已將投資重心從半導體製造商轉向記憶體晶片公司，近半數投資者計劃在下半年增加對沖基金配置，顯示 AI 投資持續推動金融市場表現。"
     ]
   },
   "github_repos": {
@@ -3031,9 +3033,29 @@
       "repo": "mattpocock/skills",
       "last_featured": "2026-09-11",
       "summary": "專為真實工程開發打造的可組合式 LLM Agent Skills 指令庫"
+    },
+    "kennethwolters/litelm": {
+      "repo": "kennethwolters/litelm",
+      "last_featured": "2026-09-14",
+      "summary": "輕量化的 LiteLLM 替代方案，專注於 LLM API 路由與訊息格式轉換。"
+    },
+    "mksglu/context-mode": {
+      "repo": "mksglu/context-mode",
+      "last_featured": "2026-09-14",
+      "summary": "針對 AI Coding Agent 的上下文視窗最佳化工具，大幅降低工具輸出的 Token 占用。"
+    },
+    "speedstu/cuda-for-amd-windows": {
+      "repo": "Speedstu/CUDA-for-AMD-Windows",
+      "last_featured": "2026-09-14",
+      "summary": "讓 Windows 平台上的 AMD GPU 能夠透過 ZLUDA 與 ROCm/HIP 執行 CUDA 應用程式。"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "repo": "bilawalsidhu/gods-eye-view",
+      "last_featured": "2026-09-14",
+      "summary": "基於真實公開數據的瀏覽器端擬真 3D 地球儀與空間情報模擬器。"
     }
   },
-  "last_run_date": "2026-09-12",
+  "last_run_date": "2026-09-14",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -3049,7 +3071,7 @@
     "omacom/omarchy": "2026-09-02",
     "audacity/audacity": "2026-09-04",
     "philolabs/fable51-worlds": "2026-09-04",
-    "bilawalsidhu/gods-eye-view": "2026-09-04",
+    "bilawalsidhu/gods-eye-view": "2026-09-14",
     "jetbrains/go-modern-guidelines": "2026-09-04",
     "gitlawb/openclaude": "2026-09-04",
     "k-dense-ai/scientific-agent-skills": "2026-09-04",
@@ -3064,7 +3086,12 @@
     "argonautlabsai/deltafin": "2026-09-11",
     "sadpainy/stuxnet": "2026-09-11",
     "anthropics/fermats-last-theorem": "2026-09-11",
-    "mattpocock/skills": "2026-09-11"
+    "mattpocock/skills": "2026-09-11",
+    "grapheneos/messaging": "2026-09-14",
+    "kennethwolters/litelm": "2026-09-14",
+    "speedstu/cuda-for-amd-windows": "2026-09-14",
+    "openai/plugins": "2026-09-14",
+    "mksglu/context-mode": "2026-09-14"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
