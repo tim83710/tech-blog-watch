@@ -2761,16 +2761,24 @@
     "https://openai.com/index/perplexity-improving-accuracy-with-astra": "2026-09-12T00:29:24.358287+00:00",
     "https://openai.com/index/scaling-storage-one-billion-users-part-one": "2026-09-12T00:29:24.358287+00:00",
     "https://openai.com/index/cognition-devin-testing-with-astra": "2026-09-12T00:29:24.358287+00:00",
-    "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra": "2026-09-12T00:29:24.358287+00:00"
+    "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra": "2026-09-12T00:29:24.358287+00:00",
+    "https://www.databricks.com/blog/announcing-demand-state-repartitioning-apache-sparktm-structured-streaming-databricks": "2026-09-15T00:44:56.039162+00:00",
+    "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic": "2026-09-15T00:44:56.039162+00:00",
+    "https://claude.com/blog/claude-for-financial-advisors": "2026-09-15T00:44:56.039162+00:00",
+    "https://claude.com/blog/how-healthcare-organizations-use-claude-tag": "2026-09-15T00:44:56.039162+00:00",
+    "https://claude.com/blog/deploying-ai-from-pilot-to-production": "2026-09-15T00:44:56.039162+00:00",
+    "https://openai.com/index/fyxer": "2026-09-15T00:44:56.039162+00:00",
+    "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine": "2026-09-15T00:44:56.039162+00:00",
+    "https://huggingface.co/blog/asyncgrpo-lora-hfjobs": "2026-09-15T00:44:56.039162+00:00",
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-ready-data-part-1": "2026-09-15T00:44:56.039162+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-14",
+    "date": "2026-09-15",
     "points": [
-      "Anthropic 據報導正尋求高達 1,000 億美元的融資，估值目標為 2 兆美元，NVIDIA 考慮作為主要投資者，此舉將大幅重塑前沿 AI 公司的估值格局與競爭態勢。",
-      "DeepSeek 發布 V4.1 Flash 模型，該 5,520 億參數的開源模型在多項測試中超越其旗艦 V4 Pro，且成本大幅降低，導致 V4 Pro 將退役；同時，Sakana 亦迅速將其 Fugu 模型分為 2 美元和 6 美元兩級，宣稱比競品便宜 40% 至 60%，這兩項發展使前沿 AI 編碼與代理能力成本在 48 小時內驟降約一個數量級，對市場產生洗牌級衝擊。",
-      "AMD 執行長蘇姿豐發布新一代 AI 伺服器「Helios」，搭載 72 顆 MI400 晶片，規模與 NVIDIA 的 NVL72 相匹敵，預計 2026 年上市；OpenAI 隨後宣布 ChatGPT 將採用 AMD 最新 AI 晶片，這顯示 AI 晶片市場競爭加劇，AMD 在高效能運算領域取得重大進展。",
-      "Apple 推出 iOS 27 並全面升級 Siri AI，這是自 2011 年 Siri 首次亮相以來最重大的改版，將於 9 月 14 日向支援裝置推出，強化了 iPhone 作為「智慧個人中心 (intelligent personal hub)」的定位，預計將對消費性 AI 應用產生深遠影響。",
-      "據高盛報告指出，受惠於 AI 投資熱潮，全球對沖基金在 2026 年上半年平均回報率達 7%，遠高於歷史平均水平，且對沖基金已將投資重心從半導體製造商轉向記憶體晶片公司，近半數投資者計劃在下半年增加對沖基金配置，顯示 AI 投資持續推動金融市場表現。"
+      "據報導，全球 AI 股票因業界領袖對 AI 潛在危害發出警報而普遍下跌，同時中國更具成本效益的模型（如 Kimi K3、Qwen 及 DeepSeek）的競爭加劇，對大型、高成本模型的定價構成壓力，導致包括 ASML、台積電 (TSMC) 和 SK 海力士 (SK Hynix) 在內的晶片及科技公司股價受挫。",
+      "Hyperscale Data 公司宣布其位於密西根州的 AI 資料中心園區最低出售估值為 7.5 億美元，管理層預計價值可能達到或超過 12.5 億美元，此估值基於與一家新興雲端供應商簽訂的為期十年的 20 兆瓦 (MW) 部署主服務協議，顯示 AI 基礎設施資產的巨大價值。",
+      "儘管 2026 年全球 AI 支出預計將達到 2.52 兆美元，較去年增長 44%，但一份報告指出，僅有 15% 的 AI 決策者表示其 EBITDA 有顯著提升，預計將導致 25% 的原定 AI 支出延後至 2027 年，這反映市場對 AI 投資報酬率的預期趨於理性，並要求更嚴格的財務紀律。",
+      "輝達 (NVIDIA) 斥資 35 億美元認購聯發科 (MediaTek) 海外可轉換公司債，旨在深化 AI 基礎設施、在地 AI 運算及車用領域的合作；聯發科也將採用 NVLink Fusion 技術為客戶開發客製化 AI 加速器，此舉顯示科技巨頭正透過策略合作擴大其 AI 技術版圖。"
     ]
   },
   "github_repos": {
@@ -3055,7 +3063,7 @@
       "summary": "基於真實公開數據的瀏覽器端擬真 3D 地球儀與空間情報模擬器。"
     }
   },
-  "last_run_date": "2026-09-14",
+  "last_run_date": "2026-09-15",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
