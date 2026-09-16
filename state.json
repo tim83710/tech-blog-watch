@@ -2770,7 +2770,19 @@
     "https://openai.com/index/fyxer": "2026-09-15T00:44:56.039162+00:00",
     "https://developer.nvidia.com/blog/accelerating-dropless-moe-training-in-jax-with-nvidia-transformer-engine": "2026-09-15T00:44:56.039162+00:00",
     "https://huggingface.co/blog/asyncgrpo-lora-hfjobs": "2026-09-15T00:44:56.039162+00:00",
-    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-ready-data-part-1": "2026-09-15T00:44:56.039162+00:00"
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-ready-data-part-1": "2026-09-15T00:44:56.039162+00:00",
+    "https://www.databricks.com/blog/how-energy-teams-turn-theft-detection-governed-action-genie-and-ai-business-processes": "2026-09-16T00:38:41.358768+00:00",
+    "https://www.databricks.com/blog/databricks-marketers-use-data-3x-genie-ai-analytics-assistant": "2026-09-16T00:38:41.358768+00:00",
+    "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs": "2026-09-16T00:38:41.358768+00:00",
+    "https://claude.com/blog/salesforce-in-claude": "2026-09-16T00:38:41.358768+00:00",
+    "https://claude.com/blog/building-an-ai-native-revenue-organization": "2026-09-16T00:38:41.358768+00:00",
+    "https://developer.nvidia.com/blog/dense-vs-moe-models-active-parameters-throughput-and-when-to-choose-each": "2026-09-16T00:38:41.358768+00:00",
+    "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin": "2026-09-16T00:38:41.358768+00:00",
+    "https://developer.nvidia.com/blog/how-nvidia-nvlink-6-delivers-multi-layer-resiliency-for-ai-factories": "2026-09-16T00:38:41.358768+00:00",
+    "https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare": "2026-09-16T00:38:41.358768+00:00",
+    "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train": "2026-09-16T00:38:41.358768+00:00",
+    "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking": "2026-09-16T00:38:41.358768+00:00",
+    "https://huggingface.co/blog/ibm-research/altk-evolve-consistency": "2026-09-16T00:38:41.358768+00:00"
   },
   "last_pulse": {
     "date": "2026-09-15",
@@ -3061,9 +3073,19 @@
       "repo": "bilawalsidhu/gods-eye-view",
       "last_featured": "2026-09-14",
       "summary": "基於真實公開數據的瀏覽器端擬真 3D 地球儀與空間情報模擬器。"
+    },
+    "alibaba/open-code-review": {
+      "repo": "alibaba/open-code-review",
+      "last_featured": "2026-09-16",
+      "summary": "結合確定性規則與 LLM Agent 的混合架構 Code Review 工具"
+    },
+    "enactic/openarm": {
+      "repo": "enactic/OpenArm",
+      "last_featured": "2026-09-16",
+      "summary": "專為具身智能（Physical AI）研究設計的開源 7 自由度人形機械臂"
     }
   },
-  "last_run_date": "2026-09-15",
+  "last_run_date": "2026-09-16",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -3099,7 +3121,11 @@
     "kennethwolters/litelm": "2026-09-14",
     "speedstu/cuda-for-amd-windows": "2026-09-14",
     "openai/plugins": "2026-09-14",
-    "mksglu/context-mode": "2026-09-14"
+    "mksglu/context-mode": "2026-09-14",
+    "arnegiacomo/fugleramme": "2026-09-16",
+    "rh1tech/frank-386": "2026-09-16",
+    "enactic/openarm": "2026-09-16",
+    "alibaba/open-code-review": "2026-09-16"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
