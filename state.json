@@ -2782,15 +2782,26 @@
     "https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare": "2026-09-16T00:38:41.358768+00:00",
     "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train": "2026-09-16T00:38:41.358768+00:00",
     "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking": "2026-09-16T00:38:41.358768+00:00",
-    "https://huggingface.co/blog/ibm-research/altk-evolve-consistency": "2026-09-16T00:38:41.358768+00:00"
+    "https://huggingface.co/blog/ibm-research/altk-evolve-consistency": "2026-09-16T00:38:41.358768+00:00",
+    "https://www.databricks.com/blog/regex-rows-simplifying-pattern-detection-sql-matchrecognize": "2026-09-17T00:39:18.814103+00:00",
+    "https://claude.com/blog/cowork-is-now-claude": "2026-09-17T00:39:18.814103+00:00",
+    "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life": "2026-09-17T00:39:18.814103+00:00",
+    "https://openai.com/index/reimagining-advertising-with-ai": "2026-09-17T00:39:18.814103+00:00",
+    "https://openai.com/index/how-to-connect-ai-usage-to-business-value": "2026-09-17T00:39:18.814103+00:00",
+    "https://openai.com/index/model-misalignment-reporting-framework": "2026-09-17T00:39:18.814103+00:00",
+    "https://openai.com/index/unlocking-new-ways-of-working": "2026-09-17T00:39:18.814103+00:00",
+    "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation": "2026-09-17T00:39:18.814103+00:00",
+    "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor": "2026-09-17T00:39:18.814103+00:00",
+    "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai": "2026-09-17T00:39:18.814103+00:00",
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/quantifying-ai-adoption-from-initial-challenges-to-doubling-speed": "2026-09-17T00:39:18.814103+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-15",
+    "date": "2026-09-17",
     "points": [
-      "據報導，全球 AI 股票因業界領袖對 AI 潛在危害發出警報而普遍下跌，同時中國更具成本效益的模型（如 Kimi K3、Qwen 及 DeepSeek）的競爭加劇，對大型、高成本模型的定價構成壓力，導致包括 ASML、台積電 (TSMC) 和 SK 海力士 (SK Hynix) 在內的晶片及科技公司股價受挫。",
-      "Hyperscale Data 公司宣布其位於密西根州的 AI 資料中心園區最低出售估值為 7.5 億美元，管理層預計價值可能達到或超過 12.5 億美元，此估值基於與一家新興雲端供應商簽訂的為期十年的 20 兆瓦 (MW) 部署主服務協議，顯示 AI 基礎設施資產的巨大價值。",
-      "儘管 2026 年全球 AI 支出預計將達到 2.52 兆美元，較去年增長 44%，但一份報告指出，僅有 15% 的 AI 決策者表示其 EBITDA 有顯著提升，預計將導致 25% 的原定 AI 支出延後至 2027 年，這反映市場對 AI 投資報酬率的預期趨於理性，並要求更嚴格的財務紀律。",
-      "輝達 (NVIDIA) 斥資 35 億美元認購聯發科 (MediaTek) 海外可轉換公司債，旨在深化 AI 基礎設施、在地 AI 運算及車用領域的合作；聯發科也將採用 NVLink Fusion 技術為客戶開發客製化 AI 加速器，此舉顯示科技巨頭正透過策略合作擴大其 AI 技術版圖。"
+      "國泰金控 (Cathay Financial Holdings) 於技術年會展示以人工智慧代理 (Agentic AI) 打造的「數位同事」創新試驗，並公布今年前八月稅後淨利達新台幣 986.4 億元，年增 52%，顯示 AI 應用已在金融業實現具體營運成效與獲利增長。",
+      "AI 基礎設施關鍵零組件供應鏈面臨嚴重且持續的吃緊狀況，ABF 載板交期已延長至 56 週，半導體設備零件甚至長達 40 個月；同時，SK 海力士 (SK Hynix) 計劃在五年內將記憶體晶片產能翻倍以應對 AI 需求，並正與 Intel 洽談在美國建立晶片製造設施的可能性，突顯 AI 硬體供應鏈的結構性挑戰與重要投資。",
+      "高通 (Qualcomm) 與亞馬遜 (Amazon) 達成跨世代合作協議，高通將為亞馬遜大型資料中心提供客製化 AI 推理晶片及高速光學連接技術，此合作案潛在採購金額高達 600 億美元，並包含亞馬遜獲得高通約 40 億美元的股權認股權證，深化兩大巨頭在 AI 基礎設施領域的策略結盟。",
+      "Google 推出 Gemini 3.8 Live 及 Gemini 3.8 Live Extended Thinking 兩款新 AI 模型，旨在提升語音代理 (voice agents) 的即時推理能力，使其能更自然地處理複雜任務並在對話中進行多步驟規劃，強化 AI 在語音互動與企業應用中的實用性。"
     ]
   },
   "github_repos": {
@@ -3085,7 +3096,7 @@
       "summary": "專為具身智能（Physical AI）研究設計的開源 7 自由度人形機械臂"
     }
   },
-  "last_run_date": "2026-09-16",
+  "last_run_date": "2026-09-17",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -3169,6 +3180,27 @@
       "title": "Trillion Token Context. No, Really — Anima Anandkumar & Benedikt Jenik, Accelerated Understanding",
       "featured": "2026-09-10",
       "headline": "Accelerated Understanding 創辦人 Anima Anandkumar 與 Benedikt Jenik 解構實體世界物理領域的 Foundation Model。"
+    },
+    "NE4CLThMPGU": {
+      "video_id": "NE4CLThMPGU",
+      "channel": "Sequoia Capital (Training Data)",
+      "title": "Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion",
+      "featured": "2026-09-17",
+      "headline": "Box 執行長 Aaron Levie 探討 SaaS 巨頭的 AI 轉型戰略與企業級應用層價值"
+    },
+    "PrSf7IOYu-I": {
+      "video_id": "PrSf7IOYu-I",
+      "channel": "Dwarkesh Patel",
+      "title": "AI researchers debate how close we are to recursive self-improvement",
+      "featured": "2026-09-17",
+      "headline": "前 OpenAI 聯合創始人 John Schulman 等一線研究員對談，剖析遞歸自我改進的真實進展與瓶頸"
+    },
+    "M9BMTC8o9-w": {
+      "video_id": "M9BMTC8o9-w",
+      "channel": "LangChain",
+      "title": "How Lyft Increased Its Agent Resolution Rate by 16% with LangSmith and LangGraph",
+      "featured": "2026-09-17",
+      "headline": "Lyft 如何透過 LangGraph 與 LangSmith 將客服 agent 解決率提升 16%"
     }
   }
 }
