@@ -2800,15 +2800,22 @@
     "https://openai.com/index/cooley-gopublic": "2026-09-18T00:25:47.130497+00:00",
     "https://openai.com/index/astra-for-law": "2026-09-18T00:25:47.130497+00:00",
     "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui": "2026-09-18T00:25:47.130497+00:00",
-    "https://www.thoughtworks.com/insights/blog/agile-engineering-practices/ai-makes-agile-more-alive": "2026-09-18T00:25:47.130497+00:00"
+    "https://www.thoughtworks.com/insights/blog/agile-engineering-practices/ai-makes-agile-more-alive": "2026-09-18T00:25:47.130497+00:00",
+    "https://www.databricks.com/blog/radar-catch-gray-failures-anomaly-detection": "2026-09-19T00:28:47.012847+00:00",
+    "https://www.databricks.com/blog/enabling-secure-productive-work-personal-devices": "2026-09-19T00:28:47.012847+00:00",
+    "https://www.databricks.com/blog/modernizing-trade-lifecycle-governed-data-and-ai": "2026-09-19T00:28:47.012847+00:00",
+    "https://openai.com/index/hex-gpt-6-astra": "2026-09-19T00:28:47.012847+00:00",
+    "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf": "2026-09-19T00:28:47.012847+00:00",
+    "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics": "2026-09-19T00:28:47.012847+00:00",
+    "https://www.thoughtworks.com/insights/articles/saaspocalypse-hollow-core-rebuild-what-matters": "2026-09-19T00:28:47.012847+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-18",
+    "date": "2026-09-19",
     "points": [
-      "OpenAI 據報導正與大型投資人洽談新一輪私募融資，估值可能突破 1.2 兆美元，但執行長 Sam Altman 表示基於 AI 安全考量，公司 2026 年不會進行首次公開募股 (IPO)，將優先專注於成長與資本部署。",
-      "避險基金在八月份對部分「七巨頭」AI 相關股票的態度轉趨謹慎，亞馬遜 (Amazon)、Alphabet 和蘋果 (Apple) 的多頭持倉減少，空頭持倉增加，主要原因為 AI 基礎設施建置日益依賴債務融資，引發對未來現金流能否覆蓋融資成本的擔憂，Nvidia 則逆勢獲得空頭持倉減少。",
-      "摩根士丹利指出，儘管雲端服務供應商的整體資本支出成長可能放緩，但 AI 半導體在其中佔比將持續上升，市場正從「總量」轉向「結構」故事；同時，安聯投信推出專注於亞洲半導體供應鏈的主動式 ETF (00412A)，凸顯台灣、南韓、日本在先進製程、封裝與記憶體等關鍵領域的戰略地位與投資機會。",
-      "中國 AI 新創公司 Manus 據報即將完成 5 億美元融資，估值將翻倍至 40 億美元，這是中國政府要求其終止與 Meta 的收購關係後首次融資，顯示中國 AI 領域的資本活動持續活躍，並受政府政策影響。"
+      "AMD 宣布由於台積電晶圓成本上升，將對其顯示卡、晶片組及部分處理器產品進行約 10% 的價格調漲，這與 Nvidia 執行長黃仁勳預期明年晶片銷售額將翻倍、AI 需求持續超越供應的說法相互呼應，顯示 AI 硬體成本壓力與強勁需求並存。",
+      "摩根大通預測，到 2027 年，客製化 AI 專用積體電路 (ASIC) 和 XPU 將佔 AI 加速器出貨量的一半以上（54%），超越通用圖形處理器 (GPU)，其中博通 (Broadcom) 和邁威爾 (Marvell) 主導此市場，標誌著 AI 運算成長動能正轉向客製化晶片。",
+      "AI 基礎設施公司 Temporal Technologies 完成 5.5 億美元 E 輪融資，估值達 125.5 億美元，在七個月內翻倍；同時，Z.AI 也募資 50 億美元用於運算與研發，顯示 AI 基礎設施領域的資本活動持續活躍。",
+      "一份報告揭露，受美國出口管制的 Nvidia AI 晶片透過大學採購、東南亞轉運及不透明的公司網絡流入中國，凸顯地緣政治緊張與出口管制面臨的挑戰。"
     ]
   },
   "github_repos": {
@@ -3118,7 +3125,7 @@
       "summary": "騰訊開源的 LLM 知識庫平台，整合 RAG、ReAct Agent 與自動維護 Wiki 功能"
     }
   },
-  "last_run_date": "2026-09-18",
+  "last_run_date": "2026-09-19",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
