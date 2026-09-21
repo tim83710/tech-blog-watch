@@ -2807,15 +2807,15 @@
     "https://openai.com/index/hex-gpt-6-astra": "2026-09-19T00:28:47.012847+00:00",
     "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf": "2026-09-19T00:28:47.012847+00:00",
     "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics": "2026-09-19T00:28:47.012847+00:00",
-    "https://www.thoughtworks.com/insights/articles/saaspocalypse-hollow-core-rebuild-what-matters": "2026-09-19T00:28:47.012847+00:00"
+    "https://www.thoughtworks.com/insights/articles/saaspocalypse-hollow-core-rebuild-what-matters": "2026-09-19T00:28:47.012847+00:00",
+    "https://openai.com/index/australian-youth-safety-blueprint": "2026-09-21T00:20:59.512070+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-19",
+    "date": "2026-09-21",
     "points": [
-      "AMD 宣布由於台積電晶圓成本上升，將對其顯示卡、晶片組及部分處理器產品進行約 10% 的價格調漲，這與 Nvidia 執行長黃仁勳預期明年晶片銷售額將翻倍、AI 需求持續超越供應的說法相互呼應，顯示 AI 硬體成本壓力與強勁需求並存。",
-      "摩根大通預測，到 2027 年，客製化 AI 專用積體電路 (ASIC) 和 XPU 將佔 AI 加速器出貨量的一半以上（54%），超越通用圖形處理器 (GPU)，其中博通 (Broadcom) 和邁威爾 (Marvell) 主導此市場，標誌著 AI 運算成長動能正轉向客製化晶片。",
-      "AI 基礎設施公司 Temporal Technologies 完成 5.5 億美元 E 輪融資，估值達 125.5 億美元，在七個月內翻倍；同時，Z.AI 也募資 50 億美元用於運算與研發，顯示 AI 基礎設施領域的資本活動持續活躍。",
-      "一份報告揭露，受美國出口管制的 Nvidia AI 晶片透過大學採購、東南亞轉運及不透明的公司網絡流入中國，凸顯地緣政治緊張與出口管制面臨的挑戰。"
+      "蘋果正式推出以 Apple Intelligence 為核心的「Siri AI」，強調更自然的對話、跨應用程式整合及裝置端情境理解，將生成式 AI 深度融入 iPhone、iPad、Mac 等全線產品，標誌著其在個人化 AI 領域的重大戰略推進。",
+      "全球 AI 資料中心資本支出持續飆升，2026 年主要雲端服務供應商預計將突破 8,867 億美元，年增近 90%。AI 晶片市場正從通用圖形處理器 (GPU) 轉向客製化 AI 專用積體電路 (ASIC)，後者成長性已超越 GPU 陣營，主要由 Google TPU、AWS Trainium、Meta MTIA 等大廠自研晶片推動，以優化成本與推論效率。同時，華為也加速 AI 晶片開發，計畫於 2027 年推出新款 Ascend 晶片，加劇 AI 算力市場競爭。",
+      "金融業 AI 應用展現具體成效，例如摩根大通 (JPMorgan Chase) 的 COIN 系統每年可節省約 36 萬小時的律師與貸款專員工時，摩根士丹利 (Morgan Stanley) 的 AI 助理將文件檢索效率從 20% 提升至 80%。受 AI 投資熱潮帶動，高盛 (Goldman Sachs) 報告指出全球對沖基金在 2026 年上半年平均回報率達 7%，表現強勁。此外，Nvidia 承諾投資 20 億美元於 Brookfield Asset Management 的全球 AI 基礎設施基金，該基金目標募資 100 億美元，顯示 AI 基礎設施的融資模式正趨於多元化。"
     ]
   },
   "github_repos": {
@@ -3123,9 +3123,24 @@
       "repo": "Tencent/WeKnora",
       "last_featured": "2026-09-18",
       "summary": "騰訊開源的 LLM 知識庫平台，整合 RAG、ReAct Agent 與自動維護 Wiki 功能"
+    },
+    "addyosmani/agent-skills": {
+      "repo": "addyosmani/agent-skills",
+      "last_featured": "2026-09-21",
+      "summary": "專為 AI Coding Agent 設計的生產級工程 Skill 與開發指令集"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "repo": "anthropics/knowledge-work-plugins",
+      "last_featured": "2026-09-21",
+      "summary": "Anthropic 官方推出的知識工作者 Claude Cowork / Code 插件庫"
+    },
+    "jemalloc/jemalloc": {
+      "repo": "jemalloc/jemalloc",
+      "last_featured": "2026-09-21",
+      "summary": "強調防碎片化與高併發擴展性的高效能 C/C++ 記憶體分配器"
     }
   },
-  "last_run_date": "2026-09-19",
+  "last_run_date": "2026-09-21",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -3168,7 +3183,12 @@
     "alibaba/open-code-review": "2026-09-16",
     "asciimoo/hister": "2026-09-18",
     "cloudflare/security-audit-skill": "2026-09-18",
-    "tencent/weknora": "2026-09-18"
+    "tencent/weknora": "2026-09-18",
+    "jemalloc/jemalloc": "2026-09-21",
+    "graafhenk/numberwang": "2026-09-21",
+    "anthropics/claude-code": "2026-09-21",
+    "addyosmani/agent-skills": "2026-09-21",
+    "anthropics/knowledge-work-plugins": "2026-09-21"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
