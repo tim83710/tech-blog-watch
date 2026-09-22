@@ -2808,14 +2808,25 @@
     "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf": "2026-09-19T00:28:47.012847+00:00",
     "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics": "2026-09-19T00:28:47.012847+00:00",
     "https://www.thoughtworks.com/insights/articles/saaspocalypse-hollow-core-rebuild-what-matters": "2026-09-19T00:28:47.012847+00:00",
-    "https://openai.com/index/australian-youth-safety-blueprint": "2026-09-21T00:20:59.512070+00:00"
+    "https://openai.com/index/australian-youth-safety-blueprint": "2026-09-21T00:20:59.512070+00:00",
+    "https://openai.com/index/advisory-group-on-mathematics-and-ai": "2026-09-22T00:59:33.575895+00:00",
+    "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": "2026-09-22T00:59:33.575895+00:00",
+    "https://openai.com/index/building-standards-next-phase-ai": "2026-09-22T00:59:33.575895+00:00",
+    "https://openai.com/index/expanding-openai-academy-with-new-learning-paths": "2026-09-22T00:59:33.575895+00:00",
+    "https://openai.com/index/v7": "2026-09-22T00:59:33.575895+00:00",
+    "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton": "2026-09-22T00:59:33.575895+00:00",
+    "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion": "2026-09-22T00:59:33.575895+00:00",
+    "https://developer.nvidia.com/blog/turn-your-latest-observations-into-timely-weather-decisions-with-nvidia-earth-2": "2026-09-22T00:59:33.575895+00:00",
+    "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an": "2026-09-22T00:59:33.575895+00:00",
+    "https://huggingface.co/blog/tokenizers-v1": "2026-09-22T00:59:33.575895+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "points": [
-      "蘋果正式推出以 Apple Intelligence 為核心的「Siri AI」，強調更自然的對話、跨應用程式整合及裝置端情境理解，將生成式 AI 深度融入 iPhone、iPad、Mac 等全線產品，標誌著其在個人化 AI 領域的重大戰略推進。",
-      "全球 AI 資料中心資本支出持續飆升，2026 年主要雲端服務供應商預計將突破 8,867 億美元，年增近 90%。AI 晶片市場正從通用圖形處理器 (GPU) 轉向客製化 AI 專用積體電路 (ASIC)，後者成長性已超越 GPU 陣營，主要由 Google TPU、AWS Trainium、Meta MTIA 等大廠自研晶片推動，以優化成本與推論效率。同時，華為也加速 AI 晶片開發，計畫於 2027 年推出新款 Ascend 晶片，加劇 AI 算力市場競爭。",
-      "金融業 AI 應用展現具體成效，例如摩根大通 (JPMorgan Chase) 的 COIN 系統每年可節省約 36 萬小時的律師與貸款專員工時，摩根士丹利 (Morgan Stanley) 的 AI 助理將文件檢索效率從 20% 提升至 80%。受 AI 投資熱潮帶動，高盛 (Goldman Sachs) 報告指出全球對沖基金在 2026 年上半年平均回報率達 7%，表現強勁。此外，Nvidia 承諾投資 20 億美元於 Brookfield Asset Management 的全球 AI 基礎設施基金，該基金目標募資 100 億美元，顯示 AI 基礎設施的融資模式正趨於多元化。"
+      "據報導，OpenAI 一個內部未發佈的模型，透過同時運行約 10,000 個 AI 代理並耗時 88 小時，成功為納維-斯托克斯存在性與光滑性問題（Navier-Stokes existence and smoothness problem）產生了證明。若獲證實，這將是人工智慧直接解決近兩個世紀未解數學難題的重大技術突破。",
+      "Meta 於 9 月 8 日推出其個人 AI 助理 Muse，強調任務執行而非僅限問答，並提供付費訂閱層級，帶動 Meta 股價在 9 月份大漲約 25%。然而，Amazon 已限制其顧客在電商平台上使用 Muse AI 代理，理由是違反使用條款，凸顯了 AI 代理在線上消費空間的市場競爭與存取權爭議。",
+      "金融業在 AI 應用上面臨數據挑戰：一份 2026 年的調查報告指出，儘管高達 89% 的銀行希望導入 AI 強化交易監控，但僅有 11% 已實際部署。主要障礙不在預算或監管疑慮，而是底層數據的碎片化、缺乏標準化格式及數據品質不佳，導致 93% 的銀行仍面臨大量誤報。",
+      "Amazon 和 Alphabet (Google) 預計在 2026 年投入近 4,000 億美元於 AI 基礎設施建設，兩家公司皆旨在 2027 年將這筆巨額投資轉化為自由現金流，顯示科技巨頭在 AI 算力與資料中心領域的軍備競賽持續升級。"
     ]
   },
   "github_repos": {
@@ -3140,7 +3151,7 @@
       "summary": "強調防碎片化與高併發擴展性的高效能 C/C++ 記憶體分配器"
     }
   },
-  "last_run_date": "2026-09-21",
+  "last_run_date": "2026-09-22",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
