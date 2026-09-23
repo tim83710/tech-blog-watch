@@ -2818,15 +2818,30 @@
     "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion": "2026-09-22T00:59:33.575895+00:00",
     "https://developer.nvidia.com/blog/turn-your-latest-observations-into-timely-weather-decisions-with-nvidia-earth-2": "2026-09-22T00:59:33.575895+00:00",
     "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an": "2026-09-22T00:59:33.575895+00:00",
-    "https://huggingface.co/blog/tokenizers-v1": "2026-09-22T00:59:33.575895+00:00"
+    "https://huggingface.co/blog/tokenizers-v1": "2026-09-22T00:59:33.575895+00:00",
+    "https://www.databricks.com/blog/genie-one-mcp-give-any-ai-agent-right-business-context": "2026-09-23T00:53:56.864679+00:00",
+    "https://www.databricks.com/blog/genie-one-mcp-now-generally-available": "2026-09-23T00:53:56.864679+00:00",
+    "https://claude.com/blog/what-a-task-costs-on-opus-5-5": "2026-09-23T00:53:56.864679+00:00",
+    "https://openai.com/index/better-prompt-caching-for-gpt-6": "2026-09-23T00:53:56.864679+00:00",
+    "https://openai.com/index/introducing-gpt-6-sol-and-luna": "2026-09-23T00:53:56.864679+00:00",
+    "https://openai.com/index/parallel-cuts-time-and-cost-with-astra": "2026-09-23T00:53:56.864679+00:00",
+    "https://openai.com/index/priorities-principles-third-party-assessments": "2026-09-23T00:53:56.864679+00:00",
+    "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing": "2026-09-23T00:53:56.864679+00:00",
+    "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph": "2026-09-23T00:53:56.864679+00:00",
+    "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities": "2026-09-23T00:53:56.864679+00:00",
+    "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros": "2026-09-23T00:53:56.864679+00:00",
+    "https://huggingface.co/blog/evaleval-aisi": "2026-09-23T00:53:56.864679+00:00",
+    "https://huggingface.co/blog/transformers-llama-cpp-quants": "2026-09-23T00:53:56.864679+00:00",
+    "https://huggingface.co/blog/omlx": "2026-09-23T00:53:56.864679+00:00",
+    "https://www.thoughtworks.com/insights/articles/the-quantum-countdown": "2026-09-23T00:53:56.864679+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "points": [
-      "據報導，OpenAI 一個內部未發佈的模型，透過同時運行約 10,000 個 AI 代理並耗時 88 小時，成功為納維-斯托克斯存在性與光滑性問題（Navier-Stokes existence and smoothness problem）產生了證明。若獲證實，這將是人工智慧直接解決近兩個世紀未解數學難題的重大技術突破。",
-      "Meta 於 9 月 8 日推出其個人 AI 助理 Muse，強調任務執行而非僅限問答，並提供付費訂閱層級，帶動 Meta 股價在 9 月份大漲約 25%。然而，Amazon 已限制其顧客在電商平台上使用 Muse AI 代理，理由是違反使用條款，凸顯了 AI 代理在線上消費空間的市場競爭與存取權爭議。",
-      "金融業在 AI 應用上面臨數據挑戰：一份 2026 年的調查報告指出，儘管高達 89% 的銀行希望導入 AI 強化交易監控，但僅有 11% 已實際部署。主要障礙不在預算或監管疑慮，而是底層數據的碎片化、缺乏標準化格式及數據品質不佳，導致 93% 的銀行仍面臨大量誤報。",
-      "Amazon 和 Alphabet (Google) 預計在 2026 年投入近 4,000 億美元於 AI 基礎設施建設，兩家公司皆旨在 2027 年將這筆巨額投資轉化為自由現金流，顯示科技巨頭在 AI 算力與資料中心領域的軍備競賽持續升級。"
+      "Anthropic 發佈了其新一代模型 Claude Opus 5.5，宣稱在接近其頂級 Claude 模型性能的同時，將典型工作負載成本降低 40%，並取消了訂閱用戶的五小時使用上限，此舉旨在提升市場競爭力與模型可及性。",
+      "阿里巴巴集團發佈了其新一代 AI 晶片「真武 V900」，號稱是中國最強大的 AI 晶片，性能較前代提升三倍，並計劃訓練一個參數規模達 5 至 10 兆的新 AI 模型，顯示中國在 AI 硬體與大型模型開發上的加速投入。",
+      "Meta 的個人 AI 助理 Muse 推出後，在六天內下載量突破 250 萬次並登上 Apple 美國 App Store 免費榜首，帶動市場對 AI 代理廣泛採用後運算瓶頸從 GPU 轉向 CPU 的預期，使 AMD 的市值一度突破 1 兆美元。",
+      "嘉信理財 (Schwab) 宣佈與 Anthropic 達成獨家合作，將「Claude for Financial Advisors」整合至其財富管理平台，分析師預計此舉將對財富顧問工作流程自動化產生深遠影響，儘管追趕先行者 Altruist 可能仍需數年時間。"
     ]
   },
   "github_repos": {
@@ -3149,9 +3164,19 @@
       "repo": "jemalloc/jemalloc",
       "last_featured": "2026-09-21",
       "summary": "強調防碎片化與高併發擴展性的高效能 C/C++ 記憶體分配器"
+    },
+    "jaredpalmer/kev": {
+      "repo": "jaredpalmer/kev",
+      "last_featured": "2026-09-23",
+      "summary": "基於 Qwen3.5 的小型決策模型族（0.8B 至 9B），支援單次請求進行多元決策與評分"
+    },
+    "volotat/mini-agi": {
+      "repo": "volotat/mini-AGI",
+      "last_featured": "2026-09-23",
+      "summary": "探索單卡 8GB VRAM 進行動態持續學習（Continual Learning）的位元級語言模型實驗專案"
     }
   },
-  "last_run_date": "2026-09-22",
+  "last_run_date": "2026-09-23",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -3199,7 +3224,11 @@
     "graafhenk/numberwang": "2026-09-21",
     "anthropics/claude-code": "2026-09-21",
     "addyosmani/agent-skills": "2026-09-21",
-    "anthropics/knowledge-work-plugins": "2026-09-21"
+    "anthropics/knowledge-work-plugins": "2026-09-21",
+    "jaredpalmer/kev": "2026-09-23",
+    "volotat/mini-agi": "2026-09-23",
+    "f/jev-leftpad": "2026-09-23",
+    "kyle-pena-nlp/jevchat": "2026-09-23"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
