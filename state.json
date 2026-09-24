@@ -2833,15 +2833,34 @@
     "https://huggingface.co/blog/evaleval-aisi": "2026-09-23T00:53:56.864679+00:00",
     "https://huggingface.co/blog/transformers-llama-cpp-quants": "2026-09-23T00:53:56.864679+00:00",
     "https://huggingface.co/blog/omlx": "2026-09-23T00:53:56.864679+00:00",
-    "https://www.thoughtworks.com/insights/articles/the-quantum-countdown": "2026-09-23T00:53:56.864679+00:00"
+    "https://www.thoughtworks.com/insights/articles/the-quantum-countdown": "2026-09-23T00:53:56.864679+00:00",
+    "https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway": "2026-09-24T00:49:34.581861+00:00",
+    "https://www.databricks.com/blog/unity-catalog-pages-governed-home-your-business-knowledge-genie-ontology": "2026-09-24T00:49:34.581861+00:00",
+    "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace": "2026-09-24T00:49:34.581861+00:00",
+    "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects": "2026-09-24T00:49:34.581861+00:00",
+    "https://claude.com/blog/claude-marketplace": "2026-09-24T00:49:34.581861+00:00",
+    "https://openai.com/index/two-years-of-openai-academy": "2026-09-24T00:49:34.581861+00:00",
+    "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense": "2026-09-24T00:49:34.581861+00:00",
+    "https://openai.com/index/sam-altman-un-security-council-remarks": "2026-09-24T00:49:34.581861+00:00",
+    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": "2026-09-24T00:49:34.581861+00:00",
+    "https://openai.com/index/invideo-builds-with-gpt-6-astra": "2026-09-24T00:49:34.581861+00:00",
+    "https://openai.com/index/ringg": "2026-09-24T00:49:34.581861+00:00",
+    "https://developers.openai.com/blog/bringing-my-led-display-to-life": "2026-09-24T00:49:34.581861+00:00",
+    "https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning": "2026-09-24T00:49:34.581861+00:00",
+    "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land": "2026-09-24T00:49:34.581861+00:00",
+    "https://developer.nvidia.com/blog/manage-kubernetes-node-fleets-with-nodewright": "2026-09-24T00:49:34.581861+00:00",
+    "https://developer.nvidia.com/blog/how-swe-serve-exposes-the-gap-between-local-tests-and-live-serving": "2026-09-24T00:49:34.581861+00:00",
+    "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory": "2026-09-24T00:49:34.581861+00:00",
+    "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech": "2026-09-24T00:49:34.581861+00:00",
+    "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp": "2026-09-24T00:49:34.581861+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "points": [
-      "Anthropic 發佈了其新一代模型 Claude Opus 5.5，宣稱在接近其頂級 Claude 模型性能的同時，將典型工作負載成本降低 40%，並取消了訂閱用戶的五小時使用上限，此舉旨在提升市場競爭力與模型可及性。",
-      "阿里巴巴集團發佈了其新一代 AI 晶片「真武 V900」，號稱是中國最強大的 AI 晶片，性能較前代提升三倍，並計劃訓練一個參數規模達 5 至 10 兆的新 AI 模型，顯示中國在 AI 硬體與大型模型開發上的加速投入。",
-      "Meta 的個人 AI 助理 Muse 推出後，在六天內下載量突破 250 萬次並登上 Apple 美國 App Store 免費榜首，帶動市場對 AI 代理廣泛採用後運算瓶頸從 GPU 轉向 CPU 的預期，使 AMD 的市值一度突破 1 兆美元。",
-      "嘉信理財 (Schwab) 宣佈與 Anthropic 達成獨家合作，將「Claude for Financial Advisors」整合至其財富管理平台，分析師預計此舉將對財富顧問工作流程自動化產生深遠影響，儘管追趕先行者 Altruist 可能仍需數年時間。"
+      "OpenAI 推出 GPT-6 Sol 和 Luna，xAI 推出 Grok 4.7，以及 Anthropic 推出 Claude Opus 5.5，這些模型在過去 48 小時內相繼發佈，並伴隨 20% 至 50% 的價格下調。然而，業界觀察到一種「思維稅 (Thinking Tax)」的新趨勢，即模型提供商將推理運算隱藏在架構層之後，強制用戶消耗推理代幣，導致實際成本遠高於表面降價，這代表了大型語言模型經濟模式的結構性轉變。",
+      "Synopsys 與台積電 (TSMC) 擴大合作，透過將代理式 AI (agentic AI) 能力整合至其電子設計自動化 (EDA) 流程，加速下一代 AI 與高效能運算晶片的設計與驗證，特別是在多晶片整合 (multi-die innovation) 方面，此舉將顯著提升半導體產業的設計效率與複雜度處理能力。",
+      "美國企業在數據中心和資訊處理硬體上的投資於第二季度首次超越住宅房地產投資，達到 7,520 億美元，顯示 AI 基礎設施建設成為經濟結構轉型的主要驅動力；然而，美國各地超過 500 個數據中心項目因地方反對而面臨禁令或延遲，總價值達 680 億美元，對 AI 產業的擴張構成重大供應鏈與算力挑戰。",
+      "Regnology 的一項研究指出，儘管高達 87% 的金融機構正在探索或試點 AI，但僅有 16% 成功將其應用於法規報告的實際生產環境中，主要瓶頸在於治理和數據品質，而非技術成熟度，凸顯金融業 AI 落地的高門檻。"
     ]
   },
   "github_repos": {
@@ -3176,7 +3195,7 @@
       "summary": "探索單卡 8GB VRAM 進行動態持續學習（Continual Learning）的位元級語言模型實驗專案"
     }
   },
-  "last_run_date": "2026-09-23",
+  "last_run_date": "2026-09-24",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
