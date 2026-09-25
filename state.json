@@ -2852,15 +2852,29 @@
     "https://developer.nvidia.com/blog/how-swe-serve-exposes-the-gap-between-local-tests-and-live-serving": "2026-09-24T00:49:34.581861+00:00",
     "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory": "2026-09-24T00:49:34.581861+00:00",
     "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech": "2026-09-24T00:49:34.581861+00:00",
-    "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp": "2026-09-24T00:49:34.581861+00:00"
+    "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp": "2026-09-24T00:49:34.581861+00:00",
+    "https://www.databricks.com/blog/running-open-jev-sql-databricks": "2026-09-25T00:48:44.096294+00:00",
+    "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli": "2026-09-25T00:48:44.096294+00:00",
+    "https://www.databricks.com/blog/how-i-built-agent-based-security-reviews-databricks": "2026-09-25T00:48:44.096294+00:00",
+    "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels": "2026-09-25T00:48:44.096294+00:00",
+    "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context": "2026-09-25T00:48:44.096294+00:00",
+    "https://openai.com/index/introducing-mentalhealthbench": "2026-09-25T00:48:44.096294+00:00",
+    "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan": "2026-09-25T00:48:44.096294+00:00",
+    "https://openai.com/index/airbnb-gpt-6-astra": "2026-09-25T00:48:44.096294+00:00",
+    "https://openai.com/index/grab-openai-ai-skills-southeast-asia": "2026-09-25T00:48:44.096294+00:00",
+    "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models": "2026-09-25T00:48:44.096294+00:00",
+    "https://research.google/blog/coherent-long-form-video-generation": "2026-09-25T00:48:44.096294+00:00",
+    "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar": "2026-09-25T00:48:44.096294+00:00",
+    "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark": "2026-09-25T00:48:44.096294+00:00",
+    "https://www.thoughtworks.com/insights/blog/legacy-modernization/what-is-data-modernization": "2026-09-25T00:48:44.096294+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "points": [
-      "OpenAI 推出 GPT-6 Sol 和 Luna，xAI 推出 Grok 4.7，以及 Anthropic 推出 Claude Opus 5.5，這些模型在過去 48 小時內相繼發佈，並伴隨 20% 至 50% 的價格下調。然而，業界觀察到一種「思維稅 (Thinking Tax)」的新趨勢，即模型提供商將推理運算隱藏在架構層之後，強制用戶消耗推理代幣，導致實際成本遠高於表面降價，這代表了大型語言模型經濟模式的結構性轉變。",
-      "Synopsys 與台積電 (TSMC) 擴大合作，透過將代理式 AI (agentic AI) 能力整合至其電子設計自動化 (EDA) 流程，加速下一代 AI 與高效能運算晶片的設計與驗證，特別是在多晶片整合 (multi-die innovation) 方面，此舉將顯著提升半導體產業的設計效率與複雜度處理能力。",
-      "美國企業在數據中心和資訊處理硬體上的投資於第二季度首次超越住宅房地產投資，達到 7,520 億美元，顯示 AI 基礎設施建設成為經濟結構轉型的主要驅動力；然而，美國各地超過 500 個數據中心項目因地方反對而面臨禁令或延遲，總價值達 680 億美元，對 AI 產業的擴張構成重大供應鏈與算力挑戰。",
-      "Regnology 的一項研究指出，儘管高達 87% 的金融機構正在探索或試點 AI，但僅有 16% 成功將其應用於法規報告的實際生產環境中，主要瓶頸在於治理和數據品質，而非技術成熟度，凸顯金融業 AI 落地的高門檻。"
+      "Meta 的個人 AI 助理 Muse 導致美國主要銀行和券商股價在 2026 年 9 月 23 日大跌，其中 JPMorgan Chase 下跌 3.4%，Charles Schwab 跌逾 6%，凸顯投資者對 AI 潛在顛覆傳統金融服務客戶忠誠度的擔憂，此為金融業 AI 落地具體影響市場格局的高門檻事件。",
+      "OpenAI 聲稱其未發布的下一代模型在投入 2,250 萬美元的算力後，成功證明了納維-斯托克斯存在性與光滑性問題（Navier-Stokes existence and smoothness problem），若屬實將是理論數學領域的重大突破。",
+      "AI 基礎設施領域獲巨額投資，其中 CoreWeave 透過可轉債募資 42 億美元以擴建 AI 資料中心與 GPU 基礎設施，而 NVIDIA 也承諾向 Brookfield 規模 100 億美元的全球 AI 基礎設施基金注資 20 億美元，顯示晶片製造商正積極參與基礎設施建設，以綁定資本、硬體與市場需求。",
+      "TypeSafe AI 推出專用非自回歸分類模型 Jev，以每百萬輸入 token 0.042 美元的極低價格提供 70-500 毫秒的快速決策，作為快速「系統 1 (System 1)」引擎，有望大幅降低多步驟代理 (agent) 工作流程的成本與延遲，代表了代理能力實質躍進的技術突破。"
     ]
   },
   "github_repos": {
@@ -3193,9 +3207,19 @@
       "repo": "volotat/mini-AGI",
       "last_featured": "2026-09-23",
       "summary": "探索單卡 8GB VRAM 進行動態持續學習（Continual Learning）的位元級語言模型實驗專案"
+    },
+    "anthropics/financial-services": {
+      "repo": "anthropics/financial-services",
+      "last_featured": "2026-09-25",
+      "summary": "Anthropic 開源專為金融服務打造的 AI Agent 與工作流套件"
+    },
+    "xcuri0/rebaruefi": {
+      "repo": "xCuri0/ReBarUEFI",
+      "last_featured": "2026-09-25",
+      "summary": "為未官方支援的主機板開啟 Resizable BAR 的 UEFI 驅動程式"
     }
   },
-  "last_run_date": "2026-09-24",
+  "last_run_date": "2026-09-25",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -3247,7 +3271,10 @@
     "jaredpalmer/kev": "2026-09-23",
     "volotat/mini-agi": "2026-09-23",
     "f/jev-leftpad": "2026-09-23",
-    "kyle-pena-nlp/jevchat": "2026-09-23"
+    "kyle-pena-nlp/jevchat": "2026-09-23",
+    "xcuri0/rebaruefi": "2026-09-25",
+    "wordpress/wordpress-develop": "2026-09-25",
+    "anthropics/financial-services": "2026-09-25"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
