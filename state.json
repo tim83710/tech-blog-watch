@@ -2866,15 +2866,20 @@
     "https://research.google/blog/coherent-long-form-video-generation": "2026-09-25T00:48:44.096294+00:00",
     "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar": "2026-09-25T00:48:44.096294+00:00",
     "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark": "2026-09-25T00:48:44.096294+00:00",
-    "https://www.thoughtworks.com/insights/blog/legacy-modernization/what-is-data-modernization": "2026-09-25T00:48:44.096294+00:00"
+    "https://www.thoughtworks.com/insights/blog/legacy-modernization/what-is-data-modernization": "2026-09-25T00:48:44.096294+00:00",
+    "https://www.databricks.com/blog/data-dialogue-how-sp-global-energy-made-its-structured-data-estate-conversational-databricks": "2026-09-26T00:42:27.538389+00:00",
+    "https://www.databricks.com/blog/top-5-system-table-queries-understanding-your-databricks-costs": "2026-09-26T00:42:27.538389+00:00",
+    "https://claude.com/blog/build-plugins-for-claude": "2026-09-26T00:42:27.538389+00:00",
+    "https://openai.com/index/proaction": "2026-09-26T00:42:27.538389+00:00",
+    "https://www.thoughtworks.com/insights/articles/path-to-ai-first-organization": "2026-09-26T00:42:27.538389+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "points": [
-      "Meta 的個人 AI 助理 Muse 導致美國主要銀行和券商股價在 2026 年 9 月 23 日大跌，其中 JPMorgan Chase 下跌 3.4%，Charles Schwab 跌逾 6%，凸顯投資者對 AI 潛在顛覆傳統金融服務客戶忠誠度的擔憂，此為金融業 AI 落地具體影響市場格局的高門檻事件。",
-      "OpenAI 聲稱其未發布的下一代模型在投入 2,250 萬美元的算力後，成功證明了納維-斯托克斯存在性與光滑性問題（Navier-Stokes existence and smoothness problem），若屬實將是理論數學領域的重大突破。",
-      "AI 基礎設施領域獲巨額投資，其中 CoreWeave 透過可轉債募資 42 億美元以擴建 AI 資料中心與 GPU 基礎設施，而 NVIDIA 也承諾向 Brookfield 規模 100 億美元的全球 AI 基礎設施基金注資 20 億美元，顯示晶片製造商正積極參與基礎設施建設，以綁定資本、硬體與市場需求。",
-      "TypeSafe AI 推出專用非自回歸分類模型 Jev，以每百萬輸入 token 0.042 美元的極低價格提供 70-500 毫秒的快速決策，作為快速「系統 1 (System 1)」引擎，有望大幅降低多步驟代理 (agent) 工作流程的成本與延遲，代表了代理能力實質躍進的技術突破。"
+      "OpenAI 擴展其 GPT-6 模型家族，發布了 GPT-6 Sol 和 Luna，並更新了 GPT-6 Astra，該模型在電腦使用、瀏覽、軟體工程、網路安全和科學等多項基準測試中表現卓越，甚至發現了兩個零日漏洞，同時顯著降低了 API 使用成本，預計將對企業級 AI 應用產生重大影響。",
+      "交易銀行業正透過導入 AI 代理（agent）來重塑企業財資管理，波士頓顧問集團（BCG）的案例研究顯示，利用 AI 驅動的「暗軟體工廠」（Dark Software Factory）可使軟體工程專案效率提升 20% 至 40%，這代表金融業 AI 落地已展現具體成效。",
+      "VAST Data 推出 VAST DataEnclave，這是一種利用 NVIDIA Confidential Computing 的機密 AI 技術，旨在安全地整合領先的 AI 模型與敏感的企業數據，確保在金融服務和醫療保健等高度監管行業中，數據隱私和 AI 模型智慧財產權都能受到保護，有助於推動 AI 在關鍵行業的部署。",
+      "Tether AI Research 發布了 QVAC Genesis III，這是一個包含 1910 億個 token 的合成數據集，旨在提升小型 AI 模型在科學、技術、工程和數學（STEM）領域的能力，使其能在本地設備上運行並超越大型模型的基準表現，預示著 AI 模型效率和本地部署的技術突破。"
     ]
   },
   "github_repos": {
@@ -3219,7 +3224,7 @@
       "summary": "為未官方支援的主機板開啟 Resizable BAR 的 UEFI 驅動程式"
     }
   },
-  "last_run_date": "2026-09-25",
+  "last_run_date": "2026-09-26",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
