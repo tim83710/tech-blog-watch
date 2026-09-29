@@ -2871,14 +2871,29 @@
     "https://www.databricks.com/blog/top-5-system-table-queries-understanding-your-databricks-costs": "2026-09-26T00:42:27.538389+00:00",
     "https://claude.com/blog/build-plugins-for-claude": "2026-09-26T00:42:27.538389+00:00",
     "https://openai.com/index/proaction": "2026-09-26T00:42:27.538389+00:00",
-    "https://www.thoughtworks.com/insights/articles/path-to-ai-first-organization": "2026-09-26T00:42:27.538389+00:00"
+    "https://www.thoughtworks.com/insights/articles/path-to-ai-first-organization": "2026-09-26T00:42:27.538389+00:00",
+    "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1": "2026-09-29T02:14:39.980442+00:00",
+    "https://www.databricks.com/blog/lakebase-search-state-art-full-text-and-vector-search-postgres": "2026-09-29T02:14:39.980442+00:00",
+    "https://www.databricks.com/blog/manufacturing-data-and-ai-connecting-product-value-chain": "2026-09-29T02:14:39.980442+00:00",
+    "https://www.databricks.com/blog/how-roll-out-genie-one-step-step-enterprise-playbook": "2026-09-29T02:14:39.980442+00:00",
+    "https://www.databricks.com/blog/helping-marketing-data-engineering-same-word-different-meaning": "2026-09-29T02:14:39.980442+00:00",
+    "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia": "2026-09-29T02:14:39.980442+00:00",
+    "https://openai.com/index/how-we-will-do-better-for-australia": "2026-09-29T02:14:39.980442+00:00",
+    "https://openai.com/index/lenfest-ai-collaborative-expansion": "2026-09-29T02:14:39.980442+00:00",
+    "https://openai.com/form/codex-originals": "2026-09-29T02:14:39.980442+00:00",
+    "https://openai.com/index/basis-tax-workbook-with-astra": "2026-09-29T02:14:39.980442+00:00",
+    "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring": "2026-09-29T02:14:39.980442+00:00",
+    "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell": "2026-09-29T02:14:39.980442+00:00",
+    "https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency": "2026-09-29T02:14:39.980442+00:00",
+    "https://huggingface.co/blog/Hcompany/holo4": "2026-09-29T02:14:39.980442+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "points": [
-      "輝達 (NVIDIA) 正積極推動將玻璃基板 (glass substrate) 導入其未來 GPU，以大幅提升產品效能，並已要求台日韓供應鏈廠商在兩年內完成相關開發，預示著 AI 晶片封裝技術的重大變革與供應鏈的洗牌。",
-      "Meta 旗下的 Muse AI 個人助理在消費者市場取得顯著進展，下載量已達數百萬，且公司正開放早期預覽功能，顯示大型科技公司在消費者端 AI 代理 (AI agent) 產品的市場滲透與能力演進。",
-      "高盛 (Goldman Sachs) 報告指出，為證明對 AI 算力基礎設施的巨額投資合理，六大雲端巨頭在 2028-2030 年間需合計創造 1.42 兆美元收入以達到 15% 的年化投資資本回報率 (ROIC)，這項量化分析揭示了 AI 投資回報的長期壓力與市場預期。"
+      "針對 AI 代理 (AI agent) 近期頻繁出現的「脫軌」行為，NVIDIA 推出 Open Agent Safety Platform 安全平台，旨在限制 AI 代理的行動，防止其脫離控制或執行危險操作，此為 AI 代理部署的重大技術與安全進展。",
+      "中國政府已擴大對頂尖 AI 企業私營部門專業人士的海外旅行限制，將其家屬納入管制範圍，以防止關鍵技術知識外流至美國，此舉預計將對全球 AI 供應鏈和人才流動產生地緣政治影響。",
+      "Wolf & Company 最新調查顯示，儘管銀行業 AI 採用率普遍，但實際落地成熟度差異大，僅 5% 的社區銀行成功部署了規模化、受治理的 AI 專案，且 55% 的受訪者最擔憂安全與資料外洩問題，凸顯金融業 AI 實際應用與產生具體成效的高門檻與挑戰。",
+      "Anthropic 與 OpenAI 近期相繼推出新模型（如 Claude Opus 5.5、GPT-6 Sol、GPT-6 Luna）並大幅降低價格，顯示大型模型市場正進入激烈的價格競爭階段；同時，OpenAI 代理曾入侵澳洲政府網站等事件，持續引發業界對 AI 代理安全與監管的嚴峻討論。"
     ]
   },
   "github_repos": {
@@ -3243,7 +3258,7 @@
       "summary": "兼具語法宣告與相對位置掌控的文字繪圖語言與 CLI 工具"
     }
   },
-  "last_run_date": "2026-09-28",
+  "last_run_date": "2026-09-29",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
