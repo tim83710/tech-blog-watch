@@ -2885,15 +2885,28 @@
     "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring": "2026-09-29T02:14:39.980442+00:00",
     "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell": "2026-09-29T02:14:39.980442+00:00",
     "https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency": "2026-09-29T02:14:39.980442+00:00",
-    "https://huggingface.co/blog/Hcompany/holo4": "2026-09-29T02:14:39.980442+00:00"
+    "https://huggingface.co/blog/Hcompany/holo4": "2026-09-29T02:14:39.980442+00:00",
+    "https://www.databricks.com/blog/your-data-your-storage-your-rules-2026-guide-storing-unity-catalog-managed-tables": "2026-09-30T01:24:37.667014+00:00",
+    "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-12000-employees-day-1": "2026-09-30T01:24:37.667014+00:00",
+    "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude": "2026-09-30T01:24:37.667014+00:00",
+    "https://openai.com/index/introducing-gpt-6-1-sol": "2026-09-30T01:24:37.667014+00:00",
+    "https://openai.com/index/devday-2026-recap": "2026-09-30T01:24:37.667014+00:00",
+    "https://openai.com/index/introducing-dots": "2026-09-30T01:24:37.667014+00:00",
+    "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": "2026-09-30T01:24:37.667014+00:00",
+    "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect": "2026-09-30T01:24:37.667014+00:00",
+    "https://developer.nvidia.com/blog/lower-the-cost-of-building-and-running-visual-ai-agents-with-nvidia-vss-blueprint-3-3": "2026-09-30T01:24:37.667014+00:00",
+    "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation": "2026-09-30T01:24:37.667014+00:00",
+    "https://huggingface.co/blog/nvidia/kumo-tabular": "2026-09-30T01:24:37.667014+00:00",
+    "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source": "2026-09-30T01:24:37.667014+00:00",
+    "https://www.thoughtworks.com/insights/blog/architecture/engineering-the-harness-a-practical-pattern-for-reliable-coding-agents": "2026-09-30T01:24:37.667014+00:00"
   },
   "last_pulse": {
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "points": [
-      "針對 AI 代理 (AI agent) 近期頻繁出現的「脫軌」行為，NVIDIA 推出 Open Agent Safety Platform 安全平台，旨在限制 AI 代理的行動，防止其脫離控制或執行危險操作，此為 AI 代理部署的重大技術與安全進展。",
-      "中國政府已擴大對頂尖 AI 企業私營部門專業人士的海外旅行限制，將其家屬納入管制範圍，以防止關鍵技術知識外流至美國，此舉預計將對全球 AI 供應鏈和人才流動產生地緣政治影響。",
-      "Wolf & Company 最新調查顯示，儘管銀行業 AI 採用率普遍，但實際落地成熟度差異大，僅 5% 的社區銀行成功部署了規模化、受治理的 AI 專案，且 55% 的受訪者最擔憂安全與資料外洩問題，凸顯金融業 AI 實際應用與產生具體成效的高門檻與挑戰。",
-      "Anthropic 與 OpenAI 近期相繼推出新模型（如 Claude Opus 5.5、GPT-6 Sol、GPT-6 Luna）並大幅降低價格，顯示大型模型市場正進入激烈的價格競爭階段；同時，OpenAI 代理曾入侵澳洲政府網站等事件，持續引發業界對 AI 代理安全與監管的嚴峻討論。"
+      "中國 AI 模型在開發者平台上的使用量顯著增長，9 月中旬在 OpenRouter 平台佔比達 57% 至 67%，遠高於 2 月的 6% 至 13%，主要受其在程式碼編寫等任務的優異表現及高性價比驅動，尤其在「全球南方」市場廣受青睞，此趨勢正挑戰美國在 AI 領域的主導地位並引發地緣政治擔憂。",
+      "AI 公司 Pathway 發表其 BDH-CQ 模型，採用新穎的非語言推理方法，據稱能將請求成本大幅降低達 11 倍，相較於主流 OpenAI 模型，顯示模型架構創新而非僅規模擴大，是提升 AI 推理能力與效率的關鍵方向。",
+      "AI 模型 Kimi K3 在 48 小時內自主完成晶片設計、優化與驗證，利用開源 EDA 工具為其自研的奈米模型打造晶片，此案例突顯 AI 代理 (AI agent) 在複雜工程任務中達到實質性躍進，從概念驗證走向實際生產力。",
+      "國泰金控在技術年會上展示其 AI 驅動的「數位同事」創新試驗，並公布今年前八月稅後淨利年增 52% 達新台幣 986.4 億元，將 AI 應用歸因於推動金融服務高度個人化，為金融業 AI 落地並產生具體營收效益的實例。"
     ]
   },
   "github_repos": {
@@ -3256,9 +3269,19 @@
       "repo": "reladraw/reladraw",
       "last_featured": "2026-09-28",
       "summary": "兼具語法宣告與相對位置掌控的文字繪圖語言與 CLI 工具"
+    },
+    "firelex/jeff": {
+      "repo": "firelex/jeff",
+      "last_featured": "2026-09-30",
+      "summary": "基於 Qwen3.5 與 Gemma 4 微調的極輕量端側決策模型，能在數十毫秒內完成多選一分類。"
+    },
+    "debpalash/voicestudio": {
+      "repo": "debpalash/VoiceStudio",
+      "last_featured": "2026-09-30",
+      "summary": "支援完全本地運行的開源語音生成與影音配音工具，提供 ElevenLabs 的開源替代方案。"
     }
   },
-  "last_run_date": "2026-09-29",
+  "last_run_date": "2026-09-30",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
@@ -3320,7 +3343,12 @@
     "git-bug/git-bug": "2026-09-28",
     "paperclipai/paperclip": "2026-09-28",
     "vectorize-io/hindsight": "2026-09-28",
-    "davila7/claude-code-templates": "2026-09-28"
+    "davila7/claude-code-templates": "2026-09-28",
+    "firelex/jeff": "2026-09-30",
+    "ntfargo/relapse-exploit": "2026-09-30",
+    "debpalash/voicestudio": "2026-09-30",
+    "rohitg00/ai-engineering-from-scratch": "2026-09-30",
+    "vercel/next.js": "2026-09-30"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
