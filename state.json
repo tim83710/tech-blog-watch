@@ -2923,15 +2923,25 @@
     "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills": "2026-10-02T01:52:29.504752+00:00",
     "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples": "2026-10-02T01:52:29.504752+00:00",
     "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages": "2026-10-02T01:52:29.504752+00:00",
-    "https://huggingface.co/blog/allenai/olmocore3": "2026-10-02T01:52:29.504752+00:00"
+    "https://huggingface.co/blog/allenai/olmocore3": "2026-10-02T01:52:29.504752+00:00",
+    "https://www.databricks.com/blog/capital-markets-buy-side-runs-nav-finance-protects-fee": "2026-10-03T01:20:11.494860+00:00",
+    "https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact": "2026-10-03T01:20:11.494860+00:00",
+    "https://www.databricks.com/blog/real-time-retail-intelligence-building-e-commerce-recommendations-lakebase-and-ai-search": "2026-10-03T01:20:11.494860+00:00",
+    "https://www.databricks.com/blog/how-genie-one-reshapes-work-finance-teams": "2026-10-03T01:20:11.494860+00:00",
+    "https://openai.com/index/practical-guide-building-gpt-6": "2026-10-03T01:20:11.494860+00:00",
+    "https://openai.com/index/chatham-financial": "2026-10-03T01:20:11.494860+00:00",
+    "https://research.google/blog/toward-provably-private-learning-from-federated-data": "2026-10-03T01:20:11.494860+00:00",
+    "https://huggingface.co/blog/allenai/astabrief": "2026-10-03T01:20:11.494860+00:00",
+    "https://huggingface.co/blog/ServiceNow-AI/autosynthdata": "2026-10-03T01:20:11.494860+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "points": [
-      "儘管此前暫停了前沿模型 Astra 的發布計畫，OpenAI 在其年度開發者大會上仍推出新一代 AI 代理 (AI agent)「Dots」作為常駐型個人 AI 助理，並發布了更具成本效益且專為代理編碼和專業工作設計的模型 GPT-6.1 Sol，顯示其在 AI 代理能力和模型產品線上的策略性擴張，以應對市場對多樣化 AI 解決方案的需求。",
-      "Google 推出旗艦 AI 模型 Gemini 4 Argon，強調其在企業級應用與安全部署上的戰略考量。該模型專為複雜的軟體工程、法律、金融及網路安全防禦等工作流程設計，並將輸出 token 限制擴展至 100 萬，初期將優先提供給網路安全防禦機構，以應對 AI 安全性辯論。",
-      "Meta 成立「Meta Enterprise Platform」新事業部，正式進軍企業 AI 市場，並延攬 MongoDB 前執行長 Chirantan \"CJ\" Desai 領導。該平台將推出 Muse 代理、Meta Business Agent 等產品，標誌著 Meta 正式將其 AI 能力拓展至競爭激烈的企業級應用市場，旨在透過 AI 驅動企業成長與轉型。",
-      "兩家領先的 AI 避險基金 Value Aligned Research Advisors (VARA) 和 Situational Awareness，合計管理資產規模已達 400 億美元，展現 AI 在金融量化交易領域的顯著落地成效。其中 VARA 的長/短倉產品管理 150 億美元，今年截至四月實現 90% 的回報，去年更高達 113%；Situational Awareness 管理 200 億美元，去年回報率約 200%。"
+      "以下是過去 48 小時全球 AI 產業的重要動態：",
+      "AMD 以約 82 億美元的全股票交易收購空間智慧新創公司 World Labs，並延攬其共同創辦人兼執行長李飛飛 (Fei-Fei Li) 擔任執行副總裁兼首席科學家，此舉旨在深化 AMD 在 AI 模型研究領域的布局，特別是針對機器人、模擬和實體 AI 等需要理解與生成空間環境的新興工作負載。",
+      "博通 (Broadcom) 正籌集 600 億美元的巨額融資，以支持其為 Anthropic PBC 及其他客戶擴大 AI 晶片生產的計畫，這項大規模投資凸顯了對 AI 基礎設施組件日益增長的需求。",
+      "亞馬遜網路服務 (AWS) 推出 Well-Architected Agent 的公開預覽，這是一項由 AI 驅動的服務，能分析 AWS 環境並提供具情境相關性的建議，以優化應用程式的成本、安全性、效能和彈性，無需手動審核或通用清單。",
+      "AI 在金融服務業的應用持續擴大並展現具體成效。根據 KPMG 的報告，今年已有四分之三的金融業領導者採用 AI，其中 71% 表示 AI 達到或超出投資報酬率 (ROI) 預期，尤其在需要判斷力的任務上表現最佳；同時，生成式 AI 和代理式 AI 在投資銀行業的公開部署案例中佔比已達 70%，並在市場研究、投標書製作及後台自動化流程中實現 10% 至 20% 的生產力提升。"
     ]
   },
   "github_repos": {
@@ -3311,7 +3321,7 @@
       "summary": "用於長期追蹤並統計前沿 LLM 發布後是否默默「降級」的開源基準測試工具"
     }
   },
-  "last_run_date": "2026-10-02",
+  "last_run_date": "2026-10-03",
   "github_shown": {
     "sentelabsai/openexecutive": "2026-09-02",
     "ankidroid/anki-android": "2026-09-02",
