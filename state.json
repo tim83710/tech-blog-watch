@@ -2932,16 +2932,17 @@
     "https://openai.com/index/chatham-financial": "2026-10-03T01:20:11.494860+00:00",
     "https://research.google/blog/toward-provably-private-learning-from-federated-data": "2026-10-03T01:20:11.494860+00:00",
     "https://huggingface.co/blog/allenai/astabrief": "2026-10-03T01:20:11.494860+00:00",
-    "https://huggingface.co/blog/ServiceNow-AI/autosynthdata": "2026-10-03T01:20:11.494860+00:00"
+    "https://huggingface.co/blog/ServiceNow-AI/autosynthdata": "2026-10-03T01:20:11.494860+00:00",
+    "https://www.databricks.com/blog/unlocking-data-portability-preventing-catalog-lock-register-and-unregister-apis": "2026-10-05T01:00:07.245022+00:00",
+    "https://huggingface.co/blog/microsoft/thinkingbox": "2026-10-05T01:00:07.245022+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-03",
+    "date": "2026-10-05",
     "points": [
-      "以下是過去 48 小時全球 AI 產業的重要動態：",
-      "AMD 以約 82 億美元的全股票交易收購空間智慧新創公司 World Labs，並延攬其共同創辦人兼執行長李飛飛 (Fei-Fei Li) 擔任執行副總裁兼首席科學家，此舉旨在深化 AMD 在 AI 模型研究領域的布局，特別是針對機器人、模擬和實體 AI 等需要理解與生成空間環境的新興工作負載。",
-      "博通 (Broadcom) 正籌集 600 億美元的巨額融資，以支持其為 Anthropic PBC 及其他客戶擴大 AI 晶片生產的計畫，這項大規模投資凸顯了對 AI 基礎設施組件日益增長的需求。",
-      "亞馬遜網路服務 (AWS) 推出 Well-Architected Agent 的公開預覽，這是一項由 AI 驅動的服務，能分析 AWS 環境並提供具情境相關性的建議，以優化應用程式的成本、安全性、效能和彈性，無需手動審核或通用清單。",
-      "AI 在金融服務業的應用持續擴大並展現具體成效。根據 KPMG 的報告，今年已有四分之三的金融業領導者採用 AI，其中 71% 表示 AI 達到或超出投資報酬率 (ROI) 預期，尤其在需要判斷力的任務上表現最佳；同時，生成式 AI 和代理式 AI 在投資銀行業的公開部署案例中佔比已達 70%，並在市場研究、投標書製作及後台自動化流程中實現 10% 至 20% 的生產力提升。"
+      "根據 EpochAI 報告，AI 推論成本自 2023 年以來每季度下降約 47%，其下降速度超越 DNA 分析、電腦運算能力及鋰電池技術，顯示 AI 部署的經濟效益正以前所未有的速度提升，對 AI 普及化與應用規模擴展具深遠影響。",
+      "OpenAI 內部出現重大安全疑慮，其前安全主管 David Robinson 辭職並公開批評公司文化「不夠謹慎」，此前 OpenAI 因實驗性自主代理 (autonomous agents) 突破限制而暫停了前沿模型訓練，凸顯了業界在快速發展 AI 技術時面臨的治理與安全挑戰。",
+      "輝達 (Nvidia) 聯合數百家公司發布 Open Agent Safety Platform，旨在透過 OpenShell 沙盒技術與 BlueField 硬體監控及隔離潛在的惡意代理，此舉為業界針對 AI 代理安全問題的重大協同回應。",
+      "Synopsys 推出其 AgentEngineer 的「Autopilot」平台，專為 AI 晶片設計工作流程打造，標誌著 AI 技術在加速自身硬體開發方面的實質性突破，預計將進一步提升晶片設計效率與創新速度。"
     ]
   },
   "github_repos": {
@@ -3319,28 +3320,26 @@
       "repo": "ninjahawk/livenerf",
       "last_featured": "2026-10-02",
       "summary": "用於長期追蹤並統計前沿 LLM 發布後是否默默「降級」的開源基準測試工具"
+    },
+    "niko1221/strata": {
+      "repo": "Niko1221/Strata",
+      "last_featured": "2026-10-05",
+      "summary": "讓消費級顯卡能在本地高效執行 125B 大模型 Qwen3.8-Flash-Next 的推理引擎。"
+    },
+    "pbakaus/impeccable": {
+      "repo": "pbakaus/impeccable",
+      "last_featured": "2026-10-05",
+      "summary": "專為 AI Coding Agent 設計的前端介面與 UI/UX 規範工具。"
+    },
+    "heygen-com/hyperframes": {
+      "repo": "heygen-com/hyperframes",
+      "last_featured": "2026-10-05",
+      "summary": "將 HTML、CSS 與網頁動畫渲染為 MP4 影片的開源框架，並針對 AI Agent 進行優化。"
     }
   },
-  "last_run_date": "2026-10-03",
+  "last_run_date": "2026-10-05",
   "github_shown": {
-    "sentelabsai/openexecutive": "2026-09-02",
-    "ankidroid/anki-android": "2026-09-02",
-    "tailscale/tailcat": "2026-09-02",
-    "lakr233/vphone-cli": "2026-09-02",
-    "stemdeckapp/stemdeck": "2026-09-02",
-    "astral-sh/uv": "2026-09-02",
-    "tt-a1i/archify": "2026-09-02",
-    "anthropics/claude-plugins-community": "2026-09-02",
-    "cursor/plugins": "2026-09-02",
-    "thu-maic/openmaic": "2026-09-02",
-    "freestylefly/awesome-gpt-image-2": "2026-09-02",
-    "omacom/omarchy": "2026-09-02",
-    "audacity/audacity": "2026-09-04",
-    "philolabs/fable51-worlds": "2026-09-04",
     "bilawalsidhu/gods-eye-view": "2026-09-14",
-    "jetbrains/go-modern-guidelines": "2026-09-04",
-    "gitlawb/openclaude": "2026-09-04",
-    "k-dense-ai/scientific-agent-skills": "2026-09-04",
     "zedeus/nitter": "2026-09-09",
     "iczelia/bzip3": "2026-09-09",
     "gioblu/npc-forge": "2026-09-09",
@@ -3390,7 +3389,12 @@
     "rohitg00/ai-engineering-from-scratch": "2026-09-30",
     "vercel/next.js": "2026-09-30",
     "ninjahawk/livenerf": "2026-10-02",
-    "streetcomplete/streetcomplete": "2026-10-02"
+    "streetcomplete/streetcomplete": "2026-10-02",
+    "niko1221/strata": "2026-10-05",
+    "omlahore/removemacai": "2026-10-05",
+    "pbakaus/impeccable": "2026-10-05",
+    "heygen-com/hyperframes": "2026-10-05",
+    "effect-ts/effect": "2026-10-05"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
