@@ -2942,15 +2942,30 @@
     "https://openai.com/index/new-chatgpt-ads-format-and-measurement": "2026-10-06T02:27:23.348750+00:00",
     "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle": "2026-10-06T02:27:23.348750+00:00",
     "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/beyond-the-quick-win-designing-ai-systems-around-critical-human-judgment": "2026-10-06T02:27:23.348750+00:00",
-    "https://www.thoughtworks.com/insights/articles/context-challenge-ai-agents": "2026-10-06T02:27:23.348750+00:00"
+    "https://www.thoughtworks.com/insights/articles/context-challenge-ai-agents": "2026-10-06T02:27:23.348750+00:00",
+    "https://www.databricks.com/blog/lakehouse-better-data-warehouse-2026-benchmarks-and-proof": "2026-10-07T01:45:57.703853+00:00",
+    "https://www.databricks.com/blog/scaling-and-operating-large-dbt-project-databricks-ifcos-data-team-performance-visibility-and-debugging": "2026-10-07T01:45:57.703853+00:00",
+    "https://www.databricks.com/blog/meta-ads-mcp-databricks": "2026-10-07T01:45:57.703853+00:00",
+    "https://openai.com/index/jump-trading": "2026-10-07T01:45:57.703853+00:00",
+    "https://openai.com/index/sharing-ai-progress-in-mathematics": "2026-10-07T01:45:57.703853+00:00",
+    "https://openai.com/index/advancing-computer-use-with-ironclad": "2026-10-07T01:45:57.703853+00:00",
+    "https://openai.com/index/atlassian-partnership": "2026-10-07T01:45:57.703853+00:00",
+    "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking": "2026-10-07T01:45:57.703853+00:00",
+    "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration": "2026-10-07T01:45:57.703853+00:00",
+    "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts": "2026-10-07T01:45:57.703853+00:00",
+    "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health": "2026-10-07T01:45:57.703853+00:00",
+    "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model": "2026-10-07T01:45:57.703853+00:00",
+    "https://huggingface.co/blog/tiiuae/falcon-emirati": "2026-10-07T01:45:57.703853+00:00",
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-ready-data-part-2": "2026-10-07T01:45:57.703853+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/how-jev-can-help-improve-the-efficiency-of-rag-pipelines": "2026-10-07T01:45:57.703853+00:00",
+    "https://www.thoughtworks.com/insights/articles/quality-is-speed-AI-era": "2026-10-07T01:45:57.703853+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "points": [
-      "Facebook AI Research (FAIR) 團隊發布 VISTA 論文，展示多模態 AI 的重大技術突破：Claude Opus 5 在 ARC-AGI-3 測試中，透過視覺輔助取得 100 分滿分，且所需步驟少於人類一半，大幅推動通用人工智慧 (AGI) 的進展。",
-      "晶片供應鏈出現潛在市場格局變化，據報導 Tesla 執行長 Elon Musk 已證實正與台積電 (TSMC) 討論在 Terafab 專案上的先進製程合作，此舉可能加劇晶圓代工領域的競爭態勢。",
-      "Gartner 報告指出，2026 年全球 AI 支出預計將達到 2.7 兆美元，年增 49.5%，此預測較先前上修，顯示 AI 基礎設施與 AI 代理 (Agentic AI) 的投資正加速成長，同時也強調了為企業特定用例設計的領域特定語言模型 (DSLM) 市場正在擴大。",
-      "據 Reuters 報導，全球對沖基金在九月份表現參差不齊，但受 AI 股票波動影響，電腦驅動的系統性股票多空基金 (systematic equity long-short funds) 上漲 3.46%，創下今年最佳月度表現，凸顯 AI 相關股票對金融市場的即時影響。"
+      "超微 (AMD) 執行長蘇姿丰宣布擴大對台灣半導體產業鏈的投資，以應對超乎預期的 AI 晶片需求，此舉帶動台積電 (TSMC)、創意 (Creative) 等多家台灣供應商九月營收創歷史新高，顯示全球 AI 基礎設施建置動能強勁。",
+      "全球投資公司 KKR 以 51 億美元收購私募資本基金管理服務商 Gen II Fund Services，並計劃投入更多資源於專有技術及 AI 賦能解決方案，以強化其在複雜基金結構、投資者需求及監管要求下的服務能力，此為金融科技領域的重大併購與 AI 策略投資。",
+      "據 Evident AI Index 報告，摩根大通 (JPMorgan Chase) 在北美、歐洲及亞洲的 AI 採用方面居全球銀行業之首，其策略重點在於提升營運效率、客戶體驗及風險管理；同時，韓國多家銀行傳出遭駭客利用 AI 代理 (AI agents) 進行網路攻擊，導致約 25,000 名客戶資料外洩，凸顯 AI 落地在金融業的潛在風險與治理挑戰。"
     ]
   },
   "github_repos": {
@@ -3343,9 +3358,29 @@
       "repo": "heygen-com/hyperframes",
       "last_featured": "2026-10-05",
       "summary": "將 HTML、CSS 與網頁動畫渲染為 MP4 影片的開源框架，並針對 AI Agent 進行優化。"
+    },
+    "rui314/mold": {
+      "repo": "rui314/mold",
+      "last_featured": "2026-10-07",
+      "summary": "高效能 Drop-in 連結器 mold 發布 3.0 重大版本，全面改以 Rust 語言重寫。"
+    },
+    "nvidia/openshell": {
+      "repo": "NVIDIA/OpenShell",
+      "last_featured": "2026-10-07",
+      "summary": "NVIDIA 開源的自主 AI Agent 安全執行環境，提供核心級沙盒與權限管控。"
+    },
+    "fesens/opentpu": {
+      "repo": "FeSens/openTPU",
+      "last_featured": "2026-10-07",
+      "summary": "由 AI Agent 參與設計的開源 AI 加速器全棧硬體與軟體專案。"
+    },
+    "vectifyai/pageindex": {
+      "repo": "VectifyAI/PageIndex",
+      "last_featured": "2026-10-07",
+      "summary": "捨棄向量資料庫與 Chunking 的推理型 RAG 框架，改用樹狀結構索引進行精準檢索。"
     }
   },
-  "last_run_date": "2026-10-06",
+  "last_run_date": "2026-10-07",
   "github_shown": {
     "bilawalsidhu/gods-eye-view": "2026-09-14",
     "zedeus/nitter": "2026-09-09",
@@ -3402,7 +3437,15 @@
     "omlahore/removemacai": "2026-10-05",
     "pbakaus/impeccable": "2026-10-05",
     "heygen-com/hyperframes": "2026-10-05",
-    "effect-ts/effect": "2026-10-05"
+    "effect-ts/effect": "2026-10-05",
+    "maanhimself/opendlss-nr": "2026-10-07",
+    "rui314/mold": "2026-10-07",
+    "fesens/opentpu": "2026-10-07",
+    "mvschwarz/openrig": "2026-10-07",
+    "cursor/plugins": "2026-10-07",
+    "nvidia/openshell": "2026-10-07",
+    "vectifyai/pageindex": "2026-10-07",
+    "thedotmack/claude-mem": "2026-10-07"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
