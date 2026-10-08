@@ -2958,14 +2958,30 @@
     "https://huggingface.co/blog/tiiuae/falcon-emirati": "2026-10-07T01:45:57.703853+00:00",
     "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-ready-data-part-2": "2026-10-07T01:45:57.703853+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/how-jev-can-help-improve-the-efficiency-of-rag-pipelines": "2026-10-07T01:45:57.703853+00:00",
-    "https://www.thoughtworks.com/insights/articles/quality-is-speed-AI-era": "2026-10-07T01:45:57.703853+00:00"
+    "https://www.thoughtworks.com/insights/articles/quality-is-speed-AI-era": "2026-10-07T01:45:57.703853+00:00",
+    "https://www.databricks.com/blog/announcing-workday-data-connect-federation-unity-catalog": "2026-10-08T02:13:47.257704+00:00",
+    "https://www.databricks.com/blog/set-budgets-and-alerts-cloud-data-warehouse-costs": "2026-10-08T02:13:47.257704+00:00",
+    "https://www.databricks.com/blog/now-ga-building-permission-aware-databricks-apps-behalf-user-authorization": "2026-10-08T02:13:47.257704+00:00",
+    "https://www.databricks.com/blog/how-repoint-dbt-etl-pipelines-databricks": "2026-10-08T02:13:47.257704+00:00",
+    "https://openai.com/index/teens-learn-and-plan": "2026-10-08T02:13:47.257704+00:00",
+    "https://openai.com/index/radisson": "2026-10-08T02:13:47.257704+00:00",
+    "https://openai.com/index/gpt-6-for-everyone": "2026-10-08T02:13:47.257704+00:00",
+    "https://developer.nvidia.com/blog/the-machines-that-make-the-machines": "2026-10-08T02:13:47.257704+00:00",
+    "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents": "2026-10-08T02:13:47.257704+00:00",
+    "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt": "2026-10-08T02:13:47.257704+00:00",
+    "https://developer.nvidia.com/blog/faster-scientific-image-analysis-with-nvidia-cuphoton": "2026-10-08T02:13:47.257704+00:00",
+    "https://research.google/blog/does-better-work-always-mean-better-workers": "2026-10-08T02:13:47.257704+00:00",
+    "https://huggingface.co/blog/LiquidAI/open-d1": "2026-10-08T02:13:47.257704+00:00",
+    "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026": "2026-10-08T02:13:47.257704+00:00",
+    "https://www.thoughtworks.com/insights/articles/the-action-gap-customer-insight": "2026-10-08T02:13:47.257704+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "points": [
-      "超微 (AMD) 執行長蘇姿丰宣布擴大對台灣半導體產業鏈的投資，以應對超乎預期的 AI 晶片需求，此舉帶動台積電 (TSMC)、創意 (Creative) 等多家台灣供應商九月營收創歷史新高，顯示全球 AI 基礎設施建置動能強勁。",
-      "全球投資公司 KKR 以 51 億美元收購私募資本基金管理服務商 Gen II Fund Services，並計劃投入更多資源於專有技術及 AI 賦能解決方案，以強化其在複雜基金結構、投資者需求及監管要求下的服務能力，此為金融科技領域的重大併購與 AI 策略投資。",
-      "據 Evident AI Index 報告，摩根大通 (JPMorgan Chase) 在北美、歐洲及亞洲的 AI 採用方面居全球銀行業之首，其策略重點在於提升營運效率、客戶體驗及風險管理；同時，韓國多家銀行傳出遭駭客利用 AI 代理 (AI agents) 進行網路攻擊，導致約 25,000 名客戶資料外洩，凸顯 AI 落地在金融業的潛在風險與治理挑戰。"
+      "OpenAI 透過內部 AI 模型在數學領域取得重大突破，發布了超過 300 個開放數學問題的解決方案，其中包括對修正版黎曼假設的進展，此成就震驚了研究社群，顯示 AI 在複雜理論研究方面的實質躍進。",
+      "輝達 (NVIDIA) 攜手微軟 (Microsoft) 及華碩 (ASUS)、戴爾 (Dell) 等 OEM 夥伴，推出搭載 NVIDIA RTX Spark 晶片的新款 Windows PC，這些系統整合 Blackwell RTX GPU 與 Grace CPU，提供高達 1 petaflop 的 AI 效能及 128GB 統一記憶體，旨在推動裝置端 AI (on-device AI) 運算，預示個人電腦市場將朝本地 AI 應用轉型。",
+      "美國資料中心投資額於 2026 年第二季首次超越住宅投資，達到約 7,520 億美元，凸顯 AI 基礎設施的龐大資本需求；同時，由於資料中心電力短缺問題日益嚴重，摩根士丹利 (Morgan Stanley) 預估至 2028 年將面臨 34% 的電力缺口，促使 AI 產業的投資重心從模型開發轉向電力與資料中心空間等基礎設施建設。",
+      "根據最新發布的 2026 年 Evident AI 銀行指數報告，金融業 AI 部署速度較往年加快近三倍，其中加拿大皇家銀行 (RBC) 預計到 2027 年將從 AI 創造 7 億至 10 億美元的價值，而萊斯銀行集團 (Lloyds Banking Group) 則表示其生成式 AI 去年已帶來約 5,000 萬英鎊的效益，預計 2026 年將超過 1 億英鎊，顯示 AI 在金融業的落地已開始產生具體營收貢獻。"
     ]
   },
   "github_repos": {
@@ -3380,7 +3396,7 @@
       "summary": "捨棄向量資料庫與 Chunking 的推理型 RAG 框架，改用樹狀結構索引進行精準檢索。"
     }
   },
-  "last_run_date": "2026-10-07",
+  "last_run_date": "2026-10-08",
   "github_shown": {
     "bilawalsidhu/gods-eye-view": "2026-09-14",
     "zedeus/nitter": "2026-09-09",
@@ -3531,6 +3547,13 @@
       "title": "The Death of the Code Review: What the Data Actually Says — Laurie Voss, Arize AI",
       "featured": "2026-10-01",
       "headline": "Arize AI 開發者關係負責人 Laurie Voss 引述數據指出，AI agent 雖然大幅增加產出的程式碼量，卻使人工 Code Review 成為新瓶頸。"
+    },
+    "bGph8GwB3Sk": {
+      "video_id": "bGph8GwB3Sk",
+      "channel": "Sequoia Capital (Training Data)",
+      "title": "Google's AI Infrastructure Chief, Amin Vahdat, on the Physics & Economics of Frontier AI",
+      "featured": "2026-10-08",
+      "headline": "Google AI 基礎設施總管 Amin Vahdat 解析前沿 AI 的物理與經濟學，以及 TPU 設計與規模化叢集的營運挑戰。"
     }
   }
 }
