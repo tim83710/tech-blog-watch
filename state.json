@@ -2973,15 +2973,30 @@
     "https://research.google/blog/does-better-work-always-mean-better-workers": "2026-10-08T02:13:47.257704+00:00",
     "https://huggingface.co/blog/LiquidAI/open-d1": "2026-10-08T02:13:47.257704+00:00",
     "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026": "2026-10-08T02:13:47.257704+00:00",
-    "https://www.thoughtworks.com/insights/articles/the-action-gap-customer-insight": "2026-10-08T02:13:47.257704+00:00"
+    "https://www.thoughtworks.com/insights/articles/the-action-gap-customer-insight": "2026-10-08T02:13:47.257704+00:00",
+    "https://www.databricks.com/blog/introducing-funke-native-hl7v2-parsing-databricks": "2026-10-09T02:34:58.243893+00:00",
+    "https://www.databricks.com/blog/lakebase-and-agentic-sdlc-branching-databases-coding-agents": "2026-10-09T02:34:58.243893+00:00",
+    "https://www.databricks.com/blog/biomedical-imagings-real-bottleneck-data-not-model": "2026-10-09T02:34:58.243893+00:00",
+    "https://www.databricks.com/blog/load-terabytes-data-minutes-lakebase-postgres": "2026-10-09T02:34:58.243893+00:00",
+    "https://www.databricks.com/blog/how-build-governed-enterprise-apps-databricks-replit-and-lakebase": "2026-10-09T02:34:58.243893+00:00",
+    "https://openai.com/index/oracle": "2026-10-09T02:34:58.243893+00:00",
+    "https://openai.com/index/pollo-ai": "2026-10-09T02:34:58.243893+00:00",
+    "https://openai.com/index/legalon-halves-codex-costs": "2026-10-09T02:34:58.243893+00:00",
+    "https://openai.com/index/disrupting-ai-enabled-false-front-operations": "2026-10-09T02:34:58.243893+00:00",
+    "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models": "2026-10-09T02:34:58.243893+00:00",
+    "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup": "2026-10-09T02:34:58.243893+00:00",
+    "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core": "2026-10-09T02:34:58.243893+00:00",
+    "https://huggingface.co/blog/building-with-ml-intern": "2026-10-09T02:34:58.243893+00:00",
+    "https://huggingface.co/blog/tiiuae/falcon-asr": "2026-10-09T02:34:58.243893+00:00",
+    "https://www.thoughtworks.com/insights/articles/real-world-lessons-agentic-authority-overreach": "2026-10-09T02:34:58.243893+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-08",
+    "date": "2026-10-09",
     "points": [
-      "OpenAI 透過內部 AI 模型在數學領域取得重大突破，發布了超過 300 個開放數學問題的解決方案，其中包括對修正版黎曼假設的進展，此成就震驚了研究社群，顯示 AI 在複雜理論研究方面的實質躍進。",
-      "輝達 (NVIDIA) 攜手微軟 (Microsoft) 及華碩 (ASUS)、戴爾 (Dell) 等 OEM 夥伴，推出搭載 NVIDIA RTX Spark 晶片的新款 Windows PC，這些系統整合 Blackwell RTX GPU 與 Grace CPU，提供高達 1 petaflop 的 AI 效能及 128GB 統一記憶體，旨在推動裝置端 AI (on-device AI) 運算，預示個人電腦市場將朝本地 AI 應用轉型。",
-      "美國資料中心投資額於 2026 年第二季首次超越住宅投資，達到約 7,520 億美元，凸顯 AI 基礎設施的龐大資本需求；同時，由於資料中心電力短缺問題日益嚴重，摩根士丹利 (Morgan Stanley) 預估至 2028 年將面臨 34% 的電力缺口，促使 AI 產業的投資重心從模型開發轉向電力與資料中心空間等基礎設施建設。",
-      "根據最新發布的 2026 年 Evident AI 銀行指數報告，金融業 AI 部署速度較往年加快近三倍，其中加拿大皇家銀行 (RBC) 預計到 2027 年將從 AI 創造 7 億至 10 億美元的價值，而萊斯銀行集團 (Lloyds Banking Group) 則表示其生成式 AI 去年已帶來約 5,000 萬英鎊的效益，預計 2026 年將超過 1 億英鎊，顯示 AI 在金融業的落地已開始產生具體營收貢獻。"
+      "AMD 執行長蘇姿丰博士於亞洲巡迴期間（10 月 6-7 日）指出，市場對 AMD AI 相關晶片（包含 GPU、伺服器 CPU、記憶體及先進封裝）的需求遠超全球供應鏈產能，迫使 AMD 將供應鏈規劃延長至 3-5 年，並將投入數百億美元以緩解供應緊張，凸顯 AI 基礎設施擴建面臨的關鍵瓶頸。",
+      "投資巨頭 KKR 攜手三星附屬公司，共同向其創立的 Helix Digital Infrastructure 平台注資 10 億美元，專注於建設資料中心與 AI 基礎設施，三星並提供資金與技術支援，顯示對 AI 實體基礎設施的持續大規模投資。",
+      "DC Market Insights 報告預測，全球 AI 晶片市場到 2035 年將達 6,775.9 億美元，其中市場驅動力正從訓練轉向推論 (inference)、客製化晶片及裝置端神經處理單元 (NPU)，預計到 2035 年推論將佔總市場價值的 64.8%，顯示 AI 硬體架構與投資重點的重大轉變。",
+      "OpenAI 在內部安全測試後，決定不發布其 GPT-6.1 Astra 模型，此舉凸顯了領先 AI 公司在追求模型能力同時對安全性和負責任開發的重視，可能影響未來前沿模型的發布策略。"
     ]
   },
   "github_repos": {
@@ -3396,7 +3411,7 @@
       "summary": "捨棄向量資料庫與 Chunking 的推理型 RAG 框架，改用樹狀結構索引進行精準檢索。"
     }
   },
-  "last_run_date": "2026-10-08",
+  "last_run_date": "2026-10-09",
   "github_shown": {
     "bilawalsidhu/gods-eye-view": "2026-09-14",
     "zedeus/nitter": "2026-09-09",
