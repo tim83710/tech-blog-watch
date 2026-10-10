@@ -2988,15 +2988,22 @@
     "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core": "2026-10-09T02:34:58.243893+00:00",
     "https://huggingface.co/blog/building-with-ml-intern": "2026-10-09T02:34:58.243893+00:00",
     "https://huggingface.co/blog/tiiuae/falcon-asr": "2026-10-09T02:34:58.243893+00:00",
-    "https://www.thoughtworks.com/insights/articles/real-world-lessons-agentic-authority-overreach": "2026-10-09T02:34:58.243893+00:00"
+    "https://www.thoughtworks.com/insights/articles/real-world-lessons-agentic-authority-overreach": "2026-10-09T02:34:58.243893+00:00",
+    "https://www.databricks.com/blog/how-california-built-its-behavioral-health-public-county-profile-databricks": "2026-10-10T01:52:04.561375+00:00",
+    "https://www.databricks.com/blog/solving-defense-supply-chain-visibility-through-governed-data-sharing": "2026-10-10T01:52:04.561375+00:00",
+    "https://openai.com/index/sophos": "2026-10-10T01:52:04.561375+00:00",
+    "https://openai.com/index/asana-browser-agent": "2026-10-10T01:52:04.561375+00:00",
+    "https://huggingface.co/blog/allenai/impactful-scheduling": "2026-10-10T01:52:04.561375+00:00",
+    "https://www.thoughtworks.com/insights/blog/leadership/leadership-in-the-age-of-agents": "2026-10-10T01:52:04.561375+00:00",
+    "https://www.thoughtworks.com/insights/blog/leadership/leadership-contract-effective-program-delivery": "2026-10-10T01:52:04.561375+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "points": [
-      "AMD 執行長蘇姿丰博士於亞洲巡迴期間（10 月 6-7 日）指出，市場對 AMD AI 相關晶片（包含 GPU、伺服器 CPU、記憶體及先進封裝）的需求遠超全球供應鏈產能，迫使 AMD 將供應鏈規劃延長至 3-5 年，並將投入數百億美元以緩解供應緊張，凸顯 AI 基礎設施擴建面臨的關鍵瓶頸。",
-      "投資巨頭 KKR 攜手三星附屬公司，共同向其創立的 Helix Digital Infrastructure 平台注資 10 億美元，專注於建設資料中心與 AI 基礎設施，三星並提供資金與技術支援，顯示對 AI 實體基礎設施的持續大規模投資。",
-      "DC Market Insights 報告預測，全球 AI 晶片市場到 2035 年將達 6,775.9 億美元，其中市場驅動力正從訓練轉向推論 (inference)、客製化晶片及裝置端神經處理單元 (NPU)，預計到 2035 年推論將佔總市場價值的 64.8%，顯示 AI 硬體架構與投資重點的重大轉變。",
-      "OpenAI 在內部安全測試後，決定不發布其 GPT-6.1 Astra 模型，此舉凸顯了領先 AI 公司在追求模型能力同時對安全性和負責任開發的重視，可能影響未來前沿模型的發布策略。"
+      "隨著大型語言模型 (LLM) 推論 (inference) 成本成為 AI 部署的主要開銷，業界正將重心轉向推論效率的技術突破，例如 PagedAttention 和多頭注意力 (MQA) 等優化技術，以在長上下文 (long context) 模型中顯著降低記憶體使用並加速產出，這標誌著 AI 基礎設施與模型優化的新戰場。",
+      "全球 AI 基礎設施投資持續狂飆，美國在資訊處理設備（包含資料中心與電腦硬體）的投資已超越住宅投資，而主要科技巨頭預計 2026 年在資料中心的投資將達 6,300 億美元；然而，華爾街策略師警告，這波以債務驅動的融資狂潮可能形成「自鐵路以來最大泡沫」，引發市場對資本困境與潛在泡沫破裂的擔憂。",
+      "科技巨頭紛紛推出具備 AI 代理 (AI agent) 核心功能的新產品，例如 OpenAI 在 Dev Day 2026 發表了 ChatGPT 內建的 AI 代理「dots」，可執行任務、接聽電話及回覆訊息，並推出 GPT-6.1 Soul 和 Ultra Fast 模型；微軟也在 Windows 11 上開放 Microsoft Execution Containers (MXC) 以管控 AI Agent 行為，顯示 AI 代理正從輔助工具轉變為能自主執行多步驟任務的「智能工作者」，但同時也伴隨著對安全性和負責任開發的持續關注。",
+      "金融業對 AI 的採用已達高點，87% 的金融機構表示已部分整合 AI，並有 70% 計劃投資至少 100 萬美元；然而，僅 12% 的 AI 應用案例能具體報告對營運關鍵績效指標 (KPI) 的影響，且僅 1% 揭露了具體財務回報，顯示金融 AI 落地仍面臨將試點轉化為可量化價值的挑戰，而部分 AI 對沖基金如 Situational Awareness 在 7 月份錄得 67% 的虧損，凸顯了市場波動與投資風險。"
     ]
   },
   "github_repos": {
@@ -3411,7 +3418,7 @@
       "summary": "捨棄向量資料庫與 Chunking 的推理型 RAG 框架，改用樹狀結構索引進行精準檢索。"
     }
   },
-  "last_run_date": "2026-10-09",
+  "last_run_date": "2026-10-10",
   "github_shown": {
     "bilawalsidhu/gods-eye-view": "2026-09-14",
     "zedeus/nitter": "2026-09-09",
