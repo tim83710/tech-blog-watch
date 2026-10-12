@@ -2998,12 +2998,12 @@
     "https://www.thoughtworks.com/insights/blog/leadership/leadership-contract-effective-program-delivery": "2026-10-10T01:52:04.561375+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-10",
+    "date": "2026-10-12",
     "points": [
-      "隨著大型語言模型 (LLM) 推論 (inference) 成本成為 AI 部署的主要開銷，業界正將重心轉向推論效率的技術突破，例如 PagedAttention 和多頭注意力 (MQA) 等優化技術，以在長上下文 (long context) 模型中顯著降低記憶體使用並加速產出，這標誌著 AI 基礎設施與模型優化的新戰場。",
-      "全球 AI 基礎設施投資持續狂飆，美國在資訊處理設備（包含資料中心與電腦硬體）的投資已超越住宅投資，而主要科技巨頭預計 2026 年在資料中心的投資將達 6,300 億美元；然而，華爾街策略師警告，這波以債務驅動的融資狂潮可能形成「自鐵路以來最大泡沫」，引發市場對資本困境與潛在泡沫破裂的擔憂。",
-      "科技巨頭紛紛推出具備 AI 代理 (AI agent) 核心功能的新產品，例如 OpenAI 在 Dev Day 2026 發表了 ChatGPT 內建的 AI 代理「dots」，可執行任務、接聽電話及回覆訊息，並推出 GPT-6.1 Soul 和 Ultra Fast 模型；微軟也在 Windows 11 上開放 Microsoft Execution Containers (MXC) 以管控 AI Agent 行為，顯示 AI 代理正從輔助工具轉變為能自主執行多步驟任務的「智能工作者」，但同時也伴隨著對安全性和負責任開發的持續關注。",
-      "金融業對 AI 的採用已達高點，87% 的金融機構表示已部分整合 AI，並有 70% 計劃投資至少 100 萬美元；然而，僅 12% 的 AI 應用案例能具體報告對營運關鍵績效指標 (KPI) 的影響，且僅 1% 揭露了具體財務回報，顯示金融 AI 落地仍面臨將試點轉化為可量化價值的挑戰，而部分 AI 對沖基金如 Situational Awareness 在 7 月份錄得 67% 的虧損，凸顯了市場波動與投資風險。"
+      "亞馬遜 (Amazon) 正洽談以約 70 億美元收購 AI 新創公司 Decart，該公司專注於開發軟體，讓 AI 模型能在 NVIDIA、Google TPU 及亞馬遜自家的 Trainium 晶片等多種平台上高效運行，並擁有即時影片與世界模型 Lucy 和互動世界模型 Oasis，此舉顯示亞馬遜旨在強化其 AI 模型跨硬體平台的優化能力與物理 AI 應用佈局。",
+      "特斯拉 (Tesla) 在其 AI 晶片供應策略上進行調整，將原定用於 AI5 推論晶片的記憶體從 144GB 減半至 72GB，隨後又上調至 96GB，而下一代 AI6 晶片的記憶體也從 216GB 削減至 144GB，此變動旨在確保 Optimus 機器人能實現大規模生產，反映了半導體供應鏈對自研晶片公司生產計畫的實時影響。",
+      "微軟 (Microsoft) 推出多項 AI 安全新功能，包括在 Windows 11 上普遍提供 Microsoft Execution Containers (MXC) 以確保 AI 代理 (AI agent) 的安全運行，並透過 Intune 政策進行管理；同時，Copilot 也將導入由 GitHub HydraFusion 驅動的「混合智慧 (hybrid intelligence)」，使其能利用本地 PC 資料與模型提升效能，NVIDIA 執行長黃仁勳更強調 MXC 對未來 AI 代理發展的重要性。",
+      "金融業對 AI 的採用加速，Evident AI Index 2026 報告指出，全球前 50 大銀行在過去 12 個月內 AI 部署速度是前幾年的近三倍，但僅有 12% 的 AI 應用案例能報告對營運關鍵績效指標 (KPI) 的影響，且僅 1% 揭露具體財務回報；儘管如此，摩根大通 (JPMorgan Chase) 仍連續蟬聯 AI 採用領導者，顯示頂尖銀行在將 AI 從實驗階段推向企業級規模化應用方面取得顯著進展。"
     ]
   },
   "github_repos": {
@@ -3264,7 +3264,7 @@
     },
     "mattpocock/skills": {
       "repo": "mattpocock/skills",
-      "last_featured": "2026-09-11",
+      "last_featured": "2026-10-12",
       "summary": "專為真實工程開發打造的可組合式 LLM Agent Skills 指令庫"
     },
     "kennethwolters/litelm": {
@@ -3416,23 +3416,27 @@
       "repo": "VectifyAI/PageIndex",
       "last_featured": "2026-10-07",
       "summary": "捨棄向量資料庫與 Chunking 的推理型 RAG 框架，改用樹狀結構索引進行精準檢索。"
+    },
+    "docker/docker-agent": {
+      "repo": "docker/docker-agent",
+      "last_featured": "2026-10-12",
+      "summary": "Docker 官方推出的 AI Agent 宣告式編排與運行 CLI 外掛程式"
+    },
+    "boykopovar/anyps5": {
+      "repo": "boykopovar/AnyPS5",
+      "last_featured": "2026-10-12",
+      "summary": "無須模擬器即可將 PS5 執行檔自動移植至 Windows 與 Linux 的重鏈結工具"
+    },
+    "rociiu/talorys": {
+      "repo": "rociiu/talorys",
+      "last_featured": "2026-10-12",
+      "summary": "完全部署於 Cloudflare 免費層上的自託管個人 AI Assistant"
     }
   },
-  "last_run_date": "2026-10-10",
+  "last_run_date": "2026-10-12",
   "github_shown": {
     "bilawalsidhu/gods-eye-view": "2026-09-14",
-    "zedeus/nitter": "2026-09-09",
-    "iczelia/bzip3": "2026-09-09",
-    "gioblu/npc-forge": "2026-09-09",
-    "fmtlib/fmt": "2026-09-09",
-    "affaan-m/ecc": "2026-09-09",
-    "dietrichgebert/ponytail": "2026-09-09",
-    "blader/humanizer": "2026-09-09",
-    "imbad0202/academic-research-skills": "2026-09-09",
-    "argonautlabsai/deltafin": "2026-09-11",
-    "sadpainy/stuxnet": "2026-09-11",
-    "anthropics/fermats-last-theorem": "2026-09-11",
-    "mattpocock/skills": "2026-09-11",
+    "mattpocock/skills": "2026-10-12",
     "grapheneos/messaging": "2026-09-14",
     "kennethwolters/litelm": "2026-09-14",
     "speedstu/cuda-for-amd-windows": "2026-09-14",
@@ -3483,7 +3487,15 @@
     "cursor/plugins": "2026-10-07",
     "nvidia/openshell": "2026-10-07",
     "vectifyai/pageindex": "2026-10-07",
-    "thedotmack/claude-mem": "2026-10-07"
+    "thedotmack/claude-mem": "2026-10-07",
+    "boykopovar/anyps5": "2026-10-12",
+    "franzenzenhofer/big-arrow-on-the-screen": "2026-10-12",
+    "szabadkai/c64-keyboard-font": "2026-10-12",
+    "openai/math": "2026-10-12",
+    "rociiu/talorys": "2026-10-12",
+    "docker/docker-agent": "2026-10-12",
+    "tester-army/e2e": "2026-10-12",
+    "epicgames/raddebugger": "2026-10-12"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
