@@ -2995,15 +2995,22 @@
     "https://openai.com/index/asana-browser-agent": "2026-10-10T01:52:04.561375+00:00",
     "https://huggingface.co/blog/allenai/impactful-scheduling": "2026-10-10T01:52:04.561375+00:00",
     "https://www.thoughtworks.com/insights/blog/leadership/leadership-in-the-age-of-agents": "2026-10-10T01:52:04.561375+00:00",
-    "https://www.thoughtworks.com/insights/blog/leadership/leadership-contract-effective-program-delivery": "2026-10-10T01:52:04.561375+00:00"
+    "https://www.thoughtworks.com/insights/blog/leadership/leadership-contract-effective-program-delivery": "2026-10-10T01:52:04.561375+00:00",
+    "https://www.databricks.com/blog/brickster-voices-meet-clara-kurian": "2026-10-13T03:11:19.196541+00:00",
+    "https://www.databricks.com/blog/how-flo-health-built-safer-more-useful-open-models-databricks-ai-runtime": "2026-10-13T03:11:19.196541+00:00",
+    "https://www.databricks.com/blog/post-training-production-how-tinyfish-runs-its-web-native-model-databricks-ai-runtime": "2026-10-13T03:11:19.196541+00:00",
+    "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding": "2026-10-13T03:11:19.196541+00:00",
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/mislabelled-why-retail-calls-its-strategic-failures-execution-problems": "2026-10-13T03:11:19.196541+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/why-agentic-payments-require-executable-model-organizational-authority": "2026-10-13T03:11:19.196541+00:00",
+    "https://www.thoughtworks.com/insights/articles/decision-models-and-the-possibility-of-no-ops": "2026-10-13T03:11:19.196541+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "points": [
-      "亞馬遜 (Amazon) 正洽談以約 70 億美元收購 AI 新創公司 Decart，該公司專注於開發軟體，讓 AI 模型能在 NVIDIA、Google TPU 及亞馬遜自家的 Trainium 晶片等多種平台上高效運行，並擁有即時影片與世界模型 Lucy 和互動世界模型 Oasis，此舉顯示亞馬遜旨在強化其 AI 模型跨硬體平台的優化能力與物理 AI 應用佈局。",
-      "特斯拉 (Tesla) 在其 AI 晶片供應策略上進行調整，將原定用於 AI5 推論晶片的記憶體從 144GB 減半至 72GB，隨後又上調至 96GB，而下一代 AI6 晶片的記憶體也從 216GB 削減至 144GB，此變動旨在確保 Optimus 機器人能實現大規模生產，反映了半導體供應鏈對自研晶片公司生產計畫的實時影響。",
-      "微軟 (Microsoft) 推出多項 AI 安全新功能，包括在 Windows 11 上普遍提供 Microsoft Execution Containers (MXC) 以確保 AI 代理 (AI agent) 的安全運行，並透過 Intune 政策進行管理；同時，Copilot 也將導入由 GitHub HydraFusion 驅動的「混合智慧 (hybrid intelligence)」，使其能利用本地 PC 資料與模型提升效能，NVIDIA 執行長黃仁勳更強調 MXC 對未來 AI 代理發展的重要性。",
-      "金融業對 AI 的採用加速，Evident AI Index 2026 報告指出，全球前 50 大銀行在過去 12 個月內 AI 部署速度是前幾年的近三倍，但僅有 12% 的 AI 應用案例能報告對營運關鍵績效指標 (KPI) 的影響，且僅 1% 揭露具體財務回報；儘管如此，摩根大通 (JPMorgan Chase) 仍連續蟬聯 AI 採用領導者，顯示頂尖銀行在將 AI 從實驗階段推向企業級規模化應用方面取得顯著進展。"
+      "Meta (Meta) 推出其「Muse Wonder」與「Muse Wonder Full」AI 模型，宣稱是迄今最強大的模型，並專注於代理 (agentic) 應用，如保險理賠與應用程式建立，具備「主動記憶」與「主動專注」功能，顯示大型科技公司在代理 AI 領域的競爭加劇。",
+      "2026 年 AI 運算重心已轉向推論 (inference)，預計將佔總 AI 運算能力的 55% 至 67%，並構成模型生命週期總成本的 80% 至 90%，這標誌著 AI 基礎設施經濟學的根本性轉變，推論效率成為業界關鍵焦點。",
+      "NVIDIA 在 OCP 全球峰會上發布其下一代 AI 計算機「Vera Rubin」的機架與計算托盤設計，支援單機架高達 250 瓩 (kW) 功耗，同時 Google、Meta 和 Microsoft 也共同制定 AI 設備的電網穩定標準，顯示業界正積極應對 AI 資料中心對電力與硬體設計的嚴峻挑戰。",
+      "金融業 AI 部署持續加速，Evident AI Index 2026 報告指出過去 12 個月內銀行 AI 部署速度是前幾年的近三倍，但僅 12% 的應用案例能報告對營運關鍵績效指標 (KPI) 的影響，且僅 1% 揭露具體財務回報；儘管如此，富邦金控旗下台北富邦銀行仍透過 AI「鷹眼識詐模型」有效提升詐騙阻擋效能，展現 AI 在金融安全領域的具體落地成效。"
     ]
   },
   "github_repos": {
@@ -3433,7 +3440,7 @@
       "summary": "完全部署於 Cloudflare 免費層上的自託管個人 AI Assistant"
     }
   },
-  "last_run_date": "2026-10-12",
+  "last_run_date": "2026-10-13",
   "github_shown": {
     "bilawalsidhu/gods-eye-view": "2026-09-14",
     "mattpocock/skills": "2026-10-12",
