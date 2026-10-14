@@ -3002,15 +3002,27 @@
     "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding": "2026-10-13T03:11:19.196541+00:00",
     "https://www.thoughtworks.com/insights/blog/technology-strategy/mislabelled-why-retail-calls-its-strategic-failures-execution-problems": "2026-10-13T03:11:19.196541+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/why-agentic-payments-require-executable-model-organizational-authority": "2026-10-13T03:11:19.196541+00:00",
-    "https://www.thoughtworks.com/insights/articles/decision-models-and-the-possibility-of-no-ops": "2026-10-13T03:11:19.196541+00:00"
+    "https://www.thoughtworks.com/insights/articles/decision-models-and-the-possibility-of-no-ops": "2026-10-13T03:11:19.196541+00:00",
+    "https://www.databricks.com/blog/practical-guide-real-time-analytics-2026": "2026-10-14T01:27:41.830021+00:00",
+    "https://www.databricks.com/blog/whats-new-lakeflow-designer-october-2026-roundup": "2026-10-14T01:27:41.830021+00:00",
+    "https://www.databricks.com/blog/databricks-visionary-gartnerr-magic-quadranttm-analytics-and-business-intelligence-platforms": "2026-10-14T01:27:41.830021+00:00",
+    "https://openai.com/index/higgsfield-longer-videos-voice": "2026-10-14T01:27:41.830021+00:00",
+    "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents": "2026-10-14T01:27:41.830021+00:00",
+    "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform": "2026-10-14T01:27:41.830021+00:00",
+    "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely": "2026-10-14T01:27:41.830021+00:00",
+    "https://deepmind.google/blog/gemini-4-argon-for-robotics": "2026-10-14T01:27:41.830021+00:00",
+    "https://deepmind.google/blog/introducing-gemini-4-argon": "2026-10-14T01:27:41.830021+00:00",
+    "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b": "2026-10-14T01:27:41.830021+00:00",
+    "https://www.thoughtworks.com/insights/blog/product-innovation/using-grafana-ai-to-accelerate-incident-investigation": "2026-10-14T01:27:41.830021+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/jev-decision-models-what-need-know-why": "2026-10-14T01:27:41.830021+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-13",
+    "date": "2026-10-14",
     "points": [
-      "Meta (Meta) 推出其「Muse Wonder」與「Muse Wonder Full」AI 模型，宣稱是迄今最強大的模型，並專注於代理 (agentic) 應用，如保險理賠與應用程式建立，具備「主動記憶」與「主動專注」功能，顯示大型科技公司在代理 AI 領域的競爭加劇。",
-      "2026 年 AI 運算重心已轉向推論 (inference)，預計將佔總 AI 運算能力的 55% 至 67%，並構成模型生命週期總成本的 80% 至 90%，這標誌著 AI 基礎設施經濟學的根本性轉變，推論效率成為業界關鍵焦點。",
-      "NVIDIA 在 OCP 全球峰會上發布其下一代 AI 計算機「Vera Rubin」的機架與計算托盤設計，支援單機架高達 250 瓩 (kW) 功耗，同時 Google、Meta 和 Microsoft 也共同制定 AI 設備的電網穩定標準，顯示業界正積極應對 AI 資料中心對電力與硬體設計的嚴峻挑戰。",
-      "金融業 AI 部署持續加速，Evident AI Index 2026 報告指出過去 12 個月內銀行 AI 部署速度是前幾年的近三倍，但僅 12% 的應用案例能報告對營運關鍵績效指標 (KPI) 的影響，且僅 1% 揭露具體財務回報；儘管如此，富邦金控旗下台北富邦銀行仍透過 AI「鷹眼識詐模型」有效提升詐騙阻擋效能，展現 AI 在金融安全領域的具體落地成效。"
+      "過去 48 小時內，AI 代理 (agentic AI) 領域出現重大進展，OpenAI 推出具備代理能力的 GPT-5.5 模型，Google 發布具備大型上下文視窗和代理編碼功能的 Gemini 2.5 Pro，Microsoft 則將 Copilot 代理擴展至 Office 應用程式並採用多模型策略，而 xAI 也推出了 Grok 3 及電腦代理測試版，顯示大型科技公司正加速推動 AI 代理的發展與應用。同時，AWS 與 OpenAI 達成戰略合作，將 OpenAI 最新模型整合至 Amazon Bedrock，並推出 Amazon Bedrock Managed Agents 服務，簡化企業部署 OpenAI 驅動代理的流程，進一步加速市場對進階 AI 模型的採用。",
+      "Microsoft 發表了其第三代自研 AI 推論晶片 Maia 300，該晶片採用台積電 N2P 製程及多晶片設計，每個 Maia 300 整合八個 HBM4 堆疊，提供 288GB 記憶體和 18 TB/s 的頻寬，相較 Maia 200 效能提升 2.5 倍，預計於 2027 年用於 Azure 規模擴展，此為 AI 基礎設施硬體效率的顯著突破。",
+      "根據 IDC 數據，2026 年上半年 Nvidia 在中國資料中心 AI 晶片市場的市佔率降至 34%（年減 44%），而華為的市佔率則上升至 28%，顯示在 AI 晶片供應鏈及地緣政治影響下，中國市場的競爭格局正發生重大變化。",
+      "美國銀行 (Bank of America) 執行長 Brian Moynihan 表示，該行約 130 至 140 個 AI 專案投入 4 億美元成本，已產生 8 億美元效益，並計畫明年將 AI 預算加倍，展現金融機構在 AI 部署上已能具體量化投資報酬。"
     ]
   },
   "github_repos": {
@@ -3440,7 +3452,7 @@
       "summary": "完全部署於 Cloudflare 免費層上的自託管個人 AI Assistant"
     }
   },
-  "last_run_date": "2026-10-13",
+  "last_run_date": "2026-10-14",
   "github_shown": {
     "bilawalsidhu/gods-eye-view": "2026-09-14",
     "mattpocock/skills": "2026-10-12",
