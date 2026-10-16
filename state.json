@@ -3033,12 +3033,31 @@
     "https://deepmind.google/blog/on-device-ai-scam-detection-mddi": "2026-10-15T00:52:48.103308+00:00",
     "https://huggingface.co/blog/allenai/hiro-acev2": "2026-10-15T00:52:48.103308+00:00",
     "https://www.thoughtworks.com/insights/blog/technology-strategy/the-real-ai-project-at-your-airport-isnt-an-ai-project": "2026-10-15T00:52:48.103308+00:00",
-    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-agent-harness": "2026-10-15T00:52:48.103308+00:00"
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-agent-harness": "2026-10-15T00:52:48.103308+00:00",
+    "https://www.databricks.com/blog/how-our-ai-research-team-uses-ai-runtime": "2026-10-16T00:37:12.777985+00:00",
+    "https://www.databricks.com/blog/reducing-noise-how-atlassian-built-ocsf-security-lakehouse-databricks": "2026-10-16T00:37:12.777985+00:00",
+    "https://www.databricks.com/blog/geospatial-queries-are-38x-faster-lakehousert": "2026-10-16T00:37:12.777985+00:00",
+    "https://www.databricks.com/blog/how-factset-cut-model-training-and-deployment-days-hours-databricks-ai-runtime": "2026-10-16T00:37:12.777985+00:00",
+    "https://openai.com/index/introducing-the-rosalind-academic-plan": "2026-10-16T00:37:12.777985+00:00",
+    "https://openai.com/index/teaching-students-to-think-and-learn-through-questions": "2026-10-16T00:37:12.777985+00:00",
+    "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning": "2026-10-16T00:37:12.777985+00:00",
+    "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72": "2026-10-16T00:37:12.777985+00:00",
+    "https://deepmind.google/blog/accelerating-antimicrobial-discovery": "2026-10-16T00:37:12.777985+00:00",
+    "https://huggingface.co/blog/ibm-granite/granite-switch-4-1": "2026-10-16T00:37:12.777985+00:00",
+    "https://huggingface.co/blog/meta-muse-spark-open": "2026-10-16T00:37:12.777985+00:00",
+    "https://huggingface.co/blog/flux-3": "2026-10-16T00:37:12.777985+00:00",
+    "https://thinkingmachines.ai/news/one-year-of-tinker": "2026-10-16T00:37:12.777985+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/evaluating-decision-models-for-document-categorization": "2026-10-16T00:37:12.777985+00:00",
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/the-future-of-saas-in-the-agentic-world--beyond-the-disruption-n": "2026-10-16T00:37:12.777985+00:00",
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/the-shift-to-the-ai-first-enterprise-technology-forum-2026-insights": "2026-10-16T00:37:12.777985+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "points": [
-      "過去 48 小時內，開放來源情報 (OSINT) 顯示，由於人工智慧 (AI) 相關能源需求顯著增長，美國各地資料中心容量與電網互連大幅擴張，多個美國公用事業公司和電網營運商已上調其負載增長預測，主要受 AI 和超大規模資料中心驅動，這預示著 AI 基礎設施的重大投資與市場格局變化。"
+      "AI晶片股在六個交易日內市值蒸發1.64兆美元，反映市場對AI支出、企業債務及高利率的擔憂，引發2026年以來最劇烈的半導體產業拋售潮。同時，Gartner警告，若AI供應商維持當前資本支出速度，到2030年恐有超過3.5兆美元的AI基礎設施投資面臨減值風險，預示「新雲端」（neocloud）供應商將出現整合潮。",
+      "Meta發布其首個前沿AI模型Muse Wonder及其大型變體Muse Wonder Full，宣稱性能可與Anthropic的Fable 5.1和OpenAI的GPT-6 Astra媲美，並強調其「主動記憶」（active memory）功能，能實現跨日、週、月的用戶個人資訊保留與合成，有望在agentic AI領域帶來實質進展。",
+      "OpenAI的AI代理據報導成功解決了其中一個千禧年大獎難題——黎曼假設，並發布了數百篇AI生成的論文，報告在其他長期數學問題上的進展，這標誌著AI在數學推理能力上的重大突破。",
+      "花旗銀行（Citi）報告其AI導入已產生明確的財務效益，包括產品開發成本降低、速度提升高達40%，以及技術供應商費用減少30%，顯示AI在金融業務中實現了具體且可量化的效率提升。"
     ]
   },
   "github_repos": {
@@ -3466,17 +3485,31 @@
       "repo": "rociiu/talorys",
       "last_featured": "2026-10-12",
       "summary": "完全部署於 Cloudflare 免費層上的自託管個人 AI Assistant"
+    },
+    "openai/codex": {
+      "repo": "openai/codex",
+      "last_featured": "2026-10-16",
+      "summary": "OpenAI 推出的本地 AI 編程 Agent CLI，能直接於終端機與 IDE 中執行程式碼開發任務。"
+    },
+    "morluto/rea": {
+      "repo": "morluto/rea",
+      "last_featured": "2026-10-16",
+      "summary": "結合 MCP 協定的 AI Agent 逆向工程工具，支援從應用程式層級深入分析至原生二進位檔。"
+    },
+    "h0m3us3r/w1700k-sdr": {
+      "repo": "h0m3us3r/w1700k-sdr",
+      "last_featured": "2026-10-16",
+      "summary": "將 Wi-Fi 7 無線路由器改造成最高 320 Msps 採樣率的高速軟體無線電（SDR）接收器。"
+    },
+    "fyzugx/desk": {
+      "repo": "fyzugx/DEsk",
+      "last_featured": "2026-10-16",
+      "summary": "採用逼真擬物化（Skeuomorphic）設計風格的 Linux Wayland 桌面環境。"
     }
   },
-  "last_run_date": "2026-10-15",
+  "last_run_date": "2026-10-16",
   "github_shown": {
-    "bilawalsidhu/gods-eye-view": "2026-09-14",
     "mattpocock/skills": "2026-10-12",
-    "grapheneos/messaging": "2026-09-14",
-    "kennethwolters/litelm": "2026-09-14",
-    "speedstu/cuda-for-amd-windows": "2026-09-14",
-    "openai/plugins": "2026-09-14",
-    "mksglu/context-mode": "2026-09-14",
     "arnegiacomo/fugleramme": "2026-09-16",
     "rh1tech/frank-386": "2026-09-16",
     "enactic/openarm": "2026-09-16",
@@ -3530,7 +3563,14 @@
     "rociiu/talorys": "2026-10-12",
     "docker/docker-agent": "2026-10-12",
     "tester-army/e2e": "2026-10-12",
-    "epicgames/raddebugger": "2026-10-12"
+    "epicgames/raddebugger": "2026-10-12",
+    "rust-lang/rust": "2026-10-16",
+    "openai/codex": "2026-10-16",
+    "android/ndk": "2026-10-16",
+    "fyzugx/desk": "2026-10-16",
+    "h0m3us3r/w1700k-sdr": "2026-10-16",
+    "morluto/rea": "2026-10-16",
+    "nationalsecurityagency/ghidra": "2026-10-16"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
