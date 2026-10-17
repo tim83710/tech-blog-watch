@@ -3049,15 +3049,27 @@
     "https://thinkingmachines.ai/news/one-year-of-tinker": "2026-10-16T00:37:12.777985+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/evaluating-decision-models-for-document-categorization": "2026-10-16T00:37:12.777985+00:00",
     "https://www.thoughtworks.com/insights/blog/technology-strategy/the-future-of-saas-in-the-agentic-world--beyond-the-disruption-n": "2026-10-16T00:37:12.777985+00:00",
-    "https://www.thoughtworks.com/insights/blog/technology-strategy/the-shift-to-the-ai-first-enterprise-technology-forum-2026-insights": "2026-10-16T00:37:12.777985+00:00"
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/the-shift-to-the-ai-first-enterprise-technology-forum-2026-insights": "2026-10-16T00:37:12.777985+00:00",
+    "https://www.databricks.com/blog/transactions-are-generally-available-advancing-warehousing-lakehouse": "2026-10-17T00:38:43.462803+00:00",
+    "https://www.databricks.com/blog/closing-binary-blind-spot-domain-knowledge-injection-llm-malware-triage-npm-packages": "2026-10-17T00:38:43.462803+00:00",
+    "https://www.databricks.com/blog/stripe-data-pipeline-now-syncs-real-time-stripe-data-lakebase-postgres": "2026-10-17T00:38:43.462803+00:00",
+    "https://openai.com/index/itau-generative-ai": "2026-10-17T00:38:43.462803+00:00",
+    "https://openai.com/index/stack-overflow-chatgpt-plugin": "2026-10-17T00:38:43.462803+00:00",
+    "https://openai.com/index/sullivan-cromwell": "2026-10-17T00:38:43.462803+00:00",
+    "https://developers.openai.com/blog/designing-failover-across-openai-model-providers": "2026-10-17T00:38:43.462803+00:00",
+    "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark": "2026-10-17T00:38:43.462803+00:00",
+    "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs": "2026-10-17T00:38:43.462803+00:00",
+    "https://huggingface.co/blog/nvidia/scaling-indic-pretraining": "2026-10-17T00:38:43.462803+00:00",
+    "https://huggingface.co/blog/reflection-beam": "2026-10-17T00:38:43.462803+00:00",
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/why-executive-judgment-decides-who-wins-with-ai": "2026-10-17T00:38:43.462803+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "points": [
-      "AI晶片股在六個交易日內市值蒸發1.64兆美元，反映市場對AI支出、企業債務及高利率的擔憂，引發2026年以來最劇烈的半導體產業拋售潮。同時，Gartner警告，若AI供應商維持當前資本支出速度，到2030年恐有超過3.5兆美元的AI基礎設施投資面臨減值風險，預示「新雲端」（neocloud）供應商將出現整合潮。",
-      "Meta發布其首個前沿AI模型Muse Wonder及其大型變體Muse Wonder Full，宣稱性能可與Anthropic的Fable 5.1和OpenAI的GPT-6 Astra媲美，並強調其「主動記憶」（active memory）功能，能實現跨日、週、月的用戶個人資訊保留與合成，有望在agentic AI領域帶來實質進展。",
-      "OpenAI的AI代理據報導成功解決了其中一個千禧年大獎難題——黎曼假設，並發布了數百篇AI生成的論文，報告在其他長期數學問題上的進展，這標誌著AI在數學推理能力上的重大突破。",
-      "花旗銀行（Citi）報告其AI導入已產生明確的財務效益，包括產品開發成本降低、速度提升高達40%，以及技術供應商費用減少30%，顯示AI在金融業務中實現了具體且可量化的效率提升。"
+      "高盛（Goldman Sachs）報告指出，全球對沖基金正以一年來第二快的速度拋售AI股票，在一週內抹去了近兩年的淨買入，反映出繼7月Situational Awareness基金崩盤後，市場對AI投資的波動性加劇及避險情緒升高。",
+      "半導體供應鏈面臨巨大壓力：ASML報告其2026年第三季度銷售額創紀錄達117億歐元，受AI晶片需求激增推動，並預計2027至2028年的產能將無法滿足客戶需求。同時，台積電（TSMC）正評估在德州擴建，而台灣政府計劃在德州投資40億美元建立AI供應鏈園區，以支援Nvidia等AI硬體製造商。",
+      "AI 推論硬體與記憶體技術取得多項突破：Microsoft推出其Maia 300 AI加速器，宣稱在多兆瓦級推論中每兆瓦可提供多40%的tokens。Intel也公布其GPU D系列推論晶片規格，具備1.3 petaflops的FP8運算能力及480GB記憶體，專為大型語言模型設計。此外，XCENA展示了基於CXL的記憶體解決方案，可讓AI推論伺服器共享KV快取並加速RAG中的向量搜尋，而SK hynix則推出CMM-Ax記憶體方案，能更高效處理大型語言模型的長上下文。這些進展共同推動AI推論效率與成本效益的實質提升。",
+      "金融業AI落地成效顯著：美國銀行（Bank of America）執行長報告其AI專案已投入4億美元，產生8億美元效益，並計劃明年將AI預算翻倍。法國興業銀行（Société Générale）預計AI將在其2026-2029年21億美元的總節省中貢獻高達6.69億美元，顯示AI在金融業務中正實現可觀的效率與成本效益。"
     ]
   },
   "github_repos": {
@@ -3507,7 +3519,7 @@
       "summary": "採用逼真擬物化（Skeuomorphic）設計風格的 Linux Wayland 桌面環境。"
     }
   },
-  "last_run_date": "2026-10-16",
+  "last_run_date": "2026-10-17",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "arnegiacomo/fugleramme": "2026-09-16",
