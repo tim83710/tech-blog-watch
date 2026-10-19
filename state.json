@@ -3061,15 +3061,15 @@
     "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs": "2026-10-17T00:38:43.462803+00:00",
     "https://huggingface.co/blog/nvidia/scaling-indic-pretraining": "2026-10-17T00:38:43.462803+00:00",
     "https://huggingface.co/blog/reflection-beam": "2026-10-17T00:38:43.462803+00:00",
-    "https://www.thoughtworks.com/insights/blog/technology-strategy/why-executive-judgment-decides-who-wins-with-ai": "2026-10-17T00:38:43.462803+00:00"
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/why-executive-judgment-decides-who-wins-with-ai": "2026-10-17T00:38:43.462803+00:00",
+    "https://openai.com/index/benefit-street-partners": "2026-10-19T00:14:23.218346+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-17",
+    "date": "2026-10-19",
     "points": [
-      "高盛（Goldman Sachs）報告指出，全球對沖基金正以一年來第二快的速度拋售AI股票，在一週內抹去了近兩年的淨買入，反映出繼7月Situational Awareness基金崩盤後，市場對AI投資的波動性加劇及避險情緒升高。",
-      "半導體供應鏈面臨巨大壓力：ASML報告其2026年第三季度銷售額創紀錄達117億歐元，受AI晶片需求激增推動，並預計2027至2028年的產能將無法滿足客戶需求。同時，台積電（TSMC）正評估在德州擴建，而台灣政府計劃在德州投資40億美元建立AI供應鏈園區，以支援Nvidia等AI硬體製造商。",
-      "AI 推論硬體與記憶體技術取得多項突破：Microsoft推出其Maia 300 AI加速器，宣稱在多兆瓦級推論中每兆瓦可提供多40%的tokens。Intel也公布其GPU D系列推論晶片規格，具備1.3 petaflops的FP8運算能力及480GB記憶體，專為大型語言模型設計。此外，XCENA展示了基於CXL的記憶體解決方案，可讓AI推論伺服器共享KV快取並加速RAG中的向量搜尋，而SK hynix則推出CMM-Ax記憶體方案，能更高效處理大型語言模型的長上下文。這些進展共同推動AI推論效率與成本效益的實質提升。",
-      "金融業AI落地成效顯著：美國銀行（Bank of America）執行長報告其AI專案已投入4億美元，產生8億美元效益，並計劃明年將AI預算翻倍。法國興業銀行（Société Générale）預計AI將在其2026-2029年21億美元的總節省中貢獻高達6.69億美元，顯示AI在金融業務中正實現可觀的效率與成本效益。"
+      "顧問公司 Gartner 警告，若 AI 供應商維持當前的資本支出速度，到 2030 年恐有超過 3.5 兆美元的 AI 基礎設施投資面臨資產減值風險，因企業與消費者 AI 營收不足以支撐這些龐大投資的獲利回報，預計 80% 的新興雲端供應商將在 2030 年前停止獨立營運，對市場格局構成重大挑戰。",
+      "AI 模型發佈持續加速，DeepSeek 於 10 月 17 日推出 V4.1 Flash 1017 模型，具備 MIT 權重與 Search & Fetch API，而 xAI 的 Grok Voice 3.0 (10 月 14 日)、Meta 的 Muse Spark (10 月 15 日) 及 NVIDIA 的 Nemotron 3.5 Super VL 120B A12B (10 月 15 日) 等主要參與者也紛紛推出新模型，顯示業界正快速推進多模態與自適應 (adaptive) AI 能力。",
+      "一種新型態的「決策模型 (Decision Models)」正在 AI 領域興起，這類模型跳過傳統的文本生成，直接針對特定問題輸出選擇、分數或帶有概率的判斷，大幅提升效率，特別是在資安營運 (security operations) 等需要快速、直觀判斷的應用場景中，被視為今年最重要的技術突破之一。"
     ]
   },
   "github_repos": {
@@ -3517,18 +3517,21 @@
       "repo": "fyzugx/DEsk",
       "last_featured": "2026-10-16",
       "summary": "採用逼真擬物化（Skeuomorphic）設計風格的 Linux Wayland 桌面環境。"
+    },
+    "storytold/artcraft": {
+      "repo": "storytold/artcraft",
+      "last_featured": "2026-10-19",
+      "summary": "專為創作者設計的互動式 AI 圖像與影片生成 IDE"
+    },
+    "anthropics/claude-plugins-official": {
+      "repo": "anthropics/claude-plugins-official",
+      "last_featured": "2026-10-19",
+      "summary": "Anthropic 官方管理的 Claude Code 外掛與技能市集"
     }
   },
-  "last_run_date": "2026-10-17",
+  "last_run_date": "2026-10-19",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
-    "arnegiacomo/fugleramme": "2026-09-16",
-    "rh1tech/frank-386": "2026-09-16",
-    "enactic/openarm": "2026-09-16",
-    "alibaba/open-code-review": "2026-09-16",
-    "asciimoo/hister": "2026-09-18",
-    "cloudflare/security-audit-skill": "2026-09-18",
-    "tencent/weknora": "2026-09-18",
     "jemalloc/jemalloc": "2026-09-21",
     "graafhenk/numberwang": "2026-09-21",
     "anthropics/claude-code": "2026-09-21",
@@ -3582,7 +3585,10 @@
     "fyzugx/desk": "2026-10-16",
     "h0m3us3r/w1700k-sdr": "2026-10-16",
     "morluto/rea": "2026-10-16",
-    "nationalsecurityagency/ghidra": "2026-10-16"
+    "nationalsecurityagency/ghidra": "2026-10-16",
+    "qgis/qgis-enhancement-proposals": "2026-10-19",
+    "storytold/artcraft": "2026-10-19",
+    "anthropics/claude-plugins-official": "2026-10-19"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
