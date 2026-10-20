@@ -3062,14 +3062,25 @@
     "https://huggingface.co/blog/nvidia/scaling-indic-pretraining": "2026-10-17T00:38:43.462803+00:00",
     "https://huggingface.co/blog/reflection-beam": "2026-10-17T00:38:43.462803+00:00",
     "https://www.thoughtworks.com/insights/blog/technology-strategy/why-executive-judgment-decides-who-wins-with-ai": "2026-10-17T00:38:43.462803+00:00",
-    "https://openai.com/index/benefit-street-partners": "2026-10-19T00:14:23.218346+00:00"
+    "https://openai.com/index/benefit-street-partners": "2026-10-19T00:14:23.218346+00:00",
+    "https://www.databricks.com/blog/hp-ai-ready-cdp-databricks-customerlake": "2026-10-20T01:13:45.869536+00:00",
+    "https://www.databricks.com/blog/what-makes-catalog-open-unity-catalog-advances-open-lakehouse": "2026-10-20T01:13:45.869536+00:00",
+    "https://www.databricks.com/blog/how-get-most-out-running-dbt-databricks": "2026-10-20T01:13:45.869536+00:00",
+    "https://www.databricks.com/blog/databricks-doubling-down-new-york-city-premier-ai-talent-hub": "2026-10-20T01:13:45.869536+00:00",
+    "https://openai.com/index/low-resource-programming-languages": "2026-10-20T01:13:45.869536+00:00",
+    "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile": "2026-10-20T01:13:45.869536+00:00",
+    "https://huggingface.co/blog/hf-torchneuron": "2026-10-20T01:13:45.869536+00:00",
+    "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes": "2026-10-20T01:13:45.869536+00:00",
+    "https://www.thoughtworks.com/insights/articles/cheaper-code-wont-kill-software-development": "2026-10-20T01:13:45.869536+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/renting-the-frontier--owning-the-core-ip--how-we-cut-ai-forecast": "2026-10-20T01:13:45.869536+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "points": [
-      "顧問公司 Gartner 警告，若 AI 供應商維持當前的資本支出速度，到 2030 年恐有超過 3.5 兆美元的 AI 基礎設施投資面臨資產減值風險，因企業與消費者 AI 營收不足以支撐這些龐大投資的獲利回報，預計 80% 的新興雲端供應商將在 2030 年前停止獨立營運，對市場格局構成重大挑戰。",
-      "AI 模型發佈持續加速，DeepSeek 於 10 月 17 日推出 V4.1 Flash 1017 模型，具備 MIT 權重與 Search & Fetch API，而 xAI 的 Grok Voice 3.0 (10 月 14 日)、Meta 的 Muse Spark (10 月 15 日) 及 NVIDIA 的 Nemotron 3.5 Super VL 120B A12B (10 月 15 日) 等主要參與者也紛紛推出新模型，顯示業界正快速推進多模態與自適應 (adaptive) AI 能力。",
-      "一種新型態的「決策模型 (Decision Models)」正在 AI 領域興起，這類模型跳過傳統的文本生成，直接針對特定問題輸出選擇、分數或帶有概率的判斷，大幅提升效率，特別是在資安營運 (security operations) 等需要快速、直觀判斷的應用場景中，被視為今年最重要的技術突破之一。"
+      "西班牙桑坦德銀行 (Santander) 宣布與 NVIDIA 合作取得新進展，其 AI 實驗室透過導入小型化、專用型 AI 模型於客戶服務，在實驗案例中成功將每次互動成本從約 5 歐元降低至 0.03 歐元，同時維持高效能，顯示金融業 AI 落地在成本效益上的具體突破。",
+      "微軟 (Microsoft) 於 10 月 20 日推出針對 AI 代理 (AI agent) 權限的新控制措施，作為其 Project Perception 安全計畫的一部分，透過動態條件式存取 (Dynamic Conditional Access) 技術，能根據風險程度限縮代理的權限，例如在偵測到異常行為時，保留讀取權限但阻擋資料修改或要求人工審核敏感操作，大幅提升企業部署 AI 代理的安全性與治理能力。",
+      "由 Sam Altman 創立的 World 公司於 10 月 18 日推出針對金融業的「World ID for banking and finance」服務，旨在透過其 AgentKit 協助金融機構驗證 AI 代理是否代表真人進行交易或購物，解決 AI 代理在金融交易中信任與安全性的核心問題。",
+      "據《金融時報》報導，截至 2026 年，美國至少有 47 個大型 AI 資料中心專案因電力供應限制及其他問題而延遲、撤回或受阻，凸顯電力可用性已成為 AI 基礎設施擴張的重大瓶頸，對整體市場格局與算力發展構成挑戰。"
     ]
   },
   "github_repos": {
@@ -3529,7 +3540,7 @@
       "summary": "Anthropic 官方管理的 Claude Code 外掛與技能市集"
     }
   },
-  "last_run_date": "2026-10-19",
+  "last_run_date": "2026-10-20",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "jemalloc/jemalloc": "2026-09-21",
