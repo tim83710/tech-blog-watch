@@ -3072,15 +3072,26 @@
     "https://huggingface.co/blog/hf-torchneuron": "2026-10-20T01:13:45.869536+00:00",
     "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes": "2026-10-20T01:13:45.869536+00:00",
     "https://www.thoughtworks.com/insights/articles/cheaper-code-wont-kill-software-development": "2026-10-20T01:13:45.869536+00:00",
-    "https://www.thoughtworks.com/insights/blog/generative-ai/renting-the-frontier--owning-the-core-ip--how-we-cut-ai-forecast": "2026-10-20T01:13:45.869536+00:00"
+    "https://www.thoughtworks.com/insights/blog/generative-ai/renting-the-frontier--owning-the-core-ip--how-we-cut-ai-forecast": "2026-10-20T01:13:45.869536+00:00",
+    "https://www.databricks.com/blog/memcurrent-designing-persistent-memory-production-agents": "2026-10-21T00:47:24.698223+00:00",
+    "https://www.databricks.com/blog/introducing-agent-memory-databricks": "2026-10-21T00:47:24.698223+00:00",
+    "https://www.databricks.com/blog/how-hamlet-uses-databricks-lakebase-postgres-test-changes-against-production-data": "2026-10-21T00:47:24.698223+00:00",
+    "https://www.databricks.com/blog/customerlake-beta": "2026-10-21T00:47:24.698223+00:00",
+    "https://openai.com/index/ted-taylor-restaurant": "2026-10-21T00:47:24.698223+00:00",
+    "https://openai.com/index/openai-to-acquire-orchestra-bio": "2026-10-21T00:47:24.698223+00:00",
+    "https://huggingface.co/blog/nvidia/cosmos3-h-dreams": "2026-10-21T00:47:24.698223+00:00",
+    "https://huggingface.co/blog/allenai/fairstress": "2026-10-21T00:47:24.698223+00:00",
+    "https://huggingface.co/blog/ibm-research/altk-evolve-bc": "2026-10-21T00:47:24.698223+00:00",
+    "https://huggingface.co/blog/hf-torchtpu": "2026-10-21T00:47:24.698223+00:00",
+    "https://huggingface.co/blog/anylanguagemodel-1-0": "2026-10-21T00:47:24.698223+00:00",
+    "https://huggingface.co/blog/mps-pytorch-2-15": "2026-10-21T00:47:24.698223+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "points": [
-      "西班牙桑坦德銀行 (Santander) 宣布與 NVIDIA 合作取得新進展，其 AI 實驗室透過導入小型化、專用型 AI 模型於客戶服務，在實驗案例中成功將每次互動成本從約 5 歐元降低至 0.03 歐元，同時維持高效能，顯示金融業 AI 落地在成本效益上的具體突破。",
-      "微軟 (Microsoft) 於 10 月 20 日推出針對 AI 代理 (AI agent) 權限的新控制措施，作為其 Project Perception 安全計畫的一部分，透過動態條件式存取 (Dynamic Conditional Access) 技術，能根據風險程度限縮代理的權限，例如在偵測到異常行為時，保留讀取權限但阻擋資料修改或要求人工審核敏感操作，大幅提升企業部署 AI 代理的安全性與治理能力。",
-      "由 Sam Altman 創立的 World 公司於 10 月 18 日推出針對金融業的「World ID for banking and finance」服務，旨在透過其 AgentKit 協助金融機構驗證 AI 代理是否代表真人進行交易或購物，解決 AI 代理在金融交易中信任與安全性的核心問題。",
-      "據《金融時報》報導，截至 2026 年，美國至少有 47 個大型 AI 資料中心專案因電力供應限制及其他問題而延遲、撤回或受阻，凸顯電力可用性已成為 AI 基礎設施擴張的重大瓶頸，對整體市場格局與算力發展構成挑戰。"
+      "開源專案 llm-d 釋出 1.0 版本，旨在提升大規模語言模型 (LLM) 推論效率，聲稱能為上下文密集型代理 (agentic) 工作負載降低 5 至 10 倍成本，並將輸出吞吐量提高 3 倍，為企業級 AI 部署提供關鍵的成本效益與性能突破。",
+      "微軟據報已退出在英國 Loughton 的大型 AI 資料中心專案，原因可能是電網電力供應延遲至 2030 年代，凸顯電力可用性已成為 AI 基礎設施擴張的重大瓶頸；與此同時，Anthropic 正與 Nscale 洽談第二筆價值 450 億美元的 AI 運算容量租賃協議，若完成，其在同一園區的總投資將達約 900 億美元，顯示對 AI 算力基礎設施的巨額投資持續增加。",
+      "據報導，對沖基金上週以十年來最快的速度削減了對科技股的曝險，原因是全球 AI 相關股票遭到拋售，反映出市場對 AI 估值和風險的擔憂。"
     ]
   },
   "github_repos": {
@@ -3538,9 +3549,19 @@
       "repo": "anthropics/claude-plugins-official",
       "last_featured": "2026-10-19",
       "summary": "Anthropic 官方管理的 Claude Code 外掛與技能市集"
+    },
+    "deepseek-ai/deepinfer": {
+      "repo": "deepseek-ai/DeepInfer",
+      "last_featured": "2026-10-21",
+      "summary": "DeepSeek 開源的大規模線上服務高性能 LLM 推理框架"
+    },
+    "madslorentzen/ai-job-search": {
+      "repo": "MadsLorentzen/ai-job-search",
+      "last_featured": "2026-10-21",
+      "summary": "基於 Claude Code 的自動化求職與履歷客製化 Agent 框架"
     }
   },
-  "last_run_date": "2026-10-20",
+  "last_run_date": "2026-10-21",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "jemalloc/jemalloc": "2026-09-21",
@@ -3599,7 +3620,13 @@
     "nationalsecurityagency/ghidra": "2026-10-16",
     "qgis/qgis-enhancement-proposals": "2026-10-19",
     "storytold/artcraft": "2026-10-19",
-    "anthropics/claude-plugins-official": "2026-10-19"
+    "anthropics/claude-plugins-official": "2026-10-19",
+    "deepseek-ai/deepinfer": "2026-10-21",
+    "tywr/nordwand-mono": "2026-10-21",
+    "vikolliver/reprapmicron": "2026-10-21",
+    "microg/gmscore": "2026-10-21",
+    "madslorentzen/ai-job-search": "2026-10-21",
+    "k-dense-ai/scientific-agent-skills": "2026-10-21"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
