@@ -3084,14 +3084,33 @@
     "https://huggingface.co/blog/ibm-research/altk-evolve-bc": "2026-10-21T00:47:24.698223+00:00",
     "https://huggingface.co/blog/hf-torchtpu": "2026-10-21T00:47:24.698223+00:00",
     "https://huggingface.co/blog/anylanguagemodel-1-0": "2026-10-21T00:47:24.698223+00:00",
-    "https://huggingface.co/blog/mps-pytorch-2-15": "2026-10-21T00:47:24.698223+00:00"
+    "https://huggingface.co/blog/mps-pytorch-2-15": "2026-10-21T00:47:24.698223+00:00",
+    "https://www.databricks.com/blog/databricks-ai-runtime-nvidia-train-fine-tune-models": "2026-10-22T00:51:11.195083+00:00",
+    "https://www.databricks.com/blog/ai-runtime-generally-available": "2026-10-22T00:51:11.195083+00:00",
+    "https://www.databricks.com/blog/deploy-rfd4-proteina-model-databricks": "2026-10-22T00:51:11.195083+00:00",
+    "https://openai.com/index/att-legal": "2026-10-22T00:51:11.195083+00:00",
+    "https://openai.com/index/broad-access-through-consistent-standards": "2026-10-22T00:51:11.195083+00:00",
+    "https://openai.com/index/openai-models-google-cloud": "2026-10-22T00:51:11.195083+00:00",
+    "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": "2026-10-22T00:51:11.195083+00:00",
+    "https://openai.com/index/chatgpt-ads-expands-26-new-countries": "2026-10-22T00:51:11.195083+00:00",
+    "https://openai.com/index/scaling-ai-research-for-complex-biological-data": "2026-10-22T00:51:11.195083+00:00",
+    "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search": "2026-10-22T00:51:11.195083+00:00",
+    "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime": "2026-10-22T00:51:11.195083+00:00",
+    "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale": "2026-10-22T00:51:11.195083+00:00",
+    "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow": "2026-10-22T00:51:11.195083+00:00",
+    "https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod": "2026-10-22T00:51:11.195083+00:00",
+    "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound": "2026-10-22T00:51:11.195083+00:00",
+    "https://huggingface.co/blog/nvidia/kumo-relational": "2026-10-22T00:51:11.195083+00:00",
+    "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization": "2026-10-22T00:51:11.195083+00:00",
+    "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1": "2026-10-22T00:51:11.195083+00:00",
+    "https://huggingface.co/blog/ibm-granite/granite-speech-5": "2026-10-22T00:51:11.195083+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "points": [
-      "開源專案 llm-d 釋出 1.0 版本，旨在提升大規模語言模型 (LLM) 推論效率，聲稱能為上下文密集型代理 (agentic) 工作負載降低 5 至 10 倍成本，並將輸出吞吐量提高 3 倍，為企業級 AI 部署提供關鍵的成本效益與性能突破。",
-      "微軟據報已退出在英國 Loughton 的大型 AI 資料中心專案，原因可能是電網電力供應延遲至 2030 年代，凸顯電力可用性已成為 AI 基礎設施擴張的重大瓶頸；與此同時，Anthropic 正與 Nscale 洽談第二筆價值 450 億美元的 AI 運算容量租賃協議，若完成，其在同一園區的總投資將達約 900 億美元，顯示對 AI 算力基礎設施的巨額投資持續增加。",
-      "據報導，對沖基金上週以十年來最快的速度削減了對科技股的曝險，原因是全球 AI 相關股票遭到拋售，反映出市場對 AI 估值和風險的擔憂。"
+      "美國銀行 (Bank of America) 報告其 130-140 個 AI 專案已投入 4 億美元，產生 8 億美元效益，並計劃明年將 AI 預算翻倍，顯示大型金融機構的 AI 投資已從實驗階段邁入具體回報，並將持續擴大應用，為金融業 AI 落地樹立具體成效標竿。",
+      "OpenAI 宣布將其最新旗艦模型 GPT-6 Astra 及其輕量級版本 GPT-6.1 Sol 和 GPT-6 Luna 導入 Google Cloud 的 Model Garden 服務，大幅擴展企業客戶對頂尖 AI 模型的存取能力，特別是 Astra 在數學發現與網路安全漏洞偵測方面的卓越表現，將加速 AI 在關鍵企業應用中的落地與普及。",
+      "儘管三星 (Samsung) 和英特爾 (Intel) 等晶片製造商正積極擴建或重啟工廠以滿足 AI 晶片需求，顯示對算力硬體投資的持續熱潮，但美國各地社區對資料中心建設的反對聲浪日益升高，已導致 2026 年至少 2,600 億美元的資料中心投資計畫被取消，凸顯 AI 算力基礎設施擴張面臨的電力、土地與地方阻力等重大瓶頸。"
     ]
   },
   "github_repos": {
@@ -3561,7 +3580,7 @@
       "summary": "基於 Claude Code 的自動化求職與履歷客製化 Agent 框架"
     }
   },
-  "last_run_date": "2026-10-21",
+  "last_run_date": "2026-10-22",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "jemalloc/jemalloc": "2026-09-21",
