@@ -3103,14 +3103,31 @@
     "https://huggingface.co/blog/nvidia/kumo-relational": "2026-10-22T00:51:11.195083+00:00",
     "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization": "2026-10-22T00:51:11.195083+00:00",
     "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1": "2026-10-22T00:51:11.195083+00:00",
-    "https://huggingface.co/blog/ibm-granite/granite-speech-5": "2026-10-22T00:51:11.195083+00:00"
+    "https://huggingface.co/blog/ibm-granite/granite-speech-5": "2026-10-22T00:51:11.195083+00:00",
+    "https://www.databricks.com/blog/fraud-analyst-ai-coworker-detecting-telecom-fraud-real-time-one-platform": "2026-10-23T00:51:24.985374+00:00",
+    "https://www.databricks.com/blog/ai-bill-coming": "2026-10-23T00:51:24.985374+00:00",
+    "https://openai.com/index/decisions-api": "2026-10-23T00:51:24.985374+00:00",
+    "https://openai.com/index/forward-deployed-engineering-means": "2026-10-23T00:51:24.985374+00:00",
+    "https://openai.com/index/uber-chatgpt-work-rollout": "2026-10-23T00:51:24.985374+00:00",
+    "https://openai.com/index/cloudflare-cyber": "2026-10-23T00:51:24.985374+00:00",
+    "https://openai.com/index/building-chatgpt-ad-stack": "2026-10-23T00:51:24.985374+00:00",
+    "https://openai.com/index/empowering-cyber-defenders": "2026-10-23T00:51:24.985374+00:00",
+    "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage": "2026-10-23T00:51:24.985374+00:00",
+    "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes": "2026-10-23T00:51:24.985374+00:00",
+    "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types": "2026-10-23T00:51:24.985374+00:00",
+    "https://huggingface.co/blog/microsoft/thinkingbox-training": "2026-10-23T00:51:24.985374+00:00",
+    "https://huggingface.co/blog/allenai/olmoearth-v1-3": "2026-10-23T00:51:24.985374+00:00",
+    "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1": "2026-10-23T00:51:24.985374+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/dont-ask-ai-to-write-the-user-story-yet": "2026-10-23T00:51:24.985374+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/how-sensible-harness-help-teams-create-ai-first-delivery-environment": "2026-10-23T00:51:24.985374+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-22",
+    "date": "2026-10-23",
     "points": [
-      "美國銀行 (Bank of America) 報告其 130-140 個 AI 專案已投入 4 億美元，產生 8 億美元效益，並計劃明年將 AI 預算翻倍，顯示大型金融機構的 AI 投資已從實驗階段邁入具體回報，並將持續擴大應用，為金融業 AI 落地樹立具體成效標竿。",
-      "OpenAI 宣布將其最新旗艦模型 GPT-6 Astra 及其輕量級版本 GPT-6.1 Sol 和 GPT-6 Luna 導入 Google Cloud 的 Model Garden 服務，大幅擴展企業客戶對頂尖 AI 模型的存取能力，特別是 Astra 在數學發現與網路安全漏洞偵測方面的卓越表現，將加速 AI 在關鍵企業應用中的落地與普及。",
-      "儘管三星 (Samsung) 和英特爾 (Intel) 等晶片製造商正積極擴建或重啟工廠以滿足 AI 晶片需求，顯示對算力硬體投資的持續熱潮，但美國各地社區對資料中心建設的反對聲浪日益升高，已導致 2026 年至少 2,600 億美元的資料中心投資計畫被取消，凸顯 AI 算力基礎設施擴張面臨的電力、土地與地方阻力等重大瓶頸。"
+      "輝達 (NVIDIA) 為因應對 AI 晶片日益增長的需求，於德國柏林 GTC 大會宣布與全球六家供應鏈夥伴（包括三星電機、Ibiden、Unimicron、Amkor、KYEC、SPIL）擴大合作，計劃在未來三年內將先進封裝基板產能提升 2.5 倍，並在 2027 年前使半導體測試產能翻倍，同時將共同封裝光學 (CPO) 光引擎產能於 2027 年中前增加 15 倍，旨在透過預付款與共同投資確保關鍵零組件供應，強化 AI 算力基礎設施的全球產能與韌性。",
+      "Anthropic 推出其主動式 AI 代理 Claude Duet 的研究預覽，該代理由 Claude Opus 5.5 驅動，具備無需初始提示即可根據時間變化、數據更新或訊息接收等事件自行喚醒的能力，並能利用過往互動預判用戶需求並採取行動，即使應用程式關閉也能持續運行，預示著 AI 代理將從被動響應轉向更具自主性與預測性的服務模式。",
+      "日本瑞穗金融集團 (Mizuho Financial Group) 宣布投入 1,000 億日圓於 AI 應用，目標在 2030 財政年度前實現相當於 5,000 人份的業務改革，並預計透過 AI 應用帶來約 3,000 億日圓的效益提升，其初步試驗已將提案準備時間從 1-3 小時縮短至 30 分鐘以內，顯示大型金融機構正將 AI 投資從實驗轉向具體、量化的營運效率與成本優化。",
+      "一項由 FT Longitude、SAS 和 Microsoft 合作進行的全球銀行業調查顯示，82% 的銀行領導者已將生成式 AI 用於決策，41% 使用代理式 AI，但僅有 18% 的機構具備全面運作的 AI 治理流程，且 42% 缺乏停用 AI 模型（\"kill switches\"）的明確機制，凸顯金融業在快速導入 AI 的同時，其治理與風險控制能力未能同步跟進，可能帶來潛在的系統性風險。"
     ]
   },
   "github_repos": {
@@ -3580,7 +3597,7 @@
       "summary": "基於 Claude Code 的自動化求職與履歷客製化 Agent 框架"
     }
   },
-  "last_run_date": "2026-10-22",
+  "last_run_date": "2026-10-23",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "jemalloc/jemalloc": "2026-09-21",
