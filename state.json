@@ -3119,15 +3119,27 @@
     "https://huggingface.co/blog/allenai/olmoearth-v1-3": "2026-10-23T00:51:24.985374+00:00",
     "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1": "2026-10-23T00:51:24.985374+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/dont-ask-ai-to-write-the-user-story-yet": "2026-10-23T00:51:24.985374+00:00",
-    "https://www.thoughtworks.com/insights/blog/generative-ai/how-sensible-harness-help-teams-create-ai-first-delivery-environment": "2026-10-23T00:51:24.985374+00:00"
+    "https://www.thoughtworks.com/insights/blog/generative-ai/how-sensible-harness-help-teams-create-ai-first-delivery-environment": "2026-10-23T00:51:24.985374+00:00",
+    "https://www.databricks.com/blog/built-agents-case-spark-declarative-pipelines": "2026-10-24T00:48:19.634979+00:00",
+    "https://www.databricks.com/blog/real-time-energy-trading-and-analytics-databricks": "2026-10-24T00:48:19.634979+00:00",
+    "https://openai.com/index/scaling-storage-one-billion-users-part-two": "2026-10-24T00:48:19.634979+00:00",
+    "https://openai.com/index/securing-our-frontier-model-training-environment": "2026-10-24T00:48:19.634979+00:00",
+    "https://openai.com/index/openai-nask-ai-safety-security-partnership": "2026-10-24T00:48:19.634979+00:00",
+    "https://openai.com/index/terminal-x": "2026-10-24T00:48:19.634979+00:00",
+    "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2": "2026-10-24T00:48:19.634979+00:00",
+    "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1": "2026-10-24T00:48:19.634979+00:00",
+    "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation": "2026-10-24T00:48:19.634979+00:00",
+    "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening": "2026-10-24T00:48:19.634979+00:00",
+    "https://huggingface.co/blog/allenai/litpivot": "2026-10-24T00:48:19.634979+00:00",
+    "https://huggingface.co/blog/torch-neuronx-model-support": "2026-10-24T00:48:19.634979+00:00",
+    "https://www.thoughtworks.com/insights/articles/the-agentic-control-tower-supply-chain": "2026-10-24T00:48:19.634979+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "points": [
-      "輝達 (NVIDIA) 為因應對 AI 晶片日益增長的需求，於德國柏林 GTC 大會宣布與全球六家供應鏈夥伴（包括三星電機、Ibiden、Unimicron、Amkor、KYEC、SPIL）擴大合作，計劃在未來三年內將先進封裝基板產能提升 2.5 倍，並在 2027 年前使半導體測試產能翻倍，同時將共同封裝光學 (CPO) 光引擎產能於 2027 年中前增加 15 倍，旨在透過預付款與共同投資確保關鍵零組件供應，強化 AI 算力基礎設施的全球產能與韌性。",
-      "Anthropic 推出其主動式 AI 代理 Claude Duet 的研究預覽，該代理由 Claude Opus 5.5 驅動，具備無需初始提示即可根據時間變化、數據更新或訊息接收等事件自行喚醒的能力，並能利用過往互動預判用戶需求並採取行動，即使應用程式關閉也能持續運行，預示著 AI 代理將從被動響應轉向更具自主性與預測性的服務模式。",
-      "日本瑞穗金融集團 (Mizuho Financial Group) 宣布投入 1,000 億日圓於 AI 應用，目標在 2030 財政年度前實現相當於 5,000 人份的業務改革，並預計透過 AI 應用帶來約 3,000 億日圓的效益提升，其初步試驗已將提案準備時間從 1-3 小時縮短至 30 分鐘以內，顯示大型金融機構正將 AI 投資從實驗轉向具體、量化的營運效率與成本優化。",
-      "一項由 FT Longitude、SAS 和 Microsoft 合作進行的全球銀行業調查顯示，82% 的銀行領導者已將生成式 AI 用於決策，41% 使用代理式 AI，但僅有 18% 的機構具備全面運作的 AI 治理流程，且 42% 缺乏停用 AI 模型（\"kill switches\"）的明確機制，凸顯金融業在快速導入 AI 的同時，其治理與風險控制能力未能同步跟進，可能帶來潛在的系統性風險。"
+      "中國 AI 實驗室 DeepSeek 在美國實施限制後，成功完成約 150 億美元（1000 億人民幣）的新一輪融資，由寧德時代 (CATL) 和騰訊等戰略投資者參與，此舉不僅遠超其預期目標，也凸顯在全球尋求美國主導 AI 生態系替代方案的背景下，DeepSeek 正迅速崛起並重塑市場格局。",
+      "Liquid AI 推出其即時推論引擎 RIPL (Real-time Inference Pipeline)，專為 Liquid Foundation Models (LFMs) 設計，宣稱比現有解決方案（如 vLLM 上的 Qwen3.5）的 p95 延遲降低 5.6 至 28.4 倍，能讓生成式 AI 在 50 毫秒內完成端到端回應，這項技術突破對於搜尋排名、詐欺偵測等需要毫秒級反應的即時應用至關重要，大幅提升大型語言模型 (LLM) 的實用性。",
+      "英國巴克萊銀行 (Barclays) 宣布裁減 5,000 名員工，同時其稅前利潤增長 12%，成本收入比改善至 62%，明確將 AI 導入與營運效率提升和成本管理策略相關聯，展現大型金融機構 AI 落地帶來的具體量化效益，預示著 AI 在金融業的應用正從實驗階段邁向大規模的營運轉型與成本優化。"
     ]
   },
   "github_repos": {
@@ -3597,7 +3609,7 @@
       "summary": "基於 Claude Code 的自動化求職與履歷客製化 Agent 框架"
     }
   },
-  "last_run_date": "2026-10-23",
+  "last_run_date": "2026-10-24",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "jemalloc/jemalloc": "2026-09-21",
