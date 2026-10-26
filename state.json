@@ -3135,11 +3135,11 @@
     "https://www.thoughtworks.com/insights/articles/the-agentic-control-tower-supply-chain": "2026-10-24T00:48:19.634979+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-24",
+    "date": "2026-10-26",
     "points": [
-      "中國 AI 實驗室 DeepSeek 在美國實施限制後，成功完成約 150 億美元（1000 億人民幣）的新一輪融資，由寧德時代 (CATL) 和騰訊等戰略投資者參與，此舉不僅遠超其預期目標，也凸顯在全球尋求美國主導 AI 生態系替代方案的背景下，DeepSeek 正迅速崛起並重塑市場格局。",
-      "Liquid AI 推出其即時推論引擎 RIPL (Real-time Inference Pipeline)，專為 Liquid Foundation Models (LFMs) 設計，宣稱比現有解決方案（如 vLLM 上的 Qwen3.5）的 p95 延遲降低 5.6 至 28.4 倍，能讓生成式 AI 在 50 毫秒內完成端到端回應，這項技術突破對於搜尋排名、詐欺偵測等需要毫秒級反應的即時應用至關重要，大幅提升大型語言模型 (LLM) 的實用性。",
-      "英國巴克萊銀行 (Barclays) 宣布裁減 5,000 名員工，同時其稅前利潤增長 12%，成本收入比改善至 62%，明確將 AI 導入與營運效率提升和成本管理策略相關聯，展現大型金融機構 AI 落地帶來的具體量化效益，預示著 AI 在金融業的應用正從實驗階段邁向大規模的營運轉型與成本優化。"
+      "中國 AI 新創公司 Moonshot AI 於過去 48 小時內發布其最新旗艦大型語言模型 Kimi K3.1 Pro，該模型擁有 3 兆參數，據稱在第三方基準測試中表現優於 Anthropic 的 Claude Opus 5.5 和 OpenAI 的 GPT-6 Astra 等領先模型，並計劃於 11 月 4 日開源其權重，此舉可能對全球開源模型格局及市場競爭產生重大影響。",
+      "金融分析師對全球 AI 基礎設施的龐大投資計畫提出資本市場流動性不足的質疑；高盛報告指出，主要科技公司至 2027 年的 AI 基礎設施總支出預計超過 5,000 億美元，未來 18 個月內所需資本總額更達 6,500 億美元，佔全球企業資本支出的近 15%，這可能導致小型 AI 實驗室延遲擴張或尋求非傳統融資，進而影響整體 AI 產業的發展速度。",
+      "AI 晶片供應鏈的複雜性與瓶頸持續加劇，其中 GlobalFoundries 與台積電達成 50 億美元的 AI 晶片組件製造協議，顯示即使是頂級晶片製造商也需分散產能以滿足激增的需求。同時，英特爾技術長指出極紫外光 (EUV) 曝光機的短缺限制了 AI 晶片供應的成長，而高頻寬記憶體 (HBM) 的短缺預計將持續到 2026 年以後，這些因素共同構成 AI 產業擴張的關鍵瓶頸。"
     ]
   },
   "github_repos": {
@@ -3607,23 +3607,31 @@
       "repo": "MadsLorentzen/ai-job-search",
       "last_featured": "2026-10-21",
       "summary": "基於 Claude Code 的自動化求職與履歷客製化 Agent 框架"
+    },
+    "stablyai/orca": {
+      "repo": "stablyai/orca",
+      "last_featured": "2026-10-26",
+      "summary": "支援多個 AI Coding Agent 在獨立 Git Worktree 中平行運作與比對的協調工具"
+    },
+    "anomalyco/opencode": {
+      "repo": "anomalyco/opencode",
+      "last_featured": "2026-10-26",
+      "summary": "開源的 AI 程式碼編寫 Agent，提供 CLI 與跨平台桌面端介面"
+    },
+    "ruvnet/ruflo": {
+      "repo": "ruvnet/ruflo",
+      "last_featured": "2026-10-26",
+      "summary": "專為 Claude Code 與 Codex 設計的多 Agent 協同與工作流管理框架"
+    },
+    "oosexgang/hackios-xnu-kernel": {
+      "repo": "oosexgang/hackios-xnu-kernel",
+      "last_featured": "2026-10-26",
+      "summary": "在高通晶片 Android 裝置上載入並執行 iOS 16.5 韌體與 XNU 核心的研究專案"
     }
   },
-  "last_run_date": "2026-10-24",
+  "last_run_date": "2026-10-26",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
-    "jemalloc/jemalloc": "2026-09-21",
-    "graafhenk/numberwang": "2026-09-21",
-    "anthropics/claude-code": "2026-09-21",
-    "addyosmani/agent-skills": "2026-09-21",
-    "anthropics/knowledge-work-plugins": "2026-09-21",
-    "jaredpalmer/kev": "2026-09-23",
-    "volotat/mini-agi": "2026-09-23",
-    "f/jev-leftpad": "2026-09-23",
-    "kyle-pena-nlp/jevchat": "2026-09-23",
-    "xcuri0/rebaruefi": "2026-09-25",
-    "wordpress/wordpress-develop": "2026-09-25",
-    "anthropics/financial-services": "2026-09-25",
     "infinityloop1308/pipepipe": "2026-09-28",
     "devdotfast/whiteboard": "2026-09-28",
     "reladraw/reladraw": "2026-09-28",
@@ -3641,14 +3649,14 @@
     "niko1221/strata": "2026-10-05",
     "omlahore/removemacai": "2026-10-05",
     "pbakaus/impeccable": "2026-10-05",
-    "heygen-com/hyperframes": "2026-10-05",
+    "heygen-com/hyperframes": "2026-10-26",
     "effect-ts/effect": "2026-10-05",
     "maanhimself/opendlss-nr": "2026-10-07",
     "rui314/mold": "2026-10-07",
     "fesens/opentpu": "2026-10-07",
     "mvschwarz/openrig": "2026-10-07",
     "cursor/plugins": "2026-10-07",
-    "nvidia/openshell": "2026-10-07",
+    "nvidia/openshell": "2026-10-26",
     "vectifyai/pageindex": "2026-10-07",
     "thedotmack/claude-mem": "2026-10-07",
     "boykopovar/anyps5": "2026-10-12",
@@ -3674,7 +3682,14 @@
     "vikolliver/reprapmicron": "2026-10-21",
     "microg/gmscore": "2026-10-21",
     "madslorentzen/ai-job-search": "2026-10-21",
-    "k-dense-ai/scientific-agent-skills": "2026-10-21"
+    "k-dense-ai/scientific-agent-skills": "2026-10-21",
+    "php/php-src": "2026-10-26",
+    "mitmproxy/mitmproxy": "2026-10-26",
+    "oosexgang/hackios-xnu-kernel": "2026-10-26",
+    "obsproject/obs-studio": "2026-10-26",
+    "ruvnet/ruflo": "2026-10-26",
+    "anomalyco/opencode": "2026-10-26",
+    "stablyai/orca": "2026-10-26"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
