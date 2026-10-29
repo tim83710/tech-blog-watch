@@ -3161,15 +3161,22 @@
     "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning": "2026-10-28T01:32:53.361966+00:00",
     "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation": "2026-10-28T01:32:53.361966+00:00",
     "https://huggingface.co/blog/LiquidAI/lfm3": "2026-10-28T01:32:53.361966+00:00",
-    "https://huggingface.co/blog/allenai/novelty-bench": "2026-10-28T01:32:53.361966+00:00"
+    "https://huggingface.co/blog/allenai/novelty-bench": "2026-10-28T01:32:53.361966+00:00",
+    "https://www.databricks.com/blog/how-procore-powering-construction-analytics-opensharing-0": "2026-10-29T01:52:24.423998+00:00",
+    "https://www.databricks.com/blog/voice-agents-are-here-context-turns-them-real-customer-value": "2026-10-29T01:52:24.423998+00:00",
+    "https://openai.com/index/openai-servicenow-partnership-expansion": "2026-10-29T01:52:24.423998+00:00",
+    "https://openai.com/index/the-future-of-the-firm": "2026-10-29T01:52:24.423998+00:00",
+    "https://openai.com/index/legora": "2026-10-29T01:52:24.423998+00:00",
+    "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model": "2026-10-29T01:52:24.423998+00:00",
+    "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary": "2026-10-29T01:52:24.423998+00:00",
+    "https://www.thoughtworks.com/insights/articles/rebuilding-self-hosted-github-actions-runners-on-aks": "2026-10-29T01:52:24.423998+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-28",
+    "date": "2026-10-29",
     "points": [
-      "金融業對 AI 基礎設施的投資顯著加劇：Anthropic 在首次公開募股 (IPO) 申請期間，獲得美國銀行、黑石、花旗和摩根士丹利等主要金融機構高達 630 億美元的融資結構，用於採購博通 (Broadcom) 的 AI 加速器和網路解決方案，並將租賃給 Anthropic，這顯示了金融資本在 AI 運算能力擴張中的關鍵作用。同時，Anthropic 的 IPO 文件也點出對台灣晶片供應鏈（特別是台積電）的地緣政治風險擔憂，可能影響全球 AI 晶片供應。",
-      "晶片供應鏈面臨關鍵瓶頸與市場格局變化：Nvidia 宣布與供應鏈夥伴達成數十億美元協議，擴大基板、先進封裝、半導體測試和光學引擎的產能，以緩解 AI 加速器供應瓶頸，並規劃至 2028 年。業界分析指出，晶片基板已成為 AI 基礎設施的最大瓶頸，甚至超越電力供應。此外，隨著 Google 和亞馬遜等科技巨頭加速自主研發晶片，Nvidia 在 CoWoS 和 HBM 資源的佔比預計將會下降，預示著 AI 晶片市場的競爭格局將進一步演變。",
-      "微軟為加速 AI 轉型，啟動大規模員工自願離職計畫：微軟向全球約 6 萬名員工（佔其總員工數約四分之一）提供自願離職方案，以配合公司將更多資源投入人工智慧領域的戰略調整。此舉反映出大型科技公司為應對 AI 時代的競爭，正進行大規模的人力結構優化與資源重新配置。",
-      "財富管理 AI 平台 Nevis 獲 7,000 萬美元 B 輪融資，並展現具體成效：專為財富管理設計的 AI 作業系統 Nevis 獲得由 EQT Ventures 領投的 7,000 萬美元 B 輪融資，策略投資者包括 Charles Schwab。該公司在 2026 年營收增長超過 25 倍，平台資產從 500 億美元增至 7,000 億美元。其 AI 代理程式已完成逾 10 萬項營運任務，幫助財務顧問每週節省多達 10 小時工作時間，並將潛在客戶會議增加 30%，顯示 AI 在金融服務業實現了顯著的效率提升和業務增長。"
+      "晶片供應鏈競爭加劇：輝達 (NVIDIA)、超微 (AMD) 與英特爾 (Intel) 傳已向台灣載板製造商欣興、景碩與南電合計投入逾 50 億美元訂金，以確保長期產能，顯示主要晶片巨頭正共同加碼投資關鍵零組件，以緩解 AI 晶片供應瓶頸。",
+      "輝達為鞏固先進製程產能，已預付台積電約 500 億美元，鎖定其 2 奈米晶圓代工產能的約 60%，凸顯 AI 晶片製造對頂尖晶圓廠的依賴，以及輝達在未來算力供應上的主導地位與龐大資本投入。",
+      "晶片設計軟體公司 Cadence 推出 Maestro AI 模型，專為運行專業晶片設計代理程式而打造，預計於 2026 年第四季向特定客戶提供早期試用，此技術突破有望大幅提升晶片開發效率與速度。"
     ]
   },
   "github_repos": {
@@ -3674,7 +3681,7 @@
       "summary": "基於多 Agent 架構的金融交易與市場分析 LLM 開源框架。"
     }
   },
-  "last_run_date": "2026-10-28",
+  "last_run_date": "2026-10-29",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "infinityloop1308/pipepipe": "2026-09-28",
@@ -3831,6 +3838,13 @@
       "title": "Google's AI Infrastructure Chief, Amin Vahdat, on the Physics & Economics of Frontier AI",
       "featured": "2026-10-08",
       "headline": "Google AI 基礎設施總管 Amin Vahdat 解析前沿 AI 的物理與經濟學，以及 TPU 設計與規模化叢集的營運挑戰。"
+    },
+    "qhIabMKHJlA": {
+      "video_id": "qhIabMKHJlA",
+      "channel": "Sequoia Capital (Training Data)",
+      "title": "European Defense Sovereignty Starts in the Factory: Stark’s Uwe Horstmann and Johannes Schaback",
+      "featured": "2026-10-29",
+      "headline": "Sequoia 訪談 Stark 創辦團隊，探討如何以創投模式與量產思維構建自主國防無人機體系。"
     }
   }
 }
