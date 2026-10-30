@@ -3169,14 +3169,25 @@
     "https://openai.com/index/legora": "2026-10-29T01:52:24.423998+00:00",
     "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model": "2026-10-29T01:52:24.423998+00:00",
     "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary": "2026-10-29T01:52:24.423998+00:00",
-    "https://www.thoughtworks.com/insights/articles/rebuilding-self-hosted-github-actions-runners-on-aks": "2026-10-29T01:52:24.423998+00:00"
+    "https://www.thoughtworks.com/insights/articles/rebuilding-self-hosted-github-actions-runners-on-aks": "2026-10-29T01:52:24.423998+00:00",
+    "https://www.databricks.com/blog/announcing-general-availability-real-time-mode-spark-declarative-pipelines-databricks": "2026-10-30T02:02:58.669876+00:00",
+    "https://www.databricks.com/blog/smarter-cost-controls-serverless": "2026-10-30T02:02:58.669876+00:00",
+    "https://openai.com/index/updated-model-spec": "2026-10-30T02:02:58.669876+00:00",
+    "https://openai.com/index/how-we-detect-frontier-model-misalignment": "2026-10-30T02:02:58.669876+00:00",
+    "https://openai.com/index/ropes-gray-ai-diligence": "2026-10-30T02:02:58.669876+00:00",
+    "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials": "2026-10-30T02:02:58.669876+00:00",
+    "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1": "2026-10-30T02:02:58.669876+00:00",
+    "https://huggingface.co/blog/announcing-project-protostar": "2026-10-30T02:02:58.669876+00:00",
+    "https://huggingface.co/blog/mistral-large4": "2026-10-30T02:02:58.669876+00:00",
+    "https://huggingface.co/blog/anydecisionmodel": "2026-10-30T02:02:58.669876+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "points": [
-      "晶片供應鏈競爭加劇：輝達 (NVIDIA)、超微 (AMD) 與英特爾 (Intel) 傳已向台灣載板製造商欣興、景碩與南電合計投入逾 50 億美元訂金，以確保長期產能，顯示主要晶片巨頭正共同加碼投資關鍵零組件，以緩解 AI 晶片供應瓶頸。",
-      "輝達為鞏固先進製程產能，已預付台積電約 500 億美元，鎖定其 2 奈米晶圓代工產能的約 60%，凸顯 AI 晶片製造對頂尖晶圓廠的依賴，以及輝達在未來算力供應上的主導地位與龐大資本投入。",
-      "晶片設計軟體公司 Cadence 推出 Maestro AI 模型，專為運行專業晶片設計代理程式而打造，預計於 2026 年第四季向特定客戶提供早期試用，此技術突破有望大幅提升晶片開發效率與速度。"
+      "加拿大 AI 新創公司 Cohere 完成了加拿大史上最大規模的私人募資，目標達 70 億加元（估值 357 億加元），其中包含加拿大政府高達 16 億加元的投資，旨在推動國家 AI 主權並成為美國和中國之外的領先大型語言模型開發者，NVIDIA 亦為其回歸投資者。",
+      "Oracle 在 AI World 2026 大會上宣布其雲端基礎設施 (OCI) 將整合 NVIDIA Vera Rubin、Google TPU 等五種外部晶片架構，成為首個提供多種晶片選擇的超大規模雲端服務商，此舉將重塑 AI 算力供應格局。",
+      "Google DeepMind 發布了 Genie 4，這是一個世界模型 (world model)，能夠透過自然語言提示生成具備音訊和即時修改功能的逼真互動式虛擬環境，代表了生成式 AI 在創造互動式虛擬世界方面的重大進展。",
+      "專為個體經營者打造 AI 原生金融作業系統的 Collective 公司，在新一輪 1 億美元融資中展示了其 AI 解決方案的具體成效：AI 能自主處理一半的支援請求並達到 4.5 星滿意度，年度經常性收入 (ARR) 增長 120%，證明 AI 能透過智慧化而非增加人力來實現規模擴張。"
     ]
   },
   "github_repos": {
@@ -3562,8 +3573,8 @@
     },
     "pbakaus/impeccable": {
       "repo": "pbakaus/impeccable",
-      "last_featured": "2026-10-05",
-      "summary": "專為 AI Coding Agent 設計的前端介面與 UI/UX 規範工具。"
+      "last_featured": "2026-10-30",
+      "summary": "專為 AI Coding Agent 設計的前端 UI 審查工具發布 CLI 4.8.0"
     },
     "heygen-com/hyperframes": {
       "repo": "heygen-com/hyperframes",
@@ -3679,18 +3690,21 @@
       "repo": "TauricResearch/TradingAgents",
       "last_featured": "2026-10-28",
       "summary": "基於多 Agent 架構的金融交易與市場分析 LLM 開源框架。"
+    },
+    "zagitta/gpu-unlock": {
+      "repo": "Zagitta/gpu-unlock",
+      "last_featured": "2026-10-30",
+      "summary": "在 Linux 系統啟動時解除 NVIDIA GeForce 顯示卡的 Tensor Core 算力限制"
+    },
+    "jetbrains/thinkrail": {
+      "repo": "JetBrains/thinkrail",
+      "last_featured": "2026-10-30",
+      "summary": "JetBrains 開源的 Agentic IDE，圍繞 Coding Agent 打造隔離開發環境"
     }
   },
-  "last_run_date": "2026-10-29",
+  "last_run_date": "2026-10-30",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
-    "infinityloop1308/pipepipe": "2026-09-28",
-    "devdotfast/whiteboard": "2026-09-28",
-    "reladraw/reladraw": "2026-09-28",
-    "git-bug/git-bug": "2026-09-28",
-    "paperclipai/paperclip": "2026-09-28",
-    "vectorize-io/hindsight": "2026-09-28",
-    "davila7/claude-code-templates": "2026-09-28",
     "firelex/jeff": "2026-09-30",
     "ntfargo/relapse-exploit": "2026-09-30",
     "debpalash/voicestudio": "2026-09-30",
@@ -3700,7 +3714,7 @@
     "streetcomplete/streetcomplete": "2026-10-02",
     "niko1221/strata": "2026-10-05",
     "omlahore/removemacai": "2026-10-05",
-    "pbakaus/impeccable": "2026-10-05",
+    "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
     "effect-ts/effect": "2026-10-05",
     "maanhimself/opendlss-nr": "2026-10-07",
@@ -3745,7 +3759,11 @@
     "agricidaniel/claude-seo": "2026-10-28",
     "multica-ai/andrej-karpathy-skills": "2026-10-28",
     "tauricresearch/tradingagents": "2026-10-28",
-    "graphify-labs/graphify": "2026-10-28"
+    "graphify-labs/graphify": "2026-10-28",
+    "zagitta/gpu-unlock": "2026-10-30",
+    "notaroomba/keybytes": "2026-10-30",
+    "microsoft/pylance-release": "2026-10-30",
+    "jetbrains/thinkrail": "2026-10-30"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
