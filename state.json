@@ -3179,15 +3179,27 @@
     "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1": "2026-10-30T02:02:58.669876+00:00",
     "https://huggingface.co/blog/announcing-project-protostar": "2026-10-30T02:02:58.669876+00:00",
     "https://huggingface.co/blog/mistral-large4": "2026-10-30T02:02:58.669876+00:00",
-    "https://huggingface.co/blog/anydecisionmodel": "2026-10-30T02:02:58.669876+00:00"
+    "https://huggingface.co/blog/anydecisionmodel": "2026-10-30T02:02:58.669876+00:00",
+    "https://www.databricks.com/blog/databricks-and-sap-unleash-end-end-data-ai-capabilities-level-enterprise-ai-transformation": "2026-10-31T01:41:53.642266+00:00",
+    "https://www.databricks.com/blog/wealth-management-client-onboarding-needs-more-ai": "2026-10-31T01:41:53.642266+00:00",
+    "https://www.databricks.com/blog/deliberate-decisions-and-enterprise-ai-value": "2026-10-31T01:41:53.642266+00:00",
+    "https://openai.com/index/helping-websites-express-ai-training-preferences": "2026-10-31T01:41:53.642266+00:00",
+    "https://openai.com/index/community-safety-report-and-new-protections-for-teens": "2026-10-31T01:41:53.642266+00:00",
+    "https://openai.com/index/fair-use-benefits-everyone": "2026-10-31T01:41:53.642266+00:00",
+    "https://openai.com/index/credit-saison": "2026-10-31T01:41:53.642266+00:00",
+    "https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo": "2026-10-31T01:41:53.642266+00:00",
+    "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands": "2026-10-31T01:41:53.642266+00:00",
+    "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw": "2026-10-31T01:41:53.642266+00:00",
+    "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform": "2026-10-31T01:41:53.642266+00:00",
+    "https://huggingface.co/blog/nvidia/nemotron-halloween": "2026-10-31T01:41:53.642266+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "points": [
-      "加拿大 AI 新創公司 Cohere 完成了加拿大史上最大規模的私人募資，目標達 70 億加元（估值 357 億加元），其中包含加拿大政府高達 16 億加元的投資，旨在推動國家 AI 主權並成為美國和中國之外的領先大型語言模型開發者，NVIDIA 亦為其回歸投資者。",
-      "Oracle 在 AI World 2026 大會上宣布其雲端基礎設施 (OCI) 將整合 NVIDIA Vera Rubin、Google TPU 等五種外部晶片架構，成為首個提供多種晶片選擇的超大規模雲端服務商，此舉將重塑 AI 算力供應格局。",
-      "Google DeepMind 發布了 Genie 4，這是一個世界模型 (world model)，能夠透過自然語言提示生成具備音訊和即時修改功能的逼真互動式虛擬環境，代表了生成式 AI 在創造互動式虛擬世界方面的重大進展。",
-      "專為個體經營者打造 AI 原生金融作業系統的 Collective 公司，在新一輪 1 億美元融資中展示了其 AI 解決方案的具體成效：AI 能自主處理一半的支援請求並達到 4.5 星滿意度，年度經常性收入 (ARR) 增長 120%，證明 AI 能透過智慧化而非增加人力來實現規模擴張。"
+      "Amazon 宣布其 AI 基礎設施資本支出將在 2027 年「顯著增加」，預計超過 2026 年的 2200 億美元，導致其自由現金流轉負並引發投資者擔憂，股價下跌 6-7%。與此同時，Microsoft 的 AI 投資則獲得市場正面反應，其雲端業務成長強勁，且季度資本支出低於預期，顯示其 AI 策略在效率與回報上表現更佳。",
+      "研調機構 DIGITIMES 預估，2026 年全球 AI 伺服器出貨量將突破 250 萬台，其中搭載高頻寬記憶體 (HBM) 的高階 AI 伺服器將佔 237 萬台，較 2025 年成長 56%，凸顯 AI 基礎設施的快速擴張及 HBM 在供應鏈中的關鍵地位。",
+      "清華大學聯合無問芯穹、智元提出了一種機器人群體學習範式，而大曉機器人則發布了具身空間智能 (embodied spatial intelligence) API，在七項評測中表現超越 GPT-6 Astra，顯示具身 AI 在多智能體協作與空間理解能力方面取得實質進展。",
+      "台灣金管會調查顯示，2026 年金融業 AI 導入率升至 43%，其中生成式 AI 導入率達 76%，且有 33 家業者已採用代理式 AI (agentic AI)，應用目的從提升客戶體驗轉向「提升分析及決策效益」。此外，S&P Global 報告指出，越來越多銀行開始量化 AI 帶來的收益，全球前 50 大銀行中有 12 家已揭露 AI 實現或預期的投資回報 (ROI)，例如 JPMorgan Chase 投資 20 億美元實現約 20 億美元效益，Bank of America 投入 4 億美元產生 8 億美元效益。"
     ]
   },
   "github_repos": {
@@ -3702,7 +3714,7 @@
       "summary": "JetBrains 開源的 Agentic IDE，圍繞 Coding Agent 打造隔離開發環境"
     }
   },
-  "last_run_date": "2026-10-30",
+  "last_run_date": "2026-10-31",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "firelex/jeff": "2026-09-30",
