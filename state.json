@@ -3191,15 +3191,15 @@
     "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands": "2026-10-31T01:41:53.642266+00:00",
     "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw": "2026-10-31T01:41:53.642266+00:00",
     "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform": "2026-10-31T01:41:53.642266+00:00",
-    "https://huggingface.co/blog/nvidia/nemotron-halloween": "2026-10-31T01:41:53.642266+00:00"
+    "https://huggingface.co/blog/nvidia/nemotron-halloween": "2026-10-31T01:41:53.642266+00:00",
+    "https://www.databricks.com/blog/lakebase-branching-cicd-lessons-100-pr-databases": "2026-11-02T01:32:27.870242+00:00"
   },
   "last_pulse": {
-    "date": "2026-10-31",
+    "date": "2026-11-02",
     "points": [
-      "Amazon 宣布其 AI 基礎設施資本支出將在 2027 年「顯著增加」，預計超過 2026 年的 2200 億美元，導致其自由現金流轉負並引發投資者擔憂，股價下跌 6-7%。與此同時，Microsoft 的 AI 投資則獲得市場正面反應，其雲端業務成長強勁，且季度資本支出低於預期，顯示其 AI 策略在效率與回報上表現更佳。",
-      "研調機構 DIGITIMES 預估，2026 年全球 AI 伺服器出貨量將突破 250 萬台，其中搭載高頻寬記憶體 (HBM) 的高階 AI 伺服器將佔 237 萬台，較 2025 年成長 56%，凸顯 AI 基礎設施的快速擴張及 HBM 在供應鏈中的關鍵地位。",
-      "清華大學聯合無問芯穹、智元提出了一種機器人群體學習範式，而大曉機器人則發布了具身空間智能 (embodied spatial intelligence) API，在七項評測中表現超越 GPT-6 Astra，顯示具身 AI 在多智能體協作與空間理解能力方面取得實質進展。",
-      "台灣金管會調查顯示，2026 年金融業 AI 導入率升至 43%，其中生成式 AI 導入率達 76%，且有 33 家業者已採用代理式 AI (agentic AI)，應用目的從提升客戶體驗轉向「提升分析及決策效益」。此外，S&P Global 報告指出，越來越多銀行開始量化 AI 帶來的收益，全球前 50 大銀行中有 12 家已揭露 AI 實現或預期的投資回報 (ROI)，例如 JPMorgan Chase 投資 20 億美元實現約 20 億美元效益，Bank of America 投入 4 億美元產生 8 億美元效益。"
+      "蘋果與阿里巴巴達成戰略合作，將阿里巴巴旗下大型語言模型「千問」(Qwen) 正式整合至 Apple Intelligence 生態系統，首批核心功能預計於 11 月 4 日在中國開放測試，並隨 iOS 27.3 在 12 月正式推向中國用戶，此舉標誌著蘋果 AI 在中國市場的重大落地與策略聯盟。",
+      "AI 公司估值呈現兩極化，且投資者對回報的審查日益嚴格：OpenAI 據報已將最新一輪融資目標從 300 億美元下調至 200 億美元，目前僅獲約 110 億美元承諾，反映市場對基礎模型公司單位經濟效益 (unit economics) 的擔憂。與此同時，Anthropic 則提交 IPO 申請，目標估值高達 1.5 兆至 2 兆美元，尋求募資 1000 億美元以上。此外，S&P Global Ratings 將 Meta Platforms 的信用展望下調至負面，理由是其龐大的 AI 資本支出對資產負債表構成壓力，且 AI 投資何時能產生可觀收益仍不明朗。",
+      "技術突破方面，DeepSeek 推出自主「超級代理 (Super-Agent)」，能主動識別並建議程式碼問題解決方案，顯示 AI 代理在開發工作流程中自主性的顯著提升。同時，微軟的 AI 診斷系統在模擬測試中，正確識別 83% 的複雜醫療案例，遠超普通醫生 (36%)，展現 AI 在醫療診斷領域的實質性技術飛躍。"
     ]
   },
   "github_repos": {
@@ -3712,18 +3712,31 @@
       "repo": "JetBrains/thinkrail",
       "last_featured": "2026-10-30",
       "summary": "JetBrains 開源的 Agentic IDE，圍繞 Coding Agent 打造隔離開發環境"
+    },
+    "thedotmack/claude-mem": {
+      "repo": "thedotmack/claude-mem",
+      "last_featured": "2026-11-02",
+      "summary": "為 Claude Code 等 AI 編程 Agent 提供跨 Session 的持久化記憶與內容壓縮系統"
+    },
+    "obra/superpowers": {
+      "repo": "obra/superpowers",
+      "last_featured": "2026-11-02",
+      "summary": "針對 AI 編程 Agent 的軟體開發方法論與可複用技能框架"
+    },
+    "guregodevo/memdoor": {
+      "repo": "guregodevo/memdoor",
+      "last_featured": "2026-11-02",
+      "summary": "無需 Python 與 Docker 的單一 Go 靜態 Binary 編程與自動化 Agent 執行框架"
+    },
+    "dbreunig/nesformer": {
+      "repo": "dbreunig/nesformer",
+      "last_featured": "2026-11-02",
+      "summary": "將任天堂 NES 6502 CPU 直接編譯進 Qwen3.5 模型權重的創新實作"
     }
   },
-  "last_run_date": "2026-10-31",
+  "last_run_date": "2026-11-02",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
-    "firelex/jeff": "2026-09-30",
-    "ntfargo/relapse-exploit": "2026-09-30",
-    "debpalash/voicestudio": "2026-09-30",
-    "rohitg00/ai-engineering-from-scratch": "2026-09-30",
-    "vercel/next.js": "2026-09-30",
-    "ninjahawk/livenerf": "2026-10-02",
-    "streetcomplete/streetcomplete": "2026-10-02",
     "niko1221/strata": "2026-10-05",
     "omlahore/removemacai": "2026-10-05",
     "pbakaus/impeccable": "2026-10-30",
@@ -3736,7 +3749,7 @@
     "cursor/plugins": "2026-10-07",
     "nvidia/openshell": "2026-10-26",
     "vectifyai/pageindex": "2026-10-07",
-    "thedotmack/claude-mem": "2026-10-07",
+    "thedotmack/claude-mem": "2026-11-02",
     "boykopovar/anyps5": "2026-10-12",
     "franzenzenhofer/big-arrow-on-the-screen": "2026-10-12",
     "szabadkai/c64-keyboard-font": "2026-10-12",
@@ -3775,7 +3788,13 @@
     "zagitta/gpu-unlock": "2026-10-30",
     "notaroomba/keybytes": "2026-10-30",
     "microsoft/pylance-release": "2026-10-30",
-    "jetbrains/thinkrail": "2026-10-30"
+    "jetbrains/thinkrail": "2026-10-30",
+    "guregodevo/memdoor": "2026-11-02",
+    "kevinraymond/florilegium": "2026-11-02",
+    "herdrdev/herdr-app": "2026-11-02",
+    "chris124567/cfsolve": "2026-11-02",
+    "dbreunig/nesformer": "2026-11-02",
+    "obra/superpowers": "2026-11-02"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
