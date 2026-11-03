@@ -3192,14 +3192,28 @@
     "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw": "2026-10-31T01:41:53.642266+00:00",
     "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform": "2026-10-31T01:41:53.642266+00:00",
     "https://huggingface.co/blog/nvidia/nemotron-halloween": "2026-10-31T01:41:53.642266+00:00",
-    "https://www.databricks.com/blog/lakebase-branching-cicd-lessons-100-pr-databases": "2026-11-02T01:32:27.870242+00:00"
+    "https://www.databricks.com/blog/lakebase-branching-cicd-lessons-100-pr-databases": "2026-11-02T01:32:27.870242+00:00",
+    "https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud": "2026-11-03T03:31:22.743396+00:00",
+    "https://www.databricks.com/blog/how-procore-powering-construction-analytics-opensharing": "2026-11-03T03:31:22.743396+00:00",
+    "https://openai.com/index/scaling-git-at-openai": "2026-11-03T03:31:22.743396+00:00",
+    "https://openai.com/index/grid-protectors-program": "2026-11-03T03:31:22.743396+00:00",
+    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": "2026-11-03T03:31:22.743396+00:00",
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": "2026-11-03T03:31:22.743396+00:00",
+    "https://openai.com/index/lifeval": "2026-11-03T03:31:22.743396+00:00",
+    "https://openai.com/index/qodo-codex-plugin": "2026-11-03T03:31:22.743396+00:00",
+    "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution": "2026-11-03T03:31:22.743396+00:00",
+    "https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery": "2026-11-03T03:31:22.743396+00:00",
+    "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one": "2026-11-03T03:31:22.743396+00:00",
+    "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos": "2026-11-03T03:31:22.743396+00:00",
+    "https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map": "2026-11-03T03:31:22.743396+00:00",
+    "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai": "2026-11-03T03:31:22.743396+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "points": [
-      "蘋果與阿里巴巴達成戰略合作，將阿里巴巴旗下大型語言模型「千問」(Qwen) 正式整合至 Apple Intelligence 生態系統，首批核心功能預計於 11 月 4 日在中國開放測試，並隨 iOS 27.3 在 12 月正式推向中國用戶，此舉標誌著蘋果 AI 在中國市場的重大落地與策略聯盟。",
-      "AI 公司估值呈現兩極化，且投資者對回報的審查日益嚴格：OpenAI 據報已將最新一輪融資目標從 300 億美元下調至 200 億美元，目前僅獲約 110 億美元承諾，反映市場對基礎模型公司單位經濟效益 (unit economics) 的擔憂。與此同時，Anthropic 則提交 IPO 申請，目標估值高達 1.5 兆至 2 兆美元，尋求募資 1000 億美元以上。此外，S&P Global Ratings 將 Meta Platforms 的信用展望下調至負面，理由是其龐大的 AI 資本支出對資產負債表構成壓力，且 AI 投資何時能產生可觀收益仍不明朗。",
-      "技術突破方面，DeepSeek 推出自主「超級代理 (Super-Agent)」，能主動識別並建議程式碼問題解決方案，顯示 AI 代理在開發工作流程中自主性的顯著提升。同時，微軟的 AI 診斷系統在模擬測試中，正確識別 83% 的複雜醫療案例，遠超普通醫生 (36%)，展現 AI 在醫療診斷領域的實質性技術飛躍。"
+      "過去五個交易日，避險基金已出脫自 2025 年初以來累積的所有 AI 相關股票，淨賣出額在兩週內達到 2,000 億美元，顯示市場對 AI 投資回報時間線的擔憂加劇，並促使投資者重新評估 AI 相關資產的估值。",
+      "根據高盛 (Goldman Sachs) 於 2026 年 11 月 2 日發布的 AI 採用追蹤報告，AI 在金融業的採用率已接近 50%，其中導入生成式 AI 的企業平均生產力提升了 23%，公司報告則顯示效率提高了約 32%，這表明 AI 在金融領域的落地已開始產生具體成效。",
+      "投資者對大型科技公司 AI 資本支出的審查日益嚴格，特別是在 Alphabet 和 Meta 等公司報告高額資本支出計畫及潛在的負自由現金流後，市場對 AI 投資能否快速轉化為可觀收益的疑慮升高，導致相關股票面臨壓力。"
     ]
   },
   "github_repos": {
@@ -3734,7 +3748,7 @@
       "summary": "將任天堂 NES 6502 CPU 直接編譯進 Qwen3.5 模型權重的創新實作"
     }
   },
-  "last_run_date": "2026-11-02",
+  "last_run_date": "2026-11-03",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "niko1221/strata": "2026-10-05",
