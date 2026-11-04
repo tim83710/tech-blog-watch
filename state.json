@@ -3206,14 +3206,31 @@
     "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one": "2026-11-03T03:31:22.743396+00:00",
     "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos": "2026-11-03T03:31:22.743396+00:00",
     "https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map": "2026-11-03T03:31:22.743396+00:00",
-    "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai": "2026-11-03T03:31:22.743396+00:00"
+    "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai": "2026-11-03T03:31:22.743396+00:00",
+    "https://www.databricks.com/blog/claude-platform-now-supports-native-opentelemetry-observability-databricks-mlflow": "2026-11-04T02:28:32.312871+00:00",
+    "https://www.databricks.com/blog/declare-and-optimize-unique-constraints-databricks": "2026-11-04T02:28:32.312871+00:00",
+    "https://openai.com/index/accelerating-engineering-for-the-physical-world": "2026-11-04T02:28:32.312871+00:00",
+    "https://openai.com/index/cisco-cyber": "2026-11-04T02:28:32.312871+00:00",
+    "https://openai.com/index/heimstaden": "2026-11-04T02:28:32.312871+00:00",
+    "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer": "2026-11-04T02:28:32.312871+00:00",
+    "https://openai.com/index/dan-driscoll-joins-openai": "2026-11-04T02:28:32.312871+00:00",
+    "https://openai.com/ads/customers/evernote": "2026-11-04T02:28:32.312871+00:00",
+    "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity": "2026-11-04T02:28:32.312871+00:00",
+    "https://huggingface.co/blog/allenai/statebench": "2026-11-04T02:28:32.312871+00:00",
+    "https://huggingface.co/blog/ibm-research/palette-deck-building": "2026-11-04T02:28:32.312871+00:00",
+    "https://huggingface.co/blog/cwe-bench": "2026-11-04T02:28:32.312871+00:00",
+    "https://huggingface.co/blog/transformers-mic": "2026-11-04T02:28:32.312871+00:00",
+    "https://www.thoughtworks.com/insights/articles/why-quantum-is-the-catalyst-ai": "2026-11-04T02:28:32.312871+00:00",
+    "https://www.thoughtworks.com/insights/articles/the-token-bleed-reality": "2026-11-04T02:28:32.312871+00:00",
+    "https://www.thoughtworks.com/insights/blog/data-strategy/ai-readiness-starts-with-data-ownership": "2026-11-04T02:28:32.312871+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "points": [
-      "過去五個交易日，避險基金已出脫自 2025 年初以來累積的所有 AI 相關股票，淨賣出額在兩週內達到 2,000 億美元，顯示市場對 AI 投資回報時間線的擔憂加劇，並促使投資者重新評估 AI 相關資產的估值。",
-      "根據高盛 (Goldman Sachs) 於 2026 年 11 月 2 日發布的 AI 採用追蹤報告，AI 在金融業的採用率已接近 50%，其中導入生成式 AI 的企業平均生產力提升了 23%，公司報告則顯示效率提高了約 32%，這表明 AI 在金融領域的落地已開始產生具體成效。",
-      "投資者對大型科技公司 AI 資本支出的審查日益嚴格，特別是在 Alphabet 和 Meta 等公司報告高額資本支出計畫及潛在的負自由現金流後，市場對 AI 投資能否快速轉化為可觀收益的疑慮升高，導致相關股票面臨壓力。"
+      "Marvell Technology 宣布以 1,150 億美元的全股票交易收購 Lumentum Holdings，旨在成為 AI 連接領域的領導者，以應對 AI 基礎設施朝光學連接的根本性架構轉變。",
+      "產業分析師報告指出，AI 推論 (inference) 在支出和算力需求上正超越模型訓練 (training)，預計 2026 年 AI 優化雲端基礎設施支出中，推論將佔 55% 至 60%，顯示 AI 部署的經濟模式與基礎設施需求正發生根本性轉變。",
+      "研究人員展示一項技術突破，將小型語言模型 (small language models, LLMs) 與強化學習結合，透過訊號時序邏輯 (signal temporal logic) 將自然語言指令轉化為精確的機器人路徑規劃，有望大幅降低 AI 機器人部署對大型基礎模型的需求。",
+      "儘管金融機構對 AI 採用率持續提升，Wipfli 報告指出近六成銀行高管表示 AI 成果超出預期，並有五成計劃擴大在詐欺與金融犯罪預防方面的 AI 投資；然而，Signicat 報告也顯示消費者普遍不願讓 AI 代理執行簽署合約或開設帳戶等敏感金融操作，凸顯 AI 在金融服務落地仍面臨使用者信任的挑戰。"
     ]
   },
   "github_repos": {
@@ -3746,9 +3763,29 @@
       "repo": "dbreunig/nesformer",
       "last_featured": "2026-11-02",
       "summary": "將任天堂 NES 6502 CPU 直接編譯進 Qwen3.5 模型權重的創新實作"
+    },
+    "pingdotgg/t3code": {
+      "repo": "pingdotgg/t3code",
+      "last_featured": "2026-11-04",
+      "summary": "跨平台的 AI Agent 遠端控制面板與桌面/行動端介面"
+    },
+    "ivankovic/omnidiff": {
+      "repo": "ivankovic/omnidiff",
+      "last_featured": "2026-11-04",
+      "summary": "用 Rust 打造的高速內容感知 Git 程式碼與多媒體 diff 工具"
+    },
+    "jiafeimiao-k-cat/discimagestudio": {
+      "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "last_featured": "2026-11-04",
+      "summary": "利用普通光碟燒錄機在 CD、DVD 及藍光盤面刻蝕可視圖像的工具"
+    },
+    "agricidaniel/claude-seo": {
+      "repo": "AgriciDaniel/claude-seo",
+      "last_featured": "2026-11-04",
+      "summary": "專為 Claude Code 設計的開源自動化 SEO 與 AI 搜尋 (GEO) 審計技能包"
     }
   },
-  "last_run_date": "2026-11-03",
+  "last_run_date": "2026-11-04",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "niko1221/strata": "2026-10-05",
@@ -3795,7 +3832,7 @@
     "ruvnet/ruflo": "2026-10-26",
     "anomalyco/opencode": "2026-10-26",
     "stablyai/orca": "2026-10-26",
-    "agricidaniel/claude-seo": "2026-10-28",
+    "agricidaniel/claude-seo": "2026-11-04",
     "multica-ai/andrej-karpathy-skills": "2026-10-28",
     "tauricresearch/tradingagents": "2026-10-28",
     "graphify-labs/graphify": "2026-10-28",
@@ -3808,7 +3845,11 @@
     "herdrdev/herdr-app": "2026-11-02",
     "chris124567/cfsolve": "2026-11-02",
     "dbreunig/nesformer": "2026-11-02",
-    "obra/superpowers": "2026-11-02"
+    "obra/superpowers": "2026-11-02",
+    "postmanlabs/postman-app-support": "2026-11-04",
+    "jiafeimiao-k-cat/discimagestudio": "2026-11-04",
+    "ivankovic/omnidiff": "2026-11-04",
+    "pingdotgg/t3code": "2026-11-04"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
