@@ -3222,15 +3222,27 @@
     "https://huggingface.co/blog/transformers-mic": "2026-11-04T02:28:32.312871+00:00",
     "https://www.thoughtworks.com/insights/articles/why-quantum-is-the-catalyst-ai": "2026-11-04T02:28:32.312871+00:00",
     "https://www.thoughtworks.com/insights/articles/the-token-bleed-reality": "2026-11-04T02:28:32.312871+00:00",
-    "https://www.thoughtworks.com/insights/blog/data-strategy/ai-readiness-starts-with-data-ownership": "2026-11-04T02:28:32.312871+00:00"
+    "https://www.thoughtworks.com/insights/blog/data-strategy/ai-readiness-starts-with-data-ownership": "2026-11-04T02:28:32.312871+00:00",
+    "https://www.databricks.com/blog/introducing-apache-spark-43-now-available-databricks-runtime-19": "2026-11-05T02:38:07.531084+00:00",
+    "https://www.databricks.com/blog/enterprise-case-open-weight-models-databricks": "2026-11-05T02:38:07.531084+00:00",
+    "https://openai.com/index/openai-to-acquire-pierre": "2026-11-05T02:38:07.531084+00:00",
+    "https://openai.com/index/daybreak-red-aws-govcloud": "2026-11-05T02:38:07.531084+00:00",
+    "https://openai.com/index/a-thousand-fewer-paths-to-root": "2026-11-05T02:38:07.531084+00:00",
+    "https://openai.com/index/introducing-images-2-6": "2026-11-05T02:38:07.531084+00:00",
+    "https://openai.com/index/devrev-enterprise-self-service": "2026-11-05T02:38:07.531084+00:00",
+    "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations": "2026-11-05T02:38:07.531084+00:00",
+    "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support": "2026-11-05T02:38:07.531084+00:00",
+    "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues": "2026-11-05T02:38:07.531084+00:00",
+    "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes": "2026-11-05T02:38:07.531084+00:00",
+    "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas": "2026-11-05T02:38:07.531084+00:00",
+    "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor": "2026-11-05T02:38:07.531084+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/harness-is-a-product": "2026-11-05T02:38:07.531084+00:00",
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/macro-trends-tech-industry-november-2026": "2026-11-05T02:38:07.531084+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "points": [
-      "Marvell Technology 宣布以 1,150 億美元的全股票交易收購 Lumentum Holdings，旨在成為 AI 連接領域的領導者，以應對 AI 基礎設施朝光學連接的根本性架構轉變。",
-      "產業分析師報告指出，AI 推論 (inference) 在支出和算力需求上正超越模型訓練 (training)，預計 2026 年 AI 優化雲端基礎設施支出中，推論將佔 55% 至 60%，顯示 AI 部署的經濟模式與基礎設施需求正發生根本性轉變。",
-      "研究人員展示一項技術突破，將小型語言模型 (small language models, LLMs) 與強化學習結合，透過訊號時序邏輯 (signal temporal logic) 將自然語言指令轉化為精確的機器人路徑規劃，有望大幅降低 AI 機器人部署對大型基礎模型的需求。",
-      "儘管金融機構對 AI 採用率持續提升，Wipfli 報告指出近六成銀行高管表示 AI 成果超出預期，並有五成計劃擴大在詐欺與金融犯罪預防方面的 AI 投資；然而，Signicat 報告也顯示消費者普遍不願讓 AI 代理執行簽署合約或開設帳戶等敏感金融操作，凸顯 AI 在金融服務落地仍面臨使用者信任的挑戰。"
+      "根據 Creatio 最新報告，金融服務業在 AI 代理 (AI agents) 的規模化部署上取得顯著進展，81% 的金融機構正在擴大 AI 代理應用，其中高度自動化的公司有 44% 在過去六個月內實現了營收增長，顯示 AI 在金融業的落地正從實驗階段轉向實質的財務效益。"
     ]
   },
   "github_repos": {
@@ -3785,7 +3797,7 @@
       "summary": "專為 Claude Code 設計的開源自動化 SEO 與 AI 搜尋 (GEO) 審計技能包"
     }
   },
-  "last_run_date": "2026-11-04",
+  "last_run_date": "2026-11-05",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "niko1221/strata": "2026-10-05",
