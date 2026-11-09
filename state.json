@@ -3237,12 +3237,35 @@
     "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas": "2026-11-05T02:38:07.531084+00:00",
     "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor": "2026-11-05T02:38:07.531084+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/harness-is-a-product": "2026-11-05T02:38:07.531084+00:00",
-    "https://www.thoughtworks.com/insights/blog/technology-strategy/macro-trends-tech-industry-november-2026": "2026-11-05T02:38:07.531084+00:00"
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/macro-trends-tech-industry-november-2026": "2026-11-05T02:38:07.531084+00:00",
+    "https://www.databricks.com/blog/read-dont-copy-replacing-file-feeds-opensharing-part-2-how-implement": "2026-11-09T01:27:48.372075+00:00",
+    "https://www.databricks.com/blog/read-dont-copy-replacing-file-and-api-feeds-opensharing-part-1-why": "2026-11-09T01:27:48.372075+00:00",
+    "https://www.databricks.com/blog/how-public-sector-organizations-can-govern-ai-scale": "2026-11-09T01:27:48.372075+00:00",
+    "https://www.databricks.com/blog/real-time-fraud-detection-feature-views": "2026-11-09T01:27:48.372075+00:00",
+    "https://www.databricks.com/blog/builders-guide-scaling-databricks-apps": "2026-11-09T01:27:48.372075+00:00",
+    "https://www.databricks.com/blog/which-data-collaboration-tool-opensharing-clean-rooms-marketplace": "2026-11-09T01:27:48.372075+00:00",
+    "https://openai.com/index/partnering-with-hacktron": "2026-11-09T01:27:48.372075+00:00",
+    "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": "2026-11-09T01:27:48.372075+00:00",
+    "https://openai.com/index/australian-universities-ai-native-graduates": "2026-11-09T01:27:48.372075+00:00",
+    "https://openai.com/index/cultfit-builds-with-codex": "2026-11-09T01:27:48.372075+00:00",
+    "https://openai.com/index/introducing-gpt-6-cyber": "2026-11-09T01:27:48.372075+00:00",
+    "https://openai.com/index/merge-builds-with-openai": "2026-11-09T01:27:48.372075+00:00",
+    "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus": "2026-11-09T01:27:48.372075+00:00",
+    "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective": "2026-11-09T01:27:48.372075+00:00",
+    "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os": "2026-11-09T01:27:48.372075+00:00",
+    "https://developer.nvidia.com/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory": "2026-11-09T01:27:48.372075+00:00",
+    "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors": "2026-11-09T01:27:48.372075+00:00",
+    "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips": "2026-11-09T01:27:48.372075+00:00",
+    "https://huggingface.co/blog/allenai/toyblocks": "2026-11-09T01:27:48.372075+00:00",
+    "https://huggingface.co/blog/open-asr-leaderboard-liva": "2026-11-09T01:27:48.372075+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-05",
+    "date": "2026-11-09",
     "points": [
-      "根據 Creatio 最新報告，金融服務業在 AI 代理 (AI agents) 的規模化部署上取得顯著進展，81% 的金融機構正在擴大 AI 代理應用，其中高度自動化的公司有 44% 在過去六個月內實現了營收增長，顯示 AI 在金融業的落地正從實驗階段轉向實質的財務效益。"
+      "美國中期選舉結果對 AI 產業基礎設施帶來顯著衝擊，多地選民否決資料中心建設計畫，導致 AI 相關股票大跌，那斯達克指數下跌 5.5%，晶片股跌幅超過 12%，Nvidia 市值蒸發約 4500 億美元；然而，OpenAI 仍表態將持續積極投資 AI 資料中心，不受選舉結果影響。",
+      "據 METR 獨立評估，Anthropic 的 AI 研究進展顯著加速，其 AI 系統正以約兩倍於以往的速度推動自身發展，研究人員能更快地將想法轉化為實驗並減少編碼時間，儘管大部分證據被 redacted，這仍顯示 AI 在加速自身發展方面取得實質性突破。",
+      "OpenAI 據報獲得約 110 億美元的新一輪融資，投資者準備將其估值推至 1.25 兆美元，這顯示儘管市場波動，頂級 AI 公司仍持續獲得大量資本青睞。",
+      "Meta 推出其 AI 助理 Muse 的「Spaces」功能，允許用戶將提示轉化為持久、類似應用程式的工作空間，並強化了「Active Memory」記憶能力，使其遺忘關鍵資訊的可能性降低 2.4 倍，並在內部評估中將自我修正能力提升 67%，大幅提升了 AI 代理 (AI agents) 維持上下文和執行複雜任務的效率。"
     ]
   },
   "github_repos": {
@@ -3408,8 +3431,8 @@
     },
     "anthropics/claude-code": {
       "repo": "anthropics/claude-code",
-      "last_featured": "2026-08-25",
-      "summary": "Anthropic 官方推出的終端機 Agent 程式碼助手，能直接理解專案庫並執行開發任務。"
+      "last_featured": "2026-11-09",
+      "summary": "Anthropic 終端機 Agent 助手更新，支援 MCP 背景任務與 latency 最佳化分析"
     },
     "volcengine/openviking": {
       "repo": "volcengine/OpenViking",
@@ -3795,23 +3818,29 @@
       "repo": "AgriciDaniel/claude-seo",
       "last_featured": "2026-11-04",
       "summary": "專為 Claude Code 設計的開源自動化 SEO 與 AI 搜尋 (GEO) 審計技能包"
+    },
+    "nvidia/auto-ontology": {
+      "repo": "NVIDIA/auto-ontology",
+      "last_featured": "2026-11-09",
+      "summary": "NVIDIA 開源的資料語意與本體論層，專為 Agent 與 Text-to-SQL 提供精確上下文"
+    },
+    "ppmpreetham/bui": {
+      "repo": "ppmpreetham/BUI",
+      "last_featured": "2026-11-09",
+      "summary": "將 Blender 介面引擎解耦獨立的跨語言 GUI 函式庫"
+    },
+    "max-sixty/worktrunk": {
+      "repo": "max-sixty/worktrunk",
+      "last_featured": "2026-11-09",
+      "summary": "專為 AI Agent 平行開發工作流設計的 Git Worktree 管理 CLI"
     }
   },
-  "last_run_date": "2026-11-05",
+  "last_run_date": "2026-11-09",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
-    "niko1221/strata": "2026-10-05",
-    "omlahore/removemacai": "2026-10-05",
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
-    "effect-ts/effect": "2026-10-05",
-    "maanhimself/opendlss-nr": "2026-10-07",
-    "rui314/mold": "2026-10-07",
-    "fesens/opentpu": "2026-10-07",
-    "mvschwarz/openrig": "2026-10-07",
-    "cursor/plugins": "2026-10-07",
     "nvidia/openshell": "2026-10-26",
-    "vectifyai/pageindex": "2026-10-07",
     "thedotmack/claude-mem": "2026-11-02",
     "boykopovar/anyps5": "2026-10-12",
     "franzenzenhofer/big-arrow-on-the-screen": "2026-10-12",
@@ -3861,7 +3890,16 @@
     "postmanlabs/postman-app-support": "2026-11-04",
     "jiafeimiao-k-cat/discimagestudio": "2026-11-04",
     "ivankovic/omnidiff": "2026-11-04",
-    "pingdotgg/t3code": "2026-11-04"
+    "pingdotgg/t3code": "2026-11-04",
+    "nvidia/auto-ontology": "2026-11-09",
+    "anthropics/claude-code": "2026-11-09",
+    "ppmpreetham/bui": "2026-11-09",
+    "privsec-dev/banking-apps-compat-report": "2026-11-09",
+    "saragordic/window-sweaters": "2026-11-09",
+    "max-sixty/worktrunk": "2026-11-09",
+    "anthropics/skills": "2026-11-09",
+    "donchitos/claude-code-game-studios": "2026-11-09",
+    "milind-soni/openmausbot": "2026-11-09"
   },
   "youtube_seen": {
     "3uSI8q_RN-o": {
