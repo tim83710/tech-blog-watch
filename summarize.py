@@ -5,7 +5,7 @@ import json
 import time
 from pathlib import Path
 
-import httpx
+import httpx2  # google-genai 3.x 的傳輸層（httpx 的 drop-in fork；3.0 起不再附帶 httpx）
 from google import genai
 from google.genai import errors as genai_errors
 from pydantic import BaseModel
@@ -34,7 +34,9 @@ def make_client(api_key: str) -> genai.Client:
     # 設 HTTP timeout（毫秒）：API 收了連線卻不回應時不再無限等待，避免整個 Actions job
     # 卡到 6h 上限被強制取消（曾發生：見 CLAUDE.md「容易踩雷」）。timeout 會被 generate_with_retry
     # 當成暫時性錯誤退避重試，仍失敗才降級回 None。
-    return genai.Client(api_key=api_key, http_options={"timeout": 120_000})
+    # api_version 必須明寫 v1beta：google-genai 3.0 起預設改走 v1，而 v1 不支援
+    # system_instruction / Google Search grounding（400 "Developer instruction is not enabled"）。
+    return genai.Client(api_key=api_key, http_options={"timeout": 120_000, "api_version": "v1beta"})
 
 
 def generate_with_retry(client: genai.Client, model: str, contents: str, config: dict, label: str):
@@ -53,7 +55,7 @@ def generate_with_retry(client: genai.Client, model: str, contents: str, config:
                 continue
             print(f"    [warn] Gemini API error for {label}: {e}")
             return None
-        except (httpx.TimeoutException, httpx.TransportError) as e:  # 連線/讀取逾時或斷線 → 視同暫時性
+        except (httpx2.TimeoutException, httpx2.TransportError) as e:  # 連線/讀取逾時或斷線 → 視同暫時性
             if attempt < 3:
                 wait = 8 * (attempt + 1)
                 print(f"    [timeout] {type(e).__name__}，{wait}s 後重試 …")
