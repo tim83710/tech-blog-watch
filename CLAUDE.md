@@ -37,6 +37,7 @@
 
 - **google-genai SDK 鎖大版本（`>=3.0,<4`）**：2026-11-06 釋出 3.0 時沒鎖上限，CI 自動升級直接停發 3 天。3.0 兩個破壞性變更：①傳輸層改 `httpx2`、不再附帶 `httpx`（`summarize.py` 接逾時例外要用 `httpx2`）；②Developer API 預設改走 `v1`，不支援 system_instruction／grounding → `make_client` 必須明寫 `api_version: "v1beta"`。升下一個大版本前先本機開乾淨 venv 實測摘要＋pulse 各一次。SDK 版本不影響計費，免費與否只看 key 與模型
 - **首次執行**：`state.json` 空時 `main.py` 自動走 seed 模式（只標記已看過、不摘要不發送），避免第一次把整個 backlog 灌成巨量 digest。要重置就把 `state.json` 清成 `{"seen": {}}`。
+- **被 Cloudflare 擋的文章頁 → `fetch_fallback: url_context`**：OpenAI News 文章頁有 JS challenge，runner（連瀏覽器 UA）一律 403，RSS 只給 ~150 字。解法是在 `sources.yaml` 該來源設 `fetch_fallback: url_context`：本地抓不到時改讓 Gemini URL context 工具代讀正文（`summarize.extract_via_url_context`，規則在 `prompts/url-context-extract.md`），再走一般摘要。只在 `url_retrieval_status` 為 SUCCESS 時採信，否則照「內文太短」略過；每篇多 1 次 API 呼叫（免費 key 可用，2026-11-09 實測 3.6-flash/2.5-flash 皆可）。不要用 TLS 偽裝之類手段硬闖 Cloudflare
 - **無 RSS 的來源**（Databricks、Anthropic、OpenAI Developers）走 scrape，靠 `sources.yaml` 的 `link_pattern` 從列表頁挑文章連結；對方改版時 pattern 可能要調。
 - **排程與 guard**：cron 是 UTC（`17 22 * * *` = 台北 06:17；避開整點/半點）。main.py 的 `--once-per-day`（比對 `state.json` 的 `last_run_date`，台北日期）擋同日重複觸發——手動 dispatch 測試或將來的外部排程器都靠它。**workflow 的 checkout 必須留 `ref: main`**：schedule run 的 GITHUB_SHA 釘在 run 建立當下的 commit，排隊排到前一個 run push 完 state 之後才跑的話，不加 ref 會讀到舊 state、guard 失效重複發信。`skip_weekdays: [6]`＝台北週日整天不發（gate 在 main.py，不動 cron——延遲跨日會讓 cron 層的星期判斷不可靠），當天不抓不標記、內容滾入週一。
 - **改 workflow 或 secrets 後**，下一次排程或手動 `workflow_dispatch` 才生效。手動 dispatch 勾 `force` 可跳過 `--once-per-day`（同日重跑測試用）。

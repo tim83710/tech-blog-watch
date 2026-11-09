@@ -1,4 +1,8 @@
-"""用 Gemini 把單篇文章摘要成結構化欄位。摘要規則的單一事實來源是 prompts/blog-digest.md。"""
+"""用 Gemini 把單篇文章摘要成結構化欄位。摘要規則的單一事實來源是 prompts/blog-digest.md。
+
+另含 extract_via_url_context：本地抓不到內文（如 Cloudflare 擋 runner）時，讓 Gemini 的
+URL context 工具代讀正文；擷取規則的單一事實來源是 prompts/url-context-extract.md。
+"""
 from __future__ import annotations
 
 import json
@@ -8,9 +12,11 @@ from pathlib import Path
 import httpx2  # google-genai 3.x 的傳輸層（httpx 的 drop-in fork；3.0 起不再附帶 httpx）
 from google import genai
 from google.genai import errors as genai_errors
+from google.genai import types
 from pydantic import BaseModel
 
 PROMPT_PATH = Path(__file__).resolve().parent / "prompts" / "blog-digest.md"
+EXTRACT_PROMPT_PATH = Path(__file__).resolve().parent / "prompts" / "url-context-extract.md"
 
 
 # 結構化輸出 schema —— Slack 與 Email 各自從這些欄位 render。
@@ -93,3 +99,22 @@ def summarize(client: genai.Client, model: str, item, article_text: str) -> dict
     except (json.JSONDecodeError, TypeError, AttributeError):
         print(f"    [warn] non-JSON summary for {item.url}")
         return None
+
+
+def extract_via_url_context(client: genai.Client, model: str, url: str, char_limit: int) -> str:
+    """用 Gemini URL context 工具代讀文章正文（Google 端抓取）。只在擷取狀態為 SUCCESS 時
+    採信輸出，避免模型讀不到頁面時憑標題腦補；失敗回傳空字串（呼叫端照「內文太短」略過）。"""
+    config = {
+        "system_instruction": EXTRACT_PROMPT_PATH.read_text(encoding="utf-8"),
+        "tools": [types.Tool(url_context=types.UrlContext())],
+        "temperature": 0,
+    }
+    resp = generate_with_retry(client, model, url, config, label=f"url_context {url}")
+    if resp is None or not resp.candidates:
+        return ""
+    meta = getattr(resp.candidates[0], "url_context_metadata", None)
+    statuses = [m.url_retrieval_status for m in (meta.url_metadata or [])] if meta else []
+    if types.UrlRetrievalStatus.URL_RETRIEVAL_STATUS_SUCCESS not in statuses:
+        print(f"    [warn] url_context 讀取失敗：{[str(x) for x in statuses] or '無 metadata'}")
+        return ""
+    return (resp.text or "").strip()[:char_limit]

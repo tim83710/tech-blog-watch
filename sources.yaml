@@ -6,6 +6,7 @@
 #   url           RSS feed 網址（rss）或列表頁網址（scrape）
 #   base          （scrape 專用）相對連結要補上的網域
 #   link_pattern  （scrape 專用）文章連結的 regex，用來從列表頁挑出文章 URL
+#   fetch_fallback（選填）url_context＝本地抓不到內文時改讓 Gemini URL context 代讀（被 Cloudflare 擋的站用）
 #
 # 加新來源：RSS 有就用 rss（穩），沒有就用 scrape + link_pattern。
 
@@ -80,6 +81,9 @@ sources:
     company: OpenAI
     mode: rss
     url: https://openai.com/news/rss.xml
+    # 文章頁有 Cloudflare JS challenge，runner 一律 403（RSS 本身沒擋，但只給 ~150 字摘要）
+    # → 本地抓不到時改用 Gemini URL context 代讀（每篇多 1 次 API 呼叫，免費 key 可用）
+    fetch_fallback: url_context
 
   - name: OpenAI Developers
     company: OpenAI

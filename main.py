@@ -227,6 +227,8 @@ def main() -> int:
     settings = cfg.get("settings", {})
     sources = cfg["sources"]
     company_map = {s["name"]: s.get("company", s["name"]) for s in sources}
+    # fetch_fallback: url_context 的來源：本地抓不到內文時改讓 Gemini 代讀（見 sources.yaml）
+    url_context_sources = {s["name"] for s in sources if s.get("fetch_fallback") == "url_context"}
     # 模型優先序：GEMINI_MODEL 環境變數 > sources.yaml 的 model > 預設
     model = os.environ.get("GEMINI_MODEL") or settings.get("model", "gemini-2.5-flash")
     char_limit = settings.get("article_char_limit", 12000)
@@ -325,6 +327,9 @@ def main() -> int:
     for it in new_items:
         print(f"  摘要 {it.source}: {it.title[:60]} …")
         text, extracted_title = fetch.extract_article(it.url, char_limit)
+        if (not text or len(text) < 200) and it.source in url_context_sources:
+            print("    [fallback] 本地抓不到內文，改用 Gemini URL context 代讀 …")
+            text = summarize.extract_via_url_context(client, model, it.url, char_limit)
         if not text or len(text) < 200:
             print("    [skip] 內文太短或抓不到，略過（仍標記已看過）")
             continue
