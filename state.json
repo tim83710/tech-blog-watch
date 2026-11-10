@@ -3246,15 +3246,35 @@
     "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors": "2026-11-09T01:27:48.372075+00:00",
     "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips": "2026-11-09T01:27:48.372075+00:00",
     "https://huggingface.co/blog/allenai/toyblocks": "2026-11-09T01:27:48.372075+00:00",
-    "https://huggingface.co/blog/open-asr-leaderboard-liva": "2026-11-09T01:27:48.372075+00:00"
+    "https://huggingface.co/blog/open-asr-leaderboard-liva": "2026-11-09T01:27:48.372075+00:00",
+    "https://www.databricks.com/blog/databricks-commitment-european-sovereignty": "2026-11-10T04:26:22.071016+00:00",
+    "https://www.databricks.com/blog/accelerate-gpu-training-unity-catalog-tables-ucdataset": "2026-11-10T04:26:22.071016+00:00",
+    "https://www.databricks.com/blog/turn-buying-signals-pipeline-sendoso-gifts-genie-one": "2026-11-10T04:26:22.071016+00:00",
+    "https://www.databricks.com/blog/delta-sharing-opensharing-what-changed-whats-next": "2026-11-10T04:26:22.071016+00:00",
+    "https://openai.com/index/chatgpt-enterprise-aws-marketplace": "2026-11-10T04:26:22.071016+00:00",
+    "https://openai.com/index/control-room": "2026-11-10T04:26:22.071016+00:00",
+    "https://openai.com/index/coderabbit-codex-daybreak": "2026-11-10T04:26:22.071016+00:00",
+    "https://openai.com/index/kuken": "2026-11-10T04:26:22.071016+00:00",
+    "https://openai.com/index/partnering-with-hacktron": "2026-11-10T04:26:22.071016+00:00",
+    "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": "2026-11-10T04:26:22.071016+00:00",
+    "https://developers.openai.com/blog/build-a-game-with-modretro-chromatic": "2026-11-10T04:26:22.071016+00:00",
+    "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5": "2026-11-10T04:26:22.071016+00:00",
+    "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer": "2026-11-10T04:26:22.071016+00:00",
+    "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan": "2026-11-10T04:26:22.071016+00:00",
+    "https://huggingface.co/blog/amazon/higher-order-pruning-experts": "2026-11-10T04:26:22.071016+00:00",
+    "https://huggingface.co/blog/phonon-tts": "2026-11-10T04:26:22.071016+00:00",
+    "https://thinkingmachines.ai/news/inkling-2-small": "2026-11-10T04:26:22.071016+00:00",
+    "https://www.thoughtworks.com/insights/blog/careers-at-thoughtworks/the-people-behind-our-onboarding-experience": "2026-11-10T04:26:22.071016+00:00",
+    "https://www.thoughtworks.com/insights/blog/data-strategy/closing-the-context-gap-is-what-banking-ai-needs": "2026-11-10T04:26:22.071016+00:00",
+    "https://www.thoughtworks.com/insights/blog/why-a-language-model-misses-fraud-in-your-transaction-data": "2026-11-10T04:26:22.071016+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "points": [
-      "美國中期選舉結果對 AI 產業基礎設施帶來顯著衝擊，多地選民否決資料中心建設計畫，導致 AI 相關股票大跌，那斯達克指數下跌 5.5%，晶片股跌幅超過 12%，Nvidia 市值蒸發約 4500 億美元；然而，OpenAI 仍表態將持續積極投資 AI 資料中心，不受選舉結果影響。",
-      "據 METR 獨立評估，Anthropic 的 AI 研究進展顯著加速，其 AI 系統正以約兩倍於以往的速度推動自身發展，研究人員能更快地將想法轉化為實驗並減少編碼時間，儘管大部分證據被 redacted，這仍顯示 AI 在加速自身發展方面取得實質性突破。",
-      "OpenAI 據報獲得約 110 億美元的新一輪融資，投資者準備將其估值推至 1.25 兆美元，這顯示儘管市場波動，頂級 AI 公司仍持續獲得大量資本青睞。",
-      "Meta 推出其 AI 助理 Muse 的「Spaces」功能，允許用戶將提示轉化為持久、類似應用程式的工作空間，並強化了「Active Memory」記憶能力，使其遺忘關鍵資訊的可能性降低 2.4 倍，並在內部評估中將自我修正能力提升 67%，大幅提升了 AI 代理 (AI agents) 維持上下文和執行複雜任務的效率。"
+      "Apple 於 11 月 9 日正式宣布將阿里巴巴的 Qwen 大型語言模型整合至其中國區服務，此舉使 Apple 得以在符合當地嚴格法規的前提下，為中國用戶提供 AI 功能，標誌著 Apple 首次針對特定地理市場進行大規模第三方 AI 整合，顯示其在 AI 策略上的區域彈性。",
+      "Meta Superintelligence Lab 於 11 月 9 日推出其最輕量且最具成本效益的 AI 模型 Muse Ember，該模型專為代理執行 (agent execution) 和重複性任務優化，定價為每百萬 token 10 美分，旨在以高準確度挑戰 Anthropic Haiku 和 OpenAI Luna 等競爭者，預期將推動 AI 代理 (AI agents) 任務的效率與成本效益新標準。",
+      "據 11 月 9 日的最新數據顯示，對沖基金正以接近紀錄的速度拋售全球科技股，特別是 AI 相關基礎設施股票，這不僅反映了對 AI 估值過高的擔憂，更深層次的原因在於市場對資料中心建設計畫可能因政治阻力而放緩的疑慮，對 AI 產業的長期資本投入和市場格局構成顯著影響。",
+      "加州大學柏克萊分校與 NVIDIA 研究人員於 11 月 9 日共同推動「代理機器人學」(Agentic Robotics) 領域的技術突破，透過讓 AI 代理團隊在模擬環境中自動生成、測試並優化機器人控制程式，有望大幅減少傳統機器人訓練所需的龐大數據量和工程投入，為機器人開發帶來典範轉移。"
     ]
   },
   "github_repos": {
@@ -3824,7 +3844,7 @@
       "summary": "專為 AI Agent 平行開發工作流設計的 Git Worktree 管理 CLI"
     }
   },
-  "last_run_date": "2026-11-09",
+  "last_run_date": "2026-11-10",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "pbakaus/impeccable": "2026-10-30",
