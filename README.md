@@ -15,6 +15,7 @@
 
 - [Databricks](https://www.databricks.com/blog)
 - [Anthropic](https://claude.com/blog)
+- [Anthropic Engineering](https://www.anthropic.com/engineering)
 - [OpenAI News](https://openai.com/news) · [OpenAI Developers](https://developers.openai.com/blog)
 - [NVIDIA Developer](https://developer.nvidia.com/blog)
 - [Google Research](https://research.google/blog/)
