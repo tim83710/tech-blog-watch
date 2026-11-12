@@ -3309,15 +3309,33 @@
     "https://www.anthropic.com/research/desktop-extensions": "2026-11-11T09:03:27.337511+00:00",
     "https://www.anthropic.com/research/confidential-inference-trusted-vms": "2026-11-11T09:03:27.337511+00:00",
     "https://www.anthropic.com/research/multi-agent-research-system": "2026-11-11T09:03:27.337511+00:00",
-    "https://www.anthropic.com/research/claude-code-best-practices": "2026-11-11T09:03:27.337511+00:00"
+    "https://www.anthropic.com/research/claude-code-best-practices": "2026-11-11T09:03:27.337511+00:00",
+    "https://www.databricks.com/blog/new-genie-autonomous-ai-complex-enterprise-work": "2026-11-12T03:18:25.955776+00:00",
+    "https://www.databricks.com/blog/genie-one-ai-cowork-home-everyone": "2026-11-12T03:18:25.955776+00:00",
+    "https://www.databricks.com/blog/bring-your-business-context-chatgpt-claude-microsoft-copilot-cowork-and-grok-bot": "2026-11-12T03:18:25.955776+00:00",
+    "https://www.databricks.com/blog/air-gapped-not-data-dark-how-bright-machines-gives-customers-live-factory-dashboards-without": "2026-11-12T03:18:25.955776+00:00",
+    "https://www.databricks.com/blog/detecting-credential-driven-attacks-databricks": "2026-11-12T03:18:25.955776+00:00",
+    "https://www.databricks.com/blog/brickster-voices-meet-alasdair-anderson": "2026-11-12T03:18:25.955776+00:00",
+    "https://openai.com/index/chatgpt-plus-for-veterans": "2026-11-12T03:18:25.955776+00:00",
+    "https://openai.com/index/jiostar-vijay-seshadri": "2026-11-12T03:18:25.955776+00:00",
+    "https://openai.com/index/singapore-airlines-travel-work": "2026-11-12T03:18:25.955776+00:00",
+    "https://openai.com/index/cogent-security": "2026-11-12T03:18:25.955776+00:00",
+    "https://openai.com/index/cultfit-builds-with-codex": "2026-11-12T03:18:25.955776+00:00",
+    "https://openai.com/index/introducing-gpt-6-cyber": "2026-11-12T03:18:25.955776+00:00",
+    "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory": "2026-11-12T03:18:25.955776+00:00",
+    "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching": "2026-11-12T03:18:25.955776+00:00",
+    "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease": "2026-11-12T03:18:25.955776+00:00",
+    "https://huggingface.co/blog/qvac/botpsy": "2026-11-12T03:18:25.955776+00:00",
+    "https://huggingface.co/blog/token-pooling": "2026-11-12T03:18:25.955776+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/we-built-ai-control-plane-reduce-LLM-expenses-prevent-data-leaks": "2026-11-12T03:18:25.955776+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "points": [
-      "台積電 (TSMC) 應最大客戶 NVIDIA 要求，正考慮擴大業務範圍至先進記憶體晶片製造，特別是 3D DRAM，此舉旨在緩解 AI 硬體供應鏈中嚴重的記憶體晶片短缺問題，並可能進一步鞏固台積電在 AI 晶片供應鏈中的主導地位。",
-      "IBM 與 Microsoft 共同推出「Imagine Enterprise」AI 代理平台，旨在協助企業（尤其是在受監管行業）建構、運行與管理 AI 代理，以執行特定行業流程，此合作將結合兩大巨頭的技術與諮詢專長，加速企業級 AI 部署。",
-      "麻省理工學院 (MIT) 與不列顛哥倫比亞大學 (UBC) 等研究人員開發出「WorldParticle」單一 AI 模型，能統一模擬多種物理現象（例如流動的沙子到摺疊的蛋白質），取代傳統多個專用模擬器，此技術突破有望改變工程師對物理過程的建模方式。",
-      "據 Capgemini 報告，金融機構正加速導入多代理 AI 系統，但僅一成實現企業級協調；同時，McKinsey 報告指出零售銀行客戶對 AI 採用速度超乎預期，銀行正更審慎部署代理 AI 以控制成本並專注於高回報領域，顯示金融業 AI 落地面臨規模化與成本效益挑戰。"
+      "Anthropic 於 11 月 9 日發布新旗艦模型 Claude Fable 5.2，該模型專為複雜推理、自主軟體工程和長週期技術代理工作流程設計，並在 FrontierCode 2.0 和 FrontierSWE v2 等基準測試中展現領先性能，標誌著具身智能和系統級應用上的重要突破。",
+      "據 Data Insights 報告，對 AI 相關證券的信貸水平和私人信貸風險的擔憂，導致大型科技股出現大幅輪動，其中半導體類股受到顯著影響，SOX 指數下跌約 16%。 此外，高盛報告指出，對 AI 融資狀況惡化的擔憂已導致對沖基金產業出現罕見的同步多策略崩盤，量化基金遭受自 8 月 19 日以來最嚴重的單日損失，亞洲對沖基金的月度虧損擴大至 -6.8%，其中韓國和台灣的 AI 相關部位受創最重。",
+      "Meta 憑藉其基於 Argo CD 和 Kargo 構建的 GitOps 平台，贏得 CNCF 終端用戶案例研究競賽，該平台將 AI 基礎設施的應用部署時間從數小時縮短至數分鐘，顯著提升了其支援 AI 研究和推論的約 100 個 Kubernetes 叢集的效率。",
+      "儘管 AI 普及率在銀行業迅速增長，82% 的銀行已採用生成式 AI，但由於治理、數據品質和監管監督方面的差距，僅有 10% 的受訪銀行允許 AI 系統大規模自主做出信貸或風險決策，這表明金融業在 AI 落地方面仍面臨規模化與自主決策的挑戰。"
     ]
   },
   "github_repos": {
@@ -3902,7 +3920,7 @@
       "summary": "聚焦 CPU 推理的 MoE 模型執行引擎，支援無 GPU 運行 284B 超大型 LLM"
     }
   },
-  "last_run_date": "2026-11-11",
+  "last_run_date": "2026-11-12",
   "github_shown": {
     "mattpocock/skills": "2026-10-12",
     "pbakaus/impeccable": "2026-10-30",
@@ -3973,48 +3991,6 @@
     "vercel-labs/agent-browser": "2026-11-11"
   },
   "youtube_seen": {
-    "3uSI8q_RN-o": {
-      "video_id": "3uSI8q_RN-o",
-      "channel": "Latent Space",
-      "title": "The Inference Frontier: from 100 to 10,000 tokens per second — Sean Lie, Cerebras CTO",
-      "featured": "2026-09-03",
-      "headline": "Cerebras 共同創辦人兼 CTO Sean Lie 探討推論速度突破每秒萬級 token 對硬體架構與 AI 應用的重塑。"
-    },
-    "X50zezLFWWI": {
-      "video_id": "X50zezLFWWI",
-      "channel": "Dwarkesh Patel",
-      "title": "Ajeya Cotra – How a swarm of AIs conspired to hack Hugging Face",
-      "featured": "2026-09-03",
-      "headline": "METR 研究員 Ajeya Cotra 拆解 AI Agent 群體協同入侵 Hugging Face 事件與自主對齊風險。"
-    },
-    "_egu7OFem-k": {
-      "video_id": "_egu7OFem-k",
-      "channel": "Machine Learning Street Talk",
-      "title": "AI Internals Are Weird — Tom McGrath",
-      "featured": "2026-09-03",
-      "headline": "Goodfire 首席科學家 Tom McGrath 探討神經網路內部可解釋性、概念流形與控制訓練迴圈。"
-    },
-    "85Y6h_jbRfs": {
-      "video_id": "85Y6h_jbRfs",
-      "channel": "No Priors",
-      "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
-      "featured": "2026-09-10",
-      "headline": "Arm 執行長 Rene Haas 探討晶片架構轉型以及 CPU 在 AI 算力基礎設施中的核心角色。"
-    },
-    "9wZpvF3QleU": {
-      "video_id": "9wZpvF3QleU",
-      "channel": "AI Engineer",
-      "title": "500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn",
-      "featured": "2026-09-10",
-      "headline": "LinkedIn 資深工程師 Ajay Prakash 分享如何在不進行 fine-tuning 的情況下管理 500 個以上的 Agent Skills。"
-    },
-    "KS_IpnX7n9I": {
-      "video_id": "KS_IpnX7n9I",
-      "channel": "Latent Space",
-      "title": "Trillion Token Context. No, Really — Anima Anandkumar & Benedikt Jenik, Accelerated Understanding",
-      "featured": "2026-09-10",
-      "headline": "Accelerated Understanding 創辦人 Anima Anandkumar 與 Benedikt Jenik 解構實體世界物理領域的 Foundation Model。"
-    },
     "NE4CLThMPGU": {
       "video_id": "NE4CLThMPGU",
       "channel": "Sequoia Capital (Training Data)",
@@ -4070,6 +4046,27 @@
       "title": "European Defense Sovereignty Starts in the Factory: Stark’s Uwe Horstmann and Johannes Schaback",
       "featured": "2026-10-29",
       "headline": "Sequoia 訪談 Stark 創辦團隊，探討如何以創投模式與量產思維構建自主國防無人機體系。"
+    },
+    "D_4Rn6uLdQM": {
+      "video_id": "D_4Rn6uLdQM",
+      "channel": "AI Engineer",
+      "title": "225,000 Lines of Tests, Written and Merged by Agents - Kush Agrawal, Duolingo",
+      "featured": "2026-11-12",
+      "headline": "Duolingo 工程師 Kush Agrawal 分享如何利用 coding agent 自動編寫並合併超過 22.5 萬行單元測試程式碼。"
+    },
+    "NUgaWmws0XQ": {
+      "video_id": "NUgaWmws0XQ",
+      "channel": "LangChain",
+      "title": "How Airbnb builds Trust for Guests and Hosts using AI Agents with LangGraph",
+      "featured": "2026-11-12",
+      "headline": "Airbnb 機器學習工程總監 Pedro Rodriguez 分享如何透過 LangGraph 建構高信任度的 AI 代理系統。"
+    },
+    "1NQwfImTseU": {
+      "video_id": "1NQwfImTseU",
+      "channel": "Dwarkesh Patel",
+      "title": "Which AI is the best liar?",
+      "featured": "2026-11-12",
+      "headline": "Dwarkesh Patel 透過陣營對抗遊戲《Blood on the Clocktower》測試各大前沿 LLM 的欺騙與團隊推理能力。"
     }
   }
 }
