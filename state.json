@@ -3327,15 +3327,29 @@
     "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease": "2026-11-12T03:18:25.955776+00:00",
     "https://huggingface.co/blog/qvac/botpsy": "2026-11-12T03:18:25.955776+00:00",
     "https://huggingface.co/blog/token-pooling": "2026-11-12T03:18:25.955776+00:00",
-    "https://www.thoughtworks.com/insights/blog/generative-ai/we-built-ai-control-plane-reduce-LLM-expenses-prevent-data-leaks": "2026-11-12T03:18:25.955776+00:00"
+    "https://www.thoughtworks.com/insights/blog/generative-ai/we-built-ai-control-plane-reduce-LLM-expenses-prevent-data-leaks": "2026-11-12T03:18:25.955776+00:00",
+    "https://www.databricks.com/blog/dispelling-ltap-myths": "2026-11-13T03:00:14.496227+00:00",
+    "https://www.databricks.com/blog/how-constellation-building-governed-data-foundation-databricks": "2026-11-13T03:00:14.496227+00:00",
+    "https://www.databricks.com/blog/eclipse-aerospace-simplifies-flight-data-ingestion-databricks": "2026-11-13T03:00:14.496227+00:00",
+    "https://www.databricks.com/blog/how-h6ai-builds-ai-powered-financial-automation-lakebase-postgres": "2026-11-13T03:00:14.496227+00:00",
+    "https://www.databricks.com/blog/lakehousert-scale-real-time-analytics-not-your-bill": "2026-11-13T03:00:14.496227+00:00",
+    "https://www.databricks.com/blog/genie-slack-now-generally-available-governed-ai-cowork-right-where-work-happens": "2026-11-13T03:00:14.496227+00:00",
+    "https://openai.com/business/customer-stories/amplitude": "2026-11-13T03:00:14.496227+00:00",
+    "https://openai.com/business/customer-stories/gondola": "2026-11-13T03:00:14.496227+00:00",
+    "https://openai.com/business/customer-stories/holidays-extras-codex": "2026-11-13T03:00:14.496227+00:00",
+    "https://openai.com/index/children-first-declaration": "2026-11-13T03:00:14.496227+00:00",
+    "https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai": "2026-11-13T03:00:14.496227+00:00",
+    "https://deepmind.google/blog/introducing-gemini-4-hydrogen": "2026-11-13T03:00:14.496227+00:00",
+    "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": "2026-11-13T03:00:14.496227+00:00",
+    "https://huggingface.co/blog/3d-lora-finetuning": "2026-11-13T03:00:14.496227+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "points": [
-      "Anthropic 於 11 月 9 日發布新旗艦模型 Claude Fable 5.2，該模型專為複雜推理、自主軟體工程和長週期技術代理工作流程設計，並在 FrontierCode 2.0 和 FrontierSWE v2 等基準測試中展現領先性能，標誌著具身智能和系統級應用上的重要突破。",
-      "據 Data Insights 報告，對 AI 相關證券的信貸水平和私人信貸風險的擔憂，導致大型科技股出現大幅輪動，其中半導體類股受到顯著影響，SOX 指數下跌約 16%。 此外，高盛報告指出，對 AI 融資狀況惡化的擔憂已導致對沖基金產業出現罕見的同步多策略崩盤，量化基金遭受自 8 月 19 日以來最嚴重的單日損失，亞洲對沖基金的月度虧損擴大至 -6.8%，其中韓國和台灣的 AI 相關部位受創最重。",
-      "Meta 憑藉其基於 Argo CD 和 Kargo 構建的 GitOps 平台，贏得 CNCF 終端用戶案例研究競賽，該平台將 AI 基礎設施的應用部署時間從數小時縮短至數分鐘，顯著提升了其支援 AI 研究和推論的約 100 個 Kubernetes 叢集的效率。",
-      "儘管 AI 普及率在銀行業迅速增長，82% 的銀行已採用生成式 AI，但由於治理、數據品質和監管監督方面的差距，僅有 10% 的受訪銀行允許 AI 系統大規模自主做出信貸或風險決策，這表明金融業在 AI 落地方面仍面臨規模化與自主決策的挑戰。"
+      "IBM 與 Microsoft 共同推出 Imagine Enterprise 平台，旨在協助企業建立、部署與管理 AI 代理 (AI agents)，特別針對受嚴格監管的行業，結合 IBM Consulting 超過 6,000 個預建 AI 代理資產與 Microsoft 的雲端、安全及治理技術，以加速 AI 在企業工作流程中的落地應用，解決大規模部署的整合、安全與合規挑戰。",
+      "SpaceX 透過其 AI 部門 SpaceXSI (前身為 xAI) 宣布，計劃在德州和亞利桑那州投資超過 740 億美元，建設兩個大型超級運算資料中心，用於訓練下一代 AI 模型並測試未來太空資料中心的技術，這項巨額投資將顯著影響全球 AI 算力供應與晶片產業鏈。",
+      "Meta 旗下消費者 AI 助理 Muse 推出電話委託功能，付費訂閱用戶現可讓 Muse 代為撥打電話給美國商家，處理預訂、協調行程或等待客服等任務，此舉標誌著消費者端 AI 代理在自主執行日常任務方面的實質進展。",
+      "根據 ACA Group 和 NSCP 的最新報告，金融服務業的 AI 採用率已達 86%，但僅有 38% 的受訪機構設有正式的 AI 輸出測試計畫，且僅 51% 對於能提供監管機構所需的監督文件有信心，這顯示儘管 AI 普及率高，金融業在確保 AI 合規性、可驗證性及大規模自主決策方面仍面臨嚴峻的「高門檻」挑戰。"
     ]
   },
   "github_repos": {
@@ -3918,23 +3932,20 @@
       "repo": "synchopate/llama-modchip",
       "last_featured": "2026-11-11",
       "summary": "聚焦 CPU 推理的 MoE 模型執行引擎，支援無 GPU 運行 284B 超大型 LLM"
+    },
+    "aws/aws-emulator": {
+      "repo": "aws/aws-emulator",
+      "last_featured": "2026-11-13",
+      "summary": "AWS 官方推出的本地 AWS API 模擬器，可在無 AWS 帳號與費用的情況下於本地或 CI 進行開發測試"
     }
   },
-  "last_run_date": "2026-11-12",
+  "last_run_date": "2026-11-13",
   "github_shown": {
-    "mattpocock/skills": "2026-10-12",
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
     "nvidia/openshell": "2026-10-26",
     "thedotmack/claude-mem": "2026-11-02",
-    "boykopovar/anyps5": "2026-10-12",
-    "franzenzenhofer/big-arrow-on-the-screen": "2026-10-12",
-    "szabadkai/c64-keyboard-font": "2026-10-12",
     "openai/math": "2026-10-28",
-    "rociiu/talorys": "2026-10-12",
-    "docker/docker-agent": "2026-10-12",
-    "tester-army/e2e": "2026-10-12",
-    "epicgames/raddebugger": "2026-10-12",
     "rust-lang/rust": "2026-10-16",
     "openai/codex": "2026-10-16",
     "android/ndk": "2026-10-16",
@@ -3988,7 +3999,9 @@
     "thisisme6598/gemini_files": "2026-11-11",
     "synchopate/llama-modchip": "2026-11-11",
     "vercel-labs/agent-desktop": "2026-11-11",
-    "vercel-labs/agent-browser": "2026-11-11"
+    "vercel-labs/agent-browser": "2026-11-11",
+    "aws/aws-emulator": "2026-11-13",
+    "janestreet/agent_skills": "2026-11-13"
   },
   "youtube_seen": {
     "NE4CLThMPGU": {
