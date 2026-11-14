@@ -3341,15 +3341,31 @@
     "https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai": "2026-11-13T03:00:14.496227+00:00",
     "https://deepmind.google/blog/introducing-gemini-4-hydrogen": "2026-11-13T03:00:14.496227+00:00",
     "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": "2026-11-13T03:00:14.496227+00:00",
-    "https://huggingface.co/blog/3d-lora-finetuning": "2026-11-13T03:00:14.496227+00:00"
+    "https://huggingface.co/blog/3d-lora-finetuning": "2026-11-13T03:00:14.496227+00:00",
+    "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data": "2026-11-14T02:33:08.104099+00:00",
+    "https://www.databricks.com/blog/how-block-powers-collaborative-ai-agents-buzz-and-unity-gateway": "2026-11-14T02:33:08.104099+00:00",
+    "https://www.anthropic.com/research/building-strong-safety-evaluations": "2026-11-14T02:33:08.104099+00:00",
+    "https://openai.com/index/introducing-chatgpt-wallet": "2026-11-14T02:33:08.104099+00:00",
+    "https://openai.com/business/customer-stories/shield": "2026-11-14T02:33:08.104099+00:00",
+    "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas": "2026-11-14T02:33:08.104099+00:00",
+    "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton": "2026-11-14T02:33:08.104099+00:00",
+    "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla": "2026-11-14T02:33:08.104099+00:00",
+    "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm": "2026-11-14T02:33:08.104099+00:00",
+    "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter": "2026-11-14T02:33:08.104099+00:00",
+    "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature": "2026-11-14T02:33:08.104099+00:00",
+    "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models": "2026-11-14T02:33:08.104099+00:00",
+    "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place": "2026-11-14T02:33:08.104099+00:00",
+    "https://huggingface.co/blog/allenai/xybench": "2026-11-14T02:33:08.104099+00:00",
+    "https://huggingface.co/blog/ggml-org/llama-cpp-v1": "2026-11-14T02:33:08.104099+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/specbench-tool-evaluate-ai-enabled-software-development-workflows": "2026-11-14T02:33:08.104099+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/attackers-are-targeting-the-ai-tools-that-produce-our-software": "2026-11-14T02:33:08.104099+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "points": [
-      "IBM 與 Microsoft 共同推出 Imagine Enterprise 平台，旨在協助企業建立、部署與管理 AI 代理 (AI agents)，特別針對受嚴格監管的行業，結合 IBM Consulting 超過 6,000 個預建 AI 代理資產與 Microsoft 的雲端、安全及治理技術，以加速 AI 在企業工作流程中的落地應用，解決大規模部署的整合、安全與合規挑戰。",
-      "SpaceX 透過其 AI 部門 SpaceXSI (前身為 xAI) 宣布，計劃在德州和亞利桑那州投資超過 740 億美元，建設兩個大型超級運算資料中心，用於訓練下一代 AI 模型並測試未來太空資料中心的技術，這項巨額投資將顯著影響全球 AI 算力供應與晶片產業鏈。",
-      "Meta 旗下消費者 AI 助理 Muse 推出電話委託功能，付費訂閱用戶現可讓 Muse 代為撥打電話給美國商家，處理預訂、協調行程或等待客服等任務，此舉標誌著消費者端 AI 代理在自主執行日常任務方面的實質進展。",
-      "根據 ACA Group 和 NSCP 的最新報告，金融服務業的 AI 採用率已達 86%，但僅有 38% 的受訪機構設有正式的 AI 輸出測試計畫，且僅 51% 對於能提供監管機構所需的監督文件有信心，這顯示儘管 AI 普及率高，金融業在確保 AI 合規性、可驗證性及大規模自主決策方面仍面臨嚴峻的「高門檻」挑戰。"
+      "PwC報告指出，主要銀行在廣泛導入AI後，生產力顯著提升，員工平均收入增長 4.5%，營運費用增長明顯放緩，儘管難以直接量化AI的具體貢獻，但其對成本效益的影響已開始顯現。",
+      "Apple發布Siri AI開發者預覽，允許iOS、iPadOS及macOS應用程式深度整合Siri的個人化語境理解與自然語言處理能力，此舉預示Apple正加速其AI代理 (agentic AI) 策略，旨在將Siri轉變為更具自主性的跨平台助理，對其生態系及競爭格局具重要意義。",
+      "AI模型開發商Cohere完成對AI程式碼審查新創公司Cubic及網路安全公司Aisle的收購，此舉旨在強化其主權AI平台 (sovereign AI platform) 能力，並擴大國際市場影響力，以期成為美國及中國AI巨頭之外的有力競爭者。"
     ]
   },
   "github_repos": {
@@ -3939,7 +3955,7 @@
       "summary": "AWS 官方推出的本地 AWS API 模擬器，可在無 AWS 帳號與費用的情況下於本地或 CI 進行開發測試"
     }
   },
-  "last_run_date": "2026-11-13",
+  "last_run_date": "2026-11-14",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
