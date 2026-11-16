@@ -3358,14 +3358,18 @@
     "https://huggingface.co/blog/allenai/xybench": "2026-11-14T02:33:08.104099+00:00",
     "https://huggingface.co/blog/ggml-org/llama-cpp-v1": "2026-11-14T02:33:08.104099+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/specbench-tool-evaluate-ai-enabled-software-development-workflows": "2026-11-14T02:33:08.104099+00:00",
-    "https://www.thoughtworks.com/insights/blog/generative-ai/attackers-are-targeting-the-ai-tools-that-produce-our-software": "2026-11-14T02:33:08.104099+00:00"
+    "https://www.thoughtworks.com/insights/blog/generative-ai/attackers-are-targeting-the-ai-tools-that-produce-our-software": "2026-11-14T02:33:08.104099+00:00",
+    "https://www.databricks.com/blog/teach-genie-one-your-workflows-ultimate-guide-skills-genie-one": "2026-11-16T02:15:16.496819+00:00",
+    "https://openai.com/index/step-toward-defining-the-standard-model": "2026-11-16T02:15:16.496819+00:00",
+    "https://openai.com/index/our-new-blog-for-science": "2026-11-16T02:15:16.496819+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-14",
+    "date": "2026-11-16",
     "points": [
-      "PwC報告指出，主要銀行在廣泛導入AI後，生產力顯著提升，員工平均收入增長 4.5%，營運費用增長明顯放緩，儘管難以直接量化AI的具體貢獻，但其對成本效益的影響已開始顯現。",
-      "Apple發布Siri AI開發者預覽，允許iOS、iPadOS及macOS應用程式深度整合Siri的個人化語境理解與自然語言處理能力，此舉預示Apple正加速其AI代理 (agentic AI) 策略，旨在將Siri轉變為更具自主性的跨平台助理，對其生態系及競爭格局具重要意義。",
-      "AI模型開發商Cohere完成對AI程式碼審查新創公司Cubic及網路安全公司Aisle的收購，此舉旨在強化其主權AI平台 (sovereign AI platform) 能力，並擴大國際市場影響力，以期成為美國及中國AI巨頭之外的有力競爭者。"
+      "輝達 (NVIDIA) 創辦人黃仁勳辭去執行長職務，由財務長 Colette Kress 擔任臨時執行長，此人事變動導致輝達股價下跌，並引發市場對其產品推進時程與供應鏈訂單的擔憂；此事件亦牽動美國對 AI 晶片出口管制的政策走向，可能加速雲端服務供應商 (CSP) 自研特殊應用積體電路 (ASIC) 的趨勢，對全球 AI 晶片產業格局產生重大影響。",
+      "美國與日本、澳洲、以色列、英國、南韓、印度、卡達及阿拉伯聯合大公國等八個夥伴國簽署「舊金山宣言」(San Francisco Declaration)，旨在建立 AI 供應鏈安全同盟，共同識別並保護面臨中國相關風險的 AI 技術與供應網路，此舉將深化盟友間在 AI 基礎設施安全上的協作，可能重塑全球 AI 晶片製造與部署的資本流向與佈局。",
+      "Google 發布專為代理式工作流程 (agentic workflows) 設計的 Gemini 4 Hydrogen 模型，在多模態知識代理 (Multimodal Knowledge Agent, MKA) 及端到端專業工作流程基準測試中表現卓越，並透過原生批次處理檔案讀取與搜尋呼叫，實現 2 至 2.8 倍的速度提升及 12% 至 23% 的 token 使用量減少，顯著提升 AI 代理的執行效率與智慧。",
+      "AI 代理開發框架新創公司 LangChain 完成 3 億美元新一輪融資，估值達到 30 億美元，由 CapitalG 領投，顯示投資界對 AI 代理生態系統及其賦能企業「擁有自身智慧」的潛力抱持高度信心，將加速 AI 代理技術的商業化落地與市場擴張。"
     ]
   },
   "github_repos": {
@@ -3953,22 +3957,35 @@
       "repo": "aws/aws-emulator",
       "last_featured": "2026-11-13",
       "summary": "AWS 官方推出的本地 AWS API 模擬器，可在無 AWS 帳號與費用的情況下於本地或 CI 進行開發測試"
+    },
+    "simpsoka/zigzag": {
+      "repo": "simpsoka/zigzag",
+      "last_featured": "2026-11-16",
+      "summary": "基於 Rust 的視覺化刺繡圖案編輯器，支援 MCP 讓 AI Agent 協同創作與硬體控制"
+    },
+    "hyperionaidev/smolmaxxing": {
+      "repo": "hyperionaidev/smolmaxxing",
+      "last_featured": "2026-11-16",
+      "summary": "專為舊裝置與低規格硬體設計的 LLM 推理引擎，實現跨 Flash 記憶體串流大模型"
+    },
+    "meta/astryx": {
+      "repo": "meta/astryx",
+      "last_featured": "2026-11-16",
+      "summary": "Meta 開源內部大規模使用的跨端設計系統，具備 React 19 與 AI Agent 友善架構"
+    },
+    "anthropics/skills": {
+      "repo": "anthropics/skills",
+      "last_featured": "2026-11-16",
+      "summary": "Anthropic 官方開源的 Agent Skills 規範與 Claude 生產級技能庫"
     }
   },
-  "last_run_date": "2026-11-14",
+  "last_run_date": "2026-11-16",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
     "nvidia/openshell": "2026-10-26",
     "thedotmack/claude-mem": "2026-11-02",
     "openai/math": "2026-10-28",
-    "rust-lang/rust": "2026-10-16",
-    "openai/codex": "2026-10-16",
-    "android/ndk": "2026-10-16",
-    "fyzugx/desk": "2026-10-16",
-    "h0m3us3r/w1700k-sdr": "2026-10-16",
-    "morluto/rea": "2026-10-16",
-    "nationalsecurityagency/ghidra": "2026-10-16",
     "qgis/qgis-enhancement-proposals": "2026-10-19",
     "storytold/artcraft": "2026-10-19",
     "anthropics/claude-plugins-official": "2026-10-19",
@@ -4009,7 +4026,7 @@
     "privsec-dev/banking-apps-compat-report": "2026-11-09",
     "saragordic/window-sweaters": "2026-11-09",
     "max-sixty/worktrunk": "2026-11-09",
-    "anthropics/skills": "2026-11-09",
+    "anthropics/skills": "2026-11-16",
     "donchitos/claude-code-game-studios": "2026-11-09",
     "milind-soni/openmausbot": "2026-11-09",
     "thisisme6598/gemini_files": "2026-11-11",
@@ -4017,7 +4034,14 @@
     "vercel-labs/agent-desktop": "2026-11-11",
     "vercel-labs/agent-browser": "2026-11-11",
     "aws/aws-emulator": "2026-11-13",
-    "janestreet/agent_skills": "2026-11-13"
+    "janestreet/agent_skills": "2026-11-13",
+    "simpsoka/zigzag": "2026-11-16",
+    "hyperionaidev/smolmaxxing": "2026-11-16",
+    "googlechrome/modern-web-guidance": "2026-11-16",
+    "meta/astryx": "2026-11-16",
+    "sherlock-project/sherlock": "2026-11-16",
+    "backnotprop/plannotator": "2026-11-16",
+    "zhulinsen/daily_stock_analysis": "2026-11-16"
   },
   "youtube_seen": {
     "NE4CLThMPGU": {
