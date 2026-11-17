@@ -3361,15 +3361,32 @@
     "https://www.thoughtworks.com/insights/blog/generative-ai/attackers-are-targeting-the-ai-tools-that-produce-our-software": "2026-11-14T02:33:08.104099+00:00",
     "https://www.databricks.com/blog/teach-genie-one-your-workflows-ultimate-guide-skills-genie-one": "2026-11-16T02:15:16.496819+00:00",
     "https://openai.com/index/step-toward-defining-the-standard-model": "2026-11-16T02:15:16.496819+00:00",
-    "https://openai.com/index/our-new-blog-for-science": "2026-11-16T02:15:16.496819+00:00"
+    "https://openai.com/index/our-new-blog-for-science": "2026-11-16T02:15:16.496819+00:00",
+    "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics": "2026-11-17T04:44:20.670849+00:00",
+    "https://www.databricks.com/blog/databricks-leader-and-positioned-highest-execution-2026-gartnerr-magic-quadranttm-data": "2026-11-17T04:44:20.670849+00:00",
+    "https://www.databricks.com/blog/clean-data-was-never-enough-how-ifs-copperleaf-taught-ai-its-business-databricks-genie-one-0": "2026-11-17T04:44:20.670849+00:00",
+    "https://www.databricks.com/blog/talk-your-clinical-data-unlocking-aws-healthlake-opensharing-and-genie-one": "2026-11-17T04:44:20.670849+00:00",
+    "https://www.databricks.com/blog/build-real-time-next-best-offer-recommender-using-databricks-feature-views": "2026-11-17T04:44:20.670849+00:00",
+    "https://www.databricks.com/blog/tabular-foundation-models-databricks-ai-runtime": "2026-11-17T04:44:20.670849+00:00",
+    "https://openai.com/index/expanding-chatgpt-for-academic-researchers": "2026-11-17T04:44:20.670849+00:00",
+    "https://openai.com/index/strengthening-online-child-safety": "2026-11-17T04:44:20.670849+00:00",
+    "https://openai.com/index/science-at-the-frontier": "2026-11-17T04:44:20.670849+00:00",
+    "https://openai.com/index/lvmh-media-division-partnership": "2026-11-17T04:44:20.670849+00:00",
+    "https://openai.com/index/our-first-phase-of-embedded-assessments": "2026-11-17T04:44:20.670849+00:00",
+    "https://openai.com/index/advancing-computer-use-for-healthcare-teams": "2026-11-17T04:44:20.670849+00:00",
+    "https://developer.nvidia.com/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential": "2026-11-17T04:44:20.670849+00:00",
+    "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0": "2026-11-17T04:44:20.670849+00:00",
+    "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1": "2026-11-17T04:44:20.670849+00:00",
+    "https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain": "2026-11-17T04:44:20.670849+00:00",
+    "https://huggingface.co/blog/openrouter": "2026-11-17T04:44:20.670849+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "points": [
-      "輝達 (NVIDIA) 創辦人黃仁勳辭去執行長職務，由財務長 Colette Kress 擔任臨時執行長，此人事變動導致輝達股價下跌，並引發市場對其產品推進時程與供應鏈訂單的擔憂；此事件亦牽動美國對 AI 晶片出口管制的政策走向，可能加速雲端服務供應商 (CSP) 自研特殊應用積體電路 (ASIC) 的趨勢，對全球 AI 晶片產業格局產生重大影響。",
-      "美國與日本、澳洲、以色列、英國、南韓、印度、卡達及阿拉伯聯合大公國等八個夥伴國簽署「舊金山宣言」(San Francisco Declaration)，旨在建立 AI 供應鏈安全同盟，共同識別並保護面臨中國相關風險的 AI 技術與供應網路，此舉將深化盟友間在 AI 基礎設施安全上的協作，可能重塑全球 AI 晶片製造與部署的資本流向與佈局。",
-      "Google 發布專為代理式工作流程 (agentic workflows) 設計的 Gemini 4 Hydrogen 模型，在多模態知識代理 (Multimodal Knowledge Agent, MKA) 及端到端專業工作流程基準測試中表現卓越，並透過原生批次處理檔案讀取與搜尋呼叫，實現 2 至 2.8 倍的速度提升及 12% 至 23% 的 token 使用量減少，顯著提升 AI 代理的執行效率與智慧。",
-      "AI 代理開發框架新創公司 LangChain 完成 3 億美元新一輪融資，估值達到 30 億美元，由 CapitalG 領投，顯示投資界對 AI 代理生態系統及其賦能企業「擁有自身智慧」的潛力抱持高度信心，將加速 AI 代理技術的商業化落地與市場擴張。"
+      "美國商務部擴大 AI 晶片出口管制，將遠端運算服務納入限制範圍，並提高對新加坡、馬來西亞、泰國、印尼及巴西等地資料中心的審查，此舉旨在防止受管制晶片算力透過雲端服務流向受關注國家，將對全球 AI 晶片供應鏈與資料中心佈局產生重大影響。",
+      "全球投資者對 AI 硬體資產的態度出現顯著轉變，從積極買入轉向降低曝險，原因在於市場開始重新審視資本報酬率、客戶融資能力及設備利用率等因素，這預示著 AI 硬體估值可能面臨修正，並促使資金流向更具穩定商業化能力的 AI 相關領域。",
+      "根據波士頓顧問集團 (BCG) 的調查，73% 的系統性重要銀行已在生產環境中部署 AI 代理 (AI agents)，但僅有 8% 建立了標準化的監控與控制框架以應對 AI 代理帶來的風險，這凸顯了金融業在快速採用 AI 代理技術的同時，於風險管理與治理方面存在關鍵缺口。",
+      "美國白宮正推動一項「AI 國家冠軍」(AI National Champions) 出口聯盟計畫，旨在將美國的 AI 晶片、運算基礎設施、模型及應用程式打包成一站式服務，供外國政府與企業採購，並提供聯邦協助與加速出口許可審查，此戰略將重塑全球 AI 貿易格局，強化美國及其盟友在 AI 領域的領導地位。"
     ]
   },
   "github_repos": {
@@ -3979,7 +3996,7 @@
       "summary": "Anthropic 官方開源的 Agent Skills 規範與 Claude 生產級技能庫"
     }
   },
-  "last_run_date": "2026-11-16",
+  "last_run_date": "2026-11-17",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
