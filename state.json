@@ -3398,15 +3398,35 @@
     "https://deepmind.google/blog/introducing-gemini-4-neon": "2026-11-19T03:56:50.893645+00:00",
     "https://deepmind.google/blog/genie-4-is-now-available": "2026-11-19T03:56:50.893645+00:00",
     "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin": "2026-11-19T03:56:50.893645+00:00",
-    "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time": "2026-11-19T03:56:50.893645+00:00"
+    "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time": "2026-11-19T03:56:50.893645+00:00",
+    "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer": "2026-11-20T03:29:26.976724+00:00",
+    "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context": "2026-11-20T03:29:26.976724+00:00",
+    "https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries": "2026-11-20T03:29:26.976724+00:00",
+    "https://www.databricks.com/blog/how-partners-use-genies-free-tier-azure-databricks": "2026-11-20T03:29:26.976724+00:00",
+    "https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code": "2026-11-20T03:29:26.976724+00:00",
+    "https://www.databricks.com/blog/introducing-genie-migrate-serverless": "2026-11-20T03:29:26.976724+00:00",
+    "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast": "2026-11-20T03:29:26.976724+00:00",
+    "https://openai.com/business/learn/deploying-daybreak-red": "2026-11-20T03:29:26.976724+00:00",
+    "https://openai.com/business/learn/pr-scans-demo": "2026-11-20T03:29:26.976724+00:00",
+    "https://openai.com/business/learn/codex-security-plugin-demo": "2026-11-20T03:29:26.976724+00:00",
+    "https://openai.com/business/learn/daybreak-blue-onboarding-demo": "2026-11-20T03:29:26.976724+00:00",
+    "https://openai.com/index/advancing-chip-design-with-our-models": "2026-11-20T03:29:26.976724+00:00",
+    "https://developers.openai.com/blog/prompting-multilingual-voice-agents": "2026-11-20T03:29:26.976724+00:00",
+    "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo": "2026-11-20T03:29:26.976724+00:00",
+    "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition": "2026-11-20T03:29:26.976724+00:00",
+    "https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents": "2026-11-20T03:29:26.976724+00:00",
+    "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer": "2026-11-20T03:29:26.976724+00:00",
+    "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse": "2026-11-20T03:29:26.976724+00:00",
+    "https://huggingface.co/blog/moe-expert-streaming": "2026-11-20T03:29:26.976724+00:00",
+    "https://huggingface.co/blog/rumble-2-flash": "2026-11-20T03:29:26.976724+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "points": [
-      "過去 48 小時全球 AI 產業的重要動態如下：",
-      "AI 模型開發商 Anthropic 據報導將以每股 83 美元的價格進行首次公開募股 (IPO)，公司估值約 1.5 兆美元，預計將在納斯達克上市。此舉標誌著 AI 產業的重大金融事件，為市場對頂級 AI 公司的估值設定了新基準，並反映出投資者對生成式 AI 領域的強勁信心。",
-      "阿里巴巴發布了其旗艦 AI 模型 Qwen4-Max，該模型採用混合專家 (MoE) 架構，擁有 2.4 兆參數，並在內部評估中實現了平均任務成本降低超過 60% 的顯著效率提升。Qwen4-Max 在晶片冷卻劑分子開發和阿茲海默症研究等專業領域展現了強大的代理能力和長程執行力，預示著 AI 模型在成本效益和複雜任務處理上的技術突破。",
-      "Alphabet 旗下自動駕駛公司 Waymo 在加州面臨監管挑戰，其自駕車因駛入施工區而被加州監管機構禁止在高速公路上運行，同時聯邦監管機構也正在調查 Waymo 車輛對停靠校車的偵測可靠性。此事件對整個自動駕駛產業的市場格局和技術信任度構成重大影響，凸顯了 AI 應用在現實世界部署中面臨的嚴格安全審查和監管障礙。"
+      "AI 模型開發商 Anthropic 已於納斯達克成功完成首次公開募股 (IPO)，股價收於每股 97 美元，公司估值介於 1.3 兆至 1.4 兆美元之間。此事件為 AI 產業的估值樹立了新基準，並顯示市場對頂級生成式 AI 公司的強勁投資信心，儘管同時伴隨著對其高估值和社會影響的抗議活動。",
+      "美國與中國之間的科技競爭加劇，對 AI 晶片供應鏈構成重大影響：加州司法部已對輝達 (Nvidia) 展開調查，聚焦於其前執行長黃仁勳涉嫌的國安與證券法問題，可能涉及高階 GPU 或機密技術流向中國的風險。同時，台積電據報導已要求暫停受美國出口管制影響的中國客戶 16 奈米及以下製程訂單，並限制中國晶片設計業者在成熟製程產品中採用高頻寬記憶體 (HBM) 或先進封裝技術，進一步限縮中國開發高效能 AI 晶片的能力。",
+      "小鵬汽車 (XPENG) 將於 11 月 25 日的 AI Day 展示其通用型人形機器人 IRON。該機器人搭載三顆自主研發的 Turing AI 晶片，具備 2,250 TOPS 的算力，並運行小鵬的實體 AI (Physical AI) 基礎模型，實現無需遠端操作的自主任務執行，標誌著具身智慧 (embodied AI) 和專有 AI 硬體技術的重大突破。",
+      "避險基金巨頭橋水聯合基金 (Bridgewater Associates) 警告，自具備實際駭客能力的開源 AI 模型問世以來，零日漏洞 (zero-day exploits) 攻擊數量已翻倍，且漏洞披露到被利用的時間窗口已從約 30 天大幅縮短至 11 天。這項數據突顯了 AI 技術在網路安全領域帶來的實質風險，對金融業及各行各業的數位基礎設施構成嚴峻挑戰。"
     ]
   },
   "github_repos": {
@@ -4014,18 +4034,35 @@
       "repo": "anthropics/skills",
       "last_featured": "2026-11-16",
       "summary": "Anthropic 官方開源的 Agent Skills 規範與 Claude 生產級技能庫"
+    },
+    "ggml-org/ggml": {
+      "repo": "ggml-org/ggml",
+      "last_featured": "2026-11-20",
+      "summary": "純 C/C++ 打造的機器學習張量庫發布 v1.0.0 正式版"
+    },
+    "chromedevtools/chrome-devtools-mcp": {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "last_featured": "2026-11-20",
+      "summary": "Google 官方推出的 Chrome DevTools MCP 伺服器，賦予 AI Agent 實時瀏覽器除錯能力"
+    },
+    "googlechrome/modern-web-guidance-src": {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "last_featured": "2026-11-20",
+      "summary": "將現代 Web 最佳實踐直接注入 AI Coding Agent 上下文的指引與 CLI 工具"
+    },
+    "vaibhaav-tiwari/deepseek-v3-jax": {
+      "repo": "Vaibhaav-Tiwari/deepseek-v3-jax",
+      "last_featured": "2026-11-20",
+      "summary": "用僅約 190 行純 JAX 程式碼極簡實作 DeepSeek-V3 模型架構"
     }
   },
-  "last_run_date": "2026-11-19",
+  "last_run_date": "2026-11-20",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
     "nvidia/openshell": "2026-10-26",
     "thedotmack/claude-mem": "2026-11-02",
     "openai/math": "2026-10-28",
-    "qgis/qgis-enhancement-proposals": "2026-10-19",
-    "storytold/artcraft": "2026-10-19",
-    "anthropics/claude-plugins-official": "2026-10-19",
     "deepseek-ai/deepinfer": "2026-10-21",
     "tywr/nordwand-mono": "2026-10-21",
     "vikolliver/reprapmicron": "2026-10-21",
@@ -4078,7 +4115,18 @@
     "meta/astryx": "2026-11-16",
     "sherlock-project/sherlock": "2026-11-16",
     "backnotprop/plannotator": "2026-11-16",
-    "zhulinsen/daily_stock_analysis": "2026-11-16"
+    "zhulinsen/daily_stock_analysis": "2026-11-16",
+    "microsoft/onnxruntime": "2026-11-20",
+    "ggml-org/ggml": "2026-11-20",
+    "openjdk/jdk": "2026-11-20",
+    "jquery/jquery": "2026-11-20",
+    "vaibhaav-tiwari/deepseek-v3-jax": "2026-11-20",
+    "irs-public/direct-file": "2026-11-20",
+    "google-labs-code/stitch-skills": "2026-11-20",
+    "googlechrome/modern-web-guidance-src": "2026-11-20",
+    "alibaba/open-code-review": "2026-11-20",
+    "mvanhorn/last30days-skill": "2026-11-20",
+    "chromedevtools/chrome-devtools-mcp": "2026-11-20"
   },
   "youtube_seen": {
     "NE4CLThMPGU": {
