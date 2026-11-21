@@ -3418,15 +3418,35 @@
     "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer": "2026-11-20T03:29:26.976724+00:00",
     "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse": "2026-11-20T03:29:26.976724+00:00",
     "https://huggingface.co/blog/moe-expert-streaming": "2026-11-20T03:29:26.976724+00:00",
-    "https://huggingface.co/blog/rumble-2-flash": "2026-11-20T03:29:26.976724+00:00"
+    "https://huggingface.co/blog/rumble-2-flash": "2026-11-20T03:29:26.976724+00:00",
+    "https://www.databricks.com/blog/why-postgresql-19-shipped-late": "2026-11-21T03:21:31.081626+00:00",
+    "https://www.databricks.com/blog/interactive-databricks-reference-architectures-across-70-industries": "2026-11-21T03:21:31.081626+00:00",
+    "https://www.databricks.com/blog/postgresql-19-available-lakebase": "2026-11-21T03:21:31.081626+00:00",
+    "https://www.databricks.com/blog/customerlake-conversions": "2026-11-21T03:21:31.081626+00:00",
+    "https://openai.com/index/combatting-adversarial-distillation": "2026-11-21T03:21:31.081626+00:00",
+    "https://openai.com/business/customer-stories/hebbia": "2026-11-21T03:21:31.081626+00:00",
+    "https://openai.com/index/introducing-medchembench": "2026-11-21T03:21:31.081626+00:00",
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol": "2026-11-21T03:21:31.081626+00:00",
+    "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": "2026-11-21T03:21:31.081626+00:00",
+    "https://openai.com/index/introducing-chatgpt-for-sales": "2026-11-21T03:21:31.081626+00:00",
+    "https://developers.openai.com/blog/how-i-stay-in-the-flow-with-ultrafast": "2026-11-21T03:21:31.081626+00:00",
+    "https://developers.openai.com/blog/time-awareness-and-async-input-for-personal-agents": "2026-11-21T03:21:31.081626+00:00",
+    "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini": "2026-11-21T03:21:31.081626+00:00",
+    "https://huggingface.co/blog/inkling2mini": "2026-11-21T03:21:31.081626+00:00",
+    "https://huggingface.co/blog/harness-adapters-at-scale": "2026-11-21T03:21:31.081626+00:00",
+    "https://thinkingmachines.ai/news/inkling-2-mini": "2026-11-21T03:21:31.081626+00:00",
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-factory-stack": "2026-11-21T03:21:31.081626+00:00",
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/taking-ai-agents-from-pilot-to-production-starts-with-workforce-": "2026-11-21T03:21:31.081626+00:00",
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/why-agentic-ai-pilots-dont-scale": "2026-11-21T03:21:31.081626+00:00",
+    "https://www.thoughtworks.com/insights/articles/sovereign-ai--practical-approach-to-models-infrastructure-and-control": "2026-11-21T03:21:31.081626+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "points": [
-      "AI 模型開發商 Anthropic 已於納斯達克成功完成首次公開募股 (IPO)，股價收於每股 97 美元，公司估值介於 1.3 兆至 1.4 兆美元之間。此事件為 AI 產業的估值樹立了新基準，並顯示市場對頂級生成式 AI 公司的強勁投資信心，儘管同時伴隨著對其高估值和社會影響的抗議活動。",
-      "美國與中國之間的科技競爭加劇，對 AI 晶片供應鏈構成重大影響：加州司法部已對輝達 (Nvidia) 展開調查，聚焦於其前執行長黃仁勳涉嫌的國安與證券法問題，可能涉及高階 GPU 或機密技術流向中國的風險。同時，台積電據報導已要求暫停受美國出口管制影響的中國客戶 16 奈米及以下製程訂單，並限制中國晶片設計業者在成熟製程產品中採用高頻寬記憶體 (HBM) 或先進封裝技術，進一步限縮中國開發高效能 AI 晶片的能力。",
-      "小鵬汽車 (XPENG) 將於 11 月 25 日的 AI Day 展示其通用型人形機器人 IRON。該機器人搭載三顆自主研發的 Turing AI 晶片，具備 2,250 TOPS 的算力，並運行小鵬的實體 AI (Physical AI) 基礎模型，實現無需遠端操作的自主任務執行，標誌著具身智慧 (embodied AI) 和專有 AI 硬體技術的重大突破。",
-      "避險基金巨頭橋水聯合基金 (Bridgewater Associates) 警告，自具備實際駭客能力的開源 AI 模型問世以來，零日漏洞 (zero-day exploits) 攻擊數量已翻倍，且漏洞披露到被利用的時間窗口已從約 30 天大幅縮短至 11 天。這項數據突顯了 AI 技術在網路安全領域帶來的實質風險，對金融業及各行各業的數位基礎設施構成嚴峻挑戰。"
+      "輝達 (NVIDIA) 為滿足加速成長的 AI 基礎設施需求，已擴大與多個製造夥伴（包括台積電、Amkor Technology、Kinsus、Samsung Electro-Mechanics 及 SPIL）的多年期供應鏈承諾，投入數十億美元擴增 CoWoS 先進封裝與 ABF 載板產能，其中 Kinsus 將為輝達的 ABF 載板產能提升 3.5 倍，此舉旨在確保未來 AI 晶片供應穩定性。",
+      "AI 模型開發商 Anthropic 在納斯達克首次公開募股 (IPO) 後，估值達到約 2 兆美元，股價開盤較每股 83 美元的 IPO 價格高出 34%，顯示市場對頂級生成式 AI 公司的強勁信心，並為產業估值樹立新高基準。",
+      "微軟發布一系列新的 AI 模型與第二代 AI 加速器 Maia 200，其中包含 MAI Cyber 2 Flash (大幅降低網路防禦成本)、MAI Code 2 (以更低價格提供高編碼品質)、MAI Image 2.7 (以五分之一成本提供頂尖圖像編輯品質)、MAI Realtime 1 (每分鐘 0.01 美元的領先語音 AI)，以及 Decision 1.1 (比 GPT-6.1 Sol 快 50 倍、便宜 79 倍的決策模型)；Maia 200 則實現每瓦特處理的 token 數提升 1.7 倍，顯著提升 AI 模型的部署效率與成本效益。",
+      "資本市場數據產品供應商 Allooloo Technologies Corp. 宣布其資本市場 AI 代理流量每月突破 1 億次，為銀行、交易商和發行商的 AI 代理提供數據服務，此具體數字顯示 AI 在金融業的實際落地已達到大規模運營階段。"
     ]
   },
   "github_repos": {
@@ -4056,7 +4076,7 @@
       "summary": "用僅約 190 行純 JAX 程式碼極簡實作 DeepSeek-V3 模型架構"
     }
   },
-  "last_run_date": "2026-11-20",
+  "last_run_date": "2026-11-21",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
