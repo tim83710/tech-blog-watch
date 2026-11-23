@@ -3438,15 +3438,21 @@
     "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/ai-factory-stack": "2026-11-21T03:21:31.081626+00:00",
     "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/taking-ai-agents-from-pilot-to-production-starts-with-workforce-": "2026-11-21T03:21:31.081626+00:00",
     "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/why-agentic-ai-pilots-dont-scale": "2026-11-21T03:21:31.081626+00:00",
-    "https://www.thoughtworks.com/insights/articles/sovereign-ai--practical-approach-to-models-infrastructure-and-control": "2026-11-21T03:21:31.081626+00:00"
+    "https://www.thoughtworks.com/insights/articles/sovereign-ai--practical-approach-to-models-infrastructure-and-control": "2026-11-21T03:21:31.081626+00:00",
+    "https://openai.com/index/perplexity-and-intelligence": "2026-11-23T02:53:37.276183+00:00",
+    "https://openai.com/index/introducing-openai-for-chile": "2026-11-23T02:53:37.276183+00:00",
+    "https://openai.com/index/astra-law-6-2": "2026-11-23T02:53:37.276183+00:00",
+    "https://openai.com/business/customer-stories/revolut": "2026-11-23T02:53:37.276183+00:00",
+    "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare": "2026-11-23T02:53:37.276183+00:00",
+    "https://www.thoughtworks.com/insights/articles/model-sovereignty-is-not-about-owning-the-model": "2026-11-23T02:53:37.276183+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-21",
+    "date": "2026-11-23",
     "points": [
-      "輝達 (NVIDIA) 為滿足加速成長的 AI 基礎設施需求，已擴大與多個製造夥伴（包括台積電、Amkor Technology、Kinsus、Samsung Electro-Mechanics 及 SPIL）的多年期供應鏈承諾，投入數十億美元擴增 CoWoS 先進封裝與 ABF 載板產能，其中 Kinsus 將為輝達的 ABF 載板產能提升 3.5 倍，此舉旨在確保未來 AI 晶片供應穩定性。",
-      "AI 模型開發商 Anthropic 在納斯達克首次公開募股 (IPO) 後，估值達到約 2 兆美元，股價開盤較每股 83 美元的 IPO 價格高出 34%，顯示市場對頂級生成式 AI 公司的強勁信心，並為產業估值樹立新高基準。",
-      "微軟發布一系列新的 AI 模型與第二代 AI 加速器 Maia 200，其中包含 MAI Cyber 2 Flash (大幅降低網路防禦成本)、MAI Code 2 (以更低價格提供高編碼品質)、MAI Image 2.7 (以五分之一成本提供頂尖圖像編輯品質)、MAI Realtime 1 (每分鐘 0.01 美元的領先語音 AI)，以及 Decision 1.1 (比 GPT-6.1 Sol 快 50 倍、便宜 79 倍的決策模型)；Maia 200 則實現每瓦特處理的 token 數提升 1.7 倍，顯著提升 AI 模型的部署效率與成本效益。",
-      "資本市場數據產品供應商 Allooloo Technologies Corp. 宣布其資本市場 AI 代理流量每月突破 1 億次，為銀行、交易商和發行商的 AI 代理提供數據服務，此具體數字顯示 AI 在金融業的實際落地已達到大規模運營階段。"
+      "紐約大學 (NYU) 的 Tristan Buckmaster 與 Anthropic 的 Levent Alpoge 合作，發布了一項由 AI 輔助的證明，聲稱三維 Navier-Stokes 方程存在有限時間爆破，這被數學界視為一項重大突破，可能改變複雜問題的研究方法。",
+      "美國政府對 AI 產業的政策動態顯著，總統川普威脅禁止美國公司在海外建設資料中心並徵收高額稅款，旨在將 AI 基礎設施留在美國本土；同時，美國國會披露，儘管存在出口管制，監管機構仍批准了向中國買家（包括阿里巴巴、騰訊、百度等）出售近 88 萬片 Nvidia 和 AMD 高階 AI 晶片的許可，凸顯了政策執行與市場需求之間的複雜性。",
+      "新加坡金融管理局 (MAS) 與金融未來研究院 (FFI) 共同推出多項倡議，旨在加速 AI 在金融服務業的應用，重點涵蓋詐欺預防、企業融資及安全使用自主 AI 代理 (AI agents)，並與星展銀行 (DBS)、華僑銀行 (OCBC)、渣打銀行 (Standard Chartered) 及大華銀行 (UOB) 等主要金融機構合作推動實際落地，顯示 AI 在金融業的具體應用正大規模展開。",
+      "網路安全巨頭 Palo Alto Networks 同意以 45 億美元的全股票交易收購 Applied Compute，後者提供用於訓練和運行大型 AI 模型雲端運算平台，此舉將顯著強化 Palo Alto Networks 在企業 AI 領域的技術實力與市場競爭力。"
     ]
   },
   "github_repos": {
@@ -4074,21 +4080,25 @@
       "repo": "Vaibhaav-Tiwari/deepseek-v3-jax",
       "last_featured": "2026-11-20",
       "summary": "用僅約 190 行純 JAX 程式碼極簡實作 DeepSeek-V3 模型架構"
+    },
+    "shinmegamiboson/lookatmyquant": {
+      "repo": "ShinMegamiBoson/lookatmyquant",
+      "last_featured": "2026-11-23",
+      "summary": "專為 LLM 設計的後訓練量化編譯器，將模型壓縮至 2-bit 級別並極小化損耗。"
+    },
+    "backnotprop/plannotator": {
+      "repo": "backnotprop/plannotator",
+      "last_featured": "2026-11-23",
+      "summary": "專為 AI 程式碼 Agent 設計的本地瀏覽器審查與反饋工作區。"
     }
   },
-  "last_run_date": "2026-11-21",
+  "last_run_date": "2026-11-23",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
     "nvidia/openshell": "2026-10-26",
     "thedotmack/claude-mem": "2026-11-02",
     "openai/math": "2026-10-28",
-    "deepseek-ai/deepinfer": "2026-10-21",
-    "tywr/nordwand-mono": "2026-10-21",
-    "vikolliver/reprapmicron": "2026-10-21",
-    "microg/gmscore": "2026-10-21",
-    "madslorentzen/ai-job-search": "2026-10-21",
-    "k-dense-ai/scientific-agent-skills": "2026-10-21",
     "php/php-src": "2026-10-26",
     "mitmproxy/mitmproxy": "2026-10-26",
     "oosexgang/hackios-xnu-kernel": "2026-10-26",
@@ -4134,7 +4144,7 @@
     "googlechrome/modern-web-guidance": "2026-11-16",
     "meta/astryx": "2026-11-16",
     "sherlock-project/sherlock": "2026-11-16",
-    "backnotprop/plannotator": "2026-11-16",
+    "backnotprop/plannotator": "2026-11-23",
     "zhulinsen/daily_stock_analysis": "2026-11-16",
     "microsoft/onnxruntime": "2026-11-20",
     "ggml-org/ggml": "2026-11-20",
@@ -4146,7 +4156,10 @@
     "googlechrome/modern-web-guidance-src": "2026-11-20",
     "alibaba/open-code-review": "2026-11-20",
     "mvanhorn/last30days-skill": "2026-11-20",
-    "chromedevtools/chrome-devtools-mcp": "2026-11-20"
+    "chromedevtools/chrome-devtools-mcp": "2026-11-20",
+    "shinmegamiboson/lookatmyquant": "2026-11-23",
+    "openssl/openssl": "2026-11-23",
+    "tristanbuckmaster/navier-stokes": "2026-11-23"
   },
   "youtube_seen": {
     "NE4CLThMPGU": {
