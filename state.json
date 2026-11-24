@@ -3444,15 +3444,31 @@
     "https://openai.com/index/astra-law-6-2": "2026-11-23T02:53:37.276183+00:00",
     "https://openai.com/business/customer-stories/revolut": "2026-11-23T02:53:37.276183+00:00",
     "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare": "2026-11-23T02:53:37.276183+00:00",
-    "https://www.thoughtworks.com/insights/articles/model-sovereignty-is-not-about-owning-the-model": "2026-11-23T02:53:37.276183+00:00"
+    "https://www.thoughtworks.com/insights/articles/model-sovereignty-is-not-about-owning-the-model": "2026-11-23T02:53:37.276183+00:00",
+    "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents": "2026-11-24T06:16:10.806768+00:00",
+    "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026": "2026-11-24T06:16:10.806768+00:00",
+    "https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming": "2026-11-24T06:16:10.806768+00:00",
+    "https://openai.com/index/introducing-shirudo": "2026-11-24T06:16:10.806768+00:00",
+    "https://openai.com/business/learn/connected-intelligence-for-in-house-legal": "2026-11-24T06:16:10.806768+00:00",
+    "https://openai.com/business/customer-stories/richpanel-ai-customer-support": "2026-11-24T06:16:10.806768+00:00",
+    "https://developers.openai.com/blog/building-security-review-into-your-sdlc-with-codex-security": "2026-11-24T06:16:10.806768+00:00",
+    "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0": "2026-11-24T06:16:10.806768+00:00",
+    "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension": "2026-11-24T06:16:10.806768+00:00",
+    "https://developer.nvidia.com/blog/connecting-energy-use-to-scientific-output-with-science-per-joule": "2026-11-24T06:16:10.806768+00:00",
+    "https://research.google/blog/supercharging-transformer-residual-connections": "2026-11-24T06:16:10.806768+00:00",
+    "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification": "2026-11-24T06:16:10.806768+00:00",
+    "https://huggingface.co/blog/allenai/robotrack": "2026-11-24T06:16:10.806768+00:00",
+    "https://huggingface.co/blog/agentic-evals": "2026-11-24T06:16:10.806768+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/understanding-context-development-lifecycle": "2026-11-24T06:16:10.806768+00:00",
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/hackathon-pipeline": "2026-11-24T06:16:10.806768+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "points": [
-      "紐約大學 (NYU) 的 Tristan Buckmaster 與 Anthropic 的 Levent Alpoge 合作，發布了一項由 AI 輔助的證明，聲稱三維 Navier-Stokes 方程存在有限時間爆破，這被數學界視為一項重大突破，可能改變複雜問題的研究方法。",
-      "美國政府對 AI 產業的政策動態顯著，總統川普威脅禁止美國公司在海外建設資料中心並徵收高額稅款，旨在將 AI 基礎設施留在美國本土；同時，美國國會披露，儘管存在出口管制，監管機構仍批准了向中國買家（包括阿里巴巴、騰訊、百度等）出售近 88 萬片 Nvidia 和 AMD 高階 AI 晶片的許可，凸顯了政策執行與市場需求之間的複雜性。",
-      "新加坡金融管理局 (MAS) 與金融未來研究院 (FFI) 共同推出多項倡議，旨在加速 AI 在金融服務業的應用，重點涵蓋詐欺預防、企業融資及安全使用自主 AI 代理 (AI agents)，並與星展銀行 (DBS)、華僑銀行 (OCBC)、渣打銀行 (Standard Chartered) 及大華銀行 (UOB) 等主要金融機構合作推動實際落地，顯示 AI 在金融業的具體應用正大規模展開。",
-      "網路安全巨頭 Palo Alto Networks 同意以 45 億美元的全股票交易收購 Applied Compute，後者提供用於訓練和運行大型 AI 模型雲端運算平台，此舉將顯著強化 Palo Alto Networks 在企業 AI 領域的技術實力與市場競爭力。"
+      "Nvidia 創辦人 Jensen Huang 在辭職僅 11 天後獲董事會重新任命為執行長，此舉扭轉了此前市場對公司領導層變動的擔憂。同時，Nvidia 擴大了與台積電 (TSMC)、鴻海 (Foxconn) 等供應鏈夥伴的多年期承諾，投入數十億美元擴增先進封裝與基板產能，以確保 AI 基礎設施的穩定供應，為台灣供應商帶來更清晰的訂單能見度。",
+      "Amazon 同意以 75 億美元收購 Decart 的 AI 優化技術及其團隊，該技術旨在讓 AI 模型在 Nvidia、Google 和 Amazon 等多種晶片上運行得更快、更便宜。這項重大收購預計將強化 Amazon 在雲端 AI 服務和推論效率方面的市場競爭力。",
+      "全球對沖基金在 AI 相關科技股中遭遇顯著虧損，部分基金已將淨持倉削減至五年來最低水平。這表明市場對 AI 估值的重新評估，並可能預示著 AI 投資熱潮的潛在調整，導致資金轉向醫療保健和消費必需品等防禦性領域。",
+      "實體 AI 新創公司 Embo 獲得 1.1 億美元種子輪融資，用於開發機器人「世界模型」(world models)，旨在讓機器人無需針對每項新任務進行訓練，即可理解物理世界並執行不熟悉的任務，這代表著機器人技術和實體 AI 領域的重大技術突破。"
     ]
   },
   "github_repos": {
@@ -4092,7 +4108,7 @@
       "summary": "專為 AI 程式碼 Agent 設計的本地瀏覽器審查與反饋工作區。"
     }
   },
-  "last_run_date": "2026-11-23",
+  "last_run_date": "2026-11-24",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
