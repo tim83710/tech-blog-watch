@@ -3460,15 +3460,28 @@
     "https://huggingface.co/blog/allenai/robotrack": "2026-11-24T06:16:10.806768+00:00",
     "https://huggingface.co/blog/agentic-evals": "2026-11-24T06:16:10.806768+00:00",
     "https://www.thoughtworks.com/insights/blog/generative-ai/understanding-context-development-lifecycle": "2026-11-24T06:16:10.806768+00:00",
-    "https://www.thoughtworks.com/insights/blog/technology-strategy/hackathon-pipeline": "2026-11-24T06:16:10.806768+00:00"
+    "https://www.thoughtworks.com/insights/blog/technology-strategy/hackathon-pipeline": "2026-11-24T06:16:10.806768+00:00",
+    "https://www.databricks.com/blog/agentic-cdp-data-modeling-data-foundation": "2026-11-25T04:57:39.719110+00:00",
+    "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": "2026-11-25T04:57:39.719110+00:00",
+    "https://openai.com/index/searching-for-distant-planets-with-astra": "2026-11-25T04:57:39.719110+00:00",
+    "https://openai.com/business/customer-stories/intentful-dots": "2026-11-25T04:57:39.719110+00:00",
+    "https://openai.com/business/customer-stories/ifood": "2026-11-25T04:57:39.719110+00:00",
+    "https://openai.com/business/customer-stories/clay-plugins-openai": "2026-11-25T04:57:39.719110+00:00",
+    "https://developers.openai.com/blog/production-monitoring-with-codex": "2026-11-25T04:57:39.719110+00:00",
+    "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers": "2026-11-25T04:57:39.719110+00:00",
+    "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core": "2026-11-25T04:57:39.719110+00:00",
+    "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools": "2026-11-25T04:57:39.719110+00:00",
+    "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5": "2026-11-25T04:57:39.719110+00:00",
+    "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance": "2026-11-25T04:57:39.719110+00:00",
+    "https://thinkingmachines.ai/news/training-a-scalable-forecasting-agent": "2026-11-25T04:57:39.719110+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "points": [
-      "Nvidia 創辦人 Jensen Huang 在辭職僅 11 天後獲董事會重新任命為執行長，此舉扭轉了此前市場對公司領導層變動的擔憂。同時，Nvidia 擴大了與台積電 (TSMC)、鴻海 (Foxconn) 等供應鏈夥伴的多年期承諾，投入數十億美元擴增先進封裝與基板產能，以確保 AI 基礎設施的穩定供應，為台灣供應商帶來更清晰的訂單能見度。",
-      "Amazon 同意以 75 億美元收購 Decart 的 AI 優化技術及其團隊，該技術旨在讓 AI 模型在 Nvidia、Google 和 Amazon 等多種晶片上運行得更快、更便宜。這項重大收購預計將強化 Amazon 在雲端 AI 服務和推論效率方面的市場競爭力。",
-      "全球對沖基金在 AI 相關科技股中遭遇顯著虧損，部分基金已將淨持倉削減至五年來最低水平。這表明市場對 AI 估值的重新評估，並可能預示著 AI 投資熱潮的潛在調整，導致資金轉向醫療保健和消費必需品等防禦性領域。",
-      "實體 AI 新創公司 Embo 獲得 1.1 億美元種子輪融資，用於開發機器人「世界模型」(world models)，旨在讓機器人無需針對每項新任務進行訓練，即可理解物理世界並執行不熟悉的任務，這代表著機器人技術和實體 AI 領域的重大技術突破。"
+      "微軟前副總裁創辦的 Marlowe 公司在成立約六個月後，成功募資 2.77 億美元，旨在打造專為 AI 推論 (inference) 工作負載設計的「多晶片」雲端與資料中心架構，目標是提升非 Nvidia 晶片（如 AMD 和 Etched）的效能與使用效率，預計首座資料中心將於 2026 年底前上線，此舉可能改變 AI 推論硬體市場格局。",
+      "PrismML 發布 Ternary Bonsai 2.5 27B 模型，該模型基於 Qwen 3.8 27B 進行三值權重壓縮，僅需 5.9 GB 即可在本地設備運行，且其程式編寫與工具呼叫能力直逼原版模型，代表了 AI 代理人 (Agent) 模型輕量化和本地化部署的重大技術突破。",
+      "OpenAI 首席科學家提出為 AI 能力設定共同上限的產業倡議，建議以「困惑度」(perplexity) 作為衡量 AI 進展的共同指標，並獲得執行長奧特曼支持，旨在確保 AI 發展的安全性與可控性，此舉可能影響未來產業的發展路徑。",
+      "澳洲虛擬資料室供應商 Ansarada 與 Datasite 旗下的 Grata Intelligence 合作，將資料室內容整合至代理式併購工作空間，其 AI 代理人 Blueflame 在內部基準測試中，不僅實現 100% 的輸出品質，還顯著減少 85.4% 的 tokens 使用量及 96.7% 的 AI 成本，展現了 AI 在金融併購領域的具體成本效益與效率提升。"
     ]
   },
   "github_repos": {
@@ -4106,9 +4119,14 @@
       "repo": "backnotprop/plannotator",
       "last_featured": "2026-11-23",
       "summary": "專為 AI 程式碼 Agent 設計的本地瀏覽器審查與反饋工作區。"
+    },
+    "afk-surf/xnulinux": {
+      "repo": "AFK-surf/xnulinux",
+      "last_featured": "2026-11-25",
+      "summary": "將 macOS 的 XNU 核心編譯為 Linux 核心模組，實現無需虛擬化即可在 Linux 上原生執行 macOS GUI Userspace。"
     }
   },
-  "last_run_date": "2026-11-24",
+  "last_run_date": "2026-11-25",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
@@ -4175,7 +4193,10 @@
     "chromedevtools/chrome-devtools-mcp": "2026-11-20",
     "shinmegamiboson/lookatmyquant": "2026-11-23",
     "openssl/openssl": "2026-11-23",
-    "tristanbuckmaster/navier-stokes": "2026-11-23"
+    "tristanbuckmaster/navier-stokes": "2026-11-23",
+    "afk-surf/xnulinux": "2026-11-25",
+    "glushchenko/fsnotes": "2026-11-25",
+    "zed-industries/gpui": "2026-11-25"
   },
   "youtube_seen": {
     "NE4CLThMPGU": {
