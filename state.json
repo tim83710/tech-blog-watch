@@ -3473,15 +3473,23 @@
     "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools": "2026-11-25T04:57:39.719110+00:00",
     "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5": "2026-11-25T04:57:39.719110+00:00",
     "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance": "2026-11-25T04:57:39.719110+00:00",
-    "https://thinkingmachines.ai/news/training-a-scalable-forecasting-agent": "2026-11-25T04:57:39.719110+00:00"
+    "https://thinkingmachines.ai/news/training-a-scalable-forecasting-agent": "2026-11-25T04:57:39.719110+00:00",
+    "https://www.anthropic.com/research/migrating-api-to-rust": "2026-11-26T04:18:38.642377+00:00",
+    "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling": "2026-11-26T04:18:38.642377+00:00",
+    "https://developer.nvidia.com/blog/manage-liquid-cooled-ai-factories-with-nvidia-mission-control": "2026-11-26T04:18:38.642377+00:00",
+    "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants": "2026-11-26T04:18:38.642377+00:00",
+    "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity": "2026-11-26T04:18:38.642377+00:00",
+    "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents": "2026-11-26T04:18:38.642377+00:00",
+    "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga": "2026-11-26T04:18:38.642377+00:00",
+    "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb": "2026-11-26T04:18:38.642377+00:00",
+    "https://www.thoughtworks.com/insights/blog/generative-ai/building-code-argus-hackathon-to-agentic-devsecops": "2026-11-26T04:18:38.642377+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "points": [
-      "微軟前副總裁創辦的 Marlowe 公司在成立約六個月後，成功募資 2.77 億美元，旨在打造專為 AI 推論 (inference) 工作負載設計的「多晶片」雲端與資料中心架構，目標是提升非 Nvidia 晶片（如 AMD 和 Etched）的效能與使用效率，預計首座資料中心將於 2026 年底前上線，此舉可能改變 AI 推論硬體市場格局。",
-      "PrismML 發布 Ternary Bonsai 2.5 27B 模型，該模型基於 Qwen 3.8 27B 進行三值權重壓縮，僅需 5.9 GB 即可在本地設備運行，且其程式編寫與工具呼叫能力直逼原版模型，代表了 AI 代理人 (Agent) 模型輕量化和本地化部署的重大技術突破。",
-      "OpenAI 首席科學家提出為 AI 能力設定共同上限的產業倡議，建議以「困惑度」(perplexity) 作為衡量 AI 進展的共同指標，並獲得執行長奧特曼支持，旨在確保 AI 發展的安全性與可控性，此舉可能影響未來產業的發展路徑。",
-      "澳洲虛擬資料室供應商 Ansarada 與 Datasite 旗下的 Grata Intelligence 合作，將資料室內容整合至代理式併購工作空間，其 AI 代理人 Blueflame 在內部基準測試中，不僅實現 100% 的輸出品質，還顯著減少 85.4% 的 tokens 使用量及 96.7% 的 AI 成本，展現了 AI 在金融併購領域的具體成本效益與效率提升。"
+      "台積電子公司台積電夥伴有限公司 (TSMC Partners Ltd) 斥資 5 億美元收購前沿 AI 模型開發商 Anthropic PBC 的股份，此舉不僅顯示晶片製造巨頭對 AI 市場長期成長的信心，也預示著晶片供應商與 AI 模型開發商之間可能形成更緊密的策略聯盟，進而影響產業競爭格局。",
+      "台灣大學電機系團隊開發出針對終端生成式 AI (on-device generative AI) 的變壓器學習處理器 (transformer learning processors)，透過整合 AI 演算法、硬體架構與晶片設計，有效減少不必要的運算並簡化 AI 處理，旨在解決 AI 推論時的記憶體頻寬限制，大幅提升邊緣 AI 設備的自主運作能力並降低對雲端運算的依賴。",
+      "Geotab 在馬來西亞推出 AI 智慧行車記錄器 GO Focus Plus 及其視訊智慧平台，該方案在大型試點計畫中，透過車內語音輔助功能，成功將車輛跟車距離過近的行為減少 90%，並將駕駛使用手機的情況減少 95%，此具體成效顯示 AI 在車隊安全管理、降低事故風險及潛在保險成本方面具備顯著的落地價值。"
     ]
   },
   "github_repos": {
@@ -4126,7 +4134,7 @@
       "summary": "將 macOS 的 XNU 核心編譯為 Linux 核心模組，實現無需虛擬化即可在 Linux 上原生執行 macOS GUI Userspace。"
     }
   },
-  "last_run_date": "2026-11-25",
+  "last_run_date": "2026-11-26",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "heygen-com/hyperframes": "2026-10-26",
@@ -4199,27 +4207,6 @@
     "zed-industries/gpui": "2026-11-25"
   },
   "youtube_seen": {
-    "NE4CLThMPGU": {
-      "video_id": "NE4CLThMPGU",
-      "channel": "Sequoia Capital (Training Data)",
-      "title": "Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion",
-      "featured": "2026-09-17",
-      "headline": "Box 執行長 Aaron Levie 探討 SaaS 巨頭的 AI 轉型戰略與企業級應用層價值"
-    },
-    "PrSf7IOYu-I": {
-      "video_id": "PrSf7IOYu-I",
-      "channel": "Dwarkesh Patel",
-      "title": "AI researchers debate how close we are to recursive self-improvement",
-      "featured": "2026-09-17",
-      "headline": "前 OpenAI 聯合創始人 John Schulman 等一線研究員對談，剖析遞歸自我改進的真實進展與瓶頸"
-    },
-    "M9BMTC8o9-w": {
-      "video_id": "M9BMTC8o9-w",
-      "channel": "LangChain",
-      "title": "How Lyft Increased Its Agent Resolution Rate by 16% with LangSmith and LangGraph",
-      "featured": "2026-09-17",
-      "headline": "Lyft 如何透過 LangGraph 與 LangSmith 將客服 agent 解決率提升 16%"
-    },
     "lsWynLSM95g": {
       "video_id": "lsWynLSM95g",
       "channel": "Sequoia Capital (Training Data)",
@@ -4275,6 +4262,27 @@
       "title": "Which AI is the best liar?",
       "featured": "2026-11-12",
       "headline": "Dwarkesh Patel 透過陣營對抗遊戲《Blood on the Clocktower》測試各大前沿 LLM 的欺騙與團隊推理能力。"
+    },
+    "tRaFbDFBl_A": {
+      "video_id": "tRaFbDFBl_A",
+      "channel": "Sequoia Capital (Training Data)",
+      "title": "OpenAI’s Noam Brown: Why Game Theory Didn’t Lead to General Intelligence (Live at No Limit Finals)",
+      "featured": "2026-11-26",
+      "headline": "OpenAI 研究員 Noam Brown 剖析博弈論為何無法通往通用人工智慧，以及 o1 模型背後的關鍵轉折。"
+    },
+    "wrfbI5eyLAI": {
+      "video_id": "wrfbI5eyLAI",
+      "channel": "AI Engineer",
+      "title": "1,000 Claude Agents Formalized Fermat's Last Theorem — Lance Martin, Anthropic",
+      "featured": "2026-11-26",
+      "headline": "Anthropic 的 Lance Martin 展示 1,000 個 Claude agent 如何在無人類引導下完成費馬最後定理的形式化證明。"
+    },
+    "_wLzJINt9iQ": {
+      "video_id": "_wLzJINt9iQ",
+      "channel": "No Priors",
+      "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+      "featured": "2026-11-26",
+      "headline": "前 OpenAI 研究長 Bob McGrew 探討超人工智慧為何受限於實體世界，並拆解技術自我改善衝頂（hard takeoff）的論點。"
     }
   }
 }
