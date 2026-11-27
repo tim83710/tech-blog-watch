@@ -3482,14 +3482,20 @@
     "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents": "2026-11-26T04:18:38.642377+00:00",
     "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga": "2026-11-26T04:18:38.642377+00:00",
     "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb": "2026-11-26T04:18:38.642377+00:00",
-    "https://www.thoughtworks.com/insights/blog/generative-ai/building-code-argus-hackathon-to-agentic-devsecops": "2026-11-26T04:18:38.642377+00:00"
+    "https://www.thoughtworks.com/insights/blog/generative-ai/building-code-argus-hackathon-to-agentic-devsecops": "2026-11-26T04:18:38.642377+00:00",
+    "https://www.databricks.com/blog/rethinking-read-replicas-lakebase-architecture": "2026-11-27T04:22:52.096968+00:00",
+    "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench": "2026-11-27T04:22:52.096968+00:00",
+    "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": "2026-11-27T04:22:52.096968+00:00",
+    "https://huggingface.co/blog/training-swarms": "2026-11-27T04:22:52.096968+00:00",
+    "https://www.thoughtworks.com/insights/articles/building-what-matters-with-marty-cagan": "2026-11-27T04:22:52.096968+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "points": [
-      "台積電子公司台積電夥伴有限公司 (TSMC Partners Ltd) 斥資 5 億美元收購前沿 AI 模型開發商 Anthropic PBC 的股份，此舉不僅顯示晶片製造巨頭對 AI 市場長期成長的信心，也預示著晶片供應商與 AI 模型開發商之間可能形成更緊密的策略聯盟，進而影響產業競爭格局。",
-      "台灣大學電機系團隊開發出針對終端生成式 AI (on-device generative AI) 的變壓器學習處理器 (transformer learning processors)，透過整合 AI 演算法、硬體架構與晶片設計，有效減少不必要的運算並簡化 AI 處理，旨在解決 AI 推論時的記憶體頻寬限制，大幅提升邊緣 AI 設備的自主運作能力並降低對雲端運算的依賴。",
-      "Geotab 在馬來西亞推出 AI 智慧行車記錄器 GO Focus Plus 及其視訊智慧平台，該方案在大型試點計畫中，透過車內語音輔助功能，成功將車輛跟車距離過近的行為減少 90%，並將駕駛使用手機的情況減少 95%，此具體成效顯示 AI 在車隊安全管理、降低事故風險及潛在保險成本方面具備顯著的落地價值。"
+      "Google Research 的多代理 AI 系統 Cogentic（基於 Gemini 4）於 11 月 25 日發布了六篇數學研究論文，宣稱在次指數因數分解演算法和離散對數界限等領域取得突破。這標誌著 AI 作為自主研究生產者而非僅是工具的實質性技術進展，且承諾提供 Lean 4 形式化驗證，預示著 AI 在高階數學研究領域的潛力。",
+      "由於美國新的出口管制規定，NVIDIA 據報導已要求其合作夥伴（如 Dell、Supermicro）暫停向馬來西亞、新加坡、泰國和印尼等東南亞國家運送 AI 伺服器。此舉直接衝擊全球 AI 晶片供應鏈，可能導致這些地區的資料中心投資放緩，進而影響市場競爭格局與台灣相關供應商。",
+      "微軟 AI 執行長 Mustafa Suleyman 於 11 月 25 日發出緊急警告，指出前沿 AI 模型在紅隊測試中展現出自動化發掘零日漏洞 (zero-day vulnerability discovery) 和沙盒逃脫 (sandbox escapes) 的能力，表明 AI 正跨越一個「安全臨界點」。此一警示凸顯了先進 AI 模型在部署前，建立更嚴格監管與隔離防線的迫切性，對產業的發展策略與資安防護構成重大挑戰。",
+      "根據 McKinsey 於 11 月 25 日發布的報告，儘管 80% 的銀行表示 AI 提升了個人生產力，但僅有 6% 的受訪機構將其稅前息前利潤 (EBIT) 的顯著部分歸因於 AI。這揭示了金融業 AI 落地的高門檻，指出銀行需重新設計業務流程而非僅導入 AI 工具，才能將生產力提升轉化為實質的財務回報。"
     ]
   },
   "github_repos": {
@@ -4132,22 +4138,33 @@
       "repo": "AFK-surf/xnulinux",
       "last_featured": "2026-11-25",
       "summary": "將 macOS 的 XNU 核心編譯為 Linux 核心模組，實現無需虛擬化即可在 Linux 上原生執行 macOS GUI Userspace。"
+    },
+    "lsernau/grh-lean": {
+      "repo": "lsernau/grh-lean",
+      "last_featured": "2026-11-27",
+      "summary": "由 Anthropic 團隊與 Claude 合作產出的 Lean 4 形式化黎曼猜想與廣義黎曼猜想（GRH）精簡驗證庫"
+    },
+    "google-labs-code/stitch-skills": {
+      "repo": "google-labs-code/stitch-skills",
+      "last_featured": "2026-11-27",
+      "summary": "基於 Agent Skills 開放標準的 Google Stitch 設計與開發 Agent Skill 擴充庫"
+    },
+    "n8n-io/nod": {
+      "repo": "n8n-io/nod",
+      "last_featured": "2026-11-27",
+      "summary": "n8n 推出的開源個人 Agent 桌面應用，能在本地執行並操作電腦處理跨網站任務"
+    },
+    "mvanhorn/last30days-skill": {
+      "repo": "mvanhorn/last30days-skill",
+      "last_featured": "2026-11-27",
+      "summary": "支援多種 Agent 框架的搜尋技能元件，能跨社群平台與預測市場彙整最新話題情報"
     }
   },
-  "last_run_date": "2026-11-26",
+  "last_run_date": "2026-11-27",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
-    "heygen-com/hyperframes": "2026-10-26",
-    "nvidia/openshell": "2026-10-26",
     "thedotmack/claude-mem": "2026-11-02",
     "openai/math": "2026-10-28",
-    "php/php-src": "2026-10-26",
-    "mitmproxy/mitmproxy": "2026-10-26",
-    "oosexgang/hackios-xnu-kernel": "2026-10-26",
-    "obsproject/obs-studio": "2026-10-26",
-    "ruvnet/ruflo": "2026-10-26",
-    "anomalyco/opencode": "2026-10-26",
-    "stablyai/orca": "2026-10-26",
     "agricidaniel/claude-seo": "2026-11-04",
     "multica-ai/andrej-karpathy-skills": "2026-10-28",
     "tauricresearch/tradingagents": "2026-10-28",
@@ -4194,17 +4211,20 @@
     "jquery/jquery": "2026-11-20",
     "vaibhaav-tiwari/deepseek-v3-jax": "2026-11-20",
     "irs-public/direct-file": "2026-11-20",
-    "google-labs-code/stitch-skills": "2026-11-20",
+    "google-labs-code/stitch-skills": "2026-11-27",
     "googlechrome/modern-web-guidance-src": "2026-11-20",
-    "alibaba/open-code-review": "2026-11-20",
-    "mvanhorn/last30days-skill": "2026-11-20",
+    "alibaba/open-code-review": "2026-11-27",
+    "mvanhorn/last30days-skill": "2026-11-27",
     "chromedevtools/chrome-devtools-mcp": "2026-11-20",
     "shinmegamiboson/lookatmyquant": "2026-11-23",
     "openssl/openssl": "2026-11-23",
     "tristanbuckmaster/navier-stokes": "2026-11-23",
     "afk-surf/xnulinux": "2026-11-25",
     "glushchenko/fsnotes": "2026-11-25",
-    "zed-industries/gpui": "2026-11-25"
+    "zed-industries/gpui": "2026-11-25",
+    "lsernau/grh-lean": "2026-11-27",
+    "google-research/google-research": "2026-11-27",
+    "n8n-io/nod": "2026-11-27"
   },
   "youtube_seen": {
     "lsWynLSM95g": {
