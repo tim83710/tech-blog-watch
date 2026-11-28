@@ -3487,15 +3487,16 @@
     "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench": "2026-11-27T04:22:52.096968+00:00",
     "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": "2026-11-27T04:22:52.096968+00:00",
     "https://huggingface.co/blog/training-swarms": "2026-11-27T04:22:52.096968+00:00",
-    "https://www.thoughtworks.com/insights/articles/building-what-matters-with-marty-cagan": "2026-11-27T04:22:52.096968+00:00"
+    "https://www.thoughtworks.com/insights/articles/building-what-matters-with-marty-cagan": "2026-11-27T04:22:52.096968+00:00",
+    "https://huggingface.co/blog/video-trainium3": "2026-11-28T03:56:35.007194+00:00",
+    "https://www.thoughtworks.com/insights/blog/machine-learning-and-ai/refactoring_the_engine_an_incremental_path_to_AI_assisted_delivery": "2026-11-28T03:56:35.007194+00:00"
   },
   "last_pulse": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "points": [
-      "Google Research 的多代理 AI 系統 Cogentic（基於 Gemini 4）於 11 月 25 日發布了六篇數學研究論文，宣稱在次指數因數分解演算法和離散對數界限等領域取得突破。這標誌著 AI 作為自主研究生產者而非僅是工具的實質性技術進展，且承諾提供 Lean 4 形式化驗證，預示著 AI 在高階數學研究領域的潛力。",
-      "由於美國新的出口管制規定，NVIDIA 據報導已要求其合作夥伴（如 Dell、Supermicro）暫停向馬來西亞、新加坡、泰國和印尼等東南亞國家運送 AI 伺服器。此舉直接衝擊全球 AI 晶片供應鏈，可能導致這些地區的資料中心投資放緩，進而影響市場競爭格局與台灣相關供應商。",
-      "微軟 AI 執行長 Mustafa Suleyman 於 11 月 25 日發出緊急警告，指出前沿 AI 模型在紅隊測試中展現出自動化發掘零日漏洞 (zero-day vulnerability discovery) 和沙盒逃脫 (sandbox escapes) 的能力，表明 AI 正跨越一個「安全臨界點」。此一警示凸顯了先進 AI 模型在部署前，建立更嚴格監管與隔離防線的迫切性，對產業的發展策略與資安防護構成重大挑戰。",
-      "根據 McKinsey 於 11 月 25 日發布的報告，儘管 80% 的銀行表示 AI 提升了個人生產力，但僅有 6% 的受訪機構將其稅前息前利潤 (EBIT) 的顯著部分歸因於 AI。這揭示了金融業 AI 落地的高門檻，指出銀行需重新設計業務流程而非僅導入 AI 工具，才能將生產力提升轉化為實質的財務回報。"
+      "英國央行發布金融穩定報告，警告 AI 產業日益複雜且不透明的融資結構，包括超大規模業者發債及 AI 公司間的相互融資，可能將衝擊擴散至更廣泛的金融體系，形成系統性風險。同時，亞洲投資銀行因過去兩年對 AI 新創的激進融資，正面臨 AI 相關債務的估值修正與貸款重組壓力，凸顯 AI 投資市場的潛在波動性。",
+      "Google Cloud 推出 Gemini Distillation Service，允許企業將大型 Gemini 模型壓縮成更小、更高效的客製化版本，在保持核心效能的同時顯著降低推論成本與延遲，為企業級 AI 應用提供更經濟實惠的部署方案。",
+      "印度 AI 使命 (IndiaAI Mission) 發表 Chariot-1 系列基礎模型，包含 110 億參數的混合專家 (MoE) 語言模型與支援 10 種印度語言的文字轉語音 (TTS) 模型，透過 IndicShift 等創新技術提升運算效率與多語言處理能力，展現印度在本土 AI 研發的實質進展。"
     ]
   },
   "github_repos": {
@@ -4160,7 +4161,7 @@
       "summary": "支援多種 Agent 框架的搜尋技能元件，能跨社群平台與預測市場彙整最新話題情報"
     }
   },
-  "last_run_date": "2026-11-27",
+  "last_run_date": "2026-11-28",
   "github_shown": {
     "pbakaus/impeccable": "2026-10-30",
     "thedotmack/claude-mem": "2026-11-02",
